@@ -29,7 +29,7 @@
                    :hspace=>10,
                 :src=>'http://www.etsmtl.ca/ETS/media/Prive/logo/ETS-blanc-ecran-fond_transparent.png',
                 :alt=>'ÉTS'}
-          %a.brand{ :href=>"#{site.base_url}/fr",:style => 'font-family: monospace;font-size: 24px'} 
+          %a.brand{ :href=>"#{site.base_url}",:style => 'font-family: monospace;font-size: 24px'} 
             {S.A.R.A.}
           - if page.url.start_with? '/en/'
             %ul.nav
@@ -60,11 +60,11 @@
               %li
                 %a{:href=>"#{site.base_url}/en/contact_us/"} Contact us
               %li
-                %a{:href=>"#{site.base_url}/fr"} French
+                %a{:href=>"#{site.base_url}"} French
           - else
             %ul.nav
               %li 
-                %a{:href=>"#{site.base_url}/fr"} Accueil
+                %a{:href=>"#{site.base_url}"} Accueil
               %li#redaction-menu-fr.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu-fr"}
                   Rédaction

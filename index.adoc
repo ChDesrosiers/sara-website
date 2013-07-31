@@ -5,4 +5,5 @@
 :icons:
 :iconsdir: ./images/icons
 
-Bienvenu au service de rédaction d'articles
+== Bienvenu au [small]#service de rédaction d'articles#
+
