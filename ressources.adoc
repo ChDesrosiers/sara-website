@@ -1,0 +1,5 @@
+= Ressources
+:awestruct-layout: default
+:imagesdir: images
+
+== Ressources:

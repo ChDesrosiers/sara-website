@@ -1,0 +1,5 @@
+= Soumettre article
+:awestruct-layout: default
+:imagesdir: images
+
+== Pour soumettre un article

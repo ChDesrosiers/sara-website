@@ -1,0 +1,81 @@
+!!!5
+%html
+  %head
+    %meta{ :charset=>'utf-8' }
+    %title S.A.R.A.: #{page.title}
+    %link{ :rel=>'alternate',  :type=>'application/atom+xml', :href=>'/news.atom' }
+    %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
+    :css
+      body {
+        padding-top: 60px;
+      }
+    %script{ :src=>'http://yandex.st/jquery/1.9.1/jquery.min.js' }
+    %link{ :rel=>'stylesheet', :href=>"#{site.base_url}/stylesheets/styles.css" }
+    %link{ :rel=>'stylesheet', :href=>'http://yandex.st/highlightjs/7.3/styles/default.min.css' }
+
+    /[if lt IE 9]
+      %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }
+    -#:javascript
+    -#  $.getJSON("https://rubygems.org/api/v1/versions/awestruct.json?callback=?", function(data) { alert( data.number ); });
+    
+  %body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          .ets-banner
+            %a{:href=>'http://etsmtl.ca/'}
+              %img{:style=>'position: absolute; top: 0; right: 0; border: 0; z-index: 1',
+                   :width=>65,
+                   :hspace=>10,
+                :src=>'http://www.etsmtl.ca/ETS/media/Prive/logo/ETS-blanc-ecran-fond_transparent.png',
+                :alt=>'ÉTS'}
+          %a.brand{ :href=>"#{site.base_url}",:style => 'font-family: monospace;font-size: 24px'} 
+            {S.A.R.A.}
+          %ul.nav
+            %li 
+              %a{:href=>"#{site.base_url}"} Accueil
+            %li#redaction-menu.dropdown
+              %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu"}
+                Rédaction
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  %a{:href=>"#{site.base_url}/guide_redaction/"} Guide de rédaction
+                %li 
+                  %a{:href=>"#{site.base_url}/soumettre_article/"} Soumettre un article
+                %li 
+                  %a{:href=>"#{site.base_url}/demander_aide/"} Demander de l'aide
+            %li#evaluation-menu.dropdown
+              %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu'} 
+                Évaluation
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  %a{:href=>"#{site.base_url}/guide_evaluation/"} Guide d'évaluation
+                %li
+                  %a{:href=>"#{site.base_url}/joindre_equipe/"} Se joindre à l'équipe
+            %li
+              %a{:href=>"#{site.base_url}/ressources/"} Ressources
+            %li
+              %a{:href=>"#{site.base_url}/nous_rejoindre/"} Nous rejoindre
+            %li
+              %a{:href=>"#{site.base_url}"} English
+    .container
+      .row
+        .span10
+          - if page.show_header
+            .page-header
+              %h1= page.title
+          ~ content
+      .row
+        %hr
+        %footer
+          %p &copy; École de technologie supérieure #{Date.today.year}
+    %script{ :src=>"#{site.base_url}/javascript/bootstrap-2.3.1.js" }
+    -#%script{ :src=>"http://yandex.st/highlightjs/7.3/highlight.min.js" }
+    -# custom build from highlight.js source using: python3 tools/build.py -t browser -n haml markdown scss
+    -# needed to escape to instances of #{ in source so interpolator doesn't choke
+    %script{ :src=>"#{site.base_url}/javascript/highlight-20130326.js" }
+    %script
+      hljs.initHighlightingOnLoad();
+      $('.admonitionblock .title').each(function(idx) { $(this).addClass($(this).text().toLowerCase()) });
