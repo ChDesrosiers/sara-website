@@ -1,0 +1,8 @@
+= Accueil
+:awestruct-layout: default
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ./images/icons
+
+Bienvenu au service de rédaction d'articles

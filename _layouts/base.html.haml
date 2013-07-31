@@ -29,37 +29,68 @@
                    :hspace=>10,
                 :src=>'http://www.etsmtl.ca/ETS/media/Prive/logo/ETS-blanc-ecran-fond_transparent.png',
                 :alt=>'ÉTS'}
-          %a.brand{ :href=>"#{site.base_url}",:style => 'font-family: monospace;font-size: 24px'} 
+          %a.brand{ :href=>"#{site.base_url}/fr",:style => 'font-family: monospace;font-size: 24px'} 
             {S.A.R.A.}
-          %ul.nav
-            %li 
-              %a{:href=>"#{site.base_url}"} Accueil
-            %li#redaction-menu.dropdown
-              %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu"}
-                Rédaction
-                %b.caret
-              %ul.dropdown-menu
-                %li
-                  %a{:href=>"#{site.base_url}/guide_redaction/"} Guide de rédaction
-                %li 
-                  %a{:href=>"#{site.base_url}/soumettre_article/"} Soumettre un article
-                %li 
-                  %a{:href=>"#{site.base_url}/demander_aide/"} Demander de l'aide
-            %li#evaluation-menu.dropdown
-              %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu'} 
-                Évaluation
-                %b.caret
-              %ul.dropdown-menu
-                %li
-                  %a{:href=>"#{site.base_url}/guide_evaluation/"} Guide d'évaluation
-                %li
-                  %a{:href=>"#{site.base_url}/joindre_equipe/"} Se joindre à l'équipe
-            %li
-              %a{:href=>"#{site.base_url}/ressources/"} Ressources
-            %li
-              %a{:href=>"#{site.base_url}/nous_rejoindre/"} Nous rejoindre
-            %li
-              %a{:href=>"#{site.base_url}"} English
+          - if page.url.start_with? '/en/'
+            %ul.nav
+              %li 
+                %a{:href=>"#{site.base_url}/en"} Home
+              %li#redaction-menu-en.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu-en"}
+                  Writing
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href=>"#{site.base_url}/en/redaction_guide/"} Writing guide
+                  %li 
+                    %a{:href=>"#{site.base_url}/en/submit_paper/"} Submit a paper
+                  %li 
+                    %a{:href=>"#{site.base_url}/en/ask_help/"} Ask for help
+              %li#evaluation-menu-en.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu-en'} 
+                  Evaluation
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href=>"#{site.base_url}/en/evaluation_guide/"} Evaluation guide
+                  %li
+                    %a{:href=>"#{site.base_url}/en/join_team/"} Join our team
+              %li
+                %a{:href=>"#{site.base_url}/en/resources/"} Resources
+              %li
+                %a{:href=>"#{site.base_url}/en/contact_us/"} Contact us
+              %li
+                %a{:href=>"#{site.base_url}/fr"} French
+          - else
+            %ul.nav
+              %li 
+                %a{:href=>"#{site.base_url}/fr"} Accueil
+              %li#redaction-menu-fr.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu-fr"}
+                  Rédaction
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href=>"#{site.base_url}/fr/guide_redaction/"} Guide de rédaction
+                  %li 
+                    %a{:href=>"#{site.base_url}/fr/soumettre_article/"} Soumettre un article
+                  %li 
+                    %a{:href=>"#{site.base_url}/fr/demander_aide/"} Demander de l'aide
+              %li#evaluation-menu-fr.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu-fr'} 
+                  Évaluation
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href=>"#{site.base_url}/fr/guide_evaluation/"} Guide d'évaluation
+                  %li
+                    %a{:href=>"#{site.base_url}/fr/joindre_equipe/"} Se joindre à l'équipe
+              %li
+                %a{:href=>"#{site.base_url}/fr/ressources/"} Ressources
+              %li
+                %a{:href=>"#{site.base_url}/fr/nous_rejoindre/"} Nous rejoindre
+              %li
+                %a{:href=>"#{site.base_url}/en"} English            
     .container
       .row
         .span10
