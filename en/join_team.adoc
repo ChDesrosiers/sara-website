@@ -1,5 +1,7 @@
-= Joindre équipe
+= Join the team
 :awestruct-layout: default
 :imagesdir: images
 
-== Pour se joindre à l'équipe
+== To join the team
+
+TO BE COMPLETED

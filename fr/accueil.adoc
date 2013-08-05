@@ -1,5 +1,0 @@
-= Nous rejoindre
-:awestruct-layout: default
-:imagesdir: images
-
-== { S.A.R.A. } Service d'Aide à la Rédaction d'Articles

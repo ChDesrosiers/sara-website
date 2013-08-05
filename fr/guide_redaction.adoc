@@ -4,11 +4,26 @@
 :imagesdir: images
 :doctype: article
 :icons:
-:iconsdir: ../..//images/icons
+:iconsdir: ../../images/icons
 :toc:
 :toc-placement!:
 
 :numbered:
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
 
 toc::[]
 
@@ -136,7 +151,7 @@ Tout comme la recherche bibliographique, l'expérimentation devrait commencer av
 ==== Rédaction
 
 Comme mentionné précédemment, il est préférable d'utiliser une approche systématique de rédaction, construisant l'article étape par étape, au lieu de tenter de rédiger l'article d'un seul coup. Les conseils suivants peuvent être utilisés pour faciliter la rédaction:
-****
+====
 * Rédiger directement dans le gabarit de la conférence ou de la revue ciblée. Cela évitera de mauvaises surprises de mise en page. 
 * Commencer par construire un squelette de l'article, identifiant ses sections, sous-sections, tableaux et figures. Ce squelette servira de guide lors de la rédaction.
 * Rédiger d'abord les sections les plus faciles. Pour certaines personnes, il s'agira de l'introduction, alors que d'autres seront plus à l'aide avec la méthodologie. 
@@ -145,7 +160,7 @@ Comme mentionné précédemment, il est préférable d'utiliser une approche sys
 * En cas de blocage, mettre l'article de côté durant quelques jours. 
 * Demander à un collègue de le relire.
 * Identifier chaque version de l'article à l'aide d'un numéro ou d'une date. 
-****
+====
 
 Le processus de rédaction sera présentée plus en détails dans la section <<??>>. 
 
@@ -248,72 +263,136 @@ TIP: La forme et le contenu d'un article peut varier selon la nature de la reche
 
 TIP: Lorsque l'espace est limité, la revue de littérature peut parfois être faite dans l'introduction de l'article, en autant qu'elle soit présentée après la problématique. Cette approche est également envisageable lorsque la contribution principale de l'article est une amélioration des techniques existantes de la littérature. En revanche, certains auteurs préfèrent mettre la revue de littérature juste avant la conclusion, de manière à ne pas briser le flot dans la présentation de ses propres travaux.    
 
-===	Le titre, les mots-clés et les auteurs
+===	Le titre
 
-Un bon titre devrait décrire adéquatement le contenu de l'article dans le moins de mots possibles, sans être trop long ni trop court. Un bon titre renferme normalement entre 10 et 12 mots. Les consignes suivantes peuvent être employés pour la sélection du titre:
+Un bon titre devrait décrire adéquatement le contenu de l'article, sans être trop long ni trop court. Les consignes suivantes peuvent être employées lors de la sélection d'un titre:
 
-****
+====
 
+* Choisir un titre permettant d'attirer l'attention du lecteur et susciter son intérêt.
+* Viser entre 10 et 12 mots.
 * Utiliser des mots qui mettent en valeur le domaine ou l'application de la recherche, ainsi son originalité. 
+* Choisir des mots susceptibles d'être les mots clés d'une requête dans un engin de recherche. Par exemple, les mots clés standards d'une application ou d'une approche 
+* Éviter les mots inutiles tels ``__Observations on__'' ou ``__A study of__''
+* Éviter les abréviations ni de symboles.
+* Éviter les qualificatifs tels que ``__better__'' ou ``__improved__'' 
 
-* Pour que l'article puisse être trouvé à partir d'une requête non-spécifique dans un moteur de recherche (i.e., une requête ne visant pas directement notre article), éviter les mots trop génériques ou trop spécifiques. Ainsi, les mots trop génériques risquent d'engendrer trop de résultats à une requête contenant ces mots. À l'opposé, les mots trop spécifiques limitent les chances de l'article d'être retrouvé à l'aide d'une requête portant sur un thème plus général (e.g., une approche ou une application).
-
-* Le titre ne doit pas contenir de mots inutiles tels ``__Observations on__'' ou ``__A study of__'', etc.
-
-* Le titre ne doit pas contenir d'abréviations ni de symboles.
-
-****
-
-.Un mauvais choix de titre
-....
-image:icons/no-tt.png[] {nbsp} BLABLABLA BAD
-....
-
-.Un meilleur choix de titre
-====
-image:icons/check-tt.png[] {nbsp} BLABLABLA GOOD
 ====
 
+Prenons l'exemple d'un article ayant les caractéristiques suivantes:
+
+[width="100%", cols="4,8"]
+|=========================================================
+| *Problème / application principal(e)* | Reconnaissance d'activités à partir de trajectoires
+| *Caractéristiques clés* | 
+
+Modélisation des trajectoire par représentation creuse (_sparse representation_) +
+Apprentissage dynamique du dictionnaire de trajectoires
+
+| *Contributions principales* | La méthode proposée s'adapte automatiquement aux changements dans les activités observées, ce qui la rend robuste aux environnements dynamiques  
+|=========================================================      
+
+Le titre suivant est un très mauvais choix:
+
+// .Un mauvais choix de titre
+====
+{bad} *A better method for recognizing activities*
+====
+
+Parmi les raisons expliquant pourquoi ce titre est inadéquat, on peut citer les suivantes:
+
+// NOTE: A space was added after __activity recognition__ because of a syntax highlighting bug in TextMate. Remove this space before deploying to server
+
+* Il n'offre aucune d'information sur le contexte et les contributions de la recherche
+* Il affirme que la méthode proposée est meilleure, au lieu de laisser le lecteur juger par lui-même du mérite de la recherche.
+* Il utilise la forme ``__recognizing activities__'' au lieu de la forme standard ``__activity recognition__ '', typiquement employée pour identifier les travaux de ce domaine.
+
+Le titre suivant est également un mauvais choix, mais pour des raisons différentes: 
+
+// .Un autre mauvais choix de titre
+====
+{bad} *Investigating the usefulness of using sparse representation and dictionary learning for the problem of activity recognition in dynamic environments*
+====
+
+Bien qu'il n'ait pas les problèmes de l'exemple précédent, ce titre renferme beaucoup de mots inutiles. Un meilleur titre est, par exemple, le suivant: 
+
+// .Un meilleur choix de titre
+====
+{good} *Dynamic activity recognition based on sparse representation and dictionary learning*
+====
+
+Ainsi, ce titre renseigne le lecteur sur l'application (i.e., _activity recognition_), l'approche proposée (i.e., _sparse representation_ avec _dictionary learning_), et la contribution de la recherche (i.e., _dynamic_). 
+
+Des astuces de style peuvent également être utilisées pour rendre un titre plus intéressant, comme dans l'exemple suivant:
+
+// .Un meilleur choix de titre
+====
+{good} *SARA: A dynamic activity recognition approach using sparse representation and dictionary learning*
+====
+
+////
+TIP: Pour que l'article puisse être trouvé à partir d'une requête non-spécifique dans un moteur de recherche (i.e., une requête ne visant pas directement l'article), éviter les mots trop génériques ou trop spécifiques. Ainsi, les mots trop génériques risquent d'engendrer trop de résultats à une requête contenant ces mots. À l'opposé, les mots trop spécifiques limitent les chances de l'article d'être retrouvé à l'aide d'une requête portant sur un thème plus général (e.g., une approche ou une application).
+////
 
 TIP: Certains revues ou conférences exigent également un titre courant (_running title_) qui sera imprimé au bas ou haut de chaque page de l'article. Le titre courant est une version écourtée du titre principal, et a normalement entre 30 et 50 caractères.
 
-////
+=== L'ordre des auteurs
 
-.Auteurs
-* Pourquoi l’ordre est important
-* Affiliations
+Si l'article comporte plusieurs co-auteurs, il est nécessaire de déterminer l'ordre dans lequel apparaît leur nom dans l'article. En apparence banale, cette décision peut être source de conflit car l'ordre des auteurs est souvent associé à l'importance de leur contribution dans le travail. En particulier, une plus grande reconnaissance est traditionnellement donnée au premier auteur de la liste, ce qui peut avantager cet auteur lors de l'application à des subventions ou un poste académique.
 
-===	Le résumé
+La règle utilisée pour déterminer l'ordre des auteurs peut varier d'une équipe de recherche à une autre, et cet ordre est normalement choisi par la personne à la tête de l'équipe. Les règles les plus souvent rencontrées sont les suivantes:
 
-* Problématique visée (très court)
-* Contributions principales du travail
-* Résultats et conclusions principales
+Ordre de contribution::
+Les auteurs sont listés selon leur contribution dans la préparation de l'article ou le financement de la recherche, allant de la plus grande contribution à la moindre. Souvent, le superviseur va intentionnellement mettre un étudiant comme premier auteur, la reconnaissance associée à ce rôle étant plus importante pour l'étudiant que pour lui-même. 
 
-////
-An abstract should be included at the beginning of the paper. The abstract can
-persuade or put off readers. The abstract is the part of the paper that will be included in
-most electronic databases, available for retrieval. The abstract should state the purposes
-of the study or investigation, basic procedures (selection of study subjects or laboratory
-animals; observational and analytical methods), main findings (giving specific data
-and their statistical significance, if possible) and the principal conclusions. It should
-emphasize the new and important aspects of the study or observations.
-A good abstract should be a miniature version of the paper, provide a brief summary
-of each of the main sections of the paper and follow the structure of the paper. Many
-journals require a structured abstract, which includes subtitles such as objective, type of
-design, setting, material or subjects, methods, results, and conclusions. The number of
-words in an abstract should generally be less than 150 for unstructured abstracts, and less
-than 250 for structured abstracts. Some electronic databases are programmed to accept
-only up to this limited number of words. Abstracts are generally written in the past tense.
-The abstract should be self-contained and able to stand alone without need to consult the
-full text. As such it should not include references to literature or to figures and tables in
-the body of paper, should not include information that is not in the paper, and should not
-contain abbreviations or acronyms unless standard or very well known.
+Ordre alphabétique::
+Pour éviter les conflits, certaines personnes vont préférer mettre les auteurs en ordre alphabétique de leur nom de famille. Cette règle est également employée pour les articles ayant un grand nombre d'auteurs. Évidemment, les personnes dont le nom famille commence par la lettre \'__A__' trouverons cette règle particulièrement intéressante...
+
+Autres ordres::
+D'autres règles peuvent également être employées pour déterminer l'ordre des auteurs, par exemple, selon leur affiliation (e.g., université, département, etc.) ou leur rôle (e.g., étudiant, superviseur, co-superviseur, etc.)
+
+CAUTION: Comme toujours, il est important de consulter son superviseur, ainsi que les autres co-auteurs, dans cette décision.
+
+=== Le résumé
+
+Le résumé (i.e., __abstract__ en anglais) joue un rôle essentiel dans un article. D'une part, il sert à susciter l'intérêt du lecteur et lui convier rapidement la nature du travail. Un bon résumé incitera le lecteur à lire l'article au complet, tandis qu'un résumé mal rédigé aura l'effet inverse. D'autre part, alors que l'accès à l'article complet est souvent limité, le résumé est normalement disponible sans restriction.        
+
+Un bon résumé devrait être une version condensée de l'article, suivant la même structure que l'article et faisant ressortir les points principaux de chacune de ses sections. Les consignes suivantes peuvent être suivies lors de la rédaction du résumé: 
+====
+* Le résumé doit mentionner clairement les éléments suivants:
+** Le contexte et les motivations de la recherche
+** Les objectifs principaux de la recherche
+** Les étapes principale de la méthodologie (e.g., cadre expérimental, approche d'analyse, etc.)
+** Les résultats les plus importants de la recherche
+** Les conclusions principales
+* Le résumé doit souligner clairement l'aspect original et innovateur du travail
+// * Le passé devrait normalement être employé dans la rédaction
+* Le résumé doit respecter les contraintes de longueur imposées par la revue ou le système de soumission (typiquement entre 150 et 250 mots) 
+* Le résumé doit être indépendant de l'article, et devrait pouvoir se lire sans avoir à consulter ce dernier
+* Le résumé ne doit pas contenir de références à la littérature, aux figures ou aux tableaux de l'article
+* Le résumé ne doit pas contenir d'acronymes ou d'abréviations, sauf si elles sont connues et standards
+====
+
+Voici un exemple de résumé respectant ces consignes: 
+
+====
+{good} *Abstract:* +
+{co1} Activity recognition. {co2} Technologies based on radio frequency identification (RFID) have recently become a key component of several important applications related to safety, logistics, retail, and business intelligence. {co3} Among these technologies, real-time location systems (RTLS) based on RFID, which enable to identify, locate and track resources in real-time, show a great commercial potential. However, such technologies also bring significant scientific and technical challenges, due to the large amount of data continuously generated in real-time, exceeding the storage, management and analysis capacities of current technologies. The goal of this research is to improve the commercial value of RFID-based RTLS systems by introducing efficient and scalable methods to analyze and detect abnormal patterns in real-time RFID data. In order to meet the scalability, repeatability and adaptability requirements of the large-scale, open and dynamic environments targeted by this proposal, we propose to develop novel methods based on latent semantic analysis and ensemble learning. Unlike existing approaches, these methods will enable the discovery of high-level and more general patterns that are not directly observable in the raw data streams. To evaluate the usefulness and efficiency of our proposed methods, we will test them in the highly important industrial setting of airport security. For this purpose, we will work in collaboration with the company Purelink Technology, a global leader in the development and commercialization of RFID-based RTLS systems, who will provide the technology, data and expertise essential for the validation of our methods. The expected benefits of this project to the industry and scientific community are numerous. Thus, it will lead to the development of efficient real-time analysis methods that provide better information on multidimensional RFID data. Also, the development of new RFID-based techniques to detect abnormal behaviors will contribute to increase the safety of the population in large-scale environments, such as airports, factories and power plants, by providing a lower cost, automatic, and non-intrusive way of detecting potential threats, otherwise undetected by current systems.
+====
+
+<1> Activity recognitionn systems (RTLS) based on RFID, which enable to identify, locate and track resources in real-time, show a great commercial      
+<2> Blabla2
+
+TIP: Certaines revues imposent une structure particulière au résumé, pouvant inclure des sous-titres tels que __Objectives__, __Methods__, __Results__, etc.
+
+=== Les mots-clés
+
 Most scientific journals require authors to provide 3 to 10 key words or short phrases
 that will assist indexers in cross-indexing the article. Key words are usually placed
 beneath the abstract. Terms from the Medical Subject Headings (MeSH) list of PubMed
 (US National Library of Medicine) should be used wherever possible, to facilitate
 indexing and retrieval (see Annex 3).
-////
+
 
 === L’introduction
 
@@ -857,6 +936,3 @@ and Gynaecologists Press, 1999: 241–247.
 Williams & Wilkins, 1990.
 
 ////
-
-Copyright \(C) 2002-2011 Stuart Rackham. Free use of this software is
-granted under the terms of the GNU General Public License (GPL).

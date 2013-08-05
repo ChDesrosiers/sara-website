@@ -14,7 +14,7 @@ toc::[]
 
 == À quoi sert le rapport d’évaluation?
 
-Un rapport d’évaluation joue deux rôles importants dans le processus de publication : 
+Un rapport d’évaluation joue deux rôles importants dans le processus de publication: 
 
 Contrôle de qualité:: 
 Le rapport d’évaluation doit aider le rédacteur en chef à prendre les décisions qui permettront de préserver le niveau de qualité de la revue (ou de la conférence) ciblée en lui fournissant de l’information sur la pertinence, l’originalité et la validité du contenu de l’article.
@@ -27,7 +27,7 @@ En s’acquittant bien de ce double mandat, l’expert qui accepte d’évaluer 
 
 [CAUTION]
 ====
-*Un rapport d’évaluation ne sert pas à* :
+*Un rapport d’évaluation ne sert pas à*:
 
 * Étaler les connaissances, l’intelligence ou la belle personnalité de l’arbitre
 * Alimenter un débat sur les domaines d’études qui sont intéressants ou non
@@ -57,17 +57,18 @@ Généralement, l’identité des évaluateurs est également une donnée confid
 +
 Éviter les conflits d’intérêt:: 
 Évitez d’évaluer des articles écrits par des auteurs avec qui vous avez récemment entretenu une collaboration de recherche, une relation employeur-employé ou une relation d’amitié. Cela nuirait à votre crédibilité. Il vaut mieux refuser en déclarant le conflit d’intérêt.
+
 Lorsque vous n’êtes pas en mesure de vous engager à évaluer un article, il convient de donner votre refus poliment et rapidement et, si possible, de suggérer un collègue (à qui vous avez préférablement déjà mentionné la chose) pour vous remplacer.
 
 == Comment évaluer un article
 
-Évaluer un article est une tâche qui demande du temps et de la réflexion. La première étape consiste bien sûr à lire l’article. À la première lecture, il est utile de prendre quelques notes concernant:
+Évaluer un article est une tâche qui demande du temps et de la réflexion. La première étape consiste bien sûr à *lire l’article*. À la première lecture, il est utile de prendre quelques notes concernant:
 
 * Les idées clés de l’article
 * Les points qui vous semblent obscurs ou douteux
 * Les références bibliographiques clés mentionnées dans l’article, particulièrement si vous ne les connaissez pas déjà
 
-Il est fort probable que l’étape suivante du processus consiste à relire l’article attentivement. Lors de cette relecture, continuez de prendre des notes mais soyez plus critique et cherchez à vous informer davantage sur les points qui vous paraissent obscurs; il y a peut-être des lacunes à combler dans votre bagage de connaissances.
+Il est fort probable que l’étape suivante du processus consiste à relire l’article *attentivement*. Lors de cette relecture, continuez de prendre des notes mais soyez plus critique et cherchez à vous informer davantage sur les points qui vous paraissent obscurs; il y a peut-être des lacunes à combler dans votre bagage de connaissances.
 
 CAUTION: Ne vous impatientez pas si le processus vous semble long et laborieux les premières fois que vous évaluez un article. Il deviendra plus facile et un peu plus court lorsque vous prendrez de l’expérience.
 
@@ -115,7 +116,8 @@ Pour cette tâche, demandez les questions suivantes:
 Les questions suivantes peuvent faciliter l'évaluation de la qualité:
 ** L’article est-il relativement facile à lire (pour un article scientifique)? 
 ** Y a-t-il des idées importantes qui ne sont pas exprimées suffisamment clairement? 
-** Les idées sont-elles présentées dans le bon ordre? Le résumé est-il bien représentatif du contenu de l’article? 
+** Les idées sont-elles présentées dans le bon ordre? 
+** Le résumé est-il bien représentatif du contenu de l’article? 
 ** Y a-t-il des problèmes majeurs au niveau de la langue? 
 ** Y a-t-il des passages superflus? 
 ** Les dessins et graphiques sont-ils bien lisibles et aident-ils vraiment le lecteur à comprendre l’article? 
@@ -131,14 +133,14 @@ La plupart des conférences et revues utilisent maintenant des formulaires élec
 
 === Résumé factuel
 
-Un rapport d’évaluation complet commence par un résumé factuel de l’article. Ce résumé doit décrire brièvement et de façon plutôt neutre le contenu de l’article : la problématique traitée, les contributions principales de l’article (selon les auteurs), les méthodes employées, les résultats obtenus et les conclusions qui en sont tirées. Le résumé factuel sert à :
+Un rapport d’évaluation complet commence par un résumé factuel de l’article. Ce résumé doit décrire brièvement et de façon plutôt neutre le contenu de l’article: la problématique traitée, les contributions principales de l’article (selon les auteurs), les méthodes employées, les résultats obtenus et les conclusions qui en sont tirées. Le résumé factuel sert à:
 
 * Donner un autre point de vue au rédacteur en chef, qui n’a peut-être eu que le temps de lire le résumé proposé par les auteurs
 * Montrer aux auteurs que vous avez bien compris leur article et les contributions qu’il prétend faire (si ce n’est pas le cas, les auteurs ont peut-être des modifications à faire pour clarifier l’article)
 
 === Résumé critique
 
-Après le résumé factuel, il est important de donner aussi un résumé critique de l’article, qui servira à guider la décision du rédacteur en chef. C’est le moment de souligner d’abord les points forts de l’article (il y en a presque toujours), par exemple :
+Après le résumé factuel, il est important de donner aussi un résumé critique de l’article, qui servira à guider la décision du rédacteur en chef. C’est le moment de souligner d’abord les points forts de l’article (il y en a presque toujours), par exemple:
 
 * L’article aborde un problème particulièrement difficile, nouveau et/ou important
 * L’article propose des méthodes particulièrement originales
@@ -148,7 +150,7 @@ Après le résumé factuel, il est important de donner aussi un résumé critiqu
 * L’article propose une revue de la littérature très complète et utile
 * Etc.
 
-Le résumé critique identifie ensuite, de façon globale, les points faibles de l’article (il y en a presque toujours). Par exemple :
+Le résumé critique identifie ensuite, de façon globale, les points faibles de l’article (il y en a presque toujours). Par exemple:
 
 * L’article aborde un problème qui n’est plus d’actualité
 * L’article propose des méthodes qui n’offrent qu’un léger incrément par rapport à ce qui existe déjà
@@ -160,7 +162,7 @@ Le résumé critique identifie ensuite, de façon globale, les points faibles de
 
 === Liste détaillées de commentaires
 
-Dans un bon rapport d’évaluation, on trouve typiquement, après le résumé critique, une liste numérotée et détaillée des points les plus problématiques. Cette liste est particulièrement importante lorsque l’article semble contenir suffisamment de bonnes idées pour une publication éventuelle mais nécessiterait des révisions substantielles. Cette liste devrait identifier clairement et détailler chaque point problématique, c’est-à-dire :
+Dans un bon rapport d’évaluation, on trouve typiquement, après le résumé critique, une liste numérotée et détaillée des points les plus problématiques. Cette liste est particulièrement importante lorsque l’article semble contenir suffisamment de bonnes idées pour une publication éventuelle mais nécessiterait des révisions substantielles. Cette liste devrait identifier clairement et détailler chaque point problématique, c’est-à-dire:
 
 * Référer au numéro de page, de section ou de figure où le problème se présente, lorsque c’est possible
 * Identifier le problème et expliquer pourquoi c’est un problème 
@@ -175,4 +177,4 @@ Si l’article semble presque prêt à être publié, on peut aussi inclure une 
 
 La partie du formulaire d’évaluation qui sera cachée aux auteurs est l’endroit où donner sa recommandation finale au rédacteur en chef, et la justifier brièvement (en général, le reste du rapport d’évaluation devrait être bien suffisant). C’est aussi l’endroit où on peut indiquer son niveau de confiance quant à l’évaluation. Par exemple, il peut être judicieux d’indiquer qu’un des sujets touchés par l’article est plus loin de votre expertise, ou bien que vous n’avez pas scrupuleusement vérifié chacune des équations ou preuves mathématiques données en annexe. On peut aussi se servir de cette section du formulaire pour rappeler d’éventuels conflits d’intérêt ou signaler un cas de fraude ou de plagiat. 
 
-CAUTION: En cas de plagiat, des vérifications rigoureuses s’imposent : c’est une accusation sérieuse qui peut nuire à la réputation de l’auteur. Il vaut donc mieux s’assurer que l’accusation est fondée (i.e. il s’agit bien de plagiat) et fournir au rédacteur en chef toutes les preuves à l’appui, en identifiant clairement les documents qui ont été plagiés (références bibliographiques à l’appui) et, de façon plus précise, les passages qui ont été copiés et les endroits où ils apparaissent dans l’article à évaluer. Là s’arrête strictement le rôle de l’arbitre. L’équipe de rédaction se chargera d’appliquer la politique de la revue face au plagiat. 
+CAUTION: En cas de plagiat, des vérifications rigoureuses s’imposent: c’est une accusation sérieuse qui peut nuire à la réputation de l’auteur. Il vaut donc mieux s’assurer que l’accusation est fondée (i.e. il s’agit bien de plagiat) et fournir au rédacteur en chef toutes les preuves à l’appui, en identifiant clairement les documents qui ont été plagiés (références bibliographiques à l’appui) et, de façon plus précise, les passages qui ont été copiés et les endroits où ils apparaissent dans l’article à évaluer. Là s’arrête strictement le rôle de l’arbitre. L’équipe de rédaction se chargera d’appliquer la politique de la revue face au plagiat. 

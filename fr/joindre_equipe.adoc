@@ -3,3 +3,5 @@
 :imagesdir: images
 
 == Pour se joindre à l'équipe
+
+À COMPLÉTER

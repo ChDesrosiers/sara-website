@@ -5,4 +5,6 @@
 :icons:
 :iconsdir: ./images/icons
 
-Bienvenu au service de rédaction d'articles
+== Welcome to the [small]#Scientific paper writing help center#
+
+TO BE COMPLETED

@@ -2,4 +2,6 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== Ressources:
+== Autres ressources
+
+À COMPLÉTER

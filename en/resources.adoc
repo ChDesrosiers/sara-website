@@ -1,5 +1,7 @@
-= Ressources
+= Resources
 :awestruct-layout: default
 :imagesdir: images
 
-== Ressources:
+== Other resources
+
+TO BE COMPLETED

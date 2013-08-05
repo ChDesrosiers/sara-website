@@ -1,5 +1,7 @@
-= Soumettre article
+= Submit paper
 :awestruct-layout: default
 :imagesdir: images
 
-== Pour soumettre un article
+== To submit a working paper
+
+TO BE COMPLETED

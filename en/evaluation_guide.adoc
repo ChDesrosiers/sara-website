@@ -1,4 +1,4 @@
-= Guide de l'évaluateur d'articles
+= Guide to reviewing scientific papers
 :awestruct-layout: default
 :awestruct-show_header: true
 :imagesdir: images
@@ -12,167 +12,167 @@
 
 toc::[]
 
-== À quoi sert le rapport d’évaluation?
+== What is the function of a review?
 
-Un rapport d’évaluation joue deux rôles importants dans le processus de publication : 
+A review plays two important roles in the publication process:
 
-Contrôle de qualité:: 
-Le rapport d’évaluation doit aider le rédacteur en chef à prendre les décisions qui permettront de préserver le niveau de qualité de la revue (ou de la conférence) ciblée en lui fournissant de l’information sur la pertinence, l’originalité et la validité du contenu de l’article.
+Quality control::
+The review should help the editor to make decisions aimed towards preserving the level of quality of the targeted journal (or conference).  The review achieves this by providing information about the relevance, originality and validity of the manuscript’s contents. 
 +
-Critique constructive:: 
-Le rapport d’évaluation doit aider les auteurs à améliorer leur travail (lors d’une éventuelle révision, par exemple) en fournissant des commentaires constructifs et des suggestions claires.
+Constructive criticism::
+The review should help the authors to improve their work (upon revision of their paper, for instance) by providing constructive comments and clearly formulated suggestions.
 
-En s’acquittant bien de ce double mandat, l’expert qui accepte d’évaluer un article rend service à la revue et aux auteurs de l’article, mais aussi à sa communauté scientifique de façon plus générale (puisqu’elle lira de meilleurs articles et sera poussée à faire du meilleur travail scientifique pour surpasser ce qui existe déjà).
-
+The expert who agrees to review a manuscript and does a good job of providing these two things is helpful both to the journal and the authors of the manuscript, but also to his scientific community at large (since it will have access to better articles, thereby also promoting better science to improve on existing work).
 
 [CAUTION]
 ====
-*Un rapport d’évaluation ne sert pas à* :
+*A review is not the place to*:
 
-* Étaler les connaissances, l’intelligence ou la belle personnalité de l’arbitre
-* Alimenter un débat sur les domaines d’études qui sont intéressants ou non
-* Se venger d’un quelconque préjudice personnel ou professionnel, réel ou présumé, causé ou pas par l’un des auteurs de l’article
+* Display the great knowledge, cleverness or personality of the reviewer
+* Fuel a debate regarding whether any given field of study is interesting or not
+* Take revenge for any personal or professional prejudice, real or imagined, whether or not it was caused by one of the authors
 * Etc.
 ====
 
-== S’engager à évaluer un article
+== Committing to review an article
 
-Il peut être flatteur de recevoir une demande d’évaluation d’article de la part d’une revue ou d’une conférence prestigieuse dans son domaine de recherche, surtout les premières fois. Parfois, les premières demandes de ce genre proviennent du directeur de thèse, qui délègue ses propres mandats d’évaluation. Dans les deux cas, cela démontre une certaine reconnaissance de l’expertise accumulée au fil des années, ce qui n’est pas désagréable. 
+It can be flattering to receive a request for a review from a prestigious conference or journal in your field of research, especially the first few times.  Sometimes, the first requests of this kind come from a thesis advisor, who delegates her own reviewing tasks.  In both cases, this demonstrates recognition of the expertise you have accumulated over the years, which is not unpleasant.
 
-Dans le milieu académique, réaliser des mandats d’évaluation fait partie de la vie de la plupart des chercheurs. C’est un privilège, dans la mesure où l’évaluateur a la chance de s’instruire sur de nouvelles idées dans son domaine avant même leur publication, mais c’est surtout une responsabilité. Généralement, il s’agit également d’une tâche non rémunérée. Les chercheurs qui acceptent d’évaluer des articles le font généralement parce qu’ils considèrent qu’ils contribuent à un effort collectif qui est crucial afin de préserver le niveau de qualité général des articles qu’ils lisent et utilisent dans leurs recherches. C’est aussi une manière de redonner à la communauté ce qu’ils reçoivent chaque fois qu’ils soumettent un article dans une revue ou une conférence.
+In academia, writing reviews is part of most researchers’ lives.  It is a privilege, in the sense that the reviewer has the opportunity to learn about new ideas in his field before they are even published, but it is first and foremost a responsibility.  Generally, it is also unpaid work.  Researchers who agree to review manuscripts generally do so because they consider that they contribute to a collective effort that is crucial to preserve the general quality level of the articles they read and use in their research.  It is also a way to give back to the community what they receive every time they submit a paper to a journal or a conference.
 
-Accepter d’évaluer un article représente donc un certain engagement vis-à-vis de la communauté scientifique en général et des auteurs en particulier. Pour cette raison, au moment de s’engager, il est important de:
+Agreeing to review a manuscript thus represents a certain commitment towards the scientific community in general, and towards the authors in particular.  For this reason, when committing to review a manuscript, it is important to:
 
-S’assurer d’être suffisamment compétent:: 
-L’article devrait toucher d’assez près votre propre expertise en recherche, soit en s’intéressant à des problèmes similaires ou en utilisant des méthodes proches de celles que vous connaissez bien. Il n’est pas nécessaire d’être expert sur tous les thèmes abordés par l’article, mais vous devriez vous sentir relativement à l’aise en lisant le résumé et avoir déjà une bonne idée de ce que présentera l’article.
+Make sure you are sufficiently competent::
+The contents of the manuscript should be close to your own research expertise, either because it addresses similar topics or because it uses methods closely related to those you understand well.  You do not need to be an expert on all topics covered by the paper, but you should feel relatively comfortable when reading the abstract and already have a rough idea of what the rest of the paper might present. 
 +
-S’assurer d’avoir le temps et respecter les délais:: 
-La revue ou la conférence donnent généralement des délais de quelques semaines pour produire le rapport d’évaluation. Par respect pour les auteurs qui souhaitent publier, il est important de respecter ces délais. Bien évaluer un article et rédiger un bon rapport d’évaluation sont des tâches qui peuvent prendre plusieurs heures. Nous avons tous reçu à l’occasion des rapports d’évaluation d’à peine quelques lignes et produits en vitesse. Ce type d’évaluation n’aide personne.
+Make sure you have enough time and meet the deadline::
+The editorial board generally asks for the referee report within a few weeks of the request for a review. Out of respect for the authors who want to publish, it is important that you meet the specified deadline. Reviewing a manuscript and writing a good review can take several hours.  We have all received a few hastily written reviews of only a few lines.  This type of review helps no one.
 +
-Respecter les règles de confidentialité:: 
-L’article que vous avez à évaluer n’a pas encore été publié et constitue un document confidentiel. Vous n’y avez accès que pour les besoins de l’évaluation. Il est donc important de ne pas partager le contenu de l’article avec quiconque et de ne pas utiliser les nouvelles informations que vous y trouverez peut-être à vos propres fins avant que l’article soit publié. 
+Respect confidentiality rules::
+The paper that you are to review has not yet been published and constitutes a confidential document. You have access to it only for reviewing purposes. Therefore, it is important that you do not share the contents of the manuscript with anyone and that you do not exploit the new information that you may find in it for your own purposes before it is published.
 +
-Rester anonyme:: 
-Généralement, l’identité des évaluateurs est également une donnée confidentielle à laquelle les auteurs n’ont pas accès. Il est important de préserver cet anonymat afin d’éviter davantage de biais dans votre relation avec les auteurs (que vous connaissez par ailleurs peut-être).
+Remain anonymous::
+Generally, the identity of reviewers is also confidential data and is hidden from the authors.  Remaining anonymous is important so as to avoid introducing additional bias in your relationship to the authors (whom you may actually know). 
 +
-Éviter les conflits d’intérêt:: 
-Évitez d’évaluer des articles écrits par des auteurs avec qui vous avez récemment entretenu une collaboration de recherche, une relation employeur-employé ou une relation d’amitié. Cela nuirait à votre crédibilité. Il vaut mieux refuser en déclarant le conflit d’intérêt.
-Lorsque vous n’êtes pas en mesure de vous engager à évaluer un article, il convient de donner votre refus poliment et rapidement et, si possible, de suggérer un collègue (à qui vous avez préférablement déjà mentionné la chose) pour vous remplacer.
+Avoid conflicts of interests::
+Avoid evaluating manuscripts by authors with whom you have recently collaborated, or had an employer-employee or close personal relationship. This would undermine your credibility.  It is better to decline the request, stating the conflict of interests. 
 
-== Comment évaluer un article
+If, for whatever reason, you are not able to commit to writing a review, it is good practice to decline politely and promptly and, if possible, to suggest a colleague (to whom you have preferably spoken to about this beforehand) to replace you.
 
-Évaluer un article est une tâche qui demande du temps et de la réflexion. La première étape consiste bien sûr à lire l’article. À la première lecture, il est utile de prendre quelques notes concernant:
+== How to evaluate a manuscript
 
-* Les idées clés de l’article
-* Les points qui vous semblent obscurs ou douteux
-* Les références bibliographiques clés mentionnées dans l’article, particulièrement si vous ne les connaissez pas déjà
+Evaluating a research paper requires time and thought.  The first step is, of course, to *read the paper*.  While you read the paper for the first time, it is useful to make a few notes regarding:
 
-Il est fort probable que l’étape suivante du processus consiste à relire l’article attentivement. Lors de cette relecture, continuez de prendre des notes mais soyez plus critique et cherchez à vous informer davantage sur les points qui vous paraissent obscurs; il y a peut-être des lacunes à combler dans votre bagage de connaissances.
+* The key ideas of the paper
+* Some points that are obscure or seem suspicious to you
+* The key bibliographical references mentioned in the paper, especially if you are not familiar with them
 
-CAUTION: Ne vous impatientez pas si le processus vous semble long et laborieux les premières fois que vous évaluez un article. Il deviendra plus facile et un peu plus court lorsque vous prendrez de l’expérience.
+It is likely that the next step in the process will be to read the paper again, *carefully*. This time, keep making notes but be more critical of what you read and try to learn more about the points that are obscure to you; there might be gaps to fill in your knowledge.
 
-Vos lectures et relectures de l’article devraient vous permettre de:
+CAUTION: Do not get impatient if the process seems lengthy and labor intensive the first few times you review an article.  It will get easier and a bit shorter with experience.
 
-Déterminer si l’article est pertinent pour la revue/conférence ciblée::
-Si l’article s’attaque à un problème important ou nouveau dans le domaine et que l’article s’adresse bien au lectorat de la revue/conférence, l’article est probablement pertinent. Si la revue vous semble mal choisie, pensez à une alternative qui serait préférable.
+Your repeated readings of the article should allow you to:
+
+Determine whether the manuscript is relevant to the targeted venue::
+If the paper tackles an important or new problem in the field and if it is aimed towards the intended audience of the venue, then it is probably relevant.  If the venue seems to be a poor choice, try to think of a better alternative. 
+
+Identify the main contributions of the paper and evaluate their originality::
+Ideally, the authors should have clearly identified the contributions of their work in the manuscript.  Otherwise, use your knowledge of the field and the contents of the manuscript to express it more clearly. Establishing the degree of originality of a scientific contribution requires a comparison to existing work.  This means you may have to read other papers (at least in part) to make your evaluation.  These papers may or may not be cited in the manuscript. If you are not completely aware of the literature on the topic, briefly search the literature for yourself. Do not forget to look up prior publications by the authors of the manuscript to understand the true extent of the progress made since. It is quite common to publish an extended version of a conference paper in a journal, but this practice should be properly recognized in the journal article and the extension should in principle add some value to the original. 
 +
-Identifier les contributions principales de l’article et évaluer leur originalité::
-Idéalement, les auteurs devraient avoir clairement identifié les contributions de leur travail dans l’article. Sinon, appuyez-vous sur vos connaissances du domaine et sur le contenu de l’article pour l’énoncer plus clairement. Établir l’originalité d’une contribution scientifique nécessite de la comparer à ce qui existe déjà dans la littérature. Cela veut dire qu’il vous faudra peut-être lire d’autres articles (au moins en partie) pour faire votre évaluation. Ces articles peuvent être ou non cités par les auteurs; si vous n’êtes pas tout à fait au courant de ce qui existe sur le sujet, faites vous-même une petite recherche bibliographique. N’oubliez pas de consulter également les publications antérieures des auteurs de l’article pour mieux comprendre l’étendue réelle du progrès réalisé depuis. Il est assez courant de publier dans une revue la version allongée d’un article de conférence, mais l’allongement devrait en principe être de nature à ajouter une certaine valeur à l’original, et la pratique doit aussi être reconnue par les auteurs dans l’article.
+Evaluate the completeness of the literature review::
+Having evaluated the originality of the manuscript, you will have quickly identified the important articles on the topic.  Are these articles discussed in the literature review? Are the contents of this discussion roughly accurate? 
 +
-Évaluer la complétude de la revue de la littérature::
-Suite à votre évaluation de l’originalité de l’article, vous aurez rapidement identifié les références bibliographiques importantes sur le sujet qu’il traite. Demandez les questions suivantes:
-** Ces références sont-elles discutées dans la revue de littérature? 
-** Le contenu de cette discussion est-il à peu près exact?
+Evaluate the methodological contents::
+In engineering, the main contributions of a research paper often consist of new methods to solve a given problem. The new methods must be well defined and well justified.  The following questions might be helpful in evaluating the quality of the proposed approach:
+* What assumptions (explicit or hidden) does the proposed approach rely on and can they be justified? 
+* Are there practical circumstances where you anticipate that the proposed methods would fail? 
+* Are the mathematical developments correct and are all variables properly defined? 
+* Are the results plausible, given what is proposed in the manuscript? 
+* Is there enough information to reproduce the results? 
+* How were the various adjustable parameter values chosen and is the process well justified?  Are these choices likely to generalize to slightly different contexts? 
 +
-Évaluer le contenu méthodologique:: 
-Pour ce faire, posez les questions suivantes:
-** Quelles sont les hypothèses (explicites et cachées) sur lesquelles repose le travail des auteurs? 
-** Y a-t-il des cas pratiques importants où vous anticiperiez un échec des méthodes proposées? 
-** Les calculs sont-ils exacts? 
-** Les variables sont-elles toutes définies correctement? 
-** Les résultats sont-ils plausibles compte tenu de ce qui est proposé? 
-** Y a-t-il suffisamment d’informations pour reproduire les résultats? 
-** Comment les divers paramètres ajustables ont-ils été choisis? Est-ce bien justifié? 
-** Ce choix est-il susceptible de fonctionner dans des contextes légèrement différents?
+Evaluate the experimental methodology::
+In the scientific method, experiments are meant to validate a research hypothesis. In the case of an engineering research paper, this hypothesis might be that the approach proposed in the paper to solve a given problem works well, or that it offers an important advantage over the state-of-the-art. To evaluate the experimental methodology, ask yourself the following questions: 
+* Do the experiments really challenge/demonstrate the contribution claimed by the authors? 
+* Are the results quantitative or qualitative?  Are they convincing? 
+* Do the experimental conditions reflect the assumptions explicitly made by the authors?  Are they too simplistic? 
+* Should there have been more experiments? 
+* Where independent measurements made sufficiently accurately and precisely when needed? 
+* Are the experimental conditions reproducible?
 +
-Évaluer la méthodologie expérimentale::
-Utilisez les questions suivantes:
-** Les expériences mettent-elles bien en évidence la contribution annoncée par les auteurs? 
-** Les résultats sont-ils quantitatifs ou qualitatifs? Sont-ils convaincants? 
-** Les conditions expérimentales correspondent-elles aux hypothèses posées explicitement par les auteurs?
-** Sont-elles trop faciles? 
-** Aurait-il fallu faire davantage d’expériences? Les mesures indépendantes, si elles sont nécessaires, ont-elles été prises avec suffisamment de justesse et de précision? 
-** Les conditions expérimentales sont-elles reproductibles?
+Evaluate the analysis of the results::
+It is not enough to present results in a table or chart to draw scientifically valid conclusions. The results must be analyzed and interpreted. A better interpretation often leads to richer and more insightful conclusions. When evaluating this aspect of the manuscript, pay attention to the following questions: 
+* Do the results come with sufficiently detailed analyses and interpretations?
+* If some of the results are in appearance surprising or very different from the others, are they explained? 
+* Is there sufficient detail regarding the statistical analysis of the results (for instance, the names and parameters of the statistical tests that were used) and if so, was the analysis carried out appropriately? 
+* Do the authors compare their results to those of other researchers (preferably to the state-of-the-art)? 
+* If so, is the comparison fair and based on valid or commonly used criteria?
 +
-Évaluer l’analyse des résultats::
-Pour cette tâche, demandez les questions suivantes:
-** Les résultats sont-ils accompagnés d’une interprétation suffisamment détaillée? 
-** S’il y a des résultats qui semblent à priori surprenants ou très différents des autres, ont-ils été expliqués? 
-** Y a-t-il suffisamment de détails concernant l’analyse statistique des résultats (par exemple les noms et paramètres des tests statistiques utilisés) et si oui, a-t-elle été faite correctement? 
-** Les auteurs comparent-ils leurs résultats à ceux d’autres auteurs (préférablement à l’état de l’art)? ** Si oui, la comparaison est-elle juste et est-elle basée sur des critères valables et/ou couramment utilisés dans la littérature?
-+
-Évaluer la qualité de la rédaction::
-Les questions suivantes peuvent faciliter l'évaluation de la qualité:
-** L’article est-il relativement facile à lire (pour un article scientifique)? 
-** Y a-t-il des idées importantes qui ne sont pas exprimées suffisamment clairement? 
-** Les idées sont-elles présentées dans le bon ordre? Le résumé est-il bien représentatif du contenu de l’article? 
-** Y a-t-il des problèmes majeurs au niveau de la langue? 
-** Y a-t-il des passages superflus? 
-** Les dessins et graphiques sont-ils bien lisibles et aident-ils vraiment le lecteur à comprendre l’article? 
-** Manque-t-il des figures qui aideraient à la compréhension?
+Evaluate the quality of the writing::
+The quality of the writing should not be the main determining factor in accepting or rejecting the manuscript unless it is really incomprehensible. However, since revisions are almost always required (whether or not the manuscript is likely to be accepted by this journal), it is useful to identify potential writing problems and to mention them in the review: 
+* Is the manuscript relatively easy to read (for a research paper), given the usual audience of the journal? 
+* Are there any important ideas that are not expressed sufficiently clearly? 
+* Are ideas presented in the right order? 
+* Does the abstract adequately reflect the paper’s contents? 
+* Are there major problems with the English?
+* Are there superfluous sections? 
+* Are the drawings and charts readable and do they really help the reader understand the paper? 
+* Are there figures missing that might help the reader understand the paper?
 
-TIP: Réfléchissez à chacun de ces critères d’évaluation et prenez des notes. Il peut être utile de prendre une pause après la première lecture et/ou avant de rédiger le rapport d’évaluation. Cela donne un certain recul et permet parfois de déceler des subtilités (souvent importantes) qui échapperaient autrement à l’attention.
+TIP: Think about each of these evaluation criteria and keep making notes. You may want to take a break after your first read and/or before writing your review.  Taking a step back sometimes helps detect subtleties (often important ones) that would otherwise escape one’s attention.
 
-== Comment rédiger un rapport d’évaluation
+== How to write a review
 
-La plupart des conférences et revues utilisent maintenant des formulaires électroniques pour la gestion des rapports d’évaluation. Le niveau de structure des informations demandées varie beaucoup d’une revue/conférence à l’autre. La plupart du temps, le formulaire comprend une partie qui sera visible par les auteurs de l’article (et le rédacteur en chef) et une partie réservée au rédacteur en chef uniquement. La plus grosse partie du rapport d’évaluation doit aller dans la partie du formulaire qui sera visible par les auteurs.
+Nowadays, most conferences and journals use on-line forms to manage reviews. The degree of structure in the required information varies substantially between venues. Most of the time, the form includes parts that are visible by the authors of the manuscript (and the editor) and a part that will be seen by the editor only. Most of your review will be visible by the authors. 
 
 :numbered!:
 
-=== Résumé factuel
+=== Factual summary
 
-Un rapport d’évaluation complet commence par un résumé factuel de l’article. Ce résumé doit décrire brièvement et de façon plutôt neutre le contenu de l’article : la problématique traitée, les contributions principales de l’article (selon les auteurs), les méthodes employées, les résultats obtenus et les conclusions qui en sont tirées. Le résumé factuel sert à :
+A complete review begins with a factual summary of the manuscript. This summary should briefly and rather neutrally describe the contents of the paper: the context and specific problems addressed, the main contributions (according to the authors), the methods used, the results obtained and the conclusions drawn. The role of the factual summary is to:
 
-* Donner un autre point de vue au rédacteur en chef, qui n’a peut-être eu que le temps de lire le résumé proposé par les auteurs
-* Montrer aux auteurs que vous avez bien compris leur article et les contributions qu’il prétend faire (si ce n’est pas le cas, les auteurs ont peut-être des modifications à faire pour clarifier l’article)
+* Provide an alternative point of view to the editor, who may only have had the time to read the authors’ abstract
+* Show the authors that you understood their paper and its contributions correctly (if this is not the case, the authors might then need to make clarifications to the manuscript)
 
-=== Résumé critique
+:numbered!:
 
-Après le résumé factuel, il est important de donner aussi un résumé critique de l’article, qui servira à guider la décision du rédacteur en chef. C’est le moment de souligner d’abord les points forts de l’article (il y en a presque toujours), par exemple :
+=== Critical summary
 
-* L’article aborde un problème particulièrement difficile, nouveau et/ou important
-* L’article propose des méthodes particulièrement originales
-* L’article expose des résultats intéressants, surprenants ou pleins d’implications pratiques
-* L’article décrit une expérimentation et/ou une analyse des résultats rigoureuse
-* L’article est écrit de façon très claire
-* L’article propose une revue de la littérature très complète et utile
+After the factual summary, it is important to also provide a critical summary of the manuscript that will help guide the editor’s decision. This is where to first emphasize the strengths of the manuscript (there are almost always some), for instance:
+
+* The paper tackles a particularly difficult, novel and/or important problem
+* The paper proposes particularly novel methods
+* The paper presents highly interesting or surprising results, or results that are full of practical implications
+* The paper describes rigorous experimentation and/or analysis of the results
+* The paper is very clearly written
+* The paper presents a very thorough and useful review of the literature
 * Etc.
 
-Le résumé critique identifie ensuite, de façon globale, les points faibles de l’article (il y en a presque toujours). Par exemple :
+The critical summery then identifies the weaknesses of the manuscript (there are almost always some) in a global fashion. For instance:
 
-* L’article aborde un problème qui n’est plus d’actualité
-* L’article propose des méthodes qui n’offrent qu’un léger incrément par rapport à ce qui existe déjà
-* Les résultats présentés dans l’article ne sont pas très convaincants
-* Il y a des erreurs ou des manques dans les méthodes proposées, les expérimentations ou l’analyse des résultats
-* L’article est difficile à lire ou mal structuré
-* L’article ne réfère pas suffisamment à l’état de l’art
+* The paper tackles a problem that is no longer relevant
+* The paper proposes methods that represent only a small increment over previous work
+* The results presented in the manuscript are not very convincing
+* There are errors or gaps in the proposed methods, the experimental methodology or the analysis of the results
+* The manuscript is difficult to read or poorly structure
+* The paper does not refer sufficiently to the state-of-the-art
 * Etc.
 
-=== Liste détaillées de commentaires
+=== Detailed list of comments
 
-Dans un bon rapport d’évaluation, on trouve typiquement, après le résumé critique, une liste numérotée et détaillée des points les plus problématiques. Cette liste est particulièrement importante lorsque l’article semble contenir suffisamment de bonnes idées pour une publication éventuelle mais nécessiterait des révisions substantielles. Cette liste devrait identifier clairement et détailler chaque point problématique, c’est-à-dire :
+Following the critical summary, a good review typically provides a detailed and numbered list of the most problematic points. This list is particularly important if the manuscript contains enough good ideas to warrant eventual publication but requires substantial revision. The list should clearly identify and detail each problematic point, that is: 
 
-* Référer au numéro de page, de section ou de figure où le problème se présente, lorsque c’est possible
-* Identifier le problème et expliquer pourquoi c’est un problème 
-* Poser des questions précises si l’article n’était pas suffisamment clair
-* Suggérer des correctifs lorsque c’est possible
+* Refer to the page, section or figure number where the problem occurs whenever possible
+* Identify the problem and explain why it is a problem 
+* Ask specific questions if the manuscript was not sufficiently clear
+* Suggest corrective measures when possible 
 
-TIP: Lorsque l’on adresse des critiques aux auteurs de l’article, il est important de rester constructif et poli, et de rester aussi anonyme que possible. L’évaluateur devrait presque se sentir à l’aise de défendre son opinion en personne.
+TIP: When addressing criticisms to the authors of the manuscript, it is important to remain constructive, polite and as anonymous as possible.  A reviewer should feel almost comfortable enough to defend her opinion in person.
 
-Si l’article semble presque prêt à être publié, on peut aussi inclure une liste de problèmes mineurs, incluant par exemple des erreurs typographiques (rien ne sert d’être trop zélé) ou des problèmes avec les couleurs des graphiques.
+If the manuscript seems almost ready for publication, one may also include a list of minor problems, including typographical errors (there is no need to be overzealous) or problems with the colors of the charts, for example.
 
-=== Recommandation finale
+=== Final recommendation
 
-La partie du formulaire d’évaluation qui sera cachée aux auteurs est l’endroit où donner sa recommandation finale au rédacteur en chef, et la justifier brièvement (en général, le reste du rapport d’évaluation devrait être bien suffisant). C’est aussi l’endroit où on peut indiquer son niveau de confiance quant à l’évaluation. Par exemple, il peut être judicieux d’indiquer qu’un des sujets touchés par l’article est plus loin de votre expertise, ou bien que vous n’avez pas scrupuleusement vérifié chacune des équations ou preuves mathématiques données en annexe. On peut aussi se servir de cette section du formulaire pour rappeler d’éventuels conflits d’intérêt ou signaler un cas de fraude ou de plagiat. 
+The part of the form that is hidden from the authors is the place to provide your final recommendation to the editor and to justify it briefly (in general, the rest of the review already achieves this). This is also where you can indicate your level of confidence in your own review.  For instance, it can be useful to indicate that one of the topics touched upon in the manuscript is further away from your expertise, or that you did not scrupulously check every equation or mathematical proof provided in the appendix. When needed, this section can also be used to remind the editor of possible conflicts of interests or to signal a case of plagiarism. 
 
-CAUTION: En cas de plagiat, des vérifications rigoureuses s’imposent : c’est une accusation sérieuse qui peut nuire à la réputation de l’auteur. Il vaut donc mieux s’assurer que l’accusation est fondée (i.e. il s’agit bien de plagiat) et fournir au rédacteur en chef toutes les preuves à l’appui, en identifiant clairement les documents qui ont été plagiés (références bibliographiques à l’appui) et, de façon plus précise, les passages qui ont été copiés et les endroits où ils apparaissent dans l’article à évaluer. Là s’arrête strictement le rôle de l’arbitre. L’équipe de rédaction se chargera d’appliquer la politique de la revue face au plagiat. 
+CAUTION: In case of plagiarism, thorough verifications are required: it is a serious accusation that can undermine the authors’ reputations. Thus, one must make sure that the accusation is founded (i.e. it is really plagiarism) and provide all necessary proofs to the editor, clearly identifying the documents that were plagiarized (with complete bibliographical references) and, more specifically, the parts that were copied and the places where they appear in the manuscript to be reviewed. The reviewer’s role does not extend beyond that. The editorial board is in charge of applying the journal or conference’s policy with respect to plagiarism. 

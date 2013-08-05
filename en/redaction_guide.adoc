@@ -1,4 +1,4 @@
-= Guide pratique pour l'écriture d'articles scientifiques
+= Practical guide to writing scientific papers
 :awestruct-layout: default
 :awestruct-show_header: true
 :imagesdir: images
@@ -9,6 +9,8 @@
 :toc-placement!:
 
 :numbered:
+
+NEEDS TRANSLATION !!! 
 
 toc::[]
 
