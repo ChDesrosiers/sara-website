@@ -1,0 +1,15 @@
+= Style guide
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../images/icons
+:toc:
+:toc-placement!:
+
+:numbered:
+
+toc::[]
+
+TO BE COMPLETED
