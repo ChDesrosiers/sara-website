@@ -626,11 +626,15 @@ Après avoir lu le titre et le résumé d'un article, plusieurs lecteurs vont so
 ====
 * Se limiter aux tableaux et figures reliés directement aux objectifs, questions et hypothèses de recherche
 
-* Ne pas utiliser de tableaux ou de figures si leurs données peuvent être présentées facilement dans le texte
+* Ne pas utiliser de tableaux ou de figures si leur contenu peut être présenté facilement dans le texte
 
 * Créer pour chaque tableau ou figure une légende qui, sans être trop longue, permet de comprendre son contenu sans avoir à se référer au texte
 
+* Mettre la légende au dessus des tableaux et en dessous des figures   
+
 * S'assurer que *tous* les tableaux et figures sont cités dans le texte, et que qu'ils sont numérotés selon leur ordre de citation 
+
+* En référant un tableau ou une figure spécifique dans le texte, mettre la première lettre en majuscule. Par exemple: ``__As shown in Figure 1 ...__'' ou ``__See Table 1 for ...__''
 
 * Éviter les tableaux et figures qui dépassent la largeur ou la hauteur permise 
 
@@ -659,37 +663,34 @@ TIP: Les articles dont la mise-en-page est à double colonne autorisent souvent 
 
 TIP: Si l'article contient beaucoup de résultats sous la forme de tableaux et figures, il peut être préférable de mettre une partie de ces résultats en annexe afin d'alléger le texte. On laisse typiquement dans le corps de l'article les résultats plus importants, ou bien un résumé des résultats en annexe (e.g., moyenne sur l'ensemble des jeux de données testés).
 
-==== Analyse des résultats
+==== Analyses statistiques
 
-Statistics should not
-take over the paper, but statistical analysis of the results should be adequately described.
+Les résultats doivent toujours être interprétés de manière objective, sans extrapoler ou chercher des conclusions non-supportées par ceux-ci. Ainsi, un lecteur devraient normalement pouvoir arriver à ces conclusions par lui-même, si on lui présente ces résultats objectivement. 
 
-Statistical methods should be described in sufficient detail to enable a knowledgeable
-reader with access to the original data to verify the reported results. References for
-statistical methods should be to standard works when possible. Any computer programs
-used should be identified. Statistical terms, abbreviations, and symbols should be
-defined.
+Une conclusion qui semble apriori supportée par les résultat peut cependant s'avérer erronée si elle ne possède pas la signification statistique requise. Cette erreur est souvent rencontrée dans la comparaison de différentes approches, où une approche est déclarée la meilleure si sa performance moyenne sur un certain nombre de tests est plus grande que celle des autres approches. Or, si le nombre de tests est très petit, ces résultats peuvent être en grande partie dus au hasard.
+ 
+Pour éviter ce genre d'erreurs, il est recommandé d'utiliser un test d'hypothèse statistique. Pour réaliser un tel test, il faut tout d'abord formuler une hypothèse (dite _hypothèse nulle_) en lien avec la question que l'on tente répondre. Par exemple:
 
-Details about randomization, if used, should be given, as well as concealment
-of allocation to treatment groups, and the method of masking (blinding). Losses to
-observation (such as dropouts from a clinical trial) should be reported.
-It is recommended to include the word “considered” in descriptions of statistical
-significance such as “a P value of less than 0.05 was considered statistically significant”,
-since the choice of this cut-off point is arbitrary.
+====
+*Hypothèse:* {nbsp} La méthode _A_ et la méthode _B_ ont des performances égales.
+====
+ 
+Cette hypothèse correspond à une statistique qui est estimée à partir d'un échantillon. Dans l'exemple précédent, la statistique serait la différence de performance (supposée être nulle si les méthodes sont équivalentes), et l'échantillon correspond aux tests sur lesquels on compare les méthodes. 
+Ensuite, on vérifie que la valeur estimée tombe dans un certain intervalle de confiance, correspondant typiquement à 95% de la probabilité (i.e., _p-valeur_ de 0.05). Si cette valeur est à l'extérieur de l'intervalle, on peut alors rejeter l'hypothèse. 
 
-It is better to avoid non-technical uses of technical statistical terms, such as “random”
-“significant”, “correlation” and “sample” in non-statistical contexts.
+CAUTION: Cela ne signifie pas qu'une méthode est meilleure qu'une autre, mais plutôt que cette conclusion est très probable. 
+
+Le test de l'exemple précédent, connu sous le nom de _test-t pairé_, permet de conclure avec un certain niveau de confiance que les performances de deux méthodes ne sont pas équivalentes. Cependant, ce test ne nous permet pas de déterminer laquelle des deux méthodes est la meilleure. Pour cela, il faut utiliser un test unilatéral (_one-tailed test_) qui considère uniquement la probabilité que la valeur estimée soit d'un certain côté de la valeur espérée (zéro dans l'exemple). 
+
+Pour avoir plus d'informations sur comment faire des tests d'hypothèse, se référer à +
+METTRE UN LIEN
 
 :numbered:
 
-===	La conclusion
+===	La discussion et conclusion
 
-* Résumé des principaux objectifs et contributions
-* Résumé des principaux résultats obtenus
-* Travaux futurs
-* Rappel des points principaux (quoi éviter à tout prix)
+La 
 
-////
 This section of the paper should emphasize the new and important aspects of the
 study and the conclusions that follow from them. It should not repeat in detail data or
 other material given in the Introduction or Results sections.
@@ -697,24 +698,31 @@ Good papers have a targeted discussion, to keep it focused. The discussion shoul
 preferably be structured to include the following six components (Docherty and Smith,
 1999):
 
-* statement of principal findings
-* strengths and weaknesses of the study
-* strengths and weaknesses in relation to other studies
-* meaning of the study, possible mechanisms and implications for clinicians and
-policymakers
-* unanswered questions and future research
-* conclusion.
-* Statement of principal findings: The opening of the discussion usually gives the answer
+:numbered!:
+
+==== Rappel des objectifs et contributions de la recherche
+
+==== Résumé des principaux résultats et principales conclusions
+
+====
+* Do your results provide answers to your testable hypotheses? If so, how do you interpret your findings?
+* Do your findings agree with what others have shown? If not, do they suggest an alternative explanation or perhaps a unforseen design flaw in your experiment (or theirs?)
+* Given your conclusions, what is our new understanding of the problem you investigated and outlined in the Introduction?
+====
+
+Statement of principal findings: The opening of the discussion usually gives the answer
 to the research question, or a restatement of the principal findings. This should not
 normally be more than a few sentences. It is advisable that the discussion start with
 a sentence that clearly shows that the paper includes new information. Reviewers
 often start with a “null hypothesis” that the paper does not add anything new.
+
 * Strengths and weaknesses of the study: Equal emphasis should be given to both
 strengths and weaknesses. Reviewers are more interested in seeing that the author
 is aware of the weaknesses. If the reader discovers in the paper weaknesses that are
 not mentioned by the author, the trust in the paper will be shaken. A subheading such
 as “limitations of the study” or data is useful. Findings that have not been described
 in the results section should not be discussed.
+
 * Strengths and weaknesses in relation to other studies: All evidence bearing on the
 argument, with or against, should be considered. Authors should discuss the opposing
 point of view, taking a “devil’s advocate” position. Full credit should be given for
@@ -733,12 +741,27 @@ beyond the limited evidence provided by the study. Restraint in stating implicat
 is a virtue appreciated by reviewers and readers. It may also be relevant to emphasize,
 not only what the results mean, but also what the results do not mean. This will keep
 readers from making unjustified conclusions.
+
+This section of the paper should emphasize the new and important aspects of the
+study and the conclusions that follow from them. It should not repeat in detail data or
+other material given in the Introduction or Results sections.
+Good papers have a targeted discussion, to keep it focused. The discussion should
+preferably be structured to include the following six components (Docherty and Smith,
+1999):
+
+==== Travaux futurs
+
 * Unanswered questions and future research: New research may be proposed to provide
 the answer to questions that are still not answered. A good study should generate
 new ideas for further research. A simple statement that further research is needed is
 less helpful than providing new specific research questions or suggesting particular
 studies.
-* Conclusion: A good paper ends with strong clear conclusions. It has been said that the
+
+* If warranted, what would be the next step in your study, e.g., what experiments would you do next?
+
+==== Mots de la fin
+
+A good paper ends with strong clear conclusions. It has been said that the
 body of a good paper is a “thunderbolt in reverse”: it begins with thunder (introduction)
 and ends with lightning (conclusions) (Byne, 1998). Conclusions should be linked with
 the goals of the study, and should be limited to the boundaries of the study. Authors
@@ -747,7 +770,8 @@ the data. For example, they should not make statements on economic benefits and
 costs unless their manuscript includes economic data and analysis. Authors should
 refrain from claiming unjustified priority about the findings. It should be noted that
 a negative finding could be as important as a positive finding.
-////
+
+:numbered:
 
 === Les remerciements
 
@@ -768,6 +792,10 @@ be named. Authors are responsible for obtaining written permission from persons
 acknowledged by name, because readers may infer their endorsement of the data and
 conclusions. Technical help is better acknowledged in a paragraph separate from that
 acknowledging other contributions.
+
+If, in your experiment, you received any significant help in thinking up, designing, or carrying out the work, or received materials from someone who did you a favor by supplying them, you must acknowledge their assistance and the service or material provided. Authors always acknowledge outside reviewers of their drafts (in PI courses, this would be done only if an instructor or other individual critiqued the draft prior to evaluation) and any sources of funding that supported the research. Although usual style requirements (e.g., 1st person, objectivity) are relaxed somewhat here, Acknowledgments are always brief and never flowery.
+
+    Place the Acknowledgments between the Discussion and the Literature Cited.
 ////
 
 === La bilbiographie
@@ -792,6 +820,7 @@ Psychological Association; CMS Footnote Style, conforming to the Chicago Manual 
 Style; and CBE Number Style established by the Council of Biology Editors.
 In biomedical sciences, there are two major styles for citing the references: the
 Harvard system and the Vancouver system.
+
 In the Harvard system, the order of references at the end of the paper is strictly
 alphabetical, regardless of the chronology. In the text of the paper, references are cited
 by giving in parentheses the name of the author and the year of publication. When the
@@ -805,6 +834,7 @@ alii” (masculine) and “et aliae” (feminine). When two citations have the s
 and the same year of publication, alphabetical annotation is used, for example “2004a”.
 The order of these alphabetically annotated citations ideally should be chronological
 within the year.
+
 The Vancouver system has been adopted in the “Uniform Requirements for
 Manuscripts Submitted to Biomedical Journals” by the International Committee of
 Medical Journal Editors (who held their first meeting in Vancouver). Most biomedical
@@ -820,11 +850,13 @@ have to be changed in subsequent drafts. In the final draft, the authors can swi
 the Vancouver style. To track the references in the early drafts using a word-processing
 program, one can place at the beginning of each citation a character not used elsewhere
 in the text, for example an asterisk (\*).
+
 If journal titles are abbreviated, as is the practice in most but not all journals, this
 should be in line with the abbreviations in the Index Medicus (which are based on an
 international standard). The list of journals is published annually in the January issue.
 The list can also be accessed through the web site of the US Library of Medicine (http:
 //www.nlm.nih.gov).
+
 Unpublished observations are generally not to be used as references; papers accepted
 for publication but not yet published and given as references are identified as “in press”
 or “forthcoming”; research papers submitted to a journal but not yet accepted are to be
@@ -834,11 +866,16 @@ essential information not available from a public source, in which case the name
 person and date of communication should be cited in parentheses in the text. Authors
 should obtain permission and confirmation of accuracy from the source of a personal
 communication.
+
 Annex 4 provides examples on how different types of references should be cited.
 Additional information may be obtained from the web site: http://www.nlm.gov/bsd/
 uniform_requirements.html.
 
 ////
+
+=== Les annexes
+
+À COMPLÉTER
 
 == Réviser son article
 
@@ -936,31 +973,34 @@ of words.
 cy). These nouns are better replaced with verbs. For example, change “Measurements
 were performed on the variation” to “The variation was measured” or “we measured the variation”; change “The interpretation of the data was made” to “Data were
 interpreted” or “we interpreted the data”.
+
 * Compound nouns (noun clusters) e.g. patient liver enzyme status (the status of liver
 enzymes in patients); research result dissemination methods (methods of disseminating
 research results).
+
 * Abbreviations, unless they are standard and unless they are used at least ten times
 in the paper. Avoid abbreviations in the title and abstract. The complete term for
 which an abbreviation stands should precede its first use unless it is a standard unit
 of measurement.
+
 * Sexist words: Do not use the pronoun “he” or “his” when she or her would be equally
 appropriate. Use the plural form instead. Try to replace words such as: man (unless
 referring to a man), mankind, manpower, policeman, foreman.
+
 * Dehumanizing words: e.g. referring to people as cases or subjects (use patients or
 volunteers for example); using syndromic tags for patients; male/female are more
 appropriate for animals; men and women are better for human subjects.
+
 * Slang and jargon (words that have an arbitrary meaning).
 Do not confuse American and British Spelling. Follow the style prescribed by the
 journal. If in doubt, use a good dictionary (do not depend on the spell-checker in the
 computer which is only as good as its content).
 Unless otherwise requested in the journal instructions to authors:
+
 * Measurements of length, height, weight, and volume should be reported in metric
 units (metre, kilogram, or litre) or their decimal multiples, and temperatures should
 be given in degrees Celsius. Blood pressure should be given in millimetres of
 mercury.
-* All haematological and clinical chemistry measurements should be reported in the
-metric system in terms of the International System of Units (SI). Editors may request
-that alternative or non-SI units be added by the authors before publication.
 
 ////
 
