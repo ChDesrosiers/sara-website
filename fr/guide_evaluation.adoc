@@ -110,7 +110,8 @@ Pour cette tâche, demandez les questions suivantes:
 ** Les résultats sont-ils accompagnés d’une interprétation suffisamment détaillée? 
 ** S’il y a des résultats qui semblent à priori surprenants ou très différents des autres, ont-ils été expliqués? 
 ** Y a-t-il suffisamment de détails concernant l’analyse statistique des résultats (par exemple les noms et paramètres des tests statistiques utilisés) et si oui, a-t-elle été faite correctement? 
-** Les auteurs comparent-ils leurs résultats à ceux d’autres auteurs (préférablement à l’état de l’art)? ** Si oui, la comparaison est-elle juste et est-elle basée sur des critères valables et/ou couramment utilisés dans la littérature?
+** Les auteurs comparent-ils leurs résultats à ceux d’autres auteurs (préférablement à l’état de l’art)? 
+** Si oui, la comparaison est-elle juste et est-elle basée sur des critères valables et/ou couramment utilisés dans la littérature?
 +
 Évaluer la qualité de la rédaction::
 Les questions suivantes peuvent faciliter l'évaluation de la qualité:

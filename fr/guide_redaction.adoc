@@ -304,7 +304,7 @@ Parmi les raisons expliquant pourquoi ce titre est inadéquat, on peut citer les
 // NOTE: A space was added after __activity recognition__ because of a syntax highlighting bug in TextMate. Remove this space before deploying to server
 
 * Il n'offre aucune d'information sur le contexte et les contributions de la recherche
-* Il affirme que la méthode proposée est meilleure, au lieu de laisser le lecteur juger par lui-même du mérite de la recherche.
+// * Il affirme que la méthode proposée est meilleure, au lieu de laisser le lecteur juger par lui-même du mérite de la recherche.
 * Il utilise la forme ``__recognizing activities__'' au lieu de la forme standard ``__activity recognition__ '', typiquement employée pour identifier les travaux de ce domaine.
 
 Le titre suivant est également un mauvais choix, mais pour des raisons différentes: 
@@ -314,7 +314,7 @@ Le titre suivant est également un mauvais choix, mais pour des raisons différe
 {bad} *Investigating the usefulness of using sparse representation and dictionary learning for the problem of activity recognition in dynamic environments*
 ====
 
-Bien qu'il n'ait pas les problèmes de l'exemple précédent, ce titre renferme beaucoup de mots inutiles. Un meilleur titre est, par exemple, le suivant: 
+Bien qu'il n'ait pas les problèmes de l'exemple précédent, ce titre renferme beaucoup de mots inutiles. Un meilleur titre serait, par exemple, le suivant: 
 
 // .Un meilleur choix de titre
 ====
@@ -357,14 +357,15 @@ CAUTION: Comme toujours, il est important de consulter son superviseur, ainsi qu
 
 Le résumé (i.e., __abstract__ en anglais) joue un rôle essentiel dans un article. D'une part, il sert à susciter l'intérêt du lecteur et lui convier rapidement la nature du travail. Un bon résumé incitera le lecteur à lire l'article au complet, tandis qu'un résumé mal rédigé aura l'effet inverse. D'autre part, alors que l'accès à l'article complet est souvent limité, le résumé est normalement disponible sans restriction.        
 
-Un bon résumé devrait être une version condensée de l'article, suivant la même structure que l'article et faisant ressortir les points principaux de chacune de ses sections. Les consignes suivantes peuvent être suivies lors de la rédaction du résumé: 
+Un bon résumé devrait être une version condensée de l'article, suivant la même structure que l'article et faisant ressortir les points principaux de chacune de ses sections. Voici quelques consignes à suivre lors de la rédaction du résumé: 
 ====
 * Le résumé doit mentionner clairement les éléments suivants:
-** Le contexte et les motivations de la recherche
-** Les objectifs principaux de la recherche
-** Les étapes principale de la méthodologie (e.g., cadre expérimental, approche d'analyse, etc.)
-** Les résultats les plus importants de la recherche
-** Les conclusions principales
++
+** Le contexte et la problématique de recherche
+** Les objectifs et les contributions principales
+** Les étapes principales de la méthodologie (e.g., cadre expérimental, approche d'analyse, etc.)
+** Les résultats les plus importants et les conclusions
++
 * Le résumé doit souligner clairement l'aspect original et innovateur du travail
 // * Le passé devrait normalement être employé dans la rédaction
 * Le résumé doit respecter les contraintes de longueur imposées par la revue ou le système de soumission (typiquement entre 150 et 250 mots) 
@@ -373,41 +374,128 @@ Un bon résumé devrait être une version condensée de l'article, suivant la m�
 * Le résumé ne doit pas contenir d'acronymes ou d'abréviations, sauf si elles sont connues et standards
 ====
 
-Voici un exemple de résumé respectant ces consignes: 
+Revenant à notre exemple précédent, on pourrait proposer le résumé suivant: 
 
 ====
 {good} *Abstract:* +
-{co1} Activity recognition. {co2} Technologies based on radio frequency identification (RFID) have recently become a key component of several important applications related to safety, logistics, retail, and business intelligence. {co3} Among these technologies, real-time location systems (RTLS) based on RFID, which enable to identify, locate and track resources in real-time, show a great commercial potential. However, such technologies also bring significant scientific and technical challenges, due to the large amount of data continuously generated in real-time, exceeding the storage, management and analysis capacities of current technologies. The goal of this research is to improve the commercial value of RFID-based RTLS systems by introducing efficient and scalable methods to analyze and detect abnormal patterns in real-time RFID data. In order to meet the scalability, repeatability and adaptability requirements of the large-scale, open and dynamic environments targeted by this proposal, we propose to develop novel methods based on latent semantic analysis and ensemble learning. Unlike existing approaches, these methods will enable the discovery of high-level and more general patterns that are not directly observable in the raw data streams. To evaluate the usefulness and efficiency of our proposed methods, we will test them in the highly important industrial setting of airport security. For this purpose, we will work in collaboration with the company Purelink Technology, a global leader in the development and commercialization of RFID-based RTLS systems, who will provide the technology, data and expertise essential for the validation of our methods. The expected benefits of this project to the industry and scientific community are numerous. Thus, it will lead to the development of efficient real-time analysis methods that provide better information on multidimensional RFID data. Also, the development of new RFID-based techniques to detect abnormal behaviors will contribute to increase the safety of the population in large-scale environments, such as airports, factories and power plants, by providing a lower cost, automatic, and non-intrusive way of detecting potential threats, otherwise undetected by current systems.
+{co1} Activity recognition is essential to many pervasive computing applications related to surveillance, assisted living, healthcare and human-computer interfaces. {co2} So far, research in this field has focused on small static environments, which allow only well-defined activities. However, several important applications are set in large-scale environments, such as factories or hospitals, where activities can be complex and emerging behaviors are common. {co3} In this paper, we propose a novel approach based on sparse representation to recognize activities from spatio-temporal data. Using an online dictionary learning strategy, this approach can adapt to changes in dynamic environments, making it more robust than existing methods. {co4} To assess the usefulness of our approach, we evaluated its performance on four real-life datasets, and compared it to that of state-of-the-art methods based on Hierarchical Hidden Markov Models and Gaussian Mixture Models. {co5} Results of these experiments showed our approach to be more accurate than existing methods in the tested datasets.
 ====
 
-<1> Activity recognitionn systems (RTLS) based on RFID, which enable to identify, locate and track resources in real-time, show a great commercial      
-<2> Blabla2
+Ce résumé peut être décomposé comme suit:
 
-TIP: Certaines revues imposent une structure particulière au résumé, pouvant inclure des sous-titres tels que __Objectives__, __Methods__, __Results__, etc.
+<1> Contexte de recherche
+<2> Problématique de recherche
+<3> Contributions principales
+<4> Méthodologie expérimentale
+<5> Résultats et conclusion    
 
-=== Les mots-clés
+TIP: Bien que le résumé soit au début de l'article, cette partie devrait normalement être la dernière rédigée. Une technique pour aider la rédaction de cette partie est la suivante. Commencez par identifier les phrases les plus importantes de chaque section, et formez un paragraphe avec ces phrases, en respectant leur ordre dans l'article. Ensuite, révisez le paragraphe en retirant ou ajoutant des mots, de manière à rendre le tout cohérent et clair.
 
-Most scientific journals require authors to provide 3 to 10 key words or short phrases
-that will assist indexers in cross-indexing the article. Key words are usually placed
-beneath the abstract. Terms from the Medical Subject Headings (MeSH) list of PubMed
-(US National Library of Medicine) should be used wherever possible, to facilitate
-indexing and retrieval (see Annex 3).
+=== Les mots clés
 
+La plupart des conférences ou revues exigent les auteurs de fournir une liste de 3 à 10 mots clés qui serviront à classifier et indexer l'article. Tout comme le titre, le choix de cette liste est importante car elle permettra aux lecteurs de trouver l'article plus facilement, à partir d'une requête reliée au même thème dans un engin de recherche. Suivez ces consignes pour le choix des mots clés:
+
+====
+* Ne pas séparer les mots composés formant une seule unité sémantique. Par exemple, on mettrait le mot composé *_data mining_* dans la liste, au lieu des mots *_data_* et *_mining_* séparément 
+* Inclure *tous* les mots (simples ou composés) importants du titre et du résumé. Dans certains cas, il peut également être pertinent d'inclure les mots importants du titre de la revue ou de la conférence, par exemple, le mot composé *_machine learning_* pour la conférence _International Conference on Machine Learning_
+* Utiliser le pluriel pour les mots clés désignant un élément quantifiable. Ainsi, on préfère *_networks_* à *_network_*, *_decision trees_* à *_decision tree_*, etc.
+* Éviter les abréviations et les acronymes non standards. Pour les d'acronymes standards, on peut également également ajouter la forme épelée de l'acronyme comme un mot composé. Par exemple, on mettrait l'acronyme *_SVM_* et le mot composé *_Support Vector Machines_* comme deux mots clés séparés
+* Ne pas lier, si possible, les mots composés par un trait d'union. Par exemple, mettre *_knowledge management_* au lieu de *_knowledge-management_*
+* Respecter les contraintes de la conférence ou revue (e.g., nombre minimum et maximum de mots clés, lettres minuscules ou majuscules, ordre alphabétique ou importance, etc.)
+====
+
+En se basant sur ces consignes, on pourrait identifier les six mots clés suivants:
+
+====
+{good} *Mots clés*: data mining, activity recognition, sparse representation, dictionary learning, dynamic environments, spatio-temporal data 
+====
+
+TIP: Une stratégie pour identifier des mots clés pertinents est d'aller consulter ceux utilisés dans les articles similaires au sien.
 
 === L’introduction
 
-* Description du contexte et de la problématique (quel est le problème?)
-* Motivation du travail (pourquoi est-ce important?)
-* Grandes lignes de l’approche (comment?)
-* Originalité et contributions (quels sont les avantages?)
-* Présentation de la structure
+Étant la première section rencontrée par le lecteur, l'introduction peut avoir un impact important sur sa perception de l'ensemble du travail. Une introduction mal rédigée, ou dans laquelle les motivations, objectifs ou contributions de la recherche ne sont pas clairement décrits, laissera une impression négative au lecteur qui risque de persister tout au long de l'article. Il est donc important d'accorder un soin particulier à cette section.
+
+Une bonne introduction contient typiquement les parties suivantes:
+
+:numbered!:
+
+==== Contexte
+L'introduction commence normalement par une présentation générale du contexte (e.g., domaine, application, processus, etc.) dans lequel s'insère la recherche. Le rôle de cette partie est double. Tout d'abord, elle permet d'amener naturellement le lecteur vers la problématique spécifique de recherche. Ensuite, elle sert à motiver la recherche en décrivant l'importance de son contexte.
+
+
+Par exemple, la présentation du contexte pourrait se faire comme suit:
+
+====
+{good} In recent years, the field of pervasive computing has attracted a growing amount of interest, due to its numerous applications in surveillance, assisted living, healthcare and human-computer interfaces [1]. In many pervasive computing systems, the task of recognizing human activities plays a key role *...*
+====
+
+La référence [1] serait typiquement un article général ou un survol de littérature sur le domaine de l'informatique ubiquitaire (i.e., _pervasive computing_).
+
+
+==== Problématique
+
+Une fois le contexte général établi, il faut identifier plus précisément le problème ou la question spécifique à la recherche. Par exemple, il peut s'agir d'une limitation des approches existantes, d'une application nouvelle ou différente, d'une question ouverte, etc. Une fois de plus, il faut bien insister sur l'importance du problème visé ou la question visée par la recherche, pour ne pas qu'elle soit perçue comme simpliste ou inutile.
+
+Voici un exemple de problématique:
+
+====
+{good} Although various activity recognition methods have been proposed, most of them are constrained to small static environments in which only a few well-defined activities are allowed. This constitutes a significant limitation, as several important applications are set in large-scale environments with complex activities and emerging behaviors. As mentioned in [2], activity recognition in dynamic environments is a highly complex problem for which no satisfying solution exists *...*
+====
+
+Dans ce cas, la référence [2] est employée pour justifier l'importance du problème de recherche.
+
+==== Contributions
+
+La partie suivante sert à décrire l'approche proposée pour répondre au problème ou à la question de recherche. L'objectif n'est *pas* de décrire en détails cette approche (cela sera fait dans la section de méthodologie) mais plutôt de présenter ses grandes lignes, en mettant l'accent sur ses *avantages* et *aspects innovateurs*.
+
+Par exemple:
+
+====
+{good} To address this problem, we propose a novel approach, based on sparse representation and dictionary learning. In this approach, a dictionary of trajectories is created from training data. The activity corresponding to a test trajectory is then predicted by computing... 
+
+Our approach differs from existing activity recognition methods in two important ways. First, it uses an original sparse representation model, which is both efficient and flexible. Also, by using dictionary learning, our approach can adapt dynamically to changes *...*
+====
+
+==== Plan de l'article
+
+Il est commun de terminer l'introduction en présentant la structure du reste de l'article, comme dans l'exemple suivant:
+
+====
+{good} The rest of this paper is as follows. In the next section, we present a summary of relevant literature on activity recognition. We then describe the details of our proposed approach *...*
+====
+
+TIP: L'introduction est, pour plusieurs, la partie de l'article la plus difficile à rédiger. Cela s'explique par le fait suivant: en étant la majorité du temps concentré sur les détails de sa recherche (e.g., implémentation de la solution, analyse des résultats, etc.) il est facile de perdre de vue les motivations, hypothèses et objectifs initiaux de cette recherche. Pour faciliter la  rédaction, il est donc nécessaire de prendre un certain recul et de considérer la recherche dans son ensemble.
+
+CAUTION: Dans un article complet, l'introduction ne devrait pas faire une revue de la littérature. Seules les références nécessaires à la motivation de la recherche sont nécessaires.
+
+:numbered:
 
 ===	La revue de littérature
 
-* Se concentrer sur des travaux récents (état de l’art)
-* Éviter les généralités
-* Structurer de manière cohérente les travaux sur le même sujet
-* Proposer des avantages et limitations aux travaux cités
+Comme l'indique son nom, cette section sert à présenter les principaux travaux de la littérature portant sur le même sujet que l'article. L'objectif n'est pas de faire un survol complet des travaux d'un domaine, tel que fait dans un article de type _survol de littérature_, mais plutôt de situer les contributions de l'article par rapport aux travaux antérieurs. Cette section permet également de démontrer au lecteur sa connaissance du domaine. 
+
+Tâchez de respecter les consignes suivantes:
+
+====
+* Se concentrer sur des travaux récents, considérés comme l'état de l’art pour le problème ciblé.
+* Se limiter à des publications de qualité, dans des revues ou conférences réputées. Cela implique qu'il faut *lire* les articles référés!
+* Structurer les travaux de manière cohérente, par exemple, selon le type d'approche proposée ou son application 
+* Identifier les avantages et limitations respectives des travaux cités
+* Si les mêmes auteurs ont publiés plusieurs articles sur le même sujet, citer uniquement le travail le plus récent 
+====
+
+L'exemple suivant illustre certaines de ces consignes:
+
+====
+{good} The problem of recognizing actvities from spatio-temporal data has been the focus of several research works. Methods proposed for this problem can be divided in two broad categories: methods based on a probabilistic generative model and pattern-based methods *...* 
+
+In [3], Aras et al. present a generative framework, based on Hierchical Hidden Markov Models (HHMM), to identify the activites of elderly people in a nursing home *...* Due to its ability to learn high-level activities, this approach obtained a higher accuracy than the standard HMM model *...* However, as pointed out in [4], transition-based models like HHMM are often sensitive to variations in the set of activities *...*
+====
+
+TIP: Utilisez des outils tels que _Google Scholar_ pour faciliter la recherche de références. Ces outils permettent de limiter la recherche aux travaux récents en spécifiant une année minimale. Par ailleurs, le nombre de références, affiché par ces outils, peut être utilisé pour identifier les travaux les plus importants d'un domaine.
+
+CAUTION: Une revue de littérature trop générale ou n'incluant pas les travaux considérés comme l'état de l'art est un motif fréquent de rejet d'un article.
 
 ////
 
@@ -418,49 +506,170 @@ indexing and retrieval (see Annex 3).
 
 ===	La méthodologie
 
-* Présenter les principes centraux avant d’aller en détail (il faut donner l’intuition au lecteur). Exemple : illustrer l’approche à l’aide d’un schéma 
-* Présenter la notation employée (tableau)
-* Établir les fondements théoriques (présenter le modèle sur lequel repose la méthode proposée et justifier l’emploi de ce modèle). Propriétés versus théorème. Preuve en annexe?
-* Description détaillée de l’approche (algorithme, paramètres, etc.). S’assurer que le lecteur a toute l’information nécessaire pour reproduire les travaux. Motiver les choix conceptuels.
-* Implications théoriques (complexité en terme de temps de calcul,  stockage, etc.)
+Cette section constitue normalement le noyau central de l'article. C'est dans celle-ci qu'on explique en détails les principaux éléments de sa recherche, les étapes de sa réalisation, ainsi que l'approche expérimentale utilisée pour valider ses hypothèses. 
 
-////
-Principles
-Replicability of results is the heart of science. The methods section should provide
-a detailed exposition of the research design. A reader of the methods section should be
-able to repeat the study and to validate the findings. A methods section less than two
-double-spaced pages is probably inadequate.
+:numbered!:
 
-The methods section should be organized under meaningful subheadings and
-describe techniques used in sufficient detail to allow others to replicate the study.
-Established methods should be referenced but no description is necessary. For published
-but not well known methods, a reference as well as a brief description should be given.
-New or substantially modified methods should be clearly described, with reasons given
-for using them and with their limitations outlined.
-The methods section should not:
-* refer to patients and animals as material; patients and animals are living things; not
-inanimate “material”. The term “material” should be used only if inanimate specimens
-have been used.
-* use proprietary names of drugs; generic names should be used.
-Ethics
-When reporting experiments on human subjects, authors should indicate whether
-the procedures followed were in accordance with the ethical standards of the responsible
-committee on human experimentation (institutional or regional) and with the Helsinki
-Declaration.
-Patients’ names, initials, or hospital numbers should not be used. Particular care
-should be taken that these do not appear in illustrative material.
-When reporting experiments on animals, authors should indicate whether the
-institutional or national guidelines or laws on the care and use of laboratory animals
-were followed.
+==== Structure et titres
 
+La méthodologie est très souvent la section la plus longue et la plus complexe d'un article. Elle renferme normalement plusieurs sous-sections et il n'est pas rare d'avoir même des _sous_-sous-sections. Il est donc important d'être structuré dans sa présentation, de sorte que le lecteur puisse suivre et comprendre chacune de ses parties, sans avoir à revenir en arrière ou lire une autre section.
 
-Statistics
+Pour faciliter la tâche du lecteur, il est nécessaire de choisir des titres significatifs pour les sous-sections. Un bon titre devrait donner une idée précise sur le contenu de la sous-section, en utilisant le moins possible de mots. 
+
+Par exemple, le titre suivant décrit bien le contenu de la section, mais est trop long:
+====
+{bad} *The process of learning our model using training data*
+====
+
+Un titre plus court mais informatif serait le suivant:
+====
+{good} *Learning the model*
+====
+
+==== Notation
+
+Les articles scientifiques utilisent souvent des symboles mathématiques pour identifier les différentes variables, constantes, paramètres, etc. de la méthode de recherche. L'utilisation de tels symboles permet de grandement simplifier l'écriture, mais peu également confondre le lecteur, en particulier si ce dernier n'est pas familier avec la notation employée.
+
+Pour faciliter le plus possible la lecture, il faut s'assurer de bien présenter la notation au début de la méthodologie. Cela correspond à:
+
+* Spécifier les règles générales de notation. Par exemple, il est commun d'utiliser une lettre majuscule pour désigner une matrice, une lettre minuscule en gras pour un vecteur, et une lettre minuscule pour un scalaire
+* Définir chacun des symboles employés dans la méthodologie, en spécifiant son type (e.g., nombre entier positif, matrice _m_ x _n_ de nombre réels, etc.) et son rôle (e.g., méta-paramètre du modèle, variable représentant un certain élément du modèle, etc.)
+
+Lorsque la notation renferme un grand nombre de symboles, celle-ci peut être synthétisée sous la forme d'un tableau. Par exemple:
+
+[width="80%",cols="^1,6",options="header"]
+|=========================================================
+| Symbol | Definition
+|   _D_  | An _n_ x _l_ matrix representing the dictionary of training trajectories
+|   _n_  | The number of training trajectories
+|   _l_  | The length of a training trajectory 
+| *...*  |  *...*
+|=========================================================
+
+==== Cadre théorique
+
+Avant de décrire en détail sa méthode de recherche, il peut être nécessaire de présenter le cadre théorique sur lequel s'appuie cette méthode. Ce dernier est composé de principes généraux reconnus dans le domaine, qui sont utilisés ou adaptés dans sa propre méthode. L'objectif du cadre théorique est double. 
+
+* Motiver son propre travail en le reliant à des concepts reconnus
+* Alléger la présentation de sa méthode en référant à des travaux utilisant ces mêmes concepts
+
+Par exemple, le cadre théorique peut contenir un modèle sur lequel se base l'approche proposée dans son article:
+====
+{good} We first present the sparse reconstruction model on which is based our proposed approach. In this model, a signal _y_ is represented as a sparse linear combination of training signals in a dictionary _D_, known as _atoms_. This model can be expressed as follows : *...* The task of finding the combination coefficients in this model is known as _basis pursuit denoising_, and corresponds to solving a quadratic program [5] *...*
+====
+
+==== Description de la méthode
+
+Une fois la notation et le cadre théorique présentés, on peut ensuite décrire sa propre méthode de recherche. Selon la nature de la recherche, cette description peut contenir les éléments suivants:
+ 
+* Les principales étapes de la méthodologie (e.g., analyse, conception, implémentation, etc.)
+* Les composantes majeures du système, ainsi que leur rôle, propriétés, etc.
+* Les processus de calcul sous la forme d'algorithmes
+* Les caractéristiques théoriques de la méthode (e.g., bornes théoriques sur la complexité en temps de calcul, l'espace mémoire, la performance, etc.)
+
+Considérez les conseils suivants dans la description de la méthode:
+
+====
+* Pour faciliter la compréhension du lecteur, présenter les principes généraux de la méthode avant les détails. Par exemple, illustrer la méthode à l’aide d’un schéma conceptuel
+
+* S’assurer que le lecteur a tous les détails nécessaires pour reproduire les travaux décrits dans l'article
+
+* Justifier ses choix d'analyse, conception, etc. à l'aide d'arguments théoriques (e.g., preuve mathématique) ou de principes reconnus. Citer des travaux de la littérature si nécessaire
+
+* Aligner le contenu avec les objectifs et contributions de recherche présentés dans l'introduction. La principale contribution devrait ainsi occuper une partie plus importante de la description que les contributions mineures. 
+====
+
+==== Protocole expérimental
+
+Alors que le nombre de travaux dans un domaine de recherche augmente constamment, la validation expérimentale de ces travaux devient de plus en plus importante. Ainsi, un article ayant des contributions originales et de bons résultats a peut quand même être refusé si son protocole expérimental est incomplet ou inadéquat. 
+
+Pour éviter une telle situation, un protocole expérimental devrait avoir les deux propriétés suivantes:
+
+Reproductibilité::
+Comme pour la description de la méthode, il est essentiel de fournir tous les détails nécessaires pour répéter les expériences décrites dans l'article et obtenir les mêmes résultats ou conclusions. Cela peut inclure:
++
+====
+* Les données utilisées dans les expériences, la nature de ces données et leur source. Si ces données proviennent de simulations, décrire le processus et les paramètres utilisés pour les générer
+* L'environnement dans lequel les expériences ont été réalisés. Par exemple, si les tests ont été réalisés par des moyens informatiques, spécifier leurs caractéristiques matérielles et logicielles (e.g., nombre de processeurs et leur cadence, quantité de mémoire vive, langage de programmation, etc.)
+* Les différentes approches testées, ainsi que *tous* leurs paramètres tels qu'employés durant les tests
+* Les métriques employées pour évaluer la validité des approches testées 
+====
++
+Pertinence::
+Une propriété tout aussi importante du protocole expérimental est sa pertinence. Des caractéristiques communes aux protocoles pertinents sont les suivantes:
++
+====
+* Les données correspondent bien (e.g., taille, complexité, etc.) à celles pouvant être rencontrées dans l'application de la recherche
+* Les approches utilisées comme étalons de comparaison sont considérées comme l'état-de-l'art
+* La procédure pour déterminer les paramètres des méthodes testées est non-biaisée, pour ne pas avantager certaines méthodes
+* Les métriques d'évaluation sont standards pour le problème visé 
+====
+
+TIP: Dans certains cas, la description du protocole expérimentale est faite dans la même section que la présentation des résultats.
+
+CAUTION: Assurez-vous de toujours respecter les principes de confidentialité et d'éthique dans la présentation de ses travaux.
+
+:numbered:
+
+=== Les résultats
+
+Le rôle de cette section est de présenter ses principaux résultats et d'analyser ceux-ci en fonction des questions et hypothèses de sa recherche. Les résultats sont normalement présentés sous la forme de tableaux et figures, dont la séquence respecte un ordre logique. Par exemple, cette séquence pourrait correspondre à différentes expériences, chacune visant une certaine question de recherche ou servant à étudier une certaine propriété de l'approche proposée. Le texte de cette section devrait suivre cette même séquence et, en référant aux tableaux et figures, souligner les résultats nécessaires pour répondre aux questions et hypothèses de recherche.
+
+CAUTION: Tous les résultats importants doivent être inclus dans la présentation, même ceux qui paraissent défavorables ou aller à l'encontre des hypothèses de recherche. Un chercheur qui omet volontairement certains résultats peut ainsi perdre sa crédibilité. En revanche, une approche honnête, qui expose les résultats négatifs et tente de les expliquer, sera souvent récompensée.
+
+:numbered!:
+
+==== Tableaux et figures
+
+Après avoir lu le titre et le résumé d'un article, plusieurs lecteurs vont souvent sauter aux tableaux et figures de l'article pour décider si l'article vaut la peine d'être lu ou non. Ces tableaux et figures doivent donc être intéressantes et compréhensibles sans avoir à se référer au texte. Voici d'autres consignes à suivre lors de l'élaboration de ses tableaux et figures: 
+
+====
+* Se limiter aux tableaux et figures reliés directement aux objectifs, questions et hypothèses de recherche
+
+* Ne pas utiliser de tableaux ou de figures si leurs données peuvent être présentées facilement dans le texte
+
+* Créer pour chaque tableau ou figure une légende qui, sans être trop longue, permet de comprendre son contenu sans avoir à se référer au texte
+
+* S'assurer que *tous* les tableaux et figures sont cités dans le texte, et que qu'ils sont numérotés selon leur ordre de citation 
+
+* Éviter les tableaux et figures qui dépassent la largeur ou la hauteur permise 
+
+* Si le contenu d'un tableau ou d'une figure provient d'un autre article, citer cet article. Si une est reproduite intégralement, *s'assurer d'avoir la permission du détenteur des droits d'auteur* de cette figure
+
+* Utiliser le plus souvent possible une figure pour illustrer les schémas complexes, au lieu d'expliquer ces schémas en texte (_une image vaut mille mots!_) 
+
+* Choisir un tableau au lieu d'une figure si la valeur exacte d'un résultat est plus importante que sa tendance ou les relations qu'il exprime
+
+* Ordonner, si possible, les colonnes et rangées d'un tableau selon une séquence logique
+
+* Choisir des titres pour les colonnes et/ou de rangées des tableaux, qui mettent en évidence leur rôle
+
+* Éviter le plus possible les lignes horizontales ou verticales à l'intérieur d'un tableau
+
+* Produire les graphiques et illustrations à l'aide d'un logiciel approprié, jamais à la main 
+ 
+* Mettre toute explication détaillé d'une figure dans sa légende, non pas directement dans la figure
+
+* Ne pas utiliser de couleurs pour distinguer les éléments d'une figure (e.g., les courbes d'une graphiques) car l'article pourrait être imprimé en noir et blanc. Distinguer plutôt ces éléments à l'aide de styles différents (e.g., lignes pointillées, polices différentes, etc.) 
+
+* Utiliser des titres informatifs pour identifier les axes d'un graphique. Si nécessaire, préciser les unités des axes à côté de ces titres
+====
+
+TIP: Les articles dont la mise-en-page est à double colonne autorisent souvent de mettre les tableaux plus larges en mode simple colonne. 
+
+TIP: Si l'article contient beaucoup de résultats sous la forme de tableaux et figures, il peut être préférable de mettre une partie de ces résultats en annexe afin d'alléger le texte. On laisse typiquement dans le corps de l'article les résultats plus importants, ou bien un résumé des résultats en annexe (e.g., moyenne sur l'ensemble des jeux de données testés).
+
+==== Analyse des résultats
+
+Statistics should not
+take over the paper, but statistical analysis of the results should be adequately described.
 
 Statistical methods should be described in sufficient detail to enable a knowledgeable
 reader with access to the original data to verify the reported results. References for
 statistical methods should be to standard works when possible. Any computer programs
 used should be identified. Statistical terms, abbreviations, and symbols should be
 defined.
+
 Details about randomization, if used, should be given, as well as concealment
 of allocation to treatment groups, and the method of masking (blinding). Losses to
 observation (such as dropouts from a clinical trial) should be reported.
@@ -470,125 +679,10 @@ since the choice of this cut-off point is arbitrary.
 
 It is better to avoid non-technical uses of technical statistical terms, such as “random”
 “significant”, “correlation” and “sample” in non-statistical contexts.
-////
 
-=== La présentation et l'analyse des résultats
+:numbered:
 
-* Jeux de données utilisés (justifier l’utilisation, détails sur le contenu)
-* Approches de comparaison (état de l’art, description sommaire)
-* Méthodologie de comparaison (approche employée dans des travaux précédents, métriques standard, etc.)
-* Paramètres utilisés. Les expériences doivent pouvoir être reproduites.
-* Résultats sous la forme de tableaux et graphiques : quoi mettre, titre, caption, etc.
-* Analyse des résultats (validation statistique, quoi mettre en valeur, etc.)
-
-////
-Principles
-
-The objective of the research should be kept in mind. Results that do not relate to the
-research objective should not be mentioned. Sufficient detail should be given to allow
-other scientists to assess the validity and accuracy of the results. Statistics should not
-take over the paper, but statistical analysis of the results should be adequately described.
-Results should be presented in a logical sequence in the text, tables, and illustrations.
-Tables and graphs are often extremely helpful in summarizing large amounts of data.
-Authors should not repeat in the text the numerical data contained in figures and
-tables.
-The number of tables and figures should be restricted to those needed to explain the
-argument of the paper and to support its findings. A good rule about whether to include
-figures or not is: When in doubt, leave it out.
-
-Tables
-
-Tables should be used to show the exact values of more data than can be summarized
-in a few sentences of text; or when the objective of presenting data is to present specific
-inter-relationships. Tables should not be used when the data can be easily presented in
-the text (tables are more expensive to typeset than text); or when there is no relation
-between the data or to a time sequence.
-A table should be readily understood without reference to the text. After reading
-the title and abstract, many readers often glance through the tables and illustrations
-before deciding whether or not to read the text. A table should be cited in the text, be
-numbered, and have a title which exactly describes the content of the table. It should
-have short or abbreviated headings for columns and rows and, if necessary, a footnote
-for explanation of non-standard abbreviations that are used, and for identification of
-statistical measures of variations, such as standard deviation and standard error of the
-mean. Tables should have a logical structure. Columns should be arranged from left to
-right in a logical sequence, e.g. to reflect the sequence in which data were collected or
-changes over time. Rows should be arranged from top to bottom in a logical order, e.g.
-by ascending order of age.
-A table should not include in its title any unnecessary words, nor a repetition of
-column and row headings. There should be no ambiguity about the purpose of the columns and rows. When column headings are grouped, a straddle-line should be used to
-eliminate any uncertainty about which column headings are included under the grouped
-column headings. Items in row headings may be indented to indicate groupings.
-For purposes of publication:
-
-* The table should not exceed the width of the journal columns. A single-column table,
-in a journal with a double-column page, should not include more than 60 characters
-(and equivalent spaces) in a row (with its row heading). A table running the full
-width of a page should not include more than 120 characters in a row.
-* Each table should be typed or printed with double-spacing on a separate sheet of
-paper. Tables should not be submitted as photographs or images.
-* Tables should not have internal horizontal and vertical rules.
-* Tables should be numbered consecutively in the order of their first citation in the
-text. Each table should be cited in the text.
-* If data are used from another published or unpublished source, permission is needed
-and should be acknowledge fully.
-* The use of too many tables in relation to the length of the text may produce difficulties
-in the layout of pages. Issues of the journal to which the paper will be submitted
-can be checked to estimate how many tables can be used per 1000 words of text.
-A general rule is no more than one table (or illustration) per 1000 words of text (4
-pages of manuscript).
-* The editor, on accepting a paper, may recommend that additional tables containing
-important backup data, too expensive to publish, be deposited with an archival
-service, such as the National Auxiliary Publication Service in the United States, or
-made available by the author on request. In that event an appropriate statement will
-be added to the text. Such tables should be submitted for consideration with the
-paper.
-
-Illustrations
-
-Illustrations should be used only for a specific purpose. An illustration may be used
-as evidence to support the argument, since “seeing is believing”. Illustrations may be
-used as a more efficient way in presenting data. A flow chart is such an example. The
-use of illustrations for emphasis, just to stress a point, is not a good purpose. It may be
-more appropriate for a presentation than a written paper.
-Graphs are used to illustrate relationships. If exact values are important, a table is preferable to a graph; when trends and relationships are more important than exact values, a graph is more efficient. A graph is a better alternative than a table with many
-entries. The same data should not be repeated in figures and tables.
-For purposes of publication:
-
-* Figures should be professionally drawn and photographed; freehand or typewritten
-lettering is unacceptable.
-* Instead of original drawings, X-ray films, and other material, authors should submit
-sharp, glossy, black-and-white photographic prints, usually 127 × 173mm (5 × 7 inches)
-but not larger than 203 × 254mm (8 × 10 inches). Letters, numbers, and symbols
-should be clear and even throughout, and of sufficient size that when reduced for
-publication each item will still be legible.
-* Titles and detailed explanations belong in the legends for illustrations not on the
-illustrations themselves.
-* Each figure should have a label pasted on its back, indicating the number of the
-figure, author’s name, and top of the figure. Do not write on the back of the figures
-or scratch or mar them by using paper clips. Do not bend figures or mount them on
-cardboard.
-* Photomicrographs should have internal scale markers. Symbols, arrows or letters
-used in microphotographs should contrast with the background.
-* If photographs of people are used, either the subjects must not be identifiable or their
-pictures must be accompanied by written permission to use the photographs.
-* Figures should be numbered consecutively according to the order in which they have
-been first cited in the text.
-* If a figure has been published, the original source has to be acknowledged and a
-written permission from the copyright holder to reproduce the material should be
-submitted.
-* Permission is required irrespective of authorship or publisher except for documents
-in the public domain.
-* For illustrations in colour, it is important to ascertain whether the journal requires
-colour negatives, positive transparencies or colour prints. Some journals publish
-illustrations in colour only if the author pays for the extra cost.
-* Legends for illustrations should be typed or printed using double spacing, starting
-on a separate page, with Arabic numerals corresponding to the illustrations.
-* When symbols, arrows, numbers, or letters are used to identify parts of the illustrations,
-each one should be explained clearly in the legend. The internal scale, and the method
-of staining in microphotographs, should be stated.
-////
-
-===	Discussion des résultats et conclusion
+===	La conclusion
 
 * Résumé des principaux objectifs et contributions
 * Résumé des principaux résultats obtenus
@@ -897,6 +991,8 @@ S'assurer de l'heure de soumission (fuseau horaire)
 == Sources:
 
 À COMPLÉTER
+
+http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWsections.html
 
 ////
 * Baker P.N. How to set about writing your first paper. In: O’Brien PMS, Pipkin FB, eds.

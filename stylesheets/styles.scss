@@ -120,7 +120,7 @@ table {
     text-align: left;
   }
   td {
-    font-size: $baseFontSize - 2;
+    font-size: $baseFontSize - 2;    
   }
 
   th { 
@@ -212,4 +212,26 @@ div.toclevel3 {
 div.toclevel4 {
   margin-left: 6em;
   font-size: 0.9em;
+}
+
+//// ADDED FOR TABLE ALIGNMENT
+
+th.tableblock.halign-left, td.tableblock.halign-left {
+  text-align: left;
+}
+th.tableblock.halign-center, td.tableblock.halign-center {
+  text-align: center;
+}
+th.tableblock.halign-right, td.tableblock.halign-right {
+  text-align: right;
+}
+
+th.tableblock.valign-top, td.tableblock.valign-top {
+  vertical-align: top;
+}
+th.tableblock.valign-middle, td.tableblock.valign-middle {
+  vertical-align: middle;
+}
+th.tableblock.valign-bottom, td.tableblock.valign-bottom {
+  vertical-align: bottom;
 }
