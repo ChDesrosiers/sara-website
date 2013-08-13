@@ -39,7 +39,7 @@ ____
 
 Le processus de rédaction d'articles scientifiques est hautement complexe et les échéances de soumission sont souvent très courtes. Même pour les chercheurs expérimentés, il est facile de sous-estimer l'ampleur du travail à réaliser et se trouver pris à quelques jours (ou même quelques heures!) de la date limite. Pour rattraper le retard, il faut alors travailler de longues heures, ce qui entraîne inévitablement beaucoup de stress et de fatigue. Pire encore, les articles rédigés à la hâte ont plus de chances de contenir des erreurs et, conséquemment, d'être rejetés. Comme pour tout projet, la clé du succès dans la rédaction d'articles réside avant tout dans une bonne planification.      
 
-CAUTION: Bien qu'il arrive parfois qu'une conférence accordent une extension à la date limite de soumission, il ne faut *jamais* compter sur cette extension pour terminer un article. Il faut toujours viser la date originale de soumission et, si nécessaire, utiliser l'extension pour apporter des changements mineurs.
+CAUTION: Bien qu'il arrive parfois qu'une conférence accorde une extension à la date limite de soumission, il ne faut *jamais* compter sur cette extension pour terminer un article. Il faut toujours viser la date originale de soumission et, si nécessaire, utiliser l'extension pour apporter des changements mineurs.
 
 [[choix-conference]]
 ===	Choisir la conférence ou revue
@@ -81,7 +81,7 @@ Certaines conférences permettent parfois de soumettre différents types de cont
 | Article court | Moins de 5 | Est normalement associé à un projet de recherche en cours de développement, ayant un potentiel intéressant mais peu de résultats concrets. Ce type de contribution n'est pas toujours publié dans les actes de la conférence.
 | Résumé | Une ou deux | Employé pour faire une pré-sélection des soumissions. Si accepté, les auteurs sont normalement invités à soumettre une version complète de leur travail.
 | Affiche | Une seule + 
-(grand format) | Les auteurs dont la soumission n'a pas été sélectionnée pour une présentation orale sont parfois invités à synthétiser leur travaux sous la forme d'une affiche. L'article initial peut malgré tout être publié dans les actes de le conférence.
+(grand format) | Les auteurs dont la soumission n'a pas été sélectionnée pour une présentation orale sont parfois invités à synthétiser leurs travaux sous la forme d'une affiche. L'article initial peut malgré tout être publié dans les actes de le conférence.
 |=========================================================
 
 Si le projet de recherche n'est pas suffisamment avancé, il est donc préférable de cibler une conférence permettant la soumission d'articles courts ou, dans le cas d'articles complets, permettant la présentation d'affiches.
@@ -126,7 +126,7 @@ TIP: Il est important de conserver une liste des références rencontrées duran
 
 . *Planification:*
 +
-L'étape de planification consiste à déterminer la méthodologie expérimentale à employer pour vérifier ses hypothèses de recherche. Dans le cas où une nouvelle approche est proposée pour un certain problème, la méthodologie expérimentale renferme typiquement les tâches suivants:
+L'étape de planification consiste à déterminer la méthodologie expérimentale à employer pour vérifier ses hypothèses de recherche. Dans le cas où une nouvelle approche est proposée pour un certain problème, la méthodologie expérimentale renferme typiquement les tâches suivantes:
 +
 * Sélectionner les approches de la littérature qui serviront d'étalons de comparaison.
 * Identifier les jeux de données de test (i.e., les _benchmarks_) dans la littérature ou générer ces données à partir de simulations
@@ -136,7 +136,7 @@ L'étape de planification consiste à déterminer la méthodologie expérimental
 
 . *Réalisation:* 
 +
-La réalisation d'expériences occupe généralement une place importante dans un projet de recherche. Durant cette étape, il est important de bien suivre la plan expérimental prévu durant la planification. Bien qu'il soit tentant de modifier ce plan en fonction des résultats observés, cela risque de biaiser les résultats et mener à une conclusion erronée. 
+La réalisation d'expériences occupe généralement une place importante dans un projet de recherche. Durant cette étape, il est important de bien suivre le plan expérimental prévu durant la planification. Bien qu'il soit tentant de modifier ce plan en fonction des résultats observés, cela risque de biaiser les résultats et mener à une conclusion erronée. 
 
 . *Collecte des résultats:* 
 +
@@ -148,7 +148,7 @@ Cette étape a pour objectif de valider ou infirmer les hypothèses de recherche
 +
 CAUTION: Une erreur souvent rencontrée dans l'analyse des résultats est de généraliser à partir d'un nombre limité d'observations. Par exemple, établir qu'une approche est meilleure qu'une autre, en se basant uniquement sur quelques exemples. Il est plutôt recommandé de valider ou infirmer un hypothèse à l'aide d'un test statistique où un niveau de confiance peut être spécifié (voir la section <<analyses-statistiques, Analyses statistiques>>).
 
-Tout comme la recherche bibliographique, l'expérimentation devrait commencer avant la rédaction. Une stratégie pour faciliter la planification des expériences consiste à déterminer d'avance le contenu des tableaux et figures de l'article. À l'étape de rédaction, ces tableaux et figures sont ensuite produites à partir des résultats obtenus.
+Tout comme la recherche bibliographique, l'expérimentation devrait commencer avant la rédaction. Une stratégie pour faciliter la planification des expériences consiste à déterminer d'avance le contenu des tableaux et figures de l'article. À l'étape de rédaction, ces tableaux et figures sont ensuite produits à partir des résultats obtenus.
 
 ==== Rédaction
 
@@ -158,7 +158,7 @@ Comme mentionné précédemment, il est préférable d'utiliser une approche sys
 * Rédiger directement dans le gabarit de la conférence ou de la revue ciblée. Cela évitera de mauvaises surprises de mise en page. 
 * Commencer par construire un squelette de l'article, identifiant ses sections, sous-sections, tableaux et figures. Ce squelette servira de guide lors de la rédaction.
 * Rédiger d'abord les sections les plus faciles. Pour certaines personnes, il s'agira de l'introduction, alors que d'autres seront plus à l'aide avec la méthodologie. 
-* Travailler sur une seul section de l'article à la fois.
+* Travailler sur une seule section de l'article à la fois.
 * Écrire d'abord un brouillon sans se préoccuper du style. Une fois l'écriture commencée, éviter de revenir en arrière. La révision du brouillon se fera dans une autre étape.  
 * En cas de blocage, mettre l'article de côté durant quelques jours. 
 * Demander à un collègue de le relire.
@@ -238,7 +238,7 @@ ____
 
 Toute personne ayant traversé l'épreuve peut le confirmer: la rédaction d'un premier article scientifique est une des expériences les plus difficiles et frustrantes dans la carrière d'un chercheur. Synthétiser un travail complexe de recherche dans quelques pages, de manière claire et concise, peut sembler de prime abord être une tâche impossible. Heureusement, en abordant le problème une étape à la fois et de manière structurée, la rédaction d'un article devient beaucoup plus simple. De plus, le processus de rédaction deviendra, avec le temps, de plus en plus facile.
 
-Un article scientifique est généralement composé des parties suivants: 
+Un article scientifique est généralement composé des parties suivantes: 
 
 ====
 . <<titre, Un titre>>
@@ -269,7 +269,7 @@ Le corps de l'article est normalement composé des parties allant de l'introduct
 
 Bien que l'article soit divisé en plusieurs sections, il devrait se lire comme un tout et suivre une ligne droite, établie par l'objectif ou l'hypothèse de recherche.
 
-TIP: La forme et le contenu d'un article peut varier selon la nature de la recherche et la publication visée. Par exemple, un article de type _Survol de littérature_ contient typiquement une longue revue de littérature et peut ne pas avoir de méthodologie ni de résultats expérimentaux. De même, un article de revue est généralement plus long qu'un article de conférence, et les parties portant sur la méthodologie et la validation expérimentales sont souvent plus détaillées.
+TIP: La forme et le contenu d'un article peuvent varier selon la nature de la recherche et la publication visée. Par exemple, un article de type _Survol de littérature_ contient typiquement une longue revue de littérature et peut ne pas avoir de méthodologie ni de résultats expérimentaux. De même, un article de revue est généralement plus long qu'un article de conférence, et les parties portant sur la méthodologie et la validation expérimentale sont souvent plus détaillées.
 
 TIP: Lorsque l'espace est limité, la revue de littérature peut parfois être faite dans l'introduction de l'article, en autant qu'elle soit présentée après la problématique. Cette approche est également envisageable lorsque la contribution principale de l'article est une amélioration des techniques existantes de la littérature. En revanche, certains auteurs préfèrent mettre la revue de littérature juste avant la conclusion, de manière à ne pas briser le flot dans la présentation de ses propres travaux.    
 
@@ -343,7 +343,7 @@ Si l'article comporte plusieurs co-auteurs, il est nécessaire de déterminer l'
 La règle utilisée pour déterminer l'ordre des auteurs peut varier d'une équipe de recherche à une autre, et cet ordre est normalement choisi par la personne à la tête de l'équipe. Les règles les plus souvent rencontrées sont les suivantes:
 
 Ordre de contribution::
-Les auteurs sont listés selon leur contribution dans la préparation de l'article ou le financement de la recherche, allant de la plus grande contribution à la moindre. Certains superviseur vont intentionnellement mettre un étudiant comme premier auteur, car la reconnaissance associée à ce rôle est plus importante pour l'étudiant que pour eux-mêmes. 
+Les auteurs sont listés selon leur contribution dans la préparation de l'article ou le financement de la recherche, allant de la plus grande contribution à la moindre. Certains superviseurs vont intentionnellement mettre un étudiant comme premier auteur, car la reconnaissance associée à ce rôle est plus importante pour l'étudiant que pour eux-mêmes. 
 
 Ordre alphabétique::
 Pour éviter les conflits, certaines personnes vont préférer mettre les auteurs en ordre alphabétique de leur nom de famille. Cette règle est également employée pour les articles ayant un grand nombre d'auteurs. 
@@ -396,13 +396,13 @@ TIP: Bien que le résumé soit au début de l'article, cette partie devrait norm
 [[mots-cles]]
 === Les mots clés
 
-La plupart des conférences ou revues exigent les auteurs de fournir une liste de 3 à 10 mots clés qui serviront à classifier et indexer l'article. Tout comme le titre, le choix de cette liste est importante car elle permettra aux lecteurs de trouver l'article plus facilement, à partir d'une requête reliée au même thème dans un engin de recherche. Suivez ces consignes pour le choix des mots clés:
+La plupart des conférences ou revues exigent les auteurs de fournir une liste de 3 à 10 mots clés qui serviront à classifier et indexer l'article. Tout comme le titre, le choix de cette liste est important car il permettra aux lecteurs de trouver l'article plus facilement, à partir d'une requête reliée au même thème dans un engin de recherche. Suivez ces consignes pour le choix des mots clés:
 
 ====
 * Ne pas séparer les mots composés formant une seule unité sémantique. Par exemple, on mettrait le mot composé *_data mining_* dans la liste, au lieu des mots *_data_* et *_mining_* séparément. 
 * Inclure *tous* les mots (simples ou composés) importants du titre et du résumé. Dans certains cas, il peut également être pertinent d'inclure les mots importants du titre de la revue ou de la conférence, par exemple, le mot composé *_machine learning_* pour la conférence _International Conference on Machine Learning_.
 * Utiliser le pluriel pour les mots clés désignant un élément quantifiable. Ainsi, on préfèrera *_networks_* à *_network_*.
-* Éviter les abréviations et les acronymes non standards. Pour les d'acronymes standards, on peut également également ajouter la forme épelée de l'acronyme comme un mot composé. Par exemple, on mettrait l'acronyme *_SVM_* et le mot composé *_Support Vector Machines_* comme deux mots clés séparés.
+* Éviter les abréviations et les acronymes non standards. Pour les d'acronymes standards, on peut également ajouter la forme épelée de l'acronyme comme un mot composé. Par exemple, on mettrait l'acronyme *_SVM_* et le mot composé *_Support Vector Machines_* comme deux mots clés séparés.
 * Ne pas lier, si possible, les mots composés par un trait d'union. Par exemple, mettre *_knowledge management_* au lieu de *_knowledge-management_*.
 * Respecter les contraintes de la conférence ou revue (e.g., nombre minimum et maximum de mots clés, lettres minuscules ou majuscules, ordre alphabétique ou importance, etc.).
 ====
@@ -586,7 +586,7 @@ Comme pour la description de la méthode, il est essentiel de fournir tous les d
 +
 ====
 * Les données utilisées dans les expériences, la nature de ces données et leurs sources. Si ces données proviennent de simulations, décrire le processus et les paramètres utilisés pour les générer.
-* L'environnement dans lequel les expériences ont été réalisés. Par exemple, si les tests ont été réalisés par des moyens informatiques, spécifier leurs caractéristiques matérielles et logicielles (e.g., nombre de processeurs et leur cadence, quantité de mémoire vive, langage de programmation, etc.).
+* L'environnement dans lequel les expériences ont été réalisées. Par exemple, si les tests ont été réalisés par des moyens informatiques, spécifier leurs caractéristiques matérielles et logicielles (e.g., nombre de processeurs et leur cadence, quantité de mémoire vive, langage de programmation, etc.).
 * Les différentes approches testées, ainsi que les valeurs des paramètres employées durant les tests.
 * Les métriques employées pour évaluer la validité des approches testées.
 ====
@@ -649,9 +649,9 @@ Après avoir lu le titre et le résumé d'un article, plusieurs lecteurs vont so
 
 * Produire les graphiques et illustrations à l'ordinateur, jamais à la main. 
  
-* Mettre toute explication détaillé d'une figure dans sa légende, non pas directement dans la figure.
+* Mettre toute explication détaillée d'une figure dans sa légende, non pas directement dans la figure.
 
-* Ne pas utiliser de couleurs pour distinguer les éléments d'une figure (e.g., les courbes d'une graphiques) car l'article pourrait être imprimé en noir et blanc. Distinguer plutôt ces éléments à l'aide de styles différents (e.g., lignes pointillées, polices différentes, etc.).
+* Ne pas utiliser de couleurs pour distinguer les éléments d'une figure (e.g., les courbes d'un graphique) car l'article pourrait être imprimé en noir et blanc. Distinguer plutôt ces éléments à l'aide de styles différents (e.g., lignes pointillées, polices différentes, etc.).
 
 * Utiliser des titres informatifs pour identifier les axes d'un graphique. Si nécessaire, préciser les unités des axes à côté de ces titres.
 ====
@@ -663,14 +663,14 @@ TIP: Si l'article contient beaucoup de résultats sous la forme de tableaux et f
 [[analyses-statistiques]]
 ==== Analyses statistiques
 
-Les résultats doivent toujours être interprétés de manière objective, sans extrapoler ou chercher des conclusions non-supportées par ceux-ci. Ainsi, un lecteur devraient normalement pouvoir arriver à ces conclusions par lui-même, si on lui présente ces résultats objectivement. 
+Les résultats doivent toujours être interprétés de manière objective, sans extrapoler ou chercher des conclusions non-supportées par ceux-ci. Ainsi, un lecteur devrait normalement pouvoir arriver à ces conclusions par lui-même, si on lui présente ces résultats objectivement. 
 
 Une conclusion qui semble apriori supportée par les résultats peut cependant s'avérer erronée si elle ne possède pas la signification statistique requise. Cette erreur est souvent rencontrée dans la comparaison de différentes approches, où une approche est déclarée la meilleure si sa performance moyenne sur un certain nombre de tests est plus grande que celle des autres approches. Or, si le nombre de tests est très petit, ces résultats peuvent être en grande partie dus au hasard.
  
 Pour éviter ce genre d'erreurs, il est recommandé d'utiliser un test d'hypothèse statistique. Pour réaliser un tel test, il faut tout d'abord formuler une hypothèse (dite _hypothèse nulle_) en lien avec la question que l'on tente répondre. Par exemple:
 
 ====
-*Hypothèse:* {nbsp} La méthode _A_ et la méthode _B_ ont des performances égales.
+*Hypothèse:* {nbsp} Les méthodes _A_ et _B_ ont des performances égales.
 ====
  
 Cette hypothèse correspond à une statistique qui est estimée à partir d'un échantillon. Dans l'exemple précédent, la statistique serait l'écart des performances moyennes (supposée être nulle si les méthodes sont équivalentes), et l'échantillon correspond aux tests sur lesquels on compare les méthodes. Ensuite, on vérifie que la valeur estimée tombe dans un certain intervalle de confiance, correspondant typiquement à 95% de la probabilité (i.e., _p-valeur_ de 0.05). Si cette valeur est à l'extérieur de l'intervalle, on peut alors rejeter l'hypothèse. 
@@ -762,7 +762,7 @@ CAUTION: Il faut s'assurer d'obtenir la permission d'une personne ou d'un organi
 [[bibliographie]]
 === La bibliographie
 
-La bibliographie d'un article renferme la liste des articles, rapports techniques, thèses et autres publications citées dans cet articles. Les consignes suivantes sont à considérer lors de l'élaboration de cette partie:
+La bibliographie d'un article renferme la liste des articles, rapports techniques, thèses et autres publications citées dans cet article. Les consignes suivantes sont à considérer lors de l'élaboration de cette partie:
 
 ====
 * Se limiter aux références ayant un lien direct avec le travail décrit dans l'article. Sauf pour les articles de type _Survol de littérature_, un article ne devrait pas avoir plus de 40 références.
@@ -813,7 +813,7 @@ La révision est une étape essentielle mais souvent négligée dans l'élaborat
 Pour identifier des lacunes ou améliorations potentielles au contenu de l'article, on peut poser les questions suivantes:
 
 ====
-* Le titre est-il précis, succint et intéressant? 
+* Le titre est-il précis, succinct et intéressant? 
 
 * Les mots clés sont-ils standards et indexables? 
 
