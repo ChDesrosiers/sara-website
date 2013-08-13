@@ -10,6 +10,8 @@
 
 :numbered:
 
+:homepage: http://localhost:4242
+
 :good: image:../../images/icons/check-22.png[] &nbsp;
 :bad: image:../../images/icons/no-22.png[] &nbsp;
 
@@ -52,7 +54,7 @@ La pertinence d'un article pour une conférence ou une revue est l'un des princi
 
 ==== Date d'échéance
 
-Dans le cas de conférences, il est important de cibler celles dont la date d'échéance de soumission laisse suffisamment de temps pour la rédaction (voir la section <<etablir-calendrier, suivante>>). Pour faciliter cette tâche, il existe de nombreux sites Web fournissant liste des principales conférences d'un certain domaine et leur date d'échéance. Voici quelques exemples pour des domaines de l'informatique:
+Dans le cas de conférences, il est important de cibler celles dont la date d'échéance de soumission laisse suffisamment de temps pour la rédaction. Pour faciliter cette tâche, il existe de nombreux sites Web fournissant une liste des principales conférences d'un certain domaine et leur date d'échéance. Voici quelques exemples pour des domaines de l'informatique:
 ====
 * http://conferences.visionbib.com/Iris-Conferences.html[Vision par ordinateur]
 * http://www.kdnuggets.com/meetings[Forage de données]
@@ -62,7 +64,7 @@ TIP: Certaines soumissions à des revues peuvent également avoir une date d'éc
 
 ==== Date et lieu
 
-La date et le lieu des conférences est également un critère important de sélection. Il est normal d'être attiré par des conférences à l'étranger, afin de découvrir un nouveau pays ou une nouvelle culture. Cependant, ces conférences peuvent être très dispendieuses (i.e., billet d'avion, hôtel, etc.), et il faut s'assurer d'avoir le budget requis.
+La date et le lieu des conférences est également un critère important de sélection. Il est normal d'être attiré par des conférences à l'étranger qui permettent de découvrir un nouveau pays. Cependant, ces conférences peuvent être très dispendieuses (i.e., billet d'avion, hôtel, etc.), et il faut s'assurer d'avoir le budget requis.
 
 CAUTION: Les étudiants devraient toujours valider le budget auprès de leur superviseur *avant* de soumettre à une conférence. 
 
@@ -70,7 +72,7 @@ CAUTION: Les étudiants devraient toujours valider le budget auprès de leur sup
 
 Certaines conférences permettent parfois de soumettre différents types de contribution. Les quatre types les plus souvent rencontrés sont les suivants:
 
-.Test
+//.Test
 [width="90%",cols="3,3,10",options="header"]
 |=========================================================
 | Type | Longueur +
@@ -86,7 +88,7 @@ Si le projet de recherche n'est pas suffisamment avancé, il est donc préférab
 
 ==== Prestige
 
-Le prestige des conférences ou des revues dans lesquelles publie un chercheur est un facteur clé lorsque vient le temps d'appliquer pour une subvention ou un poste académique. Afin de déterminer la qualité d'une conférence ou revue, le chercheur peut se baser sur des certaines métriques telles que le __facteur d'impact__, qui mesure le nombre moyen de citations aux travaux publiés dans cette conférence ou revue. Certains sites Web, dont le http://www.journal-ranking.com[suivant], permettent de consulter le rang de conférences ou revues, basé sur ces métriques.  
+Le prestige des conférences ou des revues dans lesquelles publie un chercheur est un facteur clé lorsque vient le temps d'appliquer pour une subvention ou un poste académique. Afin de déterminer la qualité d'une conférence ou revue, le chercheur peut se baser sur des métriques comme le __facteur d'impact__, qui mesure le nombre moyen de citations aux travaux publiés dans cette conférence ou revue. Certains sites Web, dont le http://www.journal-ranking.com[suivant], permettent de consulter le rang de conférences ou revues, basé sur ces métriques.  
 
 CAUTION: Les métriques de prestige dont le facteur d'impact peuvent être biaisées. La meilleure façon de déterminer la qualité d'une conférence ou revue sera toujours d'aller lire des articles publiés récemment dans celle-ci.
 
@@ -101,40 +103,40 @@ TIP: Il est toujours souhaitable d'avoir un ou même plusieurs plans de rechange
 
 Une fois la conférence ou la revue cible choisie, l'étape suivante consiste à établir un calendrier couvrant toutes les étapes de préparation de l'article, jusqu'à la date prévue de soumission. Dans le cas d'une conférence, cette date est contrainte par l'échéance de soumission.
 
-L'élaboration d'un article est un processus complexe qui devrait en principe débuter avant la recherche, se continuer durant la recherche et se terminer après l'obtention, l'analyse et l'interprétation des résultats. Bien qu'il soit tentant de vouloir bâtir une version complète de l'article d'un seul coup, pour sauver du temps, cette approche mène souvent à un cul-de-sac, nécessitant de refaire une partie importante du travail. Dans certains cas, cela peut avoir pour conséquence de rater l'échéance se soumission. Une meilleure approche est d'élaborer l'article itérativement, chaque itération correspondant à une version de plus en plus complète de l'article. Une itération renferme typiquement une ou plusieurs des tâches suivantes:
+L'élaboration d'un article est un processus complexe qui devrait en principe débuter avant la recherche, continuer durant la recherche et se terminer après l'obtention, l'analyse et l'interprétation des résultats. Bien qu'il soit tentant de vouloir bâtir une version complète de l'article d'un seul coup, pour sauver du temps, cette approche mène souvent à un cul-de-sac, nécessitant de refaire une partie importante du travail. Dans certains cas, cela peut avoir pour conséquence de rater l'échéance de soumission. Une meilleure approche est d'élaborer l'article itérativement, chaque itération correspondant à une version de plus en plus complète de l'article et pouvant comporter une ou plusieurs des tâches suivantes:
 
 :numbered!:
 
 ==== Recherche bibliographique
 
-Cette tâche permet d'identifier les travaux antérieurs du domaine qui adressent la même problématique, ou dont la méthodologie proposée est similaire à la sienne. Les résultats de cette recherche serviront principalement à rédiger la revue de littérature de l'article (voir la section <<revue-litterature, Faire sa revue de littérature>>). Cependant, certaines références peuvent également servir à:
+Cette tâche permet d'identifier les travaux antérieurs du domaine qui adressent la même problématique, ou dont la méthodologie proposée est similaire à la sienne. Les résultats de cette recherche serviront principalement à rédiger la revue de littérature de l'article (voir la section <<revue-litterature, Revue de littérature>>). Cependant, certaines références peuvent également servir à:
 
-* Établir un étalon de comparaison pour évaluer sa propre approche dans la section expérimentale. 
+* Établir un étalon de comparaison pour évaluer sa propre approche
 * Appuyer ou faciliter certains arguments utilisés dans l'article
 * Motiver le cadre expérimental de l'article
 * etc.
 
-La recherche bibliographique débute normalement avant la recherche et se poursuit jusqu'à la soumission de l'article. Au début, celle-ci devrait être suffisamment large pour inclure les travaux proposant des approches complémentaires et portant sur des applications connexes. Cette recherche devrait par la suite devenir de plus en plus ciblée, de manière à restreindre la liste des références incluses dans l'article.
+La recherche bibliographique débute normalement avant la recherche et se poursuit jusqu'à la soumission de l'article. Au début, celle-ci devrait être suffisamment large pour inclure les travaux proposant des approches complémentaires et portant sur des applications connexes. Cette recherche devrait par la suite devenir de plus en plus ciblée, de manière à restreindre la liste des références cités dans l'article.
 
 TIP: Il est important de conserver une liste des références rencontrées durant la recherche bibliographique. Cette tâche peut être facilitée à l'aide d'outils de gestion bibliographique tels que http://endnote.com/[Endnote] ou http://www.mendeley.com/[Mendeley]. 
 
 ==== Expérimentation
 
-À l'exception de types particuliers d'articles (e.g., cas d'études, survol de littérature), l'expérimentation est essentielle à tout article scientifique. Elle se fait normalement en quatre étapes:
+À l'exception de types particuliers d'articles (e.g., _Étude de cas_ ou _Survol de littérature_), l'expérimentation est une partie centrale de tout article scientifique. Elle se fait normalement en quatre étapes:
 
 . *Planification:*
 +
 L'étape de planification consiste à déterminer la méthodologie expérimentale à employer pour vérifier ses hypothèses de recherche. Dans le cas où une nouvelle approche est proposée pour un certain problème, la méthodologie expérimentale renferme typiquement les tâches suivants:
 +
-* Sélectionner les approches de la littérature qui serviront d'étalon de comparaisons 
+* Sélectionner les approches de la littérature qui serviront d'étalons de comparaison.
 * Identifier les jeux de données de test (i.e., les _benchmarks_) dans la littérature ou générer ces données à partir de simulations
-* Choisir les métriques employées pour évaluer la qualité des différentes approches
-* Déterminer les paramètres à utiliser pour les approches testées  
+* Choisir les métriques employées pour évaluer la qualité des différentes approches.
+* Déterminer les paramètres à utiliser pour les approches testées.  
 * etc.
 
 . *Réalisation:* 
 +
-La réalisation d'expériences occupe généralement une place importante dans un projet de recherche. Durant cette étape, il est important de bien suivre la plan expérimental prévu à l'étape de planification. Bien qu'il soit tentant de modifier ce plan en fonction des résultats observés, cela risque de biaiser les résultats et mener à une conclusion erronée. 
+La réalisation d'expériences occupe généralement une place importante dans un projet de recherche. Durant cette étape, il est important de bien suivre la plan expérimental prévu durant la planification. Bien qu'il soit tentant de modifier ce plan en fonction des résultats observés, cela risque de biaiser les résultats et mener à une conclusion erronée. 
 
 . *Collecte des résultats:* 
 +
@@ -144,13 +146,14 @@ Une fois les expériences complétées, l'étape suivante consiste à regrouper,
 +
 Cette étape a pour objectif de valider ou infirmer les hypothèses de recherche à partir des résultats expérimentaux. Selon les observations, l'analyse permet de raffiner la méthodologie expérimentale ou proposer de nouvelles expériences. 
 +
-CAUTION: Une erreur souvent rencontrée dans l'analyse des résultats est de généraliser à partir d'un nombre limité d'observations. Par exemple, établir qu'une approche est meilleure qu'une autre, en se basant uniquement sur quelques exemples. Il est plutôt recommandé de valider ou infirmer un hypothèse à l'aide d'un test statistique où un niveau de confiance peut être spécifié (voir la section <<???>>).
+CAUTION: Une erreur souvent rencontrée dans l'analyse des résultats est de généraliser à partir d'un nombre limité d'observations. Par exemple, établir qu'une approche est meilleure qu'une autre, en se basant uniquement sur quelques exemples. Il est plutôt recommandé de valider ou infirmer un hypothèse à l'aide d'un test statistique où un niveau de confiance peut être spécifié (voir la section <<analyses-statistiques, Analyses statistiques>>).
 
-Tout comme la recherche bibliographique, l'expérimentation devrait commencer avant la rédaction. Une stratégie pour faciliter la planification des expériences consiste à déterminer d'avance le contenu des tableaux et figures de l'article. Par exemple, on pourrait imaginer une figure montrant le taux d'erreur moyen de différentes approches en fonction d'un certain paramètre. À l'étape de rédaction, ces tableaux et figures seraient produites à partir des résultats obtenus.
+Tout comme la recherche bibliographique, l'expérimentation devrait commencer avant la rédaction. Une stratégie pour faciliter la planification des expériences consiste à déterminer d'avance le contenu des tableaux et figures de l'article. À l'étape de rédaction, ces tableaux et figures sont ensuite produites à partir des résultats obtenus.
 
 ==== Rédaction
 
-Comme mentionné précédemment, il est préférable d'utiliser une approche systématique de rédaction, construisant l'article étape par étape, au lieu de tenter de rédiger l'article d'un seul coup. Les conseils suivants peuvent être utilisés pour faciliter la rédaction:
+Comme mentionné précédemment, il est préférable d'utiliser une approche systématique de rédaction construisant l'article étape par étape, au lieu de tenter de rédiger l'article d'un seul coup. Les conseils suivants peuvent être utilisés pour faciliter la rédaction:
+
 ====
 * Rédiger directement dans le gabarit de la conférence ou de la revue ciblée. Cela évitera de mauvaises surprises de mise en page. 
 * Commencer par construire un squelette de l'article, identifiant ses sections, sous-sections, tableaux et figures. Ce squelette servira de guide lors de la rédaction.
@@ -162,7 +165,7 @@ Comme mentionné précédemment, il est préférable d'utiliser une approche sys
 * Identifier chaque version de l'article à l'aide d'un numéro ou d'une date. 
 ====
 
-Le processus de rédaction sera présentée plus en détails dans la section <<??>>. 
+Le processus de rédaction sera présentée plus en détails dans la section <<rediger-article, Rédiger son article>>. 
 
 TIP: Si le travail de rédaction est fait en équipe, il est important de déterminer d'avance les sections pour lesquelles chaque membre de l'équipe est responsable.  Par ailleurs, il est fortement recommandé d'utiliser un gestionnaire de version, tels que http://subversion.apache.org[SVN], http://www.opencvs.org[CVS] ou http://git-scm.com[Git]. Ces outils facilitent le travail collaboratif, la gestion des conflits dans les fichiers de travail, et la récupération de versions antérieures.
 
@@ -192,11 +195,11 @@ la révision
 ** La fluidité de l'enchaînement des phrases
 ** etc.
 
-La révision d'articles sera couverte en détails dans la section <<??>>. 
+La révision d'articles sera couverte en détails dans la section <<reviser-article, Réviser son article>>. 
 
-TIP: Si plusieurs personnes participent à la rédaction, le processus de révision peut être problématique. Une stratégie permettant de réduire les conflits est de réviser l'article une personne à la fois, chaque personne passant ses corrections à la suivante. Il est important de déterminer l'ordre des personnes avant de procéder. Plusieurs tours peuvent être nécessaires pour effectuer toutes les corrections.
+TIP: Si plusieurs personnes participent à la rédaction, le processus de révision peut être problématique. Une stratégie permettant de réduire les conflits est de réviser l'article une personne à la fois, chaque personne passant ses corrections à la suivante. Il est cependant important de déterminer l'ordre des personnes avant de procéder. Plusieurs tours peuvent être nécessaires pour effectuer toutes les corrections.
 
-CAUTION: Il est impératif de prévoir un certain délai dans la réception des corrections des autres membres de l'équipe. Ces personnes peuvent avoir un horaire chargé qui ne permet pas de travailler immédiatement sur l'article.    L'horaire des membres doit donc être considéré lorsqu'on détermine leur ordre dans le processus de révision.
+CAUTION: Il est impératif de prévoir un certain délai dans la réception des corrections des autres membres de l'équipe. Ces personnes peuvent avoir un horaire chargé qui ne permet pas de travailler immédiatement sur l'article. L'horaire des membres doit donc être considéré lorsqu'on détermine leur ordre dans le processus de révision.
 
 ==== Exemple de calendrier
 
@@ -208,11 +211,11 @@ Le tableau suivant montre un exemple de calendrier de préparation d'articles. �
 (prévue) | Date fin +
 (prévue) | Durée +
 (jours)
-| Recherche biblio. (1ère itération) | 01/07/2013 | 20/09/2013 | 50
+| Recherche bibliographique (1ère itération) | 01/07/2013 | 20/09/2013 | 50
 | Expérimentation (1ère itération) | 21/09/2013 | 20/10/2013 | 60
 | Rédaction (1ère itération) | 21/10/2013 | 20/12/2013 | 60
 | Révision (1ère itération) | 06/01/2014 | 21/01/2014 | 15
-| Recherche biblio. (2ème itération) | 22/01/2014 | 01/02/2014 | 10
+| Recherche bibliographique (2ème itération) | 22/01/2014 | 01/02/2014 | 10
 | Expérimentation (2ème itération) | 02/02/2014 | 17/02/2014 | 15
 | Rédaction (2ème itération) | 18/02/2014 | 28/02/2014 | 10
 | Révision (2ème itération) | 01/03/2014 | 11/03/2014 | 10
@@ -224,6 +227,7 @@ Le tableau suivant montre un exemple de calendrier de préparation d'articles. �
 
 :numbered:
 
+[[rediger-article]]
 == Rédiger son article
 
 [[churchill]]
@@ -234,27 +238,33 @@ ____
 
 Toute personne ayant traversé l'épreuve peut le confirmer: la rédaction d'un premier article scientifique est une des expériences les plus difficiles et frustrantes dans la carrière d'un chercheur. Synthétiser un travail complexe de recherche dans quelques pages, de manière claire et concise, peut sembler de prime abord être une tâche impossible. Heureusement, en abordant le problème une étape à la fois et de manière structurée, la rédaction d'un article devient beaucoup plus simple. De plus, le processus de rédaction deviendra, avec le temps, de plus en plus facile.
 
-Un article scientifique est généralement composé des éléments suivants: 
+Un article scientifique est généralement composé des parties suivants: 
 
-. Un titre
-. Une liste d'auteurs et leurs affiliations 
-. Une liste de mots-clés
-. Un résumé
-. Une introduction
-. Une revue de littérature
-. Une méthodologie
-. Une présentation des résultats expérimentaux
-. Une discussion et conclusion 
+====
+. <<titre, Un titre>>
+. <<liste-auteurs, Une liste d'auteurs et leurs affiliations>> 
+. <<mots-cles, Une liste de mots-clés>>
+. <<resume, Un résumé>>
+. <<introduction, Une introduction>>
+. <<revue-litterature, Une revue de littérature>>
+. <<methodologie, Une méthodologie>>
+. <<resultats, Une présentation des résultats expérimentaux>>
+. <<conclusion, Une conclusion>>
+. <<remerciements, Un court paragraphe de remerciements>> 
+. <<bibliographie, Une liste de références bibliographiques>>
+. <<annexes, Une série d'annexes>>
+====
   
-Le corps de l'article est composé des cinq derniers éléments de cette liste (i.e., introduction à conclusion), correspondant typiquement à des sections séparées et présentées dans cet ordre. Ces sections doivent répondre à une série de questions (adaptées des _questions de Bradford Hill_ <<hill1965, (Hill 1965)>> ):    
+Le corps de l'article est normalement composé des parties allant de l'introduction à la conclusion. Ces parties correspondent typiquement à des sections séparées et présentées dans cet ordre, répondant chacune à une question différente:
+    
 [width="80%",cols="2,4",options="header"]
 |=========================================================
 | Section | Question
-| Introduction | Quelles sont les motivations et les contributions des auteurs?
-| Revue de littérature | Quels travaux antérieurs portent sur le même sujet?
-| Méthodologie | Qu'ont fait les auteurs?
-| Résultats | Qu'ont trouvé les auteurs?
-| Discussion et conclusion | Que signifient les résultats obtenus par les auteurs?
+| *Introduction* | Quelles sont les motivations et les contributions des auteurs?
+| *Revue de littérature* | Quels travaux antérieurs portent sur le même sujet?
+| *Méthodologie* | Qu'ont fait les auteurs?
+| *Résultats* | Qu'ont trouvé les auteurs?
+| *Conclusion* | Que signifient les résultats obtenus par les auteurs?
 |=========================================================
 
 Bien que l'article soit divisé en plusieurs sections, il devrait se lire comme un tout et suivre une ligne droite, établie par l'objectif ou l'hypothèse de recherche.
@@ -263,20 +273,19 @@ TIP: La forme et le contenu d'un article peut varier selon la nature de la reche
 
 TIP: Lorsque l'espace est limité, la revue de littérature peut parfois être faite dans l'introduction de l'article, en autant qu'elle soit présentée après la problématique. Cette approche est également envisageable lorsque la contribution principale de l'article est une amélioration des techniques existantes de la littérature. En revanche, certains auteurs préfèrent mettre la revue de littérature juste avant la conclusion, de manière à ne pas briser le flot dans la présentation de ses propres travaux.    
 
+[[titre]]
 ===	Le titre
 
-Un bon titre devrait décrire adéquatement le contenu de l'article, sans être trop long ni trop court. Les consignes suivantes peuvent être employées lors de la sélection d'un titre:
+Un bon titre devrait décrire adéquatement le contenu de l'article, sans être trop long ni trop court. Les consignes suivantes peuvent être employées lors de la sélection du titre:
 
 ====
-
 * Choisir un titre permettant d'attirer l'attention du lecteur et susciter son intérêt.
 * Viser entre 10 et 12 mots.
-* Utiliser des mots qui mettent en valeur le domaine ou l'application de la recherche, ainsi son originalité. 
-* Choisir des mots susceptibles d'être les mots clés d'une requête dans un engin de recherche. Par exemple, les mots clés standards d'une application ou d'une approche 
-* Éviter les mots inutiles tels ``__Observations on__'' ou ``__A study of__''
+* Utiliser des mots qui mettent en valeur le domaine ou l'application de la recherche, ainsi son originalité.
+* Choisir des mots susceptibles d'être les mots clés d'une requête dans un engin de recherche. Par exemple, les mots clés standards d'une application ou d'une approche. 
+* Éviter les mots inutiles tels ``__Observations on__'' ou ``__A study of__''.
 * Éviter les abréviations ni de symboles.
-* Éviter les qualificatifs tels que ``__better__'' ou ``__improved__'' 
-
+* Éviter les qualificatifs tels que ``__better__'' ou ``__improved__''.
 ====
 
 Prenons l'exemple d'un article ayant les caractéristiques suivantes:
@@ -292,31 +301,21 @@ Apprentissage dynamique du dictionnaire de trajectoires
 | *Contributions principales* | La méthode proposée s'adapte automatiquement aux changements dans les activités observées, ce qui la rend robuste aux environnements dynamiques  
 |=========================================================      
 
-Le titre suivant est un très mauvais choix:
+Le titre suivant est un mauvais choix, car il n'offre aucune d'information sur le contexte et les contributions de la recherche:
 
 // .Un mauvais choix de titre
 ====
 {bad} *A better method for recognizing activities*
 ====
 
-Parmi les raisons expliquant pourquoi ce titre est inadéquat, on peut citer les suivantes:
+De plus, ce titre utilise la forme ``__recognizing activities__'' au lieu de la forme standard ``__activity recognition__ '', typiquement employée pour identifier les travaux de ce domaine. Un autre mauvais exemple est le titre suivant:
 
-// NOTE: A space was added after __activity recognition__ because of a syntax highlighting bug in TextMate. Remove this space before deploying to server
-
-* Il n'offre aucune d'information sur le contexte et les contributions de la recherche
-// * Il affirme que la méthode proposée est meilleure, au lieu de laisser le lecteur juger par lui-même du mérite de la recherche.
-* Il utilise la forme ``__recognizing activities__'' au lieu de la forme standard ``__activity recognition__ '', typiquement employée pour identifier les travaux de ce domaine.
-
-Le titre suivant est également un mauvais choix, mais pour des raisons différentes: 
-
-// .Un autre mauvais choix de titre
 ====
 {bad} *Investigating the usefulness of using sparse representation and dictionary learning for the problem of activity recognition in dynamic environments*
 ====
 
 Bien qu'il n'ait pas les problèmes de l'exemple précédent, ce titre renferme beaucoup de mots inutiles. Un meilleur titre serait, par exemple, le suivant: 
 
-// .Un meilleur choix de titre
 ====
 {good} *Dynamic activity recognition based on sparse representation and dictionary learning*
 ====
@@ -325,34 +324,37 @@ Ainsi, ce titre renseigne le lecteur sur l'application (i.e., _activity recognit
 
 Des astuces de style peuvent également être utilisées pour rendre un titre plus intéressant, comme dans l'exemple suivant:
 
-// .Un meilleur choix de titre
 ====
 {good} *SARA: A dynamic activity recognition approach using sparse representation and dictionary learning*
 ====
 
 ////
+
 TIP: Pour que l'article puisse être trouvé à partir d'une requête non-spécifique dans un moteur de recherche (i.e., une requête ne visant pas directement l'article), éviter les mots trop génériques ou trop spécifiques. Ainsi, les mots trop génériques risquent d'engendrer trop de résultats à une requête contenant ces mots. À l'opposé, les mots trop spécifiques limitent les chances de l'article d'être retrouvé à l'aide d'une requête portant sur un thème plus général (e.g., une approche ou une application).
 ////
 
 TIP: Certains revues ou conférences exigent également un titre courant (_running title_) qui sera imprimé au bas ou haut de chaque page de l'article. Le titre courant est une version écourtée du titre principal, et a normalement entre 30 et 50 caractères.
 
-=== L'ordre des auteurs
+[[liste-auteurs]]
+=== La liste des auteurs
 
 Si l'article comporte plusieurs co-auteurs, il est nécessaire de déterminer l'ordre dans lequel apparaît leur nom dans l'article. En apparence banale, cette décision peut être source de conflit car l'ordre des auteurs est souvent associé à l'importance de leur contribution dans le travail. En particulier, une plus grande reconnaissance est traditionnellement donnée au premier auteur de la liste, ce qui peut avantager cet auteur lors de l'application à des subventions ou un poste académique.
 
 La règle utilisée pour déterminer l'ordre des auteurs peut varier d'une équipe de recherche à une autre, et cet ordre est normalement choisi par la personne à la tête de l'équipe. Les règles les plus souvent rencontrées sont les suivantes:
 
 Ordre de contribution::
-Les auteurs sont listés selon leur contribution dans la préparation de l'article ou le financement de la recherche, allant de la plus grande contribution à la moindre. Souvent, le superviseur va intentionnellement mettre un étudiant comme premier auteur, la reconnaissance associée à ce rôle étant plus importante pour l'étudiant que pour lui-même. 
+Les auteurs sont listés selon leur contribution dans la préparation de l'article ou le financement de la recherche, allant de la plus grande contribution à la moindre. Certains superviseur vont intentionnellement mettre un étudiant comme premier auteur, car la reconnaissance associée à ce rôle est plus importante pour l'étudiant que pour eux-mêmes. 
 
 Ordre alphabétique::
-Pour éviter les conflits, certaines personnes vont préférer mettre les auteurs en ordre alphabétique de leur nom de famille. Cette règle est également employée pour les articles ayant un grand nombre d'auteurs. Évidemment, les personnes dont le nom famille commence par la lettre \'__A__' trouverons cette règle particulièrement intéressante...
+Pour éviter les conflits, certaines personnes vont préférer mettre les auteurs en ordre alphabétique de leur nom de famille. Cette règle est également employée pour les articles ayant un grand nombre d'auteurs. 
+// Évidemment, les personnes dont le nom famille commence par la lettre \'__A__' trouverons cette règle particulièrement intéressante...
 
 Autres ordres::
 D'autres règles peuvent également être employées pour déterminer l'ordre des auteurs, par exemple, selon leur affiliation (e.g., université, département, etc.) ou leur rôle (e.g., étudiant, superviseur, co-superviseur, etc.)
 
 CAUTION: Comme toujours, il est important de consulter son superviseur, ainsi que les autres co-auteurs, dans cette décision.
 
+[[resume]]
 === Le résumé
 
 Le résumé (i.e., __abstract__ en anglais) joue un rôle essentiel dans un article. D'une part, il sert à susciter l'intérêt du lecteur et lui convier rapidement la nature du travail. Un bon résumé incitera le lecteur à lire l'article au complet, tandis qu'un résumé mal rédigé aura l'effet inverse. D'autre part, alors que l'accès à l'article complet est souvent limité, le résumé est normalement disponible sans restriction.        
@@ -361,24 +363,24 @@ Un bon résumé devrait être une version condensée de l'article, suivant la m�
 ====
 * Le résumé doit mentionner clairement les éléments suivants:
 +
-** Le contexte et la problématique de recherche
-** Les objectifs et les contributions principales
-** Les étapes principales de la méthodologie (e.g., cadre expérimental, approche d'analyse, etc.)
-** Les résultats les plus importants et les conclusions
+** Le contexte et la problématique de recherche.
+** Les objectifs et les contributions principales.
+** Les étapes principales de la méthodologie (e.g., cadre expérimental, approche d'analyse, etc.).
+** Les résultats les plus importants et les conclusions.
 +
-* Le résumé doit souligner clairement l'aspect original et innovateur du travail
+* Le résumé doit souligner clairement l'aspect original et innovateur du travail.
 // * Le passé devrait normalement être employé dans la rédaction
-* Le résumé doit respecter les contraintes de longueur imposées par la revue ou le système de soumission (typiquement entre 150 et 250 mots) 
-* Le résumé doit être indépendant de l'article, et devrait pouvoir se lire sans avoir à consulter ce dernier
-* Le résumé ne doit pas contenir de références à la littérature, aux figures ou aux tableaux de l'article
-* Le résumé ne doit pas contenir d'acronymes ou d'abréviations, sauf si elles sont connues et standards
+* Le résumé doit respecter les contraintes de longueur imposées par la revue ou le système de soumission (typiquement entre 150 et 250 mots).
+* Le résumé doit être indépendant de l'article, et devrait pouvoir se lire sans avoir à consulter ce dernier.
+* Le résumé ne doit pas contenir de références à la littérature, aux figures ou aux tableaux de l'article.
+* Le résumé ne doit pas contenir d'acronymes ou d'abréviations, sauf si elles sont connues et standards.
 ====
 
 Revenant à notre exemple précédent, on pourrait proposer le résumé suivant: 
 
 ====
 {good} *Abstract:* +
-{co1} Activity recognition is essential to many pervasive computing applications related to surveillance, assisted living, healthcare and human-computer interfaces. {co2} So far, research in this field has focused on small static environments, which allow only well-defined activities. However, several important applications are set in large-scale environments, such as factories or hospitals, where activities can be complex and emerging behaviors are common. {co3} In this paper, we propose a novel approach based on sparse representation to recognize activities from spatio-temporal data. Using an online dictionary learning strategy, this approach can adapt to changes in dynamic environments, making it more robust than existing methods. {co4} To assess the usefulness of our approach, we evaluated its performance on four real-life datasets, and compared it to that of state-of-the-art methods based on Hierarchical Hidden Markov Models and Gaussian Mixture Models. {co5} Results of these experiments showed our approach to be more accurate than existing methods in the tested datasets.
+{co1} Activity recognition is essential to many pervasive computing applications related to surveillance, assisted living, healthcare and human-computer interfaces. {co2} So far, research in this field has focused on small static environments, which allow only well-defined activities. However, several important applications are set in large-scale environments, such as factories or hospitals, where activities can be complex and emerging behaviors are common. {co3} In this paper, we propose a novel approach based on sparse representation to recognize activities from spatio-temporal data. Using an online dictionary learning strategy, this approach can adapt to changes in dynamic environments, making it more robust than existing methods. {co4} To assess the usefulness of our approach, we evaluated its performance on four real-life datasets, and compared it to that of state-of-the-art methods based on Hierarchical Hidden Markov Models and Gaussian Mixture Models. {co5} Results of these experiments showed our approach to be more accurate than existing methods on the tested datasets.
 ====
 
 Ce résumé peut être décomposé comme suit:
@@ -389,32 +391,34 @@ Ce résumé peut être décomposé comme suit:
 <4> Méthodologie expérimentale
 <5> Résultats et conclusion    
 
-TIP: Bien que le résumé soit au début de l'article, cette partie devrait normalement être la dernière rédigée. Une technique pour aider la rédaction de cette partie est la suivante. Commencez par identifier les phrases les plus importantes de chaque section, et formez un paragraphe avec ces phrases, en respectant leur ordre dans l'article. Ensuite, révisez le paragraphe en retirant ou ajoutant des mots, de manière à rendre le tout cohérent et clair.
+TIP: Bien que le résumé soit au début de l'article, cette partie devrait normalement être rédigée *en dernier*. Une technique pour aider la rédaction de cette partie est la suivante. On commence d'abord par identifier les phrases les plus importantes de chaque section. On forme ensuite un paragraphe avec ces phrases, en respectant leur ordre dans l'article. Enfin, on révise le paragraphe en retirant ou ajoutant des mots, de manière à rendre le tout cohérent et clair.
 
+[[mots-cles]]
 === Les mots clés
 
 La plupart des conférences ou revues exigent les auteurs de fournir une liste de 3 à 10 mots clés qui serviront à classifier et indexer l'article. Tout comme le titre, le choix de cette liste est importante car elle permettra aux lecteurs de trouver l'article plus facilement, à partir d'une requête reliée au même thème dans un engin de recherche. Suivez ces consignes pour le choix des mots clés:
 
 ====
-* Ne pas séparer les mots composés formant une seule unité sémantique. Par exemple, on mettrait le mot composé *_data mining_* dans la liste, au lieu des mots *_data_* et *_mining_* séparément 
-* Inclure *tous* les mots (simples ou composés) importants du titre et du résumé. Dans certains cas, il peut également être pertinent d'inclure les mots importants du titre de la revue ou de la conférence, par exemple, le mot composé *_machine learning_* pour la conférence _International Conference on Machine Learning_
-* Utiliser le pluriel pour les mots clés désignant un élément quantifiable. Ainsi, on préfère *_networks_* à *_network_*, *_decision trees_* à *_decision tree_*, etc.
-* Éviter les abréviations et les acronymes non standards. Pour les d'acronymes standards, on peut également également ajouter la forme épelée de l'acronyme comme un mot composé. Par exemple, on mettrait l'acronyme *_SVM_* et le mot composé *_Support Vector Machines_* comme deux mots clés séparés
-* Ne pas lier, si possible, les mots composés par un trait d'union. Par exemple, mettre *_knowledge management_* au lieu de *_knowledge-management_*
-* Respecter les contraintes de la conférence ou revue (e.g., nombre minimum et maximum de mots clés, lettres minuscules ou majuscules, ordre alphabétique ou importance, etc.)
+* Ne pas séparer les mots composés formant une seule unité sémantique. Par exemple, on mettrait le mot composé *_data mining_* dans la liste, au lieu des mots *_data_* et *_mining_* séparément. 
+* Inclure *tous* les mots (simples ou composés) importants du titre et du résumé. Dans certains cas, il peut également être pertinent d'inclure les mots importants du titre de la revue ou de la conférence, par exemple, le mot composé *_machine learning_* pour la conférence _International Conference on Machine Learning_.
+* Utiliser le pluriel pour les mots clés désignant un élément quantifiable. Ainsi, on préfèrera *_networks_* à *_network_*.
+* Éviter les abréviations et les acronymes non standards. Pour les d'acronymes standards, on peut également également ajouter la forme épelée de l'acronyme comme un mot composé. Par exemple, on mettrait l'acronyme *_SVM_* et le mot composé *_Support Vector Machines_* comme deux mots clés séparés.
+* Ne pas lier, si possible, les mots composés par un trait d'union. Par exemple, mettre *_knowledge management_* au lieu de *_knowledge-management_*.
+* Respecter les contraintes de la conférence ou revue (e.g., nombre minimum et maximum de mots clés, lettres minuscules ou majuscules, ordre alphabétique ou importance, etc.).
 ====
 
 En se basant sur ces consignes, on pourrait identifier les six mots clés suivants:
 
 ====
-{good} *Mots clés*: data mining, activity recognition, sparse representation, dictionary learning, dynamic environments, spatio-temporal data 
+{good} *Mots clés*: data mining, activity recognition, sparse representation, dictionary learning, dynamic environments, spatio temporal data 
 ====
 
 TIP: Une stratégie pour identifier des mots clés pertinents est d'aller consulter ceux utilisés dans les articles similaires au sien.
 
+[[introduction]]
 === L’introduction
 
-Étant la première section rencontrée par le lecteur, l'introduction peut avoir un impact important sur sa perception de l'ensemble du travail. Une introduction mal rédigée, ou dans laquelle les motivations, objectifs ou contributions de la recherche ne sont pas clairement décrits, laissera une impression négative au lecteur qui risque de persister tout au long de l'article. Il est donc important d'accorder un soin particulier à cette section.
+Étant la première section rencontrée par le lecteur, l'introduction peut avoir un impact important sur sa perception de l'ensemble du travail. Une introduction mal rédigée, ou dans laquelle les motivations, objectifs ou contributions de la recherche ne sont pas clairement décrits, laissera une mauvaise impression au lecteur. Il est donc important d'accorder un soin particulier à cette section.
 
 Une bonne introduction contient typiquement les parties suivantes:
 
@@ -430,7 +434,7 @@ Par exemple, la présentation du contexte pourrait se faire comme suit:
 {good} In recent years, the field of pervasive computing has attracted a growing amount of interest, due to its numerous applications in surveillance, assisted living, healthcare and human-computer interfaces [1]. In many pervasive computing systems, the task of recognizing human activities plays a key role *...*
 ====
 
-La référence [1] serait typiquement un article général ou un survol de littérature sur le domaine de l'informatique ubiquitaire (i.e., _pervasive computing_).
+La référence [1] correspondrait typiquement un article général ou un survol de littérature sur le domaine de l'informatique ubiquitaire (i.e., _pervasive computing_).
 
 
 ==== Problématique
@@ -447,12 +451,12 @@ Dans ce cas, la référence [2] est employée pour justifier l'importance du pro
 
 ==== Contributions
 
-La partie suivante sert à décrire l'approche proposée pour répondre au problème ou à la question de recherche. L'objectif n'est *pas* de décrire en détails cette approche (cela sera fait dans la section de méthodologie) mais plutôt de présenter ses grandes lignes, en mettant l'accent sur ses *avantages* et *aspects innovateurs*.
+La partie suivante sert à décrire l'approche proposée pour répondre au problème ou à la question de recherche. L'objectif n'est pas de décrire en détails cette approche (cela sera fait dans la section <<methodologie, Méthodologie>>) mais plutôt de présenter ses grandes lignes, en mettant l'accent sur ses *avantages* et *aspects innovateurs*.
 
 Par exemple:
 
 ====
-{good} To address this problem, we propose a novel approach, based on sparse representation and dictionary learning. In this approach, a dictionary of trajectories is created from training data. The activity corresponding to a test trajectory is then predicted by computing... 
+{good} To address this problem, we propose a novel approach based on sparse representation and dictionary learning. In this approach, a dictionary of trajectories is created from training data. The activity corresponding to a test trajectory is then predicted by computing... 
 
 Our approach differs from existing activity recognition methods in two important ways. First, it uses an original sparse representation model, which is both efficient and flexible. Also, by using dictionary learning, our approach can adapt dynamically to changes *...*
 ====
@@ -471,18 +475,19 @@ CAUTION: Dans un article complet, l'introduction ne devrait pas faire une revue 
 
 :numbered:
 
+[[revue-litterature]]
 ===	La revue de littérature
 
-Comme l'indique son nom, cette section sert à présenter les principaux travaux de la littérature portant sur le même sujet que l'article. L'objectif n'est pas de faire un survol complet des travaux d'un domaine, tel que fait dans un article de type _survol de littérature_, mais plutôt de situer les contributions de l'article par rapport aux travaux antérieurs. Cette section permet également de démontrer au lecteur sa connaissance du domaine. 
+Comme l'indique son nom, cette section sert à présenter les principaux travaux de la littérature portant sur le même sujet que l'article. L'objectif n'est pas de faire un survol complet des travaux d'un domaine, tel que fait dans un article de type _Survol de littérature_, mais plutôt de situer les contributions de l'article par rapport aux travaux antérieurs. Cette section permet également de démontrer au lecteur sa connaissance du domaine. 
 
-Tâchez de respecter les consignes suivantes:
+Respectez les consignes suivantes lors de la rédaction de la revue de littérature:
 
 ====
-* Se concentrer sur des travaux récents, considérés comme l'état de l’art pour le problème ciblé.
+* Se concentrer sur les travaux récents, si possibles considérés comme l'état de l’art pour le problème ciblé.
 * Se limiter à des publications de qualité, dans des revues ou conférences réputées. Cela implique qu'il faut *lire* les articles référés!
-* Structurer les travaux de manière cohérente, par exemple, selon le type d'approche proposée ou son application 
-* Identifier les avantages et limitations respectives des travaux cités
-* Si les mêmes auteurs ont publiés plusieurs articles sur le même sujet, citer uniquement le travail le plus récent 
+* Structurer les travaux de manière cohérente, par exemple, selon leur approche proposée ou leur application. 
+* Identifier les avantages et limitations respectives des travaux cités.
+* Si les mêmes auteurs ont publiés plusieurs articles sur le même sujet, citer uniquement le travail le plus récent. 
 ====
 
 L'exemple suivant illustre certaines de ces consignes:
@@ -497,13 +502,7 @@ TIP: Utilisez des outils tels que _Google Scholar_ pour faciliter la recherche d
 
 CAUTION: Une revue de littérature trop générale ou n'incluant pas les travaux considérés comme l'état de l'art est un motif fréquent de rejet d'un article.
 
-////
-
-===	Comment citer d’autres travaux
-* (à mettre ailleurs???)
-
-////
-
+[[methodologie]]
 ===	La méthodologie
 
 Cette section constitue normalement le noyau central de l'article. C'est dans celle-ci qu'on explique en détails les principaux éléments de sa recherche, les étapes de sa réalisation, ainsi que l'approche expérimentale utilisée pour valider ses hypothèses. 
@@ -548,69 +547,67 @@ Lorsque la notation renferme un grand nombre de symboles, celle-ci peut être sy
 
 ==== Cadre théorique
 
-Avant de décrire en détail sa méthode de recherche, il peut être nécessaire de présenter le cadre théorique sur lequel s'appuie cette méthode. Ce dernier est composé de principes généraux reconnus dans le domaine, qui sont utilisés ou adaptés dans sa propre méthode. L'objectif du cadre théorique est double. 
+Avant de décrire en détail sa méthode de recherche, il peut être nécessaire de présenter le cadre théorique sur lequel s'appuie cette méthode. Ce dernier est composé de principes généraux reconnus dans le domaine, qui sont utilisés ou adaptés dans sa propre méthode. L'objectif du cadre théorique est double:
 
-* Motiver son propre travail en le reliant à des concepts reconnus
-* Alléger la présentation de sa méthode en référant à des travaux utilisant ces mêmes concepts
+. Motiver son propre travail en le reliant à des concepts reconnus
+. Alléger la présentation de sa méthode en référant à des travaux utilisant ces mêmes concepts
 
-Par exemple, le cadre théorique peut contenir un modèle sur lequel se base l'approche proposée dans son article:
+Par exemple, le cadre théorique pourrait contenir une technique reconnue sur laquelle se base l'approche proposée dans l'article:
 ====
-{good} We first present the sparse reconstruction model on which is based our proposed approach. In this model, a signal _y_ is represented as a sparse linear combination of training signals in a dictionary _D_, known as _atoms_. This model can be expressed as follows : *...* The task of finding the combination coefficients in this model is known as _basis pursuit denoising_, and corresponds to solving a quadratic program [5] *...*
+{good} We first present the sparse reconstruction model on which is based our proposed approach. In this model, a signal _y_ is represented as a sparse linear combination of training signals in a dictionary _D_, known as _atoms_. This model can be expressed as follows : *...* The task of finding the combination coefficients in this model is known as _basis pursuit denoising_ [5] *...*
 ====
 
 ==== Description de la méthode
 
 Une fois la notation et le cadre théorique présentés, on peut ensuite décrire sa propre méthode de recherche. Selon la nature de la recherche, cette description peut contenir les éléments suivants:
  
-* Les principales étapes de la méthodologie (e.g., analyse, conception, implémentation, etc.)
+* Les principales étapes de la méthodologie (e.g., analyse, conception, implémentation, etc.).
 * Les composantes majeures du système, ainsi que leur rôle, propriétés, etc.
-* Les processus de calcul sous la forme d'algorithmes
-* Les caractéristiques théoriques de la méthode (e.g., bornes théoriques sur la complexité en temps de calcul, l'espace mémoire, la performance, etc.)
+* Les processus de calcul sous la forme d'algorithmes.
+* Les caractéristiques théoriques de la méthode (e.g., bornes théoriques sur la complexité en temps de calcul, l'espace mémoire, la performance, etc.).
 
-Considérez les conseils suivants dans la description de la méthode:
+Les conseils suivants sont à considérer dans la description de la méthode
 
 ====
-* Pour faciliter la compréhension du lecteur, présenter les principes généraux de la méthode avant les détails. Par exemple, illustrer la méthode à l’aide d’un schéma conceptuel
-
-* S’assurer que le lecteur a tous les détails nécessaires pour reproduire les travaux décrits dans l'article
-
-* Justifier ses choix d'analyse, conception, etc. à l'aide d'arguments théoriques (e.g., preuve mathématique) ou de principes reconnus. Citer des travaux de la littérature si nécessaire
-
-* Aligner le contenu avec les objectifs et contributions de recherche présentés dans l'introduction. La principale contribution devrait ainsi occuper une partie plus importante de la description que les contributions mineures. 
+* Pour faciliter la compréhension du lecteur, présenter les principes généraux de la méthode avant ses détails. Par exemple, on peut illustrer la méthode à l’aide d’un schéma conceptuel et décrire les différentes composantes de ce schéma.
+* S’assurer que le lecteur a tous les détails nécessaires pour reproduire les travaux décrits dans l'article.
+* Justifier ses choix d'analyse, conception, etc. à l'aide d'arguments théoriques (e.g., preuve mathématique) ou de principes reconnus. Citer des travaux de la littérature si nécessaire.
+* Aligner le contenu de cette partie avec les objectifs et contributions de recherche présentés dans l'introduction. La principale contribution devrait ainsi occuper une partie plus importante que les contributions mineures. 
 ====
 
 ==== Protocole expérimental
 
-Alors que le nombre de travaux dans un domaine de recherche augmente constamment, la validation expérimentale de ces travaux devient de plus en plus importante. Ainsi, un article ayant des contributions originales et de bons résultats a peut quand même être refusé si son protocole expérimental est incomplet ou inadéquat. 
+Le nombre de travaux de recherche augmentant sans cesse, la validation expérimentale de ces travaux devient de plus en plus importante. Conséquemment, même si un article a des contributions originales et de bons résultats, celui-ci peut quand même être refusé si son protocole expérimental est incomplet ou inadéquat. 
 
-Pour éviter une telle situation, un protocole expérimental devrait avoir les deux propriétés suivantes:
+Un bon protocole expérimental devrait ainsi avoir les deux propriétés suivantes:
 
 Reproductibilité::
 Comme pour la description de la méthode, il est essentiel de fournir tous les détails nécessaires pour répéter les expériences décrites dans l'article et obtenir les mêmes résultats ou conclusions. Cela peut inclure:
 +
 ====
-* Les données utilisées dans les expériences, la nature de ces données et leur source. Si ces données proviennent de simulations, décrire le processus et les paramètres utilisés pour les générer
-* L'environnement dans lequel les expériences ont été réalisés. Par exemple, si les tests ont été réalisés par des moyens informatiques, spécifier leurs caractéristiques matérielles et logicielles (e.g., nombre de processeurs et leur cadence, quantité de mémoire vive, langage de programmation, etc.)
-* Les différentes approches testées, ainsi que *tous* leurs paramètres tels qu'employés durant les tests
-* Les métriques employées pour évaluer la validité des approches testées 
+* Les données utilisées dans les expériences, la nature de ces données et leurs sources. Si ces données proviennent de simulations, décrire le processus et les paramètres utilisés pour les générer.
+* L'environnement dans lequel les expériences ont été réalisés. Par exemple, si les tests ont été réalisés par des moyens informatiques, spécifier leurs caractéristiques matérielles et logicielles (e.g., nombre de processeurs et leur cadence, quantité de mémoire vive, langage de programmation, etc.).
+* Les différentes approches testées, ainsi que les valeurs des paramètres employées durant les tests.
+* Les métriques employées pour évaluer la validité des approches testées.
 ====
 +
 Pertinence::
 Une propriété tout aussi importante du protocole expérimental est sa pertinence. Des caractéristiques communes aux protocoles pertinents sont les suivantes:
 +
 ====
-* Les données correspondent bien (e.g., taille, complexité, etc.) à celles pouvant être rencontrées dans l'application de la recherche
-* Les approches utilisées comme étalons de comparaison sont considérées comme l'état-de-l'art
-* La procédure pour déterminer les paramètres des méthodes testées est non-biaisée, pour ne pas avantager certaines méthodes
-* Les métriques d'évaluation sont standards pour le problème visé 
+* Les données correspondent bien (e.g., taille, complexité, etc.) à celles pouvant être rencontrées dans l'application de la recherche.
+* Les approches utilisées comme étalons de comparaison sont considérées comme l'état-de-l'art.
+* La procédure pour déterminer les paramètres des méthodes testées est non-biaisée, pour ne pas avantager certaines méthodes.
+* Les métriques d'évaluation sont standards pour le problème visé. 
 ====
 
-TIP: Dans certains cas, la description du protocole expérimentale est faite dans la même section que la présentation des résultats.
+TIP: Dans certains cas, la description du protocole expérimental est faite dans la même section que la présentation des résultats.
 
 CAUTION: Assurez-vous de toujours respecter les principes de confidentialité et d'éthique dans la présentation de ses travaux.
 
 :numbered:
 
+[[resultats]]
 === Les résultats
 
 Le rôle de cette section est de présenter ses principaux résultats et d'analyser ceux-ci en fonction des questions et hypothèses de sa recherche. Les résultats sont normalement présentés sous la forme de tableaux et figures, dont la séquence respecte un ordre logique. Par exemple, cette séquence pourrait correspondre à différentes expériences, chacune visant une certaine question de recherche ou servant à étudier une certaine propriété de l'approche proposée. Le texte de cette section devrait suivre cette même séquence et, en référant aux tableaux et figures, souligner les résultats nécessaires pour répondre aux questions et hypothèses de recherche.
@@ -621,53 +618,54 @@ CAUTION: Tous les résultats importants doivent être inclus dans la présentati
 
 ==== Tableaux et figures
 
-Après avoir lu le titre et le résumé d'un article, plusieurs lecteurs vont souvent sauter aux tableaux et figures de l'article pour décider si l'article vaut la peine d'être lu ou non. Ces tableaux et figures doivent donc être intéressantes et compréhensibles sans avoir à se référer au texte. Voici d'autres consignes à suivre lors de l'élaboration de ses tableaux et figures: 
+Après avoir lu le titre et le résumé d'un article, plusieurs lecteurs vont souvent aller consulter directement ses tableaux et figures pour décider s'il vaut la peine d'être lu ou non. Ces tableaux et figures doivent donc être visuellement intéressants et faciles à comprendre sans avoir à se référer au texte. Voici d'autres consignes à suivre lors de l'élaboration de ses tableaux et figures: 
 
 ====
-* Se limiter aux tableaux et figures reliés directement aux objectifs, questions et hypothèses de recherche
+* Se limiter aux tableaux et figures reliés directement aux objectifs, questions et hypothèses de recherche.
 
-* Ne pas utiliser de tableaux ou de figures si leur contenu peut être présenté facilement dans le texte
+* Ne pas utiliser de tableaux ou de figures si leur contenu peut être présenté facilement dans le texte.
 
-* Créer pour chaque tableau ou figure une légende qui, sans être trop longue, permet de comprendre son contenu sans avoir à se référer au texte
+* Créer pour chaque tableau ou figure une légende qui, sans être trop longue, permet de comprendre son contenu sans avoir à se référer au texte.
 
-* Mettre la légende au dessus des tableaux et en dessous des figures   
+* Mettre la légende au dessus des tableaux et en dessous des figures.   
 
-* S'assurer que *tous* les tableaux et figures sont cités dans le texte, et que qu'ils sont numérotés selon leur ordre de citation 
+* S'assurer que *tous* les tableaux et figures sont cités dans le texte, et que qu'ils sont numérotés selon leur ordre de citation. 
 
-* En référant un tableau ou une figure spécifique dans le texte, mettre la première lettre en majuscule. Par exemple: ``__As shown in Figure 1 ...__'' ou ``__See Table 1 for ...__''
+* En référant à un tableau ou une figure spécifique dans le texte, mettre la première lettre en majuscule. Par exemple: ``__As shown in Figure 1 ...__'' ou ``__See Table 1 for ...__''.
 
-* Éviter les tableaux et figures qui dépassent la largeur ou la hauteur permise 
+* Éviter les tableaux et figures qui dépassent la largeur ou la hauteur permise.
 
-* Si le contenu d'un tableau ou d'une figure provient d'un autre article, citer cet article. Si une est reproduite intégralement, *s'assurer d'avoir la permission du détenteur des droits d'auteur* de cette figure
+* Si le contenu d'un tableau ou d'une figure provient d'un autre article, citer cet article. Si une figure est reproduite intégralement, *s'assurer d'avoir la permission du détenteur des droits d'auteur* de cette figure.
 
-* Utiliser le plus souvent possible une figure pour illustrer les schémas complexes, au lieu d'expliquer ces schémas en texte (_une image vaut mille mots!_) 
+* Utiliser le plus souvent possible une figure pour illustrer les schémas complexes, au lieu d'expliquer en mots ces schémas (i.e., _une image vaut mille mots_). 
 
-* Choisir un tableau au lieu d'une figure si la valeur exacte d'un résultat est plus importante que sa tendance ou les relations qu'il exprime
+* Choisir un tableau au lieu d'une figure si la valeur exacte d'un résultat est plus importante que sa tendance ou les relations qu'il exprime.
 
-* Ordonner, si possible, les colonnes et rangées d'un tableau selon une séquence logique
+* Ordonner, si possible, les colonnes et rangées d'un tableau selon une séquence logique.
 
-* Choisir des titres pour les colonnes et/ou de rangées des tableaux, qui mettent en évidence leur rôle
+* Choisir des titres pour les colonnes et/ou de rangées des tableaux qui mettent en évidence leur rôle.
 
-* Éviter le plus possible les lignes horizontales ou verticales à l'intérieur d'un tableau
+* Éviter le plus possible les lignes horizontales ou verticales à l'intérieur d'un tableau.
 
-* Produire les graphiques et illustrations à l'aide d'un logiciel approprié, jamais à la main 
+* Produire les graphiques et illustrations à l'ordinateur, jamais à la main. 
  
-* Mettre toute explication détaillé d'une figure dans sa légende, non pas directement dans la figure
+* Mettre toute explication détaillé d'une figure dans sa légende, non pas directement dans la figure.
 
-* Ne pas utiliser de couleurs pour distinguer les éléments d'une figure (e.g., les courbes d'une graphiques) car l'article pourrait être imprimé en noir et blanc. Distinguer plutôt ces éléments à l'aide de styles différents (e.g., lignes pointillées, polices différentes, etc.) 
+* Ne pas utiliser de couleurs pour distinguer les éléments d'une figure (e.g., les courbes d'une graphiques) car l'article pourrait être imprimé en noir et blanc. Distinguer plutôt ces éléments à l'aide de styles différents (e.g., lignes pointillées, polices différentes, etc.).
 
-* Utiliser des titres informatifs pour identifier les axes d'un graphique. Si nécessaire, préciser les unités des axes à côté de ces titres
+* Utiliser des titres informatifs pour identifier les axes d'un graphique. Si nécessaire, préciser les unités des axes à côté de ces titres.
 ====
 
 TIP: Les articles dont la mise-en-page est à double colonne autorisent souvent de mettre les tableaux plus larges en mode simple colonne. 
 
 TIP: Si l'article contient beaucoup de résultats sous la forme de tableaux et figures, il peut être préférable de mettre une partie de ces résultats en annexe afin d'alléger le texte. On laisse typiquement dans le corps de l'article les résultats plus importants, ou bien un résumé des résultats en annexe (e.g., moyenne sur l'ensemble des jeux de données testés).
 
+[[analyses-statistiques]]
 ==== Analyses statistiques
 
 Les résultats doivent toujours être interprétés de manière objective, sans extrapoler ou chercher des conclusions non-supportées par ceux-ci. Ainsi, un lecteur devraient normalement pouvoir arriver à ces conclusions par lui-même, si on lui présente ces résultats objectivement. 
 
-Une conclusion qui semble apriori supportée par les résultat peut cependant s'avérer erronée si elle ne possède pas la signification statistique requise. Cette erreur est souvent rencontrée dans la comparaison de différentes approches, où une approche est déclarée la meilleure si sa performance moyenne sur un certain nombre de tests est plus grande que celle des autres approches. Or, si le nombre de tests est très petit, ces résultats peuvent être en grande partie dus au hasard.
+Une conclusion qui semble apriori supportée par les résultats peut cependant s'avérer erronée si elle ne possède pas la signification statistique requise. Cette erreur est souvent rencontrée dans la comparaison de différentes approches, où une approche est déclarée la meilleure si sa performance moyenne sur un certain nombre de tests est plus grande que celle des autres approches. Or, si le nombre de tests est très petit, ces résultats peuvent être en grande partie dus au hasard.
  
 Pour éviter ce genre d'erreurs, il est recommandé d'utiliser un test d'hypothèse statistique. Pour réaliser un tel test, il faut tout d'abord formuler une hypothèse (dite _hypothèse nulle_) en lien avec la question que l'on tente répondre. Par exemple:
 
@@ -675,334 +673,200 @@ Pour éviter ce genre d'erreurs, il est recommandé d'utiliser un test d'hypoth�
 *Hypothèse:* {nbsp} La méthode _A_ et la méthode _B_ ont des performances égales.
 ====
  
-Cette hypothèse correspond à une statistique qui est estimée à partir d'un échantillon. Dans l'exemple précédent, la statistique serait la différence de performance (supposée être nulle si les méthodes sont équivalentes), et l'échantillon correspond aux tests sur lesquels on compare les méthodes. 
-Ensuite, on vérifie que la valeur estimée tombe dans un certain intervalle de confiance, correspondant typiquement à 95% de la probabilité (i.e., _p-valeur_ de 0.05). Si cette valeur est à l'extérieur de l'intervalle, on peut alors rejeter l'hypothèse. 
+Cette hypothèse correspond à une statistique qui est estimée à partir d'un échantillon. Dans l'exemple précédent, la statistique serait l'écart des performances moyennes (supposée être nulle si les méthodes sont équivalentes), et l'échantillon correspond aux tests sur lesquels on compare les méthodes. Ensuite, on vérifie que la valeur estimée tombe dans un certain intervalle de confiance, correspondant typiquement à 95% de la probabilité (i.e., _p-valeur_ de 0.05). Si cette valeur est à l'extérieur de l'intervalle, on peut alors rejeter l'hypothèse. 
 
 CAUTION: Cela ne signifie pas qu'une méthode est meilleure qu'une autre, mais plutôt que cette conclusion est très probable. 
 
 Le test de l'exemple précédent, connu sous le nom de _test-t pairé_, permet de conclure avec un certain niveau de confiance que les performances de deux méthodes ne sont pas équivalentes. Cependant, ce test ne nous permet pas de déterminer laquelle des deux méthodes est la meilleure. Pour cela, il faut utiliser un test unilatéral (_one-tailed test_) qui considère uniquement la probabilité que la valeur estimée soit d'un certain côté de la valeur espérée (zéro dans l'exemple). 
 
-Pour avoir plus d'informations sur comment faire des tests d'hypothèse, se référer à +
-METTRE UN LIEN
+Le http://abacus.bates.edu/~ganderso/biology/resources/statistics.html[document suivant] explique plus en détails comment faire des tests d'hypothèses.
 
 :numbered:
 
-===	La discussion et conclusion
+[[conclusion]]
+===	La conclusion
 
-La 
-
-This section of the paper should emphasize the new and important aspects of the
-study and the conclusions that follow from them. It should not repeat in detail data or
-other material given in the Introduction or Results sections.
-Good papers have a targeted discussion, to keep it focused. The discussion should
-preferably be structured to include the following six components (Docherty and Smith,
-1999):
+La conclusion sert à faire résumé des objectifs, contributions et résultats principaux de la recherche. Cette section comporte typiquement les trois parties suivantes.
 
 :numbered!:
 
-==== Rappel des objectifs et contributions de la recherche
+==== Rappel des objectifs et contributions
 
-==== Résumé des principaux résultats et principales conclusions
+La conclusion commence souvent par un bref rappel des objectifs et contributions de la recherche. Même si ces éléments ont déjà été énoncés dans l'introduction, ceux-ci ont pu être oubliés durant la lecture de l'article. De plus, ayant maintenant lu l'article, le lecteur est maintenant en mesure de mieux comprendre et apprécier ces objectifs et contributions.
+
+Cette partie est normalement très courte (2 ou 3 phrases). Par exemple:
 
 ====
-* Do your results provide answers to your testable hypotheses? If so, how do you interpret your findings?
-* Do your findings agree with what others have shown? If not, do they suggest an alternative explanation or perhaps a unforseen design flaw in your experiment (or theirs?)
-* Given your conclusions, what is our new understanding of the problem you investigated and outlined in the Introduction?
+{good} We presented a new approach to recognize activites in large-scale and dynamic environments. By using sparse representation, this approach can model complex activities with only a few trainging examples, and adpat to changes in these activites. A dictionary learning strategy was also proposed to make the model more efficient and robust to emerging behaviors.
 ====
 
-Statement of principal findings: The opening of the discussion usually gives the answer
-to the research question, or a restatement of the principal findings. This should not
-normally be more than a few sentences. It is advisable that the discussion start with
-a sentence that clearly shows that the paper includes new information. Reviewers
-often start with a “null hypothesis” that the paper does not add anything new.
+==== Résumé des résultats clés et principales conclusions
 
-* Strengths and weaknesses of the study: Equal emphasis should be given to both
-strengths and weaknesses. Reviewers are more interested in seeing that the author
-is aware of the weaknesses. If the reader discovers in the paper weaknesses that are
-not mentioned by the author, the trust in the paper will be shaken. A subheading such
-as “limitations of the study” or data is useful. Findings that have not been described
-in the results section should not be discussed.
+La partie suivante permet de réponde aux questions de recherche ou évaluer l'atteinte des objectifs, en soulignant les résultats clés de l'article et ses principales conclusions. Cette partie devrait adresser les questions suivantes:
 
-* Strengths and weaknesses in relation to other studies: All evidence bearing on the
-argument, with or against, should be considered. Authors should discuss the opposing
-point of view, taking a “devil’s advocate” position. Full credit should be given for
-supporting evidence. Authors should avoid burying the citation of a previously
-published paper on the same question, which arrived at the same answer in the
-discussion. Such a citation is better highlighted in the introduction. It is not enough
-to simply summarize published papers. The authors should critically evaluate their
-methodology, findings and conclusions. In particular, any differences in results should
-be discussed and possible explanations offered. If the authors do not know why their
-results are different from other studies, they should say so, but not imply that their
-results are better.
+====
+* Est-ce que les résultats permettent de répondre aux questions de recherche ou confirmer ses hypothèses?
+* Comment les résultats se comparent-ils avec ceux de la littérature?
+* Si certains résultats vont à l'encontre des hypothèses initiales de recherche, comment peut-on expliquer ces résultats?
+* À la lumière des résultats, quelles sont les forces, faiblesses et limitations de la recherche ou la méthode proposée? 
+* Quelles sont les principales implications des résultats?
+====
 
-Meaning of the study, possible mechanisms and implications for clinicians and
-policymakers: This section should be written carefully. Authors should not move
-beyond the limited evidence provided by the study. Restraint in stating implications
-is a virtue appreciated by reviewers and readers. It may also be relevant to emphasize,
-not only what the results mean, but also what the results do not mean. This will keep
-readers from making unjustified conclusions.
+Voici un exemple pour cette partie:
 
-This section of the paper should emphasize the new and important aspects of the
-study and the conclusions that follow from them. It should not repeat in detail data or
-other material given in the Introduction or Results sections.
-Good papers have a targeted discussion, to keep it focused. The discussion should
-preferably be structured to include the following six components (Docherty and Smith,
-1999):
+====
+{good} We evaluated the performance of our approach using different real-life datasets and compared it to state-of-the-art methods based on Hierarchical Hidden Markov Models and Gaussian Mixture Models. On all tested datasets, our approach obtained a 15% higher accuracy than *...* In particular, more significant improvements were observed in datasets containing complex and dynamic activites, thus confirming our hypothesis *...* In some cases, however, the proposed dictionary learning technique can lead to overfitting. We believe this is due to *...* 
+====
+
+TIP: Les lecteurs (et arbitres) apprécient généralement les auteurs capables de reconnaître les faiblesses de leur travail, autant que ses forces. Un article peut ainsi perdre sa crédibilité si le lecteur découvre une faiblesse ou une limitation non mentionnée dans celui-ci.
+
+TIP: Selon sa longueur, la discussion des résultats peut également être faite dans une section séparée.
 
 ==== Travaux futurs
 
-* Unanswered questions and future research: New research may be proposed to provide
-the answer to questions that are still not answered. A good study should generate
-new ideas for further research. A simple statement that further research is needed is
-less helpful than providing new specific research questions or suggesting particular
-studies.
+Il est coutume de terminer la conclusion en suggérant des travaux futurs pour répondre aux nouvelles questions soulevés par la recherche ou à des questions complémentaires. Si le travail décrit dans l'article s'insère dans projet de recherche à plusieurs, on peut également mentionner quelle sera l'étape suivante à réaliser. 
 
-* If warranted, what would be the next step in your study, e.g., what experiments would you do next?
+Par exemple:
 
-==== Mots de la fin
-
-A good paper ends with strong clear conclusions. It has been said that the
-body of a good paper is a “thunderbolt in reverse”: it begins with thunder (introduction)
-and ends with lightning (conclusions) (Byne, 1998). Conclusions should be linked with
-the goals of the study, and should be limited to the boundaries of the study. Authors
-should avoid unqualified statements and conclusions not completely supported by
-the data. For example, they should not make statements on economic benefits and
-costs unless their manuscript includes economic data and analysis. Authors should
-refrain from claiming unjustified priority about the findings. It should be noted that
-a negative finding could be as important as a positive finding.
+====
+{good} As future work, we would like to investigate other dictionary learning strategies to improve the efficiency of our approach when *...*
+====
 
 :numbered:
 
+[[remerciements]]
 === Les remerciements
 
-À COMPLÉTER
+Entre la conclusion et les références, on peut insérer un court paragraphe pour remercier les personnes (autres que les auteurs) et organismes ayant aidé à la réalisation du travail. Des contributions pouvant être reconnues sont:
 
-////
-At an appropriate place in the article (the title page, footnote or an appendix to the
-text; depending on the journal requirements), one or more statements should specify:
-contributions that need acknowledging but do not justify authorship, such as general
-support by a department chair; acknowledgement of technical help; acknowledgements
-of financial or material support, which should specify the nature of the support; and
-relationships that may pose a conflict of interest.
-Persons who have contributed intellectually to the paper but whose contributions
-do not justify authorship may be named and their function or contribution described,
-for example “scientific adviser”, “critical review of study proposal”, “data collection”,
-or “participation in clinical trial”. Such persons must have given their permission to
-be named. Authors are responsible for obtaining written permission from persons
-acknowledged by name, because readers may infer their endorsement of the data and
-conclusions. Technical help is better acknowledged in a paragraph separate from that
-acknowledging other contributions.
+====
+* Un conseil ou une aide ayant eu un impact significatif sur l'avancement ou la valeur scientifique du travail. Dans le cas d'un article de journal, cela peut inclure les suggestions offertes par les arbitres.
+ 
+* Du financement provenant d'un organisme publique ou privé.
 
-If, in your experiment, you received any significant help in thinking up, designing, or carrying out the work, or received materials from someone who did you a favor by supplying them, you must acknowledge their assistance and the service or material provided. Authors always acknowledge outside reviewers of their drafts (in PI courses, this would be done only if an instructor or other individual critiqued the draft prior to evaluation) and any sources of funding that supported the research. Although usual style requirements (e.g., 1st person, objectivity) are relaxed somewhat here, Acknowledgments are always brief and never flowery.
+* Des données utilisées dans les expériences, qui ont été fournies par d'autres chercheurs, un organisme, ou une entreprise.
 
-    Place the Acknowledgments between the Discussion and the Literature Cited.
-////
+* L'implémentation d'une méthode développée par d'autres chercheurs, sous la forme d'un programme ou de code source, ainsi que toute aide pour comprendre cette méthode
+==== 
 
-=== La bilbiographie
+Voici un exemple de remerciements:
 
-À COMPLÉTER
+====
+{good} *Acknowledgements:* The authors would like to thank Dr. Sarah Lapuerta for providing us with her implementation of the algorithm ARAS and for her help on how to use this algorithm.
+==== 
+    
+TIP: Dans certaines conférences ou journaux, les organismes de financement sont parfois mentionnés en début d'article, souvent avec les affiliations des auteurs.
 
-////
-The reference section is an important part of a scientific paper. The number of
-references should be restricted to those that have a direct bearing on the work described.
-Except for review articles, it is rarely necessary to have more than 40 references in the
-longest paper (Halsey, 1998).
-References should be carefully checked. They should be verified against original
-documents. One study has shown that in a random check of references in published
-papers, 20% were misquoted, with half of the misquotations being seriously misleading
-(DeLacey et al. 1985). Useful advice for the author is to photocopy the first page of every
-reference cited. This page normally includes all the information needed for correctly
-citing the reference.
-Different standard formats for citing references are used in different scientific
-disciplines. These formats include: MLA Style established by the Modern Language
-Association; APA Style, governed by the Publication Manual of the American
-Psychological Association; CMS Footnote Style, conforming to the Chicago Manual of
-Style; and CBE Number Style established by the Council of Biology Editors.
-In biomedical sciences, there are two major styles for citing the references: the
-Harvard system and the Vancouver system.
+CAUTION: Il faut s'assurer d'obtenir la permission d'une personne ou d'un organisme avant d'inclure son nom dans les remerciements.  
 
-In the Harvard system, the order of references at the end of the paper is strictly
-alphabetical, regardless of the chronology. In the text of the paper, references are cited
-by giving in parentheses the name of the author and the year of publication. When the
-author’s name is part of a sentence, only the year is put in parentheses. When several
-references are given together, they should be listed in chronological order and separated
-by a semicolon. When a paper written by two authors is quoted, both names are given. If
-there are more than two authors, all the names may be given the first time the reference
-is cited. Otherwise, it is sufficient to give the name of the first author only, adding “et
-al”. The term “et al” means “and others”. It is an abbreviation for two Latin terms: “et
-alii” (masculine) and “et aliae” (feminine). When two citations have the same author
-and the same year of publication, alphabetical annotation is used, for example “2004a”.
-The order of these alphabetically annotated citations ideally should be chronological
-within the year.
+[[bibliographie]]
+=== La bibliographie
 
-The Vancouver system has been adopted in the “Uniform Requirements for
-Manuscripts Submitted to Biomedical Journals” by the International Committee of
-Medical Journal Editors (who held their first meeting in Vancouver). Most biomedical
-journals follow this system. It is based largely on a standard style adapted by the US
-National Library of Medicine (NLM) for its databases. According to the Vancouver
-style, references should be numbered consecutively in the order in which they are first
-mentioned in the text. References in text, tables and legends should be identified by Arabic numerals in parentheses. References cited only in tables or figure legends should
-be numbered in accordance with the sequence established by the first identification in
-the text of the particular table or figure.
-In writing the early drafts of the paper, it is advisable to use the Harvard style. If
-numbers are assigned to references at this early stage, those numbers will very likely
-have to be changed in subsequent drafts. In the final draft, the authors can switch to
-the Vancouver style. To track the references in the early drafts using a word-processing
-program, one can place at the beginning of each citation a character not used elsewhere
-in the text, for example an asterisk (\*).
+La bibliographie d'un article renferme la liste des articles, rapports techniques, thèses et autres publications citées dans cet articles. Les consignes suivantes sont à considérer lors de l'élaboration de cette partie:
 
-If journal titles are abbreviated, as is the practice in most but not all journals, this
-should be in line with the abbreviations in the Index Medicus (which are based on an
-international standard). The list of journals is published annually in the January issue.
-The list can also be accessed through the web site of the US Library of Medicine (http:
-//www.nlm.nih.gov).
+====
+* Se limiter aux références ayant un lien direct avec le travail décrit dans l'article. Sauf pour les articles de type _Survol de littérature_, un article ne devrait pas avoir plus de 40 références.
 
-Unpublished observations are generally not to be used as references; papers accepted
-for publication but not yet published and given as references are identified as “in press”
-or “forthcoming”; research papers submitted to a journal but not yet accepted are to be
-treated as unpublished observations.
-Authors should avoid citing a “personal communication” unless it provides
-essential information not available from a public source, in which case the name of the
-person and date of communication should be cited in parentheses in the text. Authors
-should obtain permission and confirmation of accuracy from the source of a personal
-communication.
+* S'assurer que chaque référence est bien citée dans le texte de l'article.
 
-Annex 4 provides examples on how different types of references should be cited.
-Additional information may be obtained from the web site: http://www.nlm.gov/bsd/
-uniform_requirements.html.
+* Respecter le style imposé par la conférence ou la revue (e.g., ACM, APA, IEEE, etc.). Un style spécifie entre autres:
+** L'ordre des références (e.g., alphabétique, citation, etc.) dans la bibliographie.
+** Le format de la citation dans le texte. Par exemple, [1] ou (Aras et al. 2006).
+** Le format pour le nom des d'auteurs (e.g., _S. Aras_ ou _Aras, S._).
+** etc.
 
-////
+* Éviter si possible de citer des travaux non publiés. Identifier les articles acceptés mais non publiés avec la mention ``__in press__'' ou ``__forthcoming__''.
 
+* Ne pas citer les communications personnelles, sauf si elles renferment des informations essentielles, non disponibles ailleurs. Demander l'autorisation de l'auteur avant d'inclure ce type de références.
+====
+
+// NOTE: ADDED A SPACE AFTER __ TO AVOID SYNTAX HIGHLIGhTING BUG. REMOVE SPACE WHEN FINISHED
+TIP: Pour sauver de l'espace, il est commun d'abrévier les titres de conférences ou de revue. Par exemple, on pourrait utiliser ``__Proc. IEEE Int. Conf. Robot. Autom. (ICRA)__'' au lieu de ``__Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)__ ''. Certains organismes comme IEEE fournissent une http://www.ieee.org/documents/ieeecitationref.pdf[liste d'abréviations standards] à employer dans les références.  
+
+[[annexes]]
 === Les annexes
 
-À COMPLÉTER
+Un article peut parfois avoir une ou plusieurs annexes, situés à la toute fin, qui présentent certains éléments importants (e.g., résultats sous la forme de tableaux ou figures, diagrammes, preuves mathématiques, etc.), mais non essentiels à la compréhension de l'article. Ce genre d'annexes se retrouvent la plupart du temps dans les articles de revue, où les contraintes de longueur sont moins restrictives.
 
+Voici quelques consignes à suivre pour les annexes:
+
+====
+* Mettre en annexe seulement les tableaux ou figures qui *ne sont pas essentielles* à la compréhension de l'article. On ne devrait pas avoir à consulter une annexe durant la lecture de l'article. 
+
+* Pour ne pas briser la mise en page, considérer de mettre en annexe les tableaux ou figures de grandes dimensions.
+
+* S'assurer de bien référer aux annexes dans ce corps de l'article et, si possible, fournir une courte description de ces annexes dans le texte.
+====
+
+[[reviser-article]]
 == Réviser son article
 
-=== Révision du contenu scientifique
+[quote, Emmanuel Kant,]
+____
+Une proposition incorrecte est forcément fausse, mais une proposition correcte n’est pas forcément vraie.
+____
 
-À COMPLÉTER
+La révision est une étape essentielle mais souvent négligée dans l'élaboration d'un article. Un article sans fautes, bien structuré et facile à comprendre aura de meilleures chances d'être accepté et, par la suite, cité par d'autres articles. Souvent, la révision d'un article est faite en deux étapes. On commence d'abord par réviser le contenu d'un article, de son titre jusqu'aux références et annexes. Une fois cette étape complétée, on améliore ensuite l'article en révisant son style. 
 
-////
-For creative writing, the word processor is the best invention since the quill pen. The
-days of retyping are over. Most journals require an electronic copy of the paper.
+=== Révision du contenu
 
-.Revision checklist
-* Is the title accurate, succinct and effective?
-* Are keywords indexable? It is better to use keywords from the Medical Subject
-Headings (MeSH vocabulary) of MEDLINE (Annex 3).
-* Does the abstract represent the content of all the main sections of the paper, within
-the length allowed by the journal? Do data in the abstract agree with data in the
-paper?
-* Does the introduction set the stage adequately but concisely for the main question
-considered, or for the hypothesis tested, in the paper? Is that question or hypothesis
-made clear by the end of the introduction?
-* Are the methods described in enough detail to allow replication of research? Are
-statistical methods described?
-* Are the results presented in a way that allows other investigators to check and to
-compare? Can any of the tables or illustrations be omitted? Can any of the tables
-be replaced by a graph? Do data in the text agree with data in the tables? Are all
-tables and figures cited in the text? Are all tables and figures mentioned in the text
-included? Are legends of figures correct?
-* Does the discussion properly interpret the significance of the data? Does the
-discussion reflect up-to-date awareness of the literature? Are conclusions justified
-by the results?
-* Are all references cited mentioned in the text? Are all references mentioned in the
-text cited? Have any necessary references been omitted?
-* Is the length of the paper appropriate? Does any of the text repeat information found
-elsewhere in the paper? Are there paragraphs or sentences that can be omitted? Where
-possible, it is good to plan to submit an article that is shorter than the average article
-published in the journal to which the paper will be sent. The best papers are concise.
-Generally, a manuscript should, on average, be about 10 double-spaced pages, or 3
-published pages, with 25 references. (Each printed page is about 3–4 double-spaced
-typed pages). The sections of a manuscript that are often too long are the introduction
-and discussion. The sections that are often too short are the methods and results. A
-good rule is to shorten the introduction and discussion and to expand the methods
-and results sections.
-* Are all pages numbered?
-////
+Pour identifier des lacunes ou améliorations potentielles au contenu de l'article, on peut poser les questions suivantes:
+
+====
+* Le titre est-il précis, succint et intéressant? 
+
+* Les mots clés sont-ils standards et indexables? 
+
+* Le résumé met-il en valeur l'originalité du travail? Fait-il une bonne synthèse des différentes parties de l'article? 
+
+* L'introduction motive-t-elle bien le travail? Énonce-t-elle clairement les contributions, hypothèses et questions de recherche? Le plan de l'article y est-il présenté?
+
+* La méthodologie est-elle suffisamment détaillée pour permettre de reproduire le travail et ses résultats?
+
+* La présentation des résultats est-elle structurée et en lien avec les objectifs et questions de la recherche? Peut-on facilement vérifier et comparer ces résultats? Le texte de l'article concorde-t-il avec ces résultats?
+
+* Peut-on supprimer un tableau ou une figure de l'article sans nuire à sa compréhension? Est-il préférable de présenter un certain tableau sous la forme d'un graphique ou vice-versa? Les tableaux et figures sont-ils tous cités dans le texte? La légende permet-elle de comprendre leur contenu sans avoir à lire le texte?
+
+* La discussion/conclusion interprète-t-elle correctement les résultats? Les résultats permettent-ils de répondre aux questions de recherche? Les résultats sont-ils statistiquement significatifs?
+
+* Les références sont-elles toutes citées dans le texte? Manque-t-il certaines références essentielles? Peut-on en supprimer?
+
+* La longueur de l'article est-t-elle appropriée? Certaines informations sont-elles répétées inutilement à plusieurs endroits? 
+
+* Les pages sont-elles toutes numérotées?
+====
 
 === Révision du style
 
-À COMPLÉTER
+Une fois satisfaits du contenu de l'article, on s'attarde ensuite à réviser son style. Cette étape de révision est également très importante car elle permet de rendre l'article plus intéressant à lire et plus simple à comprendre. Les modifications suivantes sont à considérer lors de cette étape:
 
-////
-The acronym “KISS”, “keep it simple and short”, is the key to good scientific writing.
-Authors should always choose the simplest and shortest way of saying something. It takes
-more time to write a good concise paper, than a lengthy one. Pascal once wrote to a friend:
-“I am sorry this letter is so long but I had no time to write a short one.” Most authors do
-not spend enough time planning. Good planning will shorten the time spent in writing.
-In editing oneself, consideration should be given to paragraphs, sentences and
-words. The following sections provide a few useful hints, particularly for non-English
-speakers. For additional information, sources such as Strunk (2000) can be consulted.
-Paragraphs
-Well structured paragraphs are the key to good writing, and should consist of: a
-topic or lead sentence to introduce the subject of the paragraph; body sentences which
-expand upon the theme and present a logical argument; and either a transitional sentence,
-which leads into the next paragraph, or a concluding sentence. There is no firm rule on
-paragraph length: more than 25 typed lines would be too long; fewer than 5 or 6 lines
-represent what is really a fragment of either adjacent paragraph. A new paragraph must
-either link to that preceding it and/or following it, or should clearly introduce a new
-subject. In a long discussion, subheadings are a good idea.
-Sentences
-The following hints may be helpful to authors in revising the style of their paper.
+====
+* Retirer les phrases ou mots inutiles.
 
-* Long sentences (more than two typewritten lines) are better avoided if possible.
-* The active is preferable to the passive because it is much clearer and easier to
-understand, in general. For example, replace “It was found by x” by “x found that”).
-The passive voice has traditionally been used in scientific writing to refer to the
-thoughts or actions of the author. This tendency is slowly changing, and many editors
-now encourage authors to use “I” or “we” in their writing.
-* Avoid ambiguity in the use of adjectival and adverbial clauses and phrases. It is
-often better to simplify sentences by splitting the subordinate phrases and clauses
-and making them sentences on their own.
-* Avoid verbosity (to say a thing in a complicated way, to make it sound important)
-or pompous verbiage.
-* Each sentence must have a verb, and the verb should agree with the noun.
-* Economy is a virtue. Strike out unneeded words and phrases.
-* “Do not use a preposition to end a sentence with”—is a good rule which itself breaks
-the rule.
-* It is a useful convention to put anything that was done in the past tense and to put
-general statements in the present tense. In general, the introduction and discussion
-sections are written in the present tense, and the methods and results sections are
-written in the simple past tense.
-Words
-It is advisable to look for and try, where possible, to replace the following six groups
-of words.
-* Abstract nouns (nouns formed from verbs and ending in: tion, sion, ance, ment, ness,
-cy). These nouns are better replaced with verbs. For example, change “Measurements
-were performed on the variation” to “The variation was measured” or “we measured the variation”; change “The interpretation of the data was made” to “Data were
-interpreted” or “we interpreted the data”.
+* Découper les phrases trop longues (e.g., phrases subordonnées) en plusieurs phrases courtes. 
 
-* Compound nouns (noun clusters) e.g. patient liver enzyme status (the status of liver
-enzymes in patients); research result dissemination methods (methods of disseminating
-research results).
+* Lorsque possible, reformuler les phrases employant la voix passive (e.g., ``__It was observed that__'') pour quelles soient en voix active (e.g., ``__We observed that__''). Utiliser les pronoms personnels ``__We__'' ou ``__I__'' si nécessaire.
 
-* Abbreviations, unless they are standard and unless they are used at least ten times
-in the paper. Avoid abbreviations in the title and abstract. The complete term for
-which an abbreviation stands should precede its first use unless it is a standard unit
-of measurement.
+* Remplacer les expressions inutilement complexes (e.g., ``__has the capacity to__'') par des formes plus simples (e.g., ``__can__'').
 
-* Sexist words: Do not use the pronoun “he” or “his” when she or her would be equally
-appropriate. Use the plural form instead. Try to replace words such as: man (unless
-referring to a man), mankind, manpower, policeman, foreman.
+* S'assurer que chaque phrase a un sujet et un verbe et que le verbe s'accorde avec le sujet.
 
-* Dehumanizing words: e.g. referring to people as cases or subjects (use patients or
-volunteers for example); using syndromic tags for patients; male/female are more
-appropriate for animals; men and women are better for human subjects.
+* Reformuler les phrases se terminant par une préposition (e.g., ``__with__'', ``__by__'', ``__for__'', etc.).
 
-* Slang and jargon (words that have an arbitrary meaning).
-Do not confuse American and British Spelling. Follow the style prescribed by the
-journal. If in doubt, use a good dictionary (do not depend on the spell-checker in the
-computer which is only as good as its content).
-Unless otherwise requested in the journal instructions to authors:
+* Employer le _passé simple_ en décrivant les travaux réalisés. Le _présent_ peut être utilisé pour les énoncés généraux (e.g., ``__Anomaly detection is a complex task ... __'').
 
-* Measurements of length, height, weight, and volume should be reported in metric
-units (metre, kilogram, or litre) or their decimal multiples, and temperatures should
-be given in degrees Celsius. Blood pressure should be given in millimetres of
-mercury.
+* Mettre l'action dans le verbe au lieu du sujet (e.g., ``We measured the performance'' au lieu de ``__Measurements of the performance were made__'' ).
+ 
+* Remplacer les groupes nominaux complexes (e.g., ``__sparse model parameter learning__'') par des formes moins ambigües (e.g., ``__learning the parameters of the sparse model__'').
 
-////
+* Éviter les abréviations sauf si elles sont standards.
+
+* Éviter les mots référant à un sexe particulier (e.g., ``__The user then selects__'' au lieu de ``__He then selects__'').
+
+* Ne pas confondre les orthographes _américaines_ (e.g., ``__behavior__'') et _anglaise_ (e.g., ``__behaviour__'').
+====
+
+Pour plus d'informations sur cet aspect de la rédaction, se référer au {homepage}/fr/guide_style[Guide de style] .
 
 ==	Soumettre son article
 
@@ -1010,25 +874,27 @@ mercury.
 
 À COMPLÉTER
 
-Suivre les directives
-S'assurer de respecter les contraintes nombre de pages
-S'assurer de respecter les contraintes de mise en page
-Entrer les noms des auteurs, co-auteurs, adresses
-Respecter les contraintes d'anonymat (double blind)
-Prévoir le temps nécessaire pour inscrire l'information
-Nécessite par fois l'inscription des co-auteurs au système (leur ID)
-S'assurer de recevoir une confirmation et un numéro d'article (pour références externes)
-S'assurer de l'heure de soumission (fuseau horaire)
+====
+* Suivre les directives
+* S'assurer de respecter les contraintes nombre de pages
+* S'assurer de respecter les contraintes de mise en page
+* Entrer les noms des auteurs, co-auteurs, adresses
+* Respecter les contraintes d'anonymat (double blind)
+* Prévoir le temps nécessaire pour inscrire l'information
+* Nécessite par fois l'inscription des co-auteurs au système (leur ID)
+* S'assurer de recevoir une confirmation et un numéro d'article (pour références externes)
+* S'assurer de l'heure de soumission (fuseau horaire)
+====
 
 ===	Resoumission de l'article
 
 À COMPLÉTER
 
-== En terminant...
+== En terminant
 
 À COMPLÉTER
 
-== Sources:
+== Sources
 
 À COMPLÉTER
 
