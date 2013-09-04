@@ -23,7 +23,7 @@ profiles:
     base_url: http://http://sara.logti.etsmtl.ca/
     minify: true
     deploy:
-      host: sara.logti.etsmtl.ca
+      host: sara-wadmin@sara.logti.etsmtl.ca
       path: /var/www/domains/awestruct.org/www/htdocs/ 
 
 intense_debate_acct: fa224495874e8d96bbf6f2dbcc26dac5
