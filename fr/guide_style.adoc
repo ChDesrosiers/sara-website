@@ -26,3 +26,10 @@
 :co10: image:../../images/icons/callouts/10.png[]
 
 toc::[]
+
+++++
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+</form>
+++++
