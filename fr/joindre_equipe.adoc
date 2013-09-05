@@ -2,6 +2,94 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== Pour se joindre à l'équipe
+== Joindre l'équipe d'arbitres du SARA
 
-À COMPLÉTER
+Blabla arbitre SARA
+
+=== Bénéfices 
+
+Pourquoi se joindre à l’équipe d’arbitres de SARA? Voici plusieurs excellentes raisons: 
+
+====
+* Se familiariser avec le processus de soumission et d’évaluation d’articles;
+* Élever son expertise professionnelle en rédaction technique;
+* Améliorer vos habiletés de réflexion critique;
+* Obtenir une vue d’ensemble de la recherche à l’ÉTS;
+// * Développer le goût d’écrire vos propres articles;
+* Ériger les bases d’une carrière de chercheur international.
+====
+
+=== Exigences
+
+Pour devenir arbitre au SARA, vous devez satisfaire les conditions suivantes:
+
+====
+* Être *étudiant inscrit à l’ÉTS* aux cycles supérieurs ou personnel de recherche de l’ÉTS;
+* Avoir déjà *au moins un article* publié ou accepté dans un journal ou une conférence;
+* Posséder une *bonne maîtrise de l’anglais technique* (eh oui, nous ne publions que rarement en français).
+====
+
+Par ailleurs, vous devez également vous engager à:
+
+====
+* Lire et comprendre le link:/fr/guide_evaluation[Guide de l'évaluateur];
+* Respecter les link:/fr/formulaire_confidentialite[Règles de confidentialité] du SARA;
+* Respecter les délais d’arbitrage.
+====
+
+=== Application
+
+Pour appliquer, veuillez remplir les informations suivantes:
+
+++++
+<form action="MAILTO:ch.desrosiers@gmail.com" method="post" enctype="text/plain">
+
+<h5>Contact:</h5>
+
+<label for="prenom">
+<span>Prénom:</span> 
+<input type="text" name="prenom"><br>
+</label>
+
+<label for="nom">
+<span>Nom:</span> 
+<input type="text" name="nom"><br>
+</label>
+
+<label for="courriel">
+<span>Courriel:</span> 
+<input type="text" name="courriel"><br>
+</label>
+
+<h5>Programme d'études:</h5>
+
+<input type="radio" name="cycle" value="phd"> &nbsp; Doctorat<br>
+<input type="radio" name="cycle" value="maitrise"> &nbsp; Maîtrise<br>
+
+<br>
+<select name="programme">
+<option value="aerospatiale">Aérospatiale</option>
+<option value="construction">Construction</option>
+<option value="electrique">Électrique</option>
+<option value="environnement">Environnement</option>
+<option value="logiciel">Logiciel</option>
+<option value="mecanique">Mécanique</option>
+<option value="gpa">Production automatisée</option>
+<option value="gti">Technologies des informations</option>
+<option value="gti">--- Autre ---</option>
+</select>
+
+<h5>Expérience:</h5>
+
+<p>Décrivez brièvement votre expérience en recherche (e.g., publications, projets, etc.):</p>
+ 
+<textarea rows="10" cols="45" name="experience">
+</textarea><br>
+
+<br>
+<p>En cliquant sur le bouton <i>Soumettre</i>, vous acceptez les conditions décrites dans le link:/fr/formulaire_confidentialite[Formulaire d’engagement à la confidentialité]:</p>
+
+<input type="submit" value="Soumettre">
+
+</form>
+++++

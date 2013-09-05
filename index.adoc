@@ -4,7 +4,7 @@
 :doctype: article
 :icons:
 :iconsdir: ./images/icons
-:homepage: http://localhost:4242
+:homepage: http://sara.logti.etsmtl.ca
 
 == Bienvenu au SARA
 
@@ -16,17 +16,17 @@ Le SARA propose diverses formes d’aide aux étudiants qui désirent améliorer
 
 ====
 * Plusieurs *ressources documentaires* donnant des conseils et astuces pour bien s’acquitter des tâches de rédaction et d'évaluation d'articles scientifiques.
-** {homepage}/fr/guide_redaction[Guide pratique pour l'écriture d'articles scientifiques]
-** {homepage}/fr/guide_style[Guide pour améliorer son style d'écriture]
-** {homepage}/fr/guide_evaluation[Guide sur comment évaluer des articles scientifiques]
-** {homepage}/fr/ressources[Références à diverses ressources (sites Web, livres, articles, etc.) sur ces thèmes]
+** link:/fr/guide_redaction[Guide pratique pour l'écriture d'articles scientifiques]
+** link:/fr/guide_style[Guide pour améliorer son style d'écriture]
+** link:/fr/guide_evaluation[Guide sur comment évaluer des articles scientifiques]
+** link:/fr/ressources[Références à diverses ressources (sites Web, livres, articles, etc.) sur ces thèmes]
 
 * Un *service d’évaluation d’articles gratuit* qui permet à tout étudiant de l’ÉTS qui le souhaite d’obtenir des évaluations préliminaires d’une première ébauche de son article.  Les évaluations sont *anonymes* et sont réalisées par des *étudiants bénévoles de l’ÉTS* ayant déjà une expérience de publication. Nous pensons que ce regard extérieur complétera l’apport éventuel du directeur de recherche. 
-** {homepage}/fr/soumettre_article[Soumettre un article au service d'évaluation]
-** {homepage}/fr/demander_aide[Demander de l'aide sur un aspect particulier de sa rédaction]
+** link:/fr/soumettre_article[Soumettre un article au service d'évaluation]
+** link:/fr/demander_aide[Demander de l'aide sur un aspect particulier de sa rédaction]
 
 * Une *formation et des occasions d’arbitrage* aux étudiants de l’ÉTS qui le désirent et qui ont déjà une expérience de publication. Par la possibilité de se joindre à l’équipe du SARA en tant qu’évaluateur bénévole, ils acquièrent des expériences d’arbitrage fort pertinentes pour une future carrière en recherche.
-** {homepage}/fr/joindre_equipe[Se joindre à l'équipe d'évaluateurs]
+** link:/fr/joindre_equipe[Se joindre à l'équipe d'évaluateurs]
 ====
 
 === Ce que le SARA n’est pas

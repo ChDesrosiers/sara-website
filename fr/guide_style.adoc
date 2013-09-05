@@ -27,9 +27,683 @@
 
 toc::[]
 
-++++
-<form>
-First name: <input type="text" name="firstname"><br>
-Last name: <input type="text" name="lastname">
-</form>
-++++
+== Pourquoi ce guide ?
+
+Quand vous rédigez un article scientifique, vous devez anticiper ce qu’un lecteur potentiel cherche quand il parcourt votre document. Votre document est complexe et contient des notions techniques, souvent, inconnues du lecteur. Vous devez rédiger votre document de façon à lui faciliter la tâche en lui communiquant le plus clairement possible vos idées. Pour atteindre cet objectif, vous devez :
+
+* Structurer votre exposé de façon à ce qu’il soit clair et cohérent. Chaque idée doit être exprimée de façon précise et elle doit être introduite au bon endroit dans le document. Il est essentiel que l’ensemble des idées constitue un flux de narration facile à suivre et à comprendre.
+* Exprimer vos idées en utilisant un style approprié et en respectant les règles grammaticales de la langue de rédaction (généralement, l’anglais). 
+
+Pour certaines personnes dont l’anglais n’est pas la langue maternelle, cela peut être difficile. Un mot mal placé ou une ponctuation incorrecte peuvent changer radicalement le sens d’une phrase et induire votre lecteur en erreur.
+Pour vous aider dans ces deux tâches, nous présentons dans cette page quelques règles essentielles de style. Ces règles constituent une synthèse des principes et règles présentés dans plusieurs références (voir ressources). Nous avons organisé ces règles en deux ensembles : 
+
+. Les principes élémentaires de composition qui sont des principes visant à vous aider dans la première tâche, soit celle de rédiger un exposé cohérent, clair, et bien structuré.
+. Les règles grammaticales d’usage qui couvrent surtout un ensemble de règles de ponctuation nécessaires pour communiquer correctement vos idées.
+
+Ces règles de style sont complémentaires aux règles et conseils présentés dans le guide de rédaction. En pratique, une fois que vous avez rédigé un premier brouillon de votre article en vous conformant au guide de rédaction, il est primordial que vous le révisiez en appliquant les règles de style présentées sur cette page. Cela vous permettra de transformer votre brouillon en une ébauche qui répond mieux aux besoins du lecteur en étant plus facile à lire et à comprendre.
+
+Les règles et principes présentés dans cette page sont un résumé de règles de style présentées dans plusieurs ressources incluant :
+
+====
+* Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
+* Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
+* Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
+====
+
+== Principes élémentaires de composition
+
+[[clarte]]
+=== Clarté
+
+:numbered!:
+
+==== Sujet et action
+
+Le lecteur comprend plus facilement une phrase lorsque les principes suivants sont respectés:
+
+====
+Principe 1:: Le sujet de la phrase est explicite.
+Principe 2:: L’action du sujet est exprimée par un verbe.
+Principe 3:: La distance (en termes de nombres de mots) entre le sujet et le verbe associé est courte.
+====
+
+Autrement dit, il est plus facile de comprendre une phrase où on reconnaît facilement et rapidement l’acteur, l’action qu’il réalise, et les conséquences de cette action. 
+
+Analysons un premier exemple :
+
+====
+{bad} ``The selection of the studied methods tries to cover the maximum number of patterns to be derived from the literature.''
+====
+
+Êtes-vous capable de comprendre cette phrase rapidement et sans effort dès votre première lecture?
+
+Le sujet dans cette phrase est l’abstraction ``The selection of the studied methods''. Le sujet est suivi par le verbe ``tries to cover'' dont la signification peut varier ici, ce qui introduit une certaine ambiguïté.
+
+Nous pouvons reformuler cette phrase en rendant explicites les sujets comme suit :
+
+====
+{good} ``We studied a number of methods so that we could cover the maximum number of patterns that are derived from the literature.''
+====
+
+Dans cette phrase, on peut facilement voir les sujets et leurs actions. On peut donc voir que : 
+
+* ``we'' est le sujet de ``studied'' et ``could cover''
+* ``patterns'' est le sujet du verbe ``are derived''
+
+En comparant ces deux phrases, nous pouvons constater que la première phrase utilise des noms abstraits et des adjectifs pour nommer les actions (``selection'', et ``studied'') alors que la deuxième phrase utilise des verbes pour nommer les actions (``we studied ...'', ``we could cover ...'', et ``patterns that are derived ...''). Ainsi, la première phrase ne respecte aucun des deux principes 1 et 2 énoncés ci-haut alors que la deuxième phrase respecte ces deux principes.
+
+Analysons un deuxième exemple :
+
+====
+{bad} ``Our lack of knowledge about local conditions precluded determination of committee action effectiveness in fund allocation to those areas in greatest need of assistance.''
+====
+
+Êtes-vous capable de comprendre la phrase rapidement et sans effort dès votre première lecture?
+
+De façon similaire au premier exemple, le sujet dans cette phrase est l’abstraction ``Our lack of knowledge about local conditions''. Le sujet est suivi par le verbe ``precluded'' dont l’usage introduit une certaine ambiguïté.
+
+Nous pouvons reformuler cette phrase en rendant explicite les sujets comme suit :
+
+====
+{good} ``Because we knew nothing about local conditions, we could not determine how effectively the committee had allocated funds to areas that most needed assistance.''
+====
+
+Dans cette phrase, on peut aussi facilement voir que : 
+
+* ``we'' est le sujet de ``knew'' et ``could not determine''
+* ``committee'' est le sujet du verbe ``had targeted''
+* ``area'' est le sujet de ``needed''
+
+En comparant les deux phrases de ce deuxième exemple, nous pouvons constater que la première phrase utilise des noms abstraits pour nommer les actions (``lack'', ``knowledge'', ``determination'', ``action'', ``allocation'', ``assistance'', et ``need''). Elle ne respecte aucun des deux principes 1 et 2. La deuxième phrase utilise des verbes pour nommer les actions (``we knew nothing'', ``we could not determine'', ``the committee allocated'', et ``areas needed'') et elle respecte les deux principes 1 et 2. 
+
+Dans les deux exemples analysés ci-dessus, les phrases qui respectent les deux principes (1 et 2) sont plus faciles à comprendre. De façon générale, en appliquant les principes énoncés ci-dessus, on peut construire des phrases claires, concrètes et moins longues. Le flux de l’exposé est aussi plus facile à construire et à suivre.
+
+Considérons un autre exemple :
+
+====
+{bad} ``There has been an affirmative decision for program termination.'' 
+====
+
+Nous pouvons reformuler cette phrase et la rendre plus concrète en appliquant les principes 1 et 2 ci-dessus :
+
+====
+{good} ``The Director decided to terminate the program.''
+====
+
+Analysons un dernier exemple :
+
+====
+{bad} ``Approaches that rely on diverse information, such as code metrics, process metrics, or previous defects, have been proposed to tackle the problem.''
+====
+
+La distance entre le sujet ``Approaches'' et le verbe ``have been proposed'' est trop longue. Si nous appliquions le principe 3 en réduisant la distance entre le sujet et le verbe, nous obtenons une phrase plus facile à lire et à comprendre :
+
+====
+{good} ``Many approaches have been proposed to tackle the problem, relying on diverse information, such as code metrics, process metrics, or previous defects.''
+====
+
+Le principe 3 est un cas particulier du principe général qui stipule de garder les mots liés proches les uns des autres. La position des mots dans une phrase montre leur relation et reflète leur lien à la pensée que nous désirons exprimer. Il faut garder ensemble les mots qui sont liés à la même pensée et séparer ceux qui ne sont pas liés.
+
+[TIP]
+====
+Lorsqu’une phrase est trop abstraite ou complexe, analysez la phrase pour identifier les acteurs et leurs actions :
+
+* Si les acteurs ne sont pas des sujets et leurs actions ne sont pas des verbes, corrigez votre phrase.
+* Si la distance entre un sujet de son action est trop grande (i.e., il y a plus de six à sept mots entre le sujet et l’action), corrigez votre phrase.
+====
+
+==== Voix active et voix passive
+
+Dans une phrase exprimée en utilisant la voix active, le sujet réalise l’action nommée par le verbe. Dans une phrase exprimée en utilisant la voix passive, le sujet subit l’action nommée par le verbe.
+
+Considérons les deux exemples suivants :
+
+*Voix active:*
+====
+``We carried out an experiment to assess the effectiveness of our approach.''
+====
+
+*Voix passive:*
+====
+``An experimental validation was carried out to assess the effectiveness of our approach.''
+====
+
+En comparant ces deux phrases, on peut voir que la deuxième phrase est plus longue, moins directe et imprécise (i.e., on ne sait pas qui a fait l’expérimentation) par rapport à la première phrase. Généralement, la voix active est plus directe, plus concise, et plus vigoureuse que la voix passive. Le flux de l’exposé est aussi plus facile à suivre dans la voix active. 
+
+Comparez les deux paragraphes suivants :
+
+*Voix passive:*
+====
+``It was found that data concerning energy resources allocated to the states were not obtained. This action is needed so that a determination of redirection is permitted on a timely basis when weather conditions change. A system must be established so that data on weather conditions and fuel consumption may be gathered on a regular basis.''
+====
+
+*Voix active:*
+====
+``We found that the Department of Energy did not obtain data about energy resources that Federal offices were allocating to the states. The Department needs these data so that it can determine how to redirect these resources when conditions change. The Secretary of the Department must establish a system so that his office can gather data on weather conditions and fuel consumption on a regular basis.''
+====
+
+Le premier paragraphe utilise la voix passive dans toutes les phrases contrairement au second paragraphe qui utilise la voix active. Malgré le fait qu’il soit plus long, le second paragraphe est plus facile à comprendre car il est plus direct et concret; nous comprenons plus facilement qui est l’acteur et quelle est son action dans chaque phrase.
+
+Cela ne signifie pas qu’il faut bannir la voix passive de votre composition. La voix passive est souvent appropriée ou nécessaire, selon le contexte, pour faire un sujet à partir d’un mot spécifique. C’est le cas quand on veut mettre l’accent sur un mot (ou expression) qui n’est pas nécessairement l’acteur dans la phrase, ou bien quand la voix passive permet d’assurer un meilleur flux de l’exposé.
+
+Comparons les deux phrases suivantes :
+
+*Voix passive:*
+====
+``Asthma symptoms can be made worse by ozone concentrations.''
+====
+
+*Voix active:*
+====
+``Ozone concentrations can make asthma symptoms worse.''
+====
+
+Si le sujet de votre paragraphe ou section est l’asthme, la première phrase serait appropriée car elle met l’accent sur ce sujet. La seconde phrase serait appropriée si votre paragraphe ou section porte sur l’ozone.
+
+Souvent, nous utilisons la voix passive lorsque nous ne savons pas qui est l’acteur qui réalise l’action ou ne voulons pas le spécifier. La phrase suivante illustre cela :
+
+====
+``Those who are found guilty of murder can be executed.''
+====
+
+Évitez une succession d’expressions passives. Exemple :
+
+====
+{bad} ``Gold was not allowed to be exported.''
+====
+
+Cette phrase peut être reformulée plus simplement ainsi :
+
+====
+{good} ``It was forbidden to export gold.''
+====
+
+Ou bien ainsi :
+
+====
+{good} ``The export of gold was prohibited.''
+====
+
+Une erreur fréquente reliée à l’utilisation de la voix passive consiste à utiliser comme sujet un nom qui décrit de façon complète l’action; le verbe n’a plus de fonction à part celle de compléter la phrase. Considérez les deux exemples suivants :
+
+====
+{bad} ``An analysis of this problem was made by Descartes.''
+====
+
+====
+{bad} ``Generalization of these conclusions cannot be done.''
+====
+
+Ces deux phrases peuvent être mieux reformulées comme suit :
+
+====
+{good} ``This problem was analyzed by Descartes.''
+====
+
+====
+{good} ``These conclusions cannot be generalized.''
+====
+
+Ou bien en utilisant la voix active comme suit :
+
+====
+{good} ``Descartes analyzed this problem.''
+====
+
+====
+{good} ``We cannot generalize these conclusions.''
+====
+
+==== Concision et précision
+
+En plus de gérer le flux et la cohésion des idées de l’article, comme discuté dans la section <<cohesion, Cohésion>>,  vous devez les exprimer de façon concise et précise. 
+
+Analysons la phrase suivante :
+
+====
+{bad} ``In our personal opinion, we must consider and evaluate each and every language that supports formal modeling.''
+====
+
+On peut omettre le mot ``personal'' puisqu’une opinion est toujours personnelle. Ceci est un pléonasme! On peut même omettre toute l’expression ``In our personal opinion'' car la déclaration qui la suit est, de façon implicite, une opinion des auteurs. Donc, le lecteur peut déduire que c’est l’opinion des auteurs qui est exprimée dans l’expression ``we must consider and evaluate each and every language that supports formal modeling.''
+
+L’expression ``consider and evaluate'' signifie, plus simplement, ``study''. L’expression ``each and every'' est une paire redondante de mots; on a besoin juste d’un de ces mots. Les paires redondantes ont pour origine des mots de la langue anglaise empruntés au latin ou à la langue française. Parce que ces mots empruntés avaient une sonorité un peu plus savante que les mots équivalents en anglais, des auteurs ont pris l’habitude de les utiliser ensemble. Cette tradition introduit une redondance dans le texte. Des exemples de paires redondantes populaires:
+
+* ``full and complete'',
+* ``true and accurate'',
+* ``each and every'',
+* ``first and foremost'',
+* ``various and sundry'',
+* ``basic and fundamental'',
+* ``questions and problems'',
+* etc.
+
+Notre phrase, ainsi révisée, devient alors :
+
+====
+{good} ``We must study each language that supports formal modeling.'' 
+====
+
+Vous devez aussi éviter d’écrire des phrases longues avec des mots non essentiels à la compréhension de vos idées. Considérons la phrase suivante :
+
+====
+{bad} ``The success of the process practically depends on several parameters that basically include film thickness.''
+====
+
+Cette phrase peut être simplifiée en supprimant ``basically'' et ``practically'' qui n’ajoutent pas d’informations essentielles à l’idée exprimée. 
+
+====
+{good} ``The success of the process depends on several parameters that include film thickness.''
+====
+
+En effet, certains adverbes  sont plutôt utilisés dans la communication orale et ne rajoutent pas d’informations essentielles à l’idée exprimée. Quelques exemples de ces adverbes sont :
+
+* ``kind of'',
+* ``really'',
+* ``basically'', 
+* ``definitely'', 
+* ``practically'',
+* ``actually'', 
+* ``virtually'',
+* ``generally'', 
+* etc.
+
+Il faut aussi éviter la redondance due à l’utilisation d’un modificateur (i.e., adverbe, adjectif ou toute expression qui a pour objectif d’ajouter de l’information à un mot) dont la signification fait déjà partie de la signification du mot auquel le modificateur est relié. L’expression ``completely finish'' présente un exemple d’une telle redondance puisque ``finish'' implique ``completely''. D’autres exemples d’expressions présentant ce type de redondance sont :
+
+* ``basic fundamentals'', 
+* ``true facts'',
+* ``important essentials'',
+* ``future plans'', 
+* ``end result'',
+* ``final outcome'',
+* ``initial preparation'',
+* etc. 
+
+Dans ces cas, il faut supprimer le modificateur (adverbe ou adjectif) pour éliminer la redondance.
+Considérons un autre type de redondance illustrée par la phrase suivante :
+
+====
+{bad} ``During that period of time, the mucous membrane area became pink in color and shiny in appearance.''
+====
+
+Dans cette phrase, certains mots spécifiques sont utilisés ainsi que leur catégorie qui est plus générale : le temps ``time'' est une période ``period'', la ``membrane'' est une région ``area'', le rose ``pink'' est une couleur ``color'' et la luisance ``shiny'' est une apparence ``appearance''. Nous pouvons donc reformuler cette phrase en éliminant cette redondance de catégorie en gardant uniquement les mots spécifiques comme suit :
+
+====
+{good} ``During that time, the mucous membrane became pink and shiny.''
+====
+
+Dans certains cas, on peut supprimer la catégorie générale en remplaçant un adjectif par un adverbe : 
+
+*Adjectif:*
+====
+``The approaches must be analyzed in an careful manner.''
+====
+
+*Adverbe:*
+====
+``The approaches must be carefully analyzed.''
+====
+
+Ou bien, en transformant un adjectif en un nom et supprimant le nom général de la catégorie :
+
+*Avec nom général:*
+====
+``The architectural process is the responsibility of design experts.''
+====
+
+*Sans nom général:*
+====
+``Architecture is the responsibility of design experts.''
+====
+
+Dans tous ces cas, nous supprimons le mot le plus général et nous gardons le plus spécifique.
+
+Finalement, pour écrire de façon concise, vous devez élaborer les idées importantes de votre article en donnant tous les détails nécessaires à leur compréhension tout en évitant de donner des détails inutiles. Dans la plupart des cas, le lecteur cible est un lecteur averti  qui a certaines connaissances dans votre domaine.
+
+En plus d’être concises, vos phrases doivent être précises. Le lecteur a besoin de savoir quels sont les faits exacts et quelles sont leurs conséquences directes ou indirectes. Vous devez donc éviter d’utiliser des expressions ambiguës, négatives ou évasives. Le lecteur ressent une certaine frustration quand l’exposé est évasif ou ambiguë.
+Ainsi, au lieu de :
+
+====
+{bad} ``We did not pay attention to the distortion parameter.''
+====
+
+====
+{bad} ``We did not think the distortion parameter was relevant in this context.''
+====
+
+Écrivez :
+
+====
+{good} ``We ignored the distortion parameter.''
+====
+
+====
+{good} ``The distortion parameter was irrelevant in this context.''
+====
+
+Considérez la phrase suivante exprimée dans une forme négative :
+
+====
+``The efficiency of the approach was not unsatisfying.''
+====
+
+En fait, cette phrase inclut deux négations (``was not'' et ``unsatisfying''). Les deux négations s’annulent pour donner un sens positif à la phrase. Mais ce sens est ambigu : cela pourrait être ``The efficiency of the approach was satisfying.'', mais ce n’est pas certain. Des informations supplémentaires sont nécessaires pour comprendre de façon précise ce que cette phrase exprime.
+
+La négation doit être utilisée pour rejeter un fait. Elle ne doit jamais être utilisée pour déformer ou contourner un fait. 
+Plusieurs expressions négatives peuvent être reformulées de façon affirmative :
+
+[width="50%",cols="^5,^5",options="header"]
+|=========================================================
+| Forme négative | Forme affirmative
+| not many | few
+| not the same | different
+| not different | alike/similar
+| did not | failed to
+| does not have | lacks
+| did not pay attention to | ignored
+| did not consider | ignored
+| did not allow | prevented
+| did not accept | rejected
+| not clearly | unclearly
+| not possible | impossible
+| not able | unable
+| not certain | uncertain
+|=========================================================
+
+En résumé, voilà les principes à appliquer pour garder votre texte concis et précis :
+
+====
+* Généralement, vous devez exprimer vos idées en utilisant la forme la plus concise.
+* Vous devez éviter d’indiquer ce que le lecteur peut facilement déduire (L’exemple de ``In our personal opinion'').
+* Vous devez, de façon générale, exprimer vos idées en utilisant la forme affirmative.
+====
+
+:numbered:
+
+[[cohesion]]
+=== Cohésion
+
+:numbered!:
+
+==== Un paragraphe = un thème
+
+Un article traite un problème ou un sujet particulier. Pour ce faire, l’article est divisé en sections visant à présenter un aspect du développement du sujet visé (voir le guide de rédaction pour connaître la composition d’un article). Chaque section est divisée en paragraphes dont le nombre varie selon la longueur de la section, et de l’article. 
+
+Pour faciliter la tâche au lecteur, l’aspect traité dans une section est divisé en plusieurs thèmes (correspondant parfois à des étapes), et chaque thème est présenté dans un paragraphe. Le paragraphe est l’unité fondamentale de composition en anglais et bien d’autres langues. Avec le début d’un nouveau paragraphe, le lecteur comprend qu’une nouvelle étape du développement du sujet est abordée.
+Le paragraphe est composé de plusieurs phrases qui sont reliées à un seul thème. Votre lecteur doit pouvoir saisir le thème d’un paragraphe dès qu’il en commence la lecture et le garder en tête à la fin du paragraphe. Pour ce faire, un paragraphe doit contenir :
+
+====
+Une phrase introductive:: C’est une phrase qui introduit le thème du paragraphe. Cette phrase doit être placée au début du paragraphe. Elle est souvent assez générale et se limite à introduire le thème qui sera développé dans le paragraphe. Cette phrase va souvent contenir une expression qui établit la relation du paragraphe avec celui qui le précède.
++
+Le développement (le corps):: Un ensemble de phrases qui développent ou expliquent la déclaration faite dans la phrase introductive. En lisant la phrase introductive, le lecteur se posera des questions auxquelles les phrases de développement devraient répondre. Le nombre de phrases du développement dépendra donc de la quantité de détails nécessaire pour que le lecteur comprenne le thème du paragraphe. Les phrases du développement expliquent la phrase introductive en la reformulant, en  définissant ses termes, en l’opposant à son inverse, en donnant des illustrations ou des exemples, en la démontrant, ou en montrant ses conséquences. 
+
+Une phrase de fin (ou de conclusion):: La phrase finale a pour rôle de résumer ou mettre l’accent sur le thème du paragraphe, ou d’annoncer une conséquence du développement qui a été fait dans le paragraphe. La phrase finale est très importante quand le paragraphe est long. Elle peut être omise si le paragraphe est très court.
+====
+
+Considérons le paragraphe suivant :
+
+====
+``{co1} It was chiefly in the eighteenth century that a very different conception of history grew up. {co2} Historians then came to believe that their task was not so much to paint a picture as to solve a problem; to explain or illustrate the successive phases of national growth, prosperity, and adversity. {co3} The history of morals, of industry, of intellect, and of art; the changes that take place in manners or beliefs; the dominant ideas that prevailed in successive periods; the rise, fall, and modification of political constitutions; in a word, all the conditions of national well-being became the subjects of their works. {co4} They sought rather to write a history of peoples than a history of kings. {co5} They looked especially in history for the chain of causes and effects. {co6} They undertook to study in the past the physiology of nations, and hoped by applying the experimental method on a large scale to deduce some lessons of real value about the conditions on which the welfare of society mainly depend.''
+====
+
+Ce paragraphe est composé de six phrases. La phrase introductive et la phrase de fin ont été surlignées dans ce paragraphe. La phrase {co1} introduit le thème du paragraphe, à savoir ``l’apparition d’une vision différente de la notion d’histoire dans le 18ième sciècle''. Cette nouvelle vision de l’histoire est définie plus clairement dans la phrase {co2},  en utilisant des exemples dans la phrase {co3}, et par un contraste dans la phrase {co4}. La phrase {co5} complémente la définition par un nouvel élément. Finalement, la sixième {co6}, qui est la dernière phrase, présente la conséquence de cette nouvelle vision.
+
+CAUTION: Évitez de finir votre paragraphe avec un détail futile ou une digression.
+
+Pour assurer un flux cohérent et continu d’information, il est souvent nécessaire d’exprimer explicitement le lien entre un paragraphe et celui qui le précède. Cela peut se faire avec un mot (ou une expression). Le mot ou expression à utiliser dépend de la nature du lien entre les paragraphes : addition, contraste, illustration, conséquence, etc. Voilà quelques exemples de mots de transition qui servent à établir ce type de lien :
+
+*  ``moreover'' 
+* ``therfore'' 
+* ``in fact'', 
+* ``in addition'', 
+* ``for example'', 
+* ``regarding'',
+* ``similarly'', 
+* ``likewise'', 
+* ``however'', 
+* ``yet'', 
+* ``nevertheless'', 
+* ``for instance'', 
+* ``that is'',
+* etc.
+
+Lorsque le lien d’un paragraphe avec celui qui le précède nécessite plusieurs phrases, on peut déduire qu’il y a un écart entre les étapes/thèmes traités par les deux paragraphes. Dans ce cas, il est souvent plus approprié d’insérer un paragraphe qui fait le lien entre les deux paragraphes. 
+
+==== Gestion du flux d’information
+
+Dans la section <<clarte, Clarté>>, nous nous sommes concentrés sur la clarté des phrases de façon individuelle. Cependant, une série de phrases claires peut être une source de confusion si les phrases ne sont pas construites en fonction de leur contexte. Donc, les phrases doivent être construites de façon à assurer leur clarté ‘‘locale’’ (i.e., individuelle) mais aussi de façon à ce qu’ensemble elles reflètent un point de vue cohérent.
+
+Considérons les deux phrases suivantes :
+
+*Phrase (a)*:
+====
+``A black hole is created by the collapse of a dead star into a point perhaps no larger than a marble.''
+====
+
+*Phrase (b)*:
+====
+``The collapse of a dead star into a point perhaps no larger than a marble creates a black hole.''
+====
+
+Les deux phrases expriment la même idée en utilisant la voix passive dans la première (a) et la voix active dans la deuxième (b). Laquelle des deux phrases utiliser si le contexte est donné par le paragraphe suivant :
+
+====
+``{co1} Some astonishing questions about the nature of the universe have been raised by scientists exploring the nature of black holes in space. {co2} <__Insérer phrase (a) ou (b)__> {co3} So much matter compressed into so little volume changes the fabric of space around it in profoundly puzzling ways.''
+====
+
+Nous pouvons voir que la forme passive exprimée dans phrase (a) est plus appropriée dans ce contexte que la forme active dans (b). En effet, la dernière partie de la phrase {co1} présente un des acteurs importants de l’exposé ``black holes in space''. Si nous écrivions la phrase {co2} en utilisant la voix active présentée dans (b), le début de la phrase introduirait des éléments qui sont nouveaux pour le lecteur (i.e., ``The collapse of a dead star into a point perhaps no larger than a marble'') et dont le lien avec la phrase {co1} n’est pas clair; nous ne retrouvons l’acteur principal ``black hole'' introduit déjà dans la phrase {co1} qu’à la fin de la phrase {co2}. 
+
+Il y a donc une certaine rupture dans le discours. Nous pouvons améliorer le flux entre les phrases {co1} et {co2} en mettant l’acteur connu ``black hole'' au début de la phrase {co2}, où il fera écho aux derniers mots de la phrase {co1}. Pour cette raison, nous utiliserons une forme passive telle que celle dans (a) dont le sujet est ``black hole''. En faisant cela, nous déplaçons également à la fin de la phrase {co2} l’idée (i.e., ``the collapse of a dead star into a point perhaps no larger than a marble.'') qui va être reprise au début de la phrase {co3} (i.e., ``So much matter compressed into so little volume''). 
+
+En créant un lien conceptuel entre vos phrases, votre discours est plus fluide et plus facile à suivre et à comprendre par le lecteur. Pour pouvoir créer ce lien conceptuel, vous devez construire chaque phrase en appliquant deux principes de cohésion qui ont été illustrés par l’exemple précédent:
+
+====
+* Mettez les idées connues au début de votre phrase. Ces idées sont des idées que vous avez déjà présentées, des idées impliquées ou inférées, ou des concepts que vous supposez (de façon raisonnable) connues par votre lecteur.
+* Mettez à la fin de votre phrase les informations qui sont nouvelles, plus récentes, plus surprenantes, plus importantes ou, de façon plus générale, les informations sur lesquelles vous voulez mettre l’accent. Ces informations deviennent alors connues et peuvent être développées dans la phrase suivante ou utilisées pour introduire de nouveaux éléments d’information.
+====
+
+Les mots de transition (voir section précédente pour des exemples) peuvent aussi vous aider à rendre le lien conceptuel entre les phrases plus explicite et plus facile à comprendre.
+
+== Quelques règles grammaticales d’usage
+
+=== Série de termes
+
+Dans une phrase avec une série de plus de trois termes (ou expressions), utilisez une virgule après chaque terme sauf le dernier.
+
+====
+* ``entities, relationships, and attributes''
+* ``powerful, fast, but unstable''
+* ``We tested the approach on several datasets, analyzed the results, and drew some conclusions.''
+====
+
+L’abréviation ``etc.'' est toujours précédée d’une virgule. Elle est toujours suivie d’une virgule sauf quand elle est à la fin d’une phrase :
+
+====
+``Arithmetic operations include addition, subtraction, multiplication, etc.''
+====
+
+=== Expressions additionnelles
+
+Dans une phrase, une expression additionnelle ajoute de l’information pertinente mais non essentielle à la phrase. Elle peut contenir un ou plusieurs mots et elle interrompe le flux de la phrase. Cette expression doit être précédée et suivie de virgules.
+
+Exemples :
+
+====
+* ``The interest in this problem, as far as we know, is relatively recent.'' 
+* ``The best way to see a country, unless you are pressed for time, is to travel on foot.''
+====
+
+Cette règle est difficile à appliquer car il n’est pas toujours facile de décider si un seul mot ou une expression courte constitue ou non une expression additionnelle. Dans tous les cas, il ne faut jamais omettre une virgule et garder l’autre.
+
+
+Si l’expression additionnelle est précédée par une conjonction ``and'', il faut placer la première virgule avant la conjonction et non après.
+
+====
+``He saw us coming, and unaware that we had learned of his treachery, greeted us with a smile.''
+====
+
+=== Les expressions relatives  
+
+Une expression relative est une expression qui est reliée à l’expression principale de la phrase. En particulier, elle réfère à un nom ou à une phrase nominale de l’expression principale. Les expressions relatives sont introduites dans la phrase par des pronoms relatifs tels que ``who'', ``whom'', ``which'', ``where'', ``when'', et ``whose''.
+
+Une expression relative est dite restrictive si elle modifie, ou, plus spécifiquement, définit le nom ou la phrase nominale à laquelle elle réfère. Elle est dite non restrictive si elle fournit tout simplement une information additionnelle.
+
+Une expression relative non restrictive doit être précédée et suivie de virgules et cela en conformité avec la règle précédente sur les expressions additionnelles. 
+
+Exemples :
+
+====
+* ``The proposed approach, which allows designers to iteratively build their systems, was tested in various industrial projects.''
+* ``The audience, which had at first been indifferent, became more and more interested.''
+* ``Nether Stowey, where Coleridge wrote The Rime of the Ancient Mariner, is a few miles from Bridgewater.''
+====
+
+En fait, dans chacun de ces trois exemples, la phrase est une combinaison de deux déclarations pouvant former chacune une phrase indépendante.
+Une expression relative restrictive n’est pas séparée par des virgules.
+
+Exemples :
+
+====
+* ``Many approaches that tackle the problem rely on diverse information, such as code metrics, process metrics, or previous defects.''
+* ``The candidate who best meets these requirements will obtain the place.''
+====
+
+Dans la première phrase, l’expression relative ``that tackle the problem'' restreint (i.e. modifie) la portée de l’expression ``Many approaches'' à un sous-ensemble. Dans la seconde phrase, l’expression relative ``who best meets these requirements'' restreint la portée du mot ``Candidate'' à une seule personne. 
+
+=== Expressions indépendantes  
+
+Une expression indépendante constitue une expression dont le sens est complet, i.e., la pensée est exprimée de façon complète par l’expression. C’est une phrase en soi. Voilà des exemples d’expressions indépendantes :
+
+====
+* ``The experiments were performed using one programming language.''
+* ``The conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting.''
+* ``More experiments are needed.'' 
+====
+
+Une phrase peut contenir plus qu’une expression indépendante. Dans ce cas, ces expressions sont séparées par des points-virgules à moins que la seconde expression ne soit introduite par une conjonction (ex., ``and'', ``but'').
+
+Nous pouvons, par exemple, combiner les expressions précédentes comme suit :
+
+====
+* ``The experiments were performed using one programming language; the conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting; more experiments are needed.''
+====
+
+Ou bien en utilisant des conjonctions comme suit :
+
+====
+* ``The experiments were performed using one programming language, and the conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting, but more experiments are needed.''
+====
+
+L’utilisation des conjonctions pour combiner des expressions indépendantes donne un style plus formel que celui où les expressions indépendantes sont données en vrac avec des points-virgules pour les séparer. L’utilisation occasionnelle des phrases en vrac (séparées par des points-virgules) empêche le style de devenir trop formel et donne au lecteur un certain répit. Cependant, il faut éviter de construire un trop grand nombre de phrases en vrac.
+
+De façon générale, une phrase contenant deux expressions où la seconde expression est introduite par une conjonction telle que ``and'', ``but'', ``as'' (dans le sens de ``because''), ``while'' (dans le sens de ``at the same time''), ``or'', ``nor'' et ``for'' doit être précédée par une virgule.
+
+====
+``We briefly analyze some of the results here, while complete details and discussion of the results can be found in the web site.''
+====
+
+Lorsque la seconde expression est introduite par un adverbe tel que ``so'', ``then'', ``thus'', ``accordingly'', ``therefore'', etc., il faut utiliser un point-virgule pour séparer les expressions.
+
+====
+``The system is represented using formal models; so design rules specify constraints that the models of the system must comply with.''
+====
+
+En général, il est préférable d’éviter cette dernière forme de style. On peut omettre l’adverbe de conjonction ``so'', et reformuler la dernière phrase comme suit :
+
+====
+``As the system is represented using formal models, design rules specify constraints that the models of the system must comply with.''
+====
+
+=== Structures parallèles
+
+Il faut utiliser une forme grammaticale similaire pour présenter les expressions dont le contenu est similaire; ex., une série de mots ou d’expressions corrélatives. En utilisant une forme similaire, le lecteur peut reconnaître et saisir plus facilement la similarité du contenu.
+
+Au lieu de :
+
+====
+{bad} ``The approach enables to design, to test, and simulating systems.'' 
+====
+
+vous devez écrire :
+
+====
+{good} ``The approach enables to design, to test, and to simulate systems.''
+====
+
+ou bien :
+
+====
+{good} `The approach enables designing, testing, and simulating systems.'' 
+====
+
+Au lieu de :
+
+====
+{bad} ``These results persuade us that the algorithm can analyze different types of systems but not to run it on different platforms.''
+====
+
+vous devez écrire :
+
+====
+{good} ``These results persuade us that the algorithm can analyze different types of systems but not that we can run it on different platforms.''
+====
+
+Ce principe s’applique aussi à des expressions données sous forme de liste (numérotée ou non); ces expressions doivent utiliser la même forme grammaticale. Au lieu de :
+
+====
+{bad} ``This process consists of four steps: eliciting requirements; modeling the system; simulation of the system; evaluation of the simulation results.''
+====
+
+vous devez écrire :
+
+====
+{good} ``This process consists of four steps: eliciting requirements; modeling the system; simulating the system; evaluating the simulation results.''
+====
+ 
+Aussi, lorsqu’un article (ex. ``The'') ou une préposition s’applique à une série de mots, il faut mettre l’article ou la préposition devant chacun des mots de la série, ou bien uniquement devant le premier mot de la série. Ainsi, au lieu de :
+
+====
+{bad} ``The requirements, the design models, and tests are artifacts produced during software development.'' 
+====
+
+vous devez écrire :
+
+====
+{good} ``The requirements, the design models, and the tests are artifacts produced during software development.''
+====
+
+Au lieu de :
+
+====
+{bad} ``The approach enables to design, to test, and simulate systems.''
+====
+
+vous devez écrire :
+
+====
+{good} ``The approach enables to design, to test, and to simulate systems.''
+====
+
+ou bien :
+
+====
+{good} ``The approach enables to design, test, and simulate systems.''
+====
+
+De façon similaire, les expressions de corrélation (ex. ``not only ... but also''; ``either ... or''; ``both ... and''; ``not ... but''; ``first, ... second, ...''; etc.) doivent être suivies de phrases exprimées dans la même forme grammaticale. Au lieu de :
+
+====
+{bad} ``The contribution of this paper is not only a framework for mobile applications but also the support of evaluation of these applications through a formal process.''
+====
+
+vous devez ainsi écrire :
+
+====
+{good} ``The contribution of this paper is not only a framework for mobile applications but also a formal process for evaluating these applications.''
+====
+
+== Si vous désirez en savoir plus
+
+Cette page présente un résumé des règles essentielles de style. Si vous voulez en savoir plus sur la rédaction d’articles scientifiques, veuillez consulter la section link:/fr/ressources[Ressources].

@@ -235,3 +235,19 @@ th.tableblock.valign-middle, td.tableblock.valign-middle {
 th.tableblock.valign-bottom, td.tableblock.valign-bottom {
   vertical-align: bottom;
 }
+
+//// ADDED FOR FORMS
+
+label span{
+  display: inline-block;
+  width  : 60px;
+  text-align: right;
+  //// font-weight: bold;
+  margin-right: 0.5em;
+}
+
+textarea {
+  resize: none;
+  height: 8em;
+  width: 45em;
+}
