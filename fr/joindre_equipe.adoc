@@ -2,9 +2,12 @@
 :awestruct-layout: default
 :imagesdir: images
 
+:homepage: http://sara.logti.etsmtl.ca
+// :homepage: http://localhost:4242
+
 == Joindre l'équipe d'arbitres du SARA
 
-Blabla arbitre SARA
+Nous sommes à la recherche de personnes pour nous aider dans l'évaluation d'articles soumis au SARA par des étudiants.
 
 === Bénéfices 
 
@@ -42,28 +45,31 @@ Par ailleurs, vous devez également vous engager à:
 Pour appliquer, veuillez remplir les informations suivantes:
 
 ++++
-<form action="MAILTO:ch.desrosiers@gmail.com" method="post" enctype="text/plain">
+
+<form action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post" enctype="multipart/form-data">
+  
+<input type='hidden' name='redirect_to' value='{homepage}/fr/confirmation' />
 
 <h5>Contact:</h5>
 
 <label for="prenom">
 <span>Prénom:</span> 
-<input type="text" name="prenom"><br>
+<input type="text" name="prenom" required="required"><br>
 </label>
 
 <label for="nom">
 <span>Nom:</span> 
-<input type="text" name="nom"><br>
+<input type="text" name="nom" required="required"><br>
 </label>
 
 <label for="courriel">
 <span>Courriel:</span> 
-<input type="text" name="courriel"><br>
+<input type="email" name="courriel" required="required"><br>
 </label>
 
 <h5>Programme d'études:</h5>
 
-<input type="radio" name="cycle" value="phd"> &nbsp; Doctorat<br>
+<input type="radio" name="cycle" value="phd" checked="checked"> &nbsp; Doctorat<br>
 <input type="radio" name="cycle" value="maitrise"> &nbsp; Maîtrise<br>
 
 <br>
@@ -81,14 +87,13 @@ Pour appliquer, veuillez remplir les informations suivantes:
 
 <h5>Expérience:</h5>
 
-<p>Décrivez brièvement votre expérience en recherche (e.g., publications, projets, etc.):</p>
- 
-<textarea rows="10" cols="45" name="experience">
-</textarea><br>
+<p>Inclure un curriculum vitae décrivant vos expériences de travail et publications (PDF seulement):</p>
+<input type='file' name="cv" accept="pdf" size = '50'><br>
 
 <br>
-<p>En cliquant sur le bouton <i>Soumettre</i>, vous acceptez les conditions décrites dans le link:/fr/formulaire_confidentialite[Formulaire d’engagement à la confidentialité]:</p>
+<input type="checkbox" name="confcheck" value="check" required="required"> &nbsp; J'accepte les conditions décrites dans le link:/fr/formulaire_confidentialite[Formulaire d’engagement à la confidentialité].
 
+<br><br>
 <input type="submit" value="Soumettre">
 
 </form>

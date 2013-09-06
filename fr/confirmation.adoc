@@ -1,0 +1,11 @@
+= Confirmation
+:awestruct-layout: default
+:imagesdir: images
+:homepage: http://sara.logti.etsmtl.ca
+
+:numbered!:
+=== Confirmation
+
+*Merci d'avoir appliqué à l'équipe d'arbitres du SARA.* 
+
+*Nous vous contacterons par courriel sous peu.*

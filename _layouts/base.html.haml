@@ -2,7 +2,7 @@
 %html
   %head
     %meta{ :charset=>'utf-8' }
-    %title S.A.R.A.: #{page.title}
+    %title SARA: #{page.title}
     %link{ :rel=>'alternate',  :type=>'application/atom+xml', :href=>'/news.atom' }
     %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
     :css
@@ -30,7 +30,7 @@
                 :src=>'http://www.etsmtl.ca/ETS/media/Prive/logo/ETS-blanc-ecran-fond_transparent.png',
                 :alt=>'ÉTS'}
           %a.brand{ :href=>"#{site.base_url}",:style => 'font-family: monospace;font-size: 24px'} 
-            {S.A.R.A.}
+            {SARA}
           - if page.url.start_with? '/en/'
             %ul.nav
               %li 
