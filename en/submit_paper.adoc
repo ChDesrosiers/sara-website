@@ -2,6 +2,64 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== To submit a working paper
+== SARA's paper reviewing service
 
-TO BE COMPLETED
+The SARA offers a free paper reviewing service. This service allows ÉTS students to submit a draft of their paper and receive useful comments by people experienced in writing scientific papers.
+
+=== Benefits
+
+Why use this service? Here are several good reasons :
+
+====
+*  Get prompt feedback that is relevant to the improvement of your manuscript, from the perspective of a potential reader;
+*  Learn to receive and react productively to criticism, which is an invaluable career skill; 
+*  Become familiar with _EasyChair_, a real on-line manuscript submission system that is typical of systems used for many conferences;
+*  Increase your chances of getting your work published in a good journal or conference proceedings.
+====
+
+=== Requirements
+
+To use this service, you must:
+
+====
+*  Be registered as *a graduate student at ÉTS*;
+*  Have *completed a first draft of your manuscript* in PDF format, in the format required by the conference or journal that you are targeting.  The draft does not need to be perfect, but it must be complete.  That is, it must minimally include a title, an abstract, an introduction, conclusions, a bibliography, the methodology and results, and must not have any empty sections or sections “to be completed”;
+*  Have the *permission of your thesis advisor* and all of your co-authors before submitting to SARA;
+*  Make sure that you *are not violating any confidentiality agreement* related to your research project, particularly if your project is part of an industrial collaboration;
+*  Make sure that *your submission does not divulge information* that could compromise patent protection in the case where you or any of your co-authors is planning to commercialize the results of the research described in the manuscript.
+====
+
+=== Submit a draft paper
+
+To submit a draft of your manuscript via our _EasyChair_ platform, you must first *agree to the following terms* and then click on the _Submit_ button.
+
+++++
+
+<form action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
+
+<div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+
+<h5>Submission conditions</h5>
+
+<p>In order to honor any confidentiality agreements your research may be subject to, you must not submit a draft of your manuscript to ÉTS’s article writing help service if :</p> 
+
+<ol>
+<li> The contents of your manuscript are linked with an industrial (or other) collaboration and you are not perfectly aware of the confidentiality agreements that may affect your research project <b>OR</b> </li>
+<li>Your research is part of an industrial (or other) collaboration that is subject to one or more confidentiality agreements and you have not done a prior conformity check of your draft with respect to these agreements with input from your partners.</li>
+</ol>
+
+<p>In addition, you must not submit a draft of your manuscript to ÉTS’s article writing help service if :</p>
+
+<ol start="3">
+<li>You wish to protect technology described in the manuscript through a patent or another legal mechanism with help from the SPSIR (your submission would then be considered a public divulgation of the technology).</li>
+</ol>
+
+<p>Furthermore, if you submit a manuscript draft to ÉTS’s article writing help service with co-authors, all co-authors must be well represented.  The draft must not be submitted if one or more of the co-authors are in one of the three situations enumerated above.</p>
+
+<input type="checkbox" name="submissionCheck" value="termsSubmissionAccept" required="required"> &nbsp; <b>I certify that I have read and understood the conditions enumerated on this page and that the contents of my submission are not affected by these conditions.</b>
+</div>
+
+<br>
+<input type="submit" value="Submit">
+</form>
+++++

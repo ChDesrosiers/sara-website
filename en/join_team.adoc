@@ -2,6 +2,112 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== To join the team
+:homepage: http://sara.logti.etsmtl.ca
+// :homepage: http://localhost:4242
 
-TO BE COMPLETED
+
+== Joining our team of reviewers 
+
+We are looking for people to help us reviewing student submitted papers.
+
+=== Benefits
+
+Why join SARA’s team of reviewers? Here are some excellent reasons:
+
+====
+* Become familiar with the manuscript submission and reviewing process;
+* Further develop your professional expertise as a technical writer;
+* Improve your critical thinking skills;
+* Get a wider perspective on research activities at ÉTS;
+* Establish foundations for a career as an international researcher.
+====
+
+=== Requirements
+
+To become a reviewer for SARA, you will need to meet the following requirements:
+
+====
+* Be a *graduate student* or a member of research staff at ÉTS;
+* Have *at least one paper published* or accepted to a journal or conference;
+* Have a *good mastery of technical English* (as researchers, we rarely publish in other languages);
+====
+
+You will also need to:
+
+====
+* Read and understand the link:/fr/guide_evaluation[Reviewer's guide];
+* Honor the rules of the confidentiality agreement (see below);
+* Meet reviewing deadlines.
+====
+
+=== Application
+
+To apply, fill out and submit the following form:
+
+++++
+
+<form action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post" enctype="multipart/form-data">
+  
+<input type='hidden' name='redirect_to' value='{homepage}/fr/confirmation' />
+
+<h5>Contact:</h5>
+
+<label for="firstname">
+<span>First name:</span> 
+<input type="text" name="firstname" required="required"><br>
+</label>
+
+<label for="name">
+<span>Name:</span> 
+<input type="text" name="name" required="required"><br>
+</label>
+
+<label for="email">
+<span>Email:</span> 
+<input type="email" name="email" required="required"><br>
+</label>
+
+<h5>Study program:</h5>
+
+<input type="radio" name="cycle" value="phd" checked="checked"> &nbsp; Ph.D.<br>
+<input type="radio" name="cycle" value="masters"> &nbsp; Master's<br>
+
+<br>
+<select name="program">
+<option value="aerospace">Aerospace</option>
+<option value="gpa">Automated manufacturing</option>
+<option value="construction">Construction</option>
+<option value="electrical">Electrical</option>
+<option value="environmental">Environmental</option>
+<option value="gti">Information technologies</option>
+<option value="mechanical">Mechanical</option>
+<option value="software">Software</option>
+<option value="other">--- Other ---</option>
+</select>
+
+<h5>Experience:</h5>
+
+<p>Include a resume describing your relevant experiences in research and publications (PDF only):</p>
+<input type='file' name="resume" accept="pdf" size = '50'><br>
+
+<br>
+<h5>Confidentiality agreement:</h5>
+
+<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+
+<p>I have volunteered to participate in the mission of ÉTS’s article writing help service.  In this context, I will have to review other students’s manuscripts. I am aware that access to these unpublished manuscripts constitutes a privilege and I hereby commit to preserving the confidentiality of their contents :</p>
+
+<ol>
+<li>By not broadcasting any information on the content of the manuscripts under any form (verbal, written, virtual) whatsoever;</li>
+<li>By not using the unpublished information contained in the manuscripts form my own purposes (i.e. to make progress with my thesis or any other research, development or commercial project), and by refraining from doing so until its official publication;</li>
+<li>By destroying any remaining copies of the manuscript at the end of each reviewing mandate.</li>
+</ol>
+
+<input type="checkbox" name="reviewingCheck" value="termsReviewingAccept" required="required"> &nbsp; <b>I have read and understood this form and I agree with its contents.</b>
+</div>
+
+<br><br>
+<input type="submit" value="Submit">
+
+</form>
+++++

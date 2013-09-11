@@ -2,6 +2,64 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== Pour soumettre un article
+== Service d'arbitrage d’articles
 
-À COMPLÉTER
+Le SARA offre un service gratuit d'arbitrage d'articles. Ce service permet aux étudiants de l'ÉTS de soumettre une ébauche d'article et recevoir des commentaires pertinents de personnes expérimentées dans la rédaction d'articles.
+
+=== Bénéfices
+
+Pourquoi utiliser ce service? Voici plusieurs bonnes raisons de le faire: 
+
+====
+*  Obtenir rapidement des commentaires pertinents pour l’amélioration de votre article, venant de la perspective d’un lecteur potentiel;
+*  S'entraîner à recevoir et à réagir productivement à la critique, ce qui est indispensable pour votre carrière;
+*  S'habituer à utiliser correctement un vrai système de soumission d’articles en ligne, _EasyChair_, qui est typique des systèmes utilisés pour les conférences;
+*  Augmenter les chances de voir votre travail publié dans une bonne revue ou une bonne conférence.
+====
+
+=== Exigences
+
+Les exigences suivantes doivent être respectées pour utiliser le service:
+
+====
+*  Être *étudiant inscrit à l’ÉTS aux cycles supérieurs*;
+*  Avoir sous la main *une première ébauche de votre article* en format PDF, dans le format exigé par la conférence ou la revue que vous ciblez.  L’ébauche n’a pas besoin d’être parfaite, mais elle doit être complète, c’est-à-dire comporter minimalement un titre, un résumé, une introduction, une conclusion, une bibliographie, la méthodologie et des résultats, et ne comporter aucune section vide ou ``à compléter'';
+*  Obtenir l’*accord de votre directeur de recherche* et de tous vos co-auteurs avant de soumettre l’article au SARA;
+*  S’assurer de *ne violer aucune entente de confidentialité* en lien avec votre projet de recherche, particulièrement s’il fait l’objet d’une collaboration industrielle;
+*  Dans le cas où une commercialisation des résultats de vos recherches est souhaitée, s’assurer de *ne pas divulguer dans l’article d’informations privilégiées*, qui pourraient compromettre une éventuelle protection d’invention par un brevet.
+====
+
+=== Soumettre une ébauche d'article
+
+Pour soumettre un article via notre plateforme _EasyChair_, vous devez d'abord *accepter les conditions suivantes* et ensuite appuyer sur le bouton _Soumettre_.
+
+++++
+
+<form action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
+
+<div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+
+<h5>Conditions de soumission</h5>
+
+<p>Afin de préserver les ententes de confidentialité auxquelles vous adhérez peut-être dans le cadre de vos recherches, vous ne devez pas soumettre d’ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS si :</p> 
+
+<ol>
+<li> Le contenu de votre article s’inscrit dans le cadre d’une collaboration industrielle (ou autre) et vous n’êtes pas parfaitement au courant des ententes de confidentialité qui peuvent toucher votre projet de recherche <b>OU</b> </li>
+<li>Vos recherches s’inscrivent dans le cadre d’une collaboration industrielle (ou autre) faisant l’objet d’une (ou plusieurs) entente(s) de confidentialité et vous n’avez pas préalablement vérifié la conformité de votre article avec cette entente auprès de vos partenaires;</li>
+</ol>
+
+<p>De plus, vous ne devez pas soumettre d’ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS si :</p>
+
+<ol start="3">
+<li>Vous désirez protéger la technologie décrite dans l’article par un brevet ou un autre mécanisme juridique à l’aide du SPSIR (votre soumission serait alors considérée comme une divulgation publique de la technologie).</li>
+</ol>
+
+<p>Par ailleurs, si vous soumettez une ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS avec des co-auteurs, tous ces co-auteurs doivent être bien représentés. L’ébauche ne peut être soumise si un ou plusieurs des co-auteurs se trouve dans l’une des trois situations énumérées ci-dessus.</p>
+
+<input type="checkbox" name="soumissionCheck" value="termesSoumissionAccept" required="required"> &nbsp; <b>Je certifie que j’ai bien lu et compris les conditions énumérées sur cette page et que le contenu de ma soumission n’est pas touché par ces conditions.</b>
+</div>
+
+<br>
+<input type="submit" value="Soumettre">
+</form>
+++++

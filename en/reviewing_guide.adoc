@@ -4,7 +4,7 @@
 :imagesdir: images
 :doctype: article
 :icons:
-:iconsdir: ../images/icons
+:iconsdir: ../../images/icons
 :toc:
 :toc-placement!:
 

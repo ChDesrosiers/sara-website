@@ -16,11 +16,13 @@ toc::[]
 
 Un rapport d’évaluation joue deux rôles importants dans le processus de publication: 
 
+====
 Contrôle de qualité:: 
 Le rapport d’évaluation doit aider le rédacteur en chef à prendre les décisions qui permettront de préserver le niveau de qualité de la revue (ou de la conférence) ciblée en lui fournissant de l’information sur la pertinence, l’originalité et la validité du contenu de l’article.
-+
+
 Critique constructive:: 
 Le rapport d’évaluation doit aider les auteurs à améliorer leur travail (lors d’une éventuelle révision, par exemple) en fournissant des commentaires constructifs et des suggestions claires.
+====
 
 En s’acquittant bien de ce double mandat, l’expert qui accepte d’évaluer un article rend service à la revue et aux auteurs de l’article, mais aussi à sa communauté scientifique de façon plus générale (puisqu’elle lira de meilleurs articles et sera poussée à faire du meilleur travail scientifique pour surpasser ce qui existe déjà).
 
@@ -43,22 +45,31 @@ Dans le milieu académique, réaliser des mandats d’évaluation fait partie de
 
 Accepter d’évaluer un article représente donc un certain engagement vis-à-vis de la communauté scientifique en général et des auteurs en particulier. Pour cette raison, au moment de s’engager, il est important de:
 
-S’assurer d’être suffisamment compétent:: 
+//:numbered!:
+
+==== S’assurer d’être suffisamment compétent
+
 L’article devrait toucher d’assez près votre propre expertise en recherche, soit en s’intéressant à des problèmes similaires ou en utilisant des méthodes proches de celles que vous connaissez bien. Il n’est pas nécessaire d’être expert sur tous les thèmes abordés par l’article, mais vous devriez vous sentir relativement à l’aise en lisant le résumé et avoir déjà une bonne idée de ce que présentera l’article.
-+
-S’assurer d’avoir le temps et respecter les délais:: 
+
+==== S’assurer d’avoir le temps et respecter les délais
+
 La revue ou la conférence donnent généralement des délais de quelques semaines pour produire le rapport d’évaluation. Par respect pour les auteurs qui souhaitent publier, il est important de respecter ces délais. Bien évaluer un article et rédiger un bon rapport d’évaluation sont des tâches qui peuvent prendre plusieurs heures. Nous avons tous reçu à l’occasion des rapports d’évaluation d’à peine quelques lignes et produits en vitesse. Ce type d’évaluation n’aide personne.
-+
-Respecter les règles de confidentialité:: 
+
+==== Respecter les règles de confidentialité
+
 L’article que vous avez à évaluer n’a pas encore été publié et constitue un document confidentiel. Vous n’y avez accès que pour les besoins de l’évaluation. Il est donc important de ne pas partager le contenu de l’article avec quiconque et de ne pas utiliser les nouvelles informations que vous y trouverez peut-être à vos propres fins avant que l’article soit publié. 
-+
-Rester anonyme:: 
+
+==== Rester anonyme
+
 Généralement, l’identité des évaluateurs est également une donnée confidentielle à laquelle les auteurs n’ont pas accès. Il est important de préserver cet anonymat afin d’éviter davantage de biais dans votre relation avec les auteurs (que vous connaissez par ailleurs peut-être).
-+
-Éviter les conflits d’intérêt:: 
+
+==== Éviter les conflits d’intérêt
+
 Évitez d’évaluer des articles écrits par des auteurs avec qui vous avez récemment entretenu une collaboration de recherche, une relation employeur-employé ou une relation d’amitié. Cela nuirait à votre crédibilité. Il vaut mieux refuser en déclarant le conflit d’intérêt.
 
 Lorsque vous n’êtes pas en mesure de vous engager à évaluer un article, il convient de donner votre refus poliment et rapidement et, si possible, de suggérer un collègue (à qui vous avez préférablement déjà mentionné la chose) pour vous remplacer.
+
+:numbered:
 
 == Comment évaluer un article
 
@@ -74,19 +85,30 @@ CAUTION: Ne vous impatientez pas si le processus vous semble long et laborieux l
 
 Vos lectures et relectures de l’article devraient vous permettre de:
 
-Déterminer si l’article est pertinent pour la revue/conférence ciblée::
+//:numbered!: 
+
+==== Déterminer si l’article est pertinent pour la revue/conférence
+
 Si l’article s’attaque à un problème important ou nouveau dans le domaine et que l’article s’adresse bien au lectorat de la revue/conférence, l’article est probablement pertinent. Si la revue vous semble mal choisie, pensez à une alternative qui serait préférable.
-+
-Identifier les contributions principales de l’article et évaluer leur originalité::
+
+==== Évaluer les contributions principales de l’article
+
 Idéalement, les auteurs devraient avoir clairement identifié les contributions de leur travail dans l’article. Sinon, appuyez-vous sur vos connaissances du domaine et sur le contenu de l’article pour l’énoncer plus clairement. Établir l’originalité d’une contribution scientifique nécessite de la comparer à ce qui existe déjà dans la littérature. Cela veut dire qu’il vous faudra peut-être lire d’autres articles (au moins en partie) pour faire votre évaluation. Ces articles peuvent être ou non cités par les auteurs; si vous n’êtes pas tout à fait au courant de ce qui existe sur le sujet, faites vous-même une petite recherche bibliographique. N’oubliez pas de consulter également les publications antérieures des auteurs de l’article pour mieux comprendre l’étendue réelle du progrès réalisé depuis. Il est assez courant de publier dans une revue la version allongée d’un article de conférence, mais l’allongement devrait en principe être de nature à ajouter une certaine valeur à l’original, et la pratique doit aussi être reconnue par les auteurs dans l’article.
-+
-Évaluer la complétude de la revue de la littérature::
+
+==== Évaluer la complétude de la revue de la littérature
+
 Suite à votre évaluation de l’originalité de l’article, vous aurez rapidement identifié les références bibliographiques importantes sur le sujet qu’il traite. Demandez les questions suivantes:
+
+====
 ** Ces références sont-elles discutées dans la revue de littérature? 
 ** Le contenu de cette discussion est-il à peu près exact?
-+
-Évaluer le contenu méthodologique:: 
+====
+
+==== Évaluer le contenu méthodologique
+
 Pour ce faire, posez les questions suivantes:
+
+====
 ** Quelles sont les hypothèses (explicites et cachées) sur lesquelles repose le travail des auteurs? 
 ** Y a-t-il des cas pratiques importants où vous anticiperiez un échec des méthodes proposées? 
 ** Les calculs sont-ils exacts? 
@@ -95,26 +117,38 @@ Pour ce faire, posez les questions suivantes:
 ** Y a-t-il suffisamment d’informations pour reproduire les résultats? 
 ** Comment les divers paramètres ajustables ont-ils été choisis? Est-ce bien justifié? 
 ** Ce choix est-il susceptible de fonctionner dans des contextes légèrement différents?
-+
-Évaluer la méthodologie expérimentale::
+====
+
+==== Évaluer la méthodologie expérimentale
+
 Utilisez les questions suivantes:
+
+====
 ** Les expériences mettent-elles bien en évidence la contribution annoncée par les auteurs? 
 ** Les résultats sont-ils quantitatifs ou qualitatifs? Sont-ils convaincants? 
 ** Les conditions expérimentales correspondent-elles aux hypothèses posées explicitement par les auteurs?
 ** Sont-elles trop faciles? 
 ** Aurait-il fallu faire davantage d’expériences? Les mesures indépendantes, si elles sont nécessaires, ont-elles été prises avec suffisamment de justesse et de précision? 
 ** Les conditions expérimentales sont-elles reproductibles?
-+
-Évaluer l’analyse des résultats::
+====
+
+==== Évaluer l’analyse des résultats
+
 Pour cette tâche, demandez les questions suivantes:
+
+====
 ** Les résultats sont-ils accompagnés d’une interprétation suffisamment détaillée? 
 ** S’il y a des résultats qui semblent à priori surprenants ou très différents des autres, ont-ils été expliqués? 
 ** Y a-t-il suffisamment de détails concernant l’analyse statistique des résultats (par exemple les noms et paramètres des tests statistiques utilisés) et si oui, a-t-elle été faite correctement? 
 ** Les auteurs comparent-ils leurs résultats à ceux d’autres auteurs (préférablement à l’état de l’art)? 
 ** Si oui, la comparaison est-elle juste et est-elle basée sur des critères valables et/ou couramment utilisés dans la littérature?
-+
-Évaluer la qualité de la rédaction::
+====
+
+==== Évaluer la qualité de la rédaction
+
 Les questions suivantes peuvent faciliter l'évaluation de la qualité:
+
+====
 ** L’article est-il relativement facile à lire (pour un article scientifique)? 
 ** Y a-t-il des idées importantes qui ne sont pas exprimées suffisamment clairement? 
 ** Les idées sont-elles présentées dans le bon ordre? 
@@ -123,26 +157,30 @@ Les questions suivantes peuvent faciliter l'évaluation de la qualité:
 ** Y a-t-il des passages superflus? 
 ** Les dessins et graphiques sont-ils bien lisibles et aident-ils vraiment le lecteur à comprendre l’article? 
 ** Manque-t-il des figures qui aideraient à la compréhension?
+====
 
 TIP: Réfléchissez à chacun de ces critères d’évaluation et prenez des notes. Il peut être utile de prendre une pause après la première lecture et/ou avant de rédiger le rapport d’évaluation. Cela donne un certain recul et permet parfois de déceler des subtilités (souvent importantes) qui échapperaient autrement à l’attention.
+
+:numbered:
 
 == Comment rédiger un rapport d’évaluation
 
 La plupart des conférences et revues utilisent maintenant des formulaires électroniques pour la gestion des rapports d’évaluation. Le niveau de structure des informations demandées varie beaucoup d’une revue/conférence à l’autre. La plupart du temps, le formulaire comprend une partie qui sera visible par les auteurs de l’article (et le rédacteur en chef) et une partie réservée au rédacteur en chef uniquement. La plus grosse partie du rapport d’évaluation doit aller dans la partie du formulaire qui sera visible par les auteurs.
 
-:numbered!:
+//:numbered!:
 
-=== Résumé factuel
+==== Résumé factuel
 
 Un rapport d’évaluation complet commence par un résumé factuel de l’article. Ce résumé doit décrire brièvement et de façon plutôt neutre le contenu de l’article: la problématique traitée, les contributions principales de l’article (selon les auteurs), les méthodes employées, les résultats obtenus et les conclusions qui en sont tirées. Le résumé factuel sert à:
 
 * Donner un autre point de vue au rédacteur en chef, qui n’a peut-être eu que le temps de lire le résumé proposé par les auteurs
 * Montrer aux auteurs que vous avez bien compris leur article et les contributions qu’il prétend faire (si ce n’est pas le cas, les auteurs ont peut-être des modifications à faire pour clarifier l’article)
 
-=== Résumé critique
+==== Résumé critique
 
 Après le résumé factuel, il est important de donner aussi un résumé critique de l’article, qui servira à guider la décision du rédacteur en chef. C’est le moment de souligner d’abord les points forts de l’article (il y en a presque toujours), par exemple:
 
+====
 * L’article aborde un problème particulièrement difficile, nouveau et/ou important
 * L’article propose des méthodes particulièrement originales
 * L’article expose des résultats intéressants, surprenants ou pleins d’implications pratiques
@@ -150,9 +188,11 @@ Après le résumé factuel, il est important de donner aussi un résumé critiqu
 * L’article est écrit de façon très claire
 * L’article propose une revue de la littérature très complète et utile
 * Etc.
+====
 
 Le résumé critique identifie ensuite, de façon globale, les points faibles de l’article (il y en a presque toujours). Par exemple:
 
+====
 * L’article aborde un problème qui n’est plus d’actualité
 * L’article propose des méthodes qui n’offrent qu’un léger incrément par rapport à ce qui existe déjà
 * Les résultats présentés dans l’article ne sont pas très convaincants
@@ -160,8 +200,9 @@ Le résumé critique identifie ensuite, de façon globale, les points faibles de
 * L’article est difficile à lire ou mal structuré
 * L’article ne réfère pas suffisamment à l’état de l’art
 * Etc.
+====
 
-=== Liste détaillées de commentaires
+==== Liste détaillées de commentaires
 
 Dans un bon rapport d’évaluation, on trouve typiquement, après le résumé critique, une liste numérotée et détaillée des points les plus problématiques. Cette liste est particulièrement importante lorsque l’article semble contenir suffisamment de bonnes idées pour une publication éventuelle mais nécessiterait des révisions substantielles. Cette liste devrait identifier clairement et détailler chaque point problématique, c’est-à-dire:
 
@@ -174,7 +215,7 @@ TIP: Lorsque l’on adresse des critiques aux auteurs de l’article, il est imp
 
 Si l’article semble presque prêt à être publié, on peut aussi inclure une liste de problèmes mineurs, incluant par exemple des erreurs typographiques (rien ne sert d’être trop zélé) ou des problèmes avec les couleurs des graphiques.
 
-=== Recommandation finale
+==== Recommandation finale
 
 La partie du formulaire d’évaluation qui sera cachée aux auteurs est l’endroit où donner sa recommandation finale au rédacteur en chef, et la justifier brièvement (en général, le reste du rapport d’évaluation devrait être bien suffisant). C’est aussi l’endroit où on peut indiquer son niveau de confiance quant à l’évaluation. Par exemple, il peut être judicieux d’indiquer qu’un des sujets touchés par l’article est plus loin de votre expertise, ou bien que vous n’avez pas scrupuleusement vérifié chacune des équations ou preuves mathématiques données en annexe. On peut aussi se servir de cette section du formulaire pour rappeler d’éventuels conflits d’intérêt ou signaler un cas de fraude ou de plagiat. 
 

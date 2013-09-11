@@ -36,13 +36,13 @@ Par ailleurs, vous devez également vous engager à:
 
 ====
 * Lire et comprendre le link:/fr/guide_evaluation[Guide de l'évaluateur];
-* Respecter les link:/fr/formulaire_confidentialite[Règles de confidentialité] du SARA;
+* Respecter les règles de l'engagement de confidentialité (voir ci-bas);
 * Respecter les délais d’arbitrage.
 ====
 
 === Application
 
-Pour appliquer, veuillez remplir les informations suivantes:
+Pour appliquer, veuillez remplir et soumettre le formulaire suivant:
 
 ++++
 
@@ -82,7 +82,7 @@ Pour appliquer, veuillez remplir les informations suivantes:
 <option value="mecanique">Mécanique</option>
 <option value="gpa">Production automatisée</option>
 <option value="gti">Technologies des informations</option>
-<option value="gti">--- Autre ---</option>
+<option value="autre">--- Autre ---</option>
 </select>
 
 <h5>Expérience:</h5>
@@ -91,7 +91,20 @@ Pour appliquer, veuillez remplir les informations suivantes:
 <input type='file' name="cv" accept="pdf" size = '50'><br>
 
 <br>
-<input type="checkbox" name="confcheck" value="check" required="required"> &nbsp; J'accepte les conditions décrites dans le link:/fr/formulaire_confidentialite[Formulaire d’engagement à la confidentialité].
+<h5>Engagement à la confidentialité:</h5>
+
+<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+
+<p>Je me suis porté(e) volontaire pour participer à la mission du service d’aide à la rédaction d’articles de l’ÉTS.  Dans ce cadre, j’aurai à évaluer les articles de d’autres étudiants.  Je suis conscient que l’accès à ces articles non encore publiés constitue un privilège et je m’engage à préserver la confidentialité du contenu de ces articles :</p>
+
+<ol>
+<li>En ne diffusant aucune information sur leur contenu, sous aucune forme (orale, écrite, virtuelle);</li>
+<li>En n’utilisant pas pour mon propre avantage (i.e. pour l’avancement de ma thèse ou de tout autre projet de recherche, de développement ou à caractère commercial) les informations contenues dans l’article qui n’ont pas déjà été publiées, et ce jusqu’au moment de leur publication officielle;</li>
+<li>En détruisant les documents à la fin de chaque mandat d’évaluation.</li>
+</ol>
+
+<input type="checkbox" name="evaluationCheck" value="termesEvaluationAccept" required="required"> &nbsp; <b>J’ai lu et compris ce formulaire et je suis en accord avec son contenu.</b>
+</div>
 
 <br><br>
 <input type="submit" value="Soumettre">
