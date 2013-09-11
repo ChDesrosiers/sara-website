@@ -5,7 +5,7 @@
 :homepage: http://sara.logti.etsmtl.ca
 // :homepage: http://localhost:4242
 
-== Joindre l'équipe d'arbitres du SARA
+== Se joindre à l'équipe d'arbitres du SARA
 
 Nous sommes à la recherche de personnes pour nous aider dans l'évaluation d'articles soumis au SARA par des étudiants.
 
@@ -36,13 +36,13 @@ Par ailleurs, vous devez également vous engager à:
 
 ====
 * Lire et comprendre le link:/fr/guide_evaluation[Guide de l'évaluateur];
-* Respecter les règles de l'engagement de confidentialité (voir ci-bas);
+* Respecter nos règles de confidentialité (voir ci-dessous);
 * Respecter les délais d’arbitrage.
 ====
 
-=== Application
+=== Poser sa candidature
 
-Pour appliquer, veuillez remplir et soumettre le formulaire suivant:
+Pour poser sa candidature, veuillez remplir et soumettre le formulaire suivant:
 
 ++++
 
@@ -71,6 +71,7 @@ Pour appliquer, veuillez remplir et soumettre le formulaire suivant:
 
 <input type="radio" name="cycle" value="phd" checked="checked"> &nbsp; Doctorat<br>
 <input type="radio" name="cycle" value="maitrise"> &nbsp; Maîtrise<br>
+<input type="radio" name="cycle" value="presonnelrech"> &nbsp; Personnel de recherche<br>
 
 <br>
 <select name="programme">
@@ -93,7 +94,7 @@ Pour appliquer, veuillez remplir et soumettre le formulaire suivant:
 <br>
 <h5>Engagement à la confidentialité:</h5>
 
-<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding:1em;">
 
 <p>Je me suis porté(e) volontaire pour participer à la mission du service d’aide à la rédaction d’articles de l’ÉTS.  Dans ce cadre, j’aurai à évaluer les articles de d’autres étudiants.  Je suis conscient que l’accès à ces articles non encore publiés constitue un privilège et je m’engage à préserver la confidentialité du contenu de ces articles :</p>
 

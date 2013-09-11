@@ -71,6 +71,7 @@ To apply, fill out and submit the following form:
 
 <input type="radio" name="cycle" value="phd" checked="checked"> &nbsp; Ph.D.<br>
 <input type="radio" name="cycle" value="masters"> &nbsp; Master's<br>
+<input type="radio" name="cycle" value="researchstaff"> &nbsp; Research staff<br>
 
 <br>
 <select name="program">
@@ -93,7 +94,7 @@ To apply, fill out and submit the following form:
 <br>
 <h5>Confidentiality agreement:</h5>
 
-<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
+<div id="terms" style="width:750px; height:200px; overflow:auto; border:solid 1px #ccc; padding:1em;">
 
 <p>I have volunteered to participate in the mission of ÉTS’s article writing help service.  In this context, I will have to review other students’s manuscripts. I am aware that access to these unpublished manuscripts constitutes a privilege and I hereby commit to preserving the confidentiality of their contents :</p>
 
