@@ -23,7 +23,7 @@ Le SARA propose diverses formes d’aide aux étudiants qui désirent améliorer
 
 * Un *service d’évaluation d’articles gratuit* qui permet à tout étudiant de l’ÉTS qui le souhaite d’obtenir des évaluations préliminaires d’une première ébauche de son article.  Les évaluations sont *anonymes* et sont réalisées par des *étudiants bénévoles de l’ÉTS* ayant déjà une expérience de publication. Nous pensons que ce regard extérieur complétera l’apport éventuel du directeur de recherche. 
 ** link:/fr/soumettre_article[Soumettre un article au service d'évaluation]
-** link:/fr/demander_aide[Demander de l'aide sur un aspect particulier de sa rédaction]
+** link:/fr/nous_rejoindre[Demander de l'aide sur un aspect particulier de sa rédaction]
 
 * Une *formation et des occasions d’arbitrage* aux étudiants de l’ÉTS qui le désirent et qui ont déjà une expérience de publication. Par la possibilité de se joindre à l’équipe du SARA en tant qu’évaluateur bénévole, ils acquièrent des expériences d’arbitrage fort pertinentes pour une future carrière en recherche.
 ** link:/fr/joindre_equipe[Se joindre à l'équipe d'évaluateurs]

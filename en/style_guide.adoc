@@ -8,8 +8,4 @@
 :toc:
 :toc-placement!:
 
-:numbered:
-
-toc::[]
-
-TO BE COMPLETED
+=== UNDER CONSTRUCTION

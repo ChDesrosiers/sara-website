@@ -1,0 +1,11 @@
+= Confirmation
+:awestruct-layout: default
+:imagesdir: images
+:homepage: http://sara.logti.etsmtl.ca
+
+:numbered!:
+=== Confirmation
+
+*Thank you for applying to SARA's team of reviewers.* 
+
+*We will contact you shortly by email.*

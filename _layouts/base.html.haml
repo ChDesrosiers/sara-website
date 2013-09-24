@@ -12,9 +12,9 @@
     %script{ :src=>'http://yandex.st/jquery/1.9.1/jquery.min.js' }
     %link{ :rel=>'stylesheet', :href=>"#{site.base_url}/stylesheets/styles.css" }
     %link{ :rel=>'stylesheet', :href=>'http://yandex.st/highlightjs/7.3/styles/default.min.css' }
-
+    
     /[if lt IE 9]
-      %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }
+      %script{ :type=>'text/javascript', :src=>'http://html5shim.googlecode.com/svn/trunk/html5.js' }      
     -#:javascript
     -#  $.getJSON("https://rubygems.org/api/v1/versions/awestruct.json?callback=?", function(data) { alert( data.number ); });
     
@@ -24,8 +24,7 @@
         .container
           .ets-banner
             %a{:href=>'http://etsmtl.ca/'}
-              %img{:style=>'position: absolute; top: 0; right: 0; border: 0; z-index: 1',
-                   :width=>65,
+              %img{:style=>'position: absolute; top: 0; right: 0; border: 0; z-index: 1; width: 65px',
                    :hspace=>10,
                 :src=>'http://www.etsmtl.ca/ETS/media/Prive/logo/ETS-blanc-ecran-fond_transparent.png',
                 :alt=>'ÉTS'}
@@ -46,8 +45,8 @@
                     %a{:href=>"#{site.base_url}/en/style_guide/"} Style guide    
                   %li 
                     %a{:href=>"#{site.base_url}/en/submit_paper/"} Submit a paper
-                  %li 
-                    %a{:href=>"#{site.base_url}/en/ask_help/"} Ask for help
+                  -#%li 
+                    -#%a{:href=>"#{site.base_url}/en/ask_help/"} Ask for help
               %li#evaluation-menu-en.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu-en'} 
                   Reviewing
@@ -62,7 +61,7 @@
               %li
                 %a{:href=>"#{site.base_url}/en/contact_us/"} Contact us
               %li
-                %a{:href=>"#{site.base_url}"} French
+                %a{:href=>"#{site.base_url}"} Français
           - else
             %ul.nav
               %li 
@@ -78,8 +77,8 @@
                     %a{:href=>"#{site.base_url}/fr/guide_style/"} Guide de style
                   %li 
                     %a{:href=>"#{site.base_url}/fr/soumettre_article/"} Soumettre un article
-                  %li 
-                    %a{:href=>"#{site.base_url}/fr/demander_aide/"} Demander de l'aide
+                  -#%li 
+                    -#%a{:href=>"#{site.base_url}/fr/demander_aide/"} Demander de l'aide
               %li#evaluation-menu-fr.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu-fr'} 
                   Évaluation

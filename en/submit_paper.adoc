@@ -35,7 +35,7 @@ To submit a draft of your manuscript via our _EasyChair_ platform, you must firs
 
 ++++
 
-<form action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
+<form id="formsubmit" action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
 
 <div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
 
@@ -62,4 +62,33 @@ To submit a draft of your manuscript via our _EasyChair_ platform, you must firs
 <br>
 <input type="submit" value="Submit">
 </form>
+
+<script src="http://jquery.bassistance.de/validate/jquery.validate.js"></script>
+<script src="http://jquery.bassistance.de/validate/additional-methods.js"></script>
+
+<script>
+var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+
+var div = document.createElement("div");
+div.innerHTML = "<!--[if lt IE 10]><i></i><![endif]-->";
+var ieLessThan10 = (div.getElementsByTagName("i").length == 1);
+
+
+// Validate if not Safari or IE10+
+if (is_safari || (is_explorer && ieLessThan10)) {
+  jQuery.validator.setDefaults({
+    debug: false,
+    success: "valid"
+  });
+
+  $( "#formsubmit" ).validate({
+    rules: {
+      checkaccept: {
+        required: true
+      }
+    }
+  });
+}
+</script>
 ++++

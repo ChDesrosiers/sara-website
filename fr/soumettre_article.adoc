@@ -35,7 +35,7 @@ Pour soumettre un article via notre plateforme _EasyChair_, vous devez d'abord *
 
 ++++
 
-<form action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
+<form id="formsoumettre" action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
 
 <div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
 
@@ -56,10 +56,42 @@ Pour soumettre un article via notre plateforme _EasyChair_, vous devez d'abord *
 
 <p>Par ailleurs, si vous soumettez une ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS avec des co-auteurs, tous ces co-auteurs doivent être bien représentés. L’ébauche ne peut être soumise si un ou plusieurs des co-auteurs se trouve dans l’une des trois situations énumérées ci-dessus.</p>
 
+<!--
 <input type="checkbox" name="soumissionCheck" value="termesSoumissionAccept" required="required"> &nbsp; <b>Je certifie que j’ai bien lu et compris les conditions énumérées sur cette page et que le contenu de ma soumission n’est pas touché par ces conditions.</b>
+-->
+<input id="checkaccept" type="checkbox" required name="soumissionCheck" value="termesSoumissionAccept"> &nbsp; <b>Je certifie que j’ai bien lu et compris les conditions énumérées sur cette page et que le contenu de ma soumission n’est pas touché par ces conditions.</b>
 </div>
 
 <br>
 <input type="submit" value="Soumettre">
 </form>
+
+<script src="http://jquery.bassistance.de/validate/jquery.validate.js"></script>
+<script src="http://jquery.bassistance.de/validate/additional-methods.js"></script>
+
+<script>
+var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+
+var div = document.createElement("div");
+div.innerHTML = "<!--[if lt IE 10]><i></i><![endif]-->";
+var ieLessThan10 = (div.getElementsByTagName("i").length == 1);
+
+
+// Validate if not Safari or IE10+
+if (is_safari || (is_explorer && ieLessThan10)) {
+  jQuery.validator.setDefaults({
+    debug: false,
+    success: "valid"
+  });
+
+  $( "#formsoumettre" ).validate({
+    rules: {
+      checkaccept: {
+        required: true
+      }
+    }
+  });
+}
+</script>
 ++++

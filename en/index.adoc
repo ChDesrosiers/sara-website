@@ -22,7 +22,7 @@ SARA offers various forms of help for students who wish to improve the quality o
 
 * A *free reviewing service* that allows every ÉTS student who needs it to obtain preliminary feedback on a first draft of his/her manuscript.  The reviews are *anonymous* and are done by *volunteer students* from ÉTS who have at least one publishing experience.  We believe that this external feedback can complement that of one’s thesis advisor.
 ** link:/en/submit_paper[Submit a paper to the reviewing service]
-** link:/en/ask_help[Ask help on a specific writing topic]
+** link:/en/contact_us[Ask help on a specific writing topic]
 
 * Training and reviewing opportunities for ÉTS students who want them and already have some publishing experience. By joining SARA as volunteer reviewers, these students acquire reviewing experience relevant to their future research careers.
 ** link:/en/join_team[Join our team of reviewers]

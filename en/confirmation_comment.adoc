@@ -1,0 +1,11 @@
+= Confirmation
+:awestruct-layout: default
+:imagesdir: images
+:homepage: http://sara.logti.etsmtl.ca
+
+:numbered!:
+=== Confirmation
+
+*Your comment has been sent.* 
+
+*Thank you.*

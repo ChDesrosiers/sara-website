@@ -46,9 +46,9 @@ Pour poser sa candidature, veuillez remplir et soumettre le formulaire suivant:
 
 ++++
 
-<form action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post" enctype="multipart/form-data">
+<form id="formjoindre" action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post" enctype="multipart/form-data">
   
-<input type='hidden' name='redirect_to' value='{homepage}/fr/confirmation' />
+<input type='hidden' name='redirect_to' value='{homepage}/fr/confirmation_joindre' />
 
 <h5>Contact:</h5>
 
@@ -104,11 +104,40 @@ Pour poser sa candidature, veuillez remplir et soumettre le formulaire suivant:
 <li>En détruisant les documents à la fin de chaque mandat d’évaluation.</li>
 </ol>
 
-<input type="checkbox" name="evaluationCheck" value="termesEvaluationAccept" required="required"> &nbsp; <b>J’ai lu et compris ce formulaire et je suis en accord avec son contenu.</b>
+<input id="checkaccept" type="checkbox" name="evaluationCheck" value="termesEvaluationAccept" required="required"> &nbsp; <b>J’ai lu et compris ce formulaire et je suis en accord avec son contenu.</b>
 </div>
 
 <br><br>
 <input type="submit" value="Soumettre">
 
 </form>
+
+<script src="http://jquery.bassistance.de/validate/jquery.validate.js"></script>
+<script src="http://jquery.bassistance.de/validate/additional-methods.js"></script>
+
+<script>
+var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+
+var div = document.createElement("div");
+div.innerHTML = "<!--[if lt IE 10]><i></i><![endif]-->";
+var ieLessThan10 = (div.getElementsByTagName("i").length == 1);
+
+
+// Validate if not Safari or IE10+
+if (is_safari || (is_explorer && ieLessThan10)) {
+  jQuery.validator.setDefaults({
+    debug: false,
+    success: "valid"
+  });
+
+  $( "#formjoindre" ).validate({
+    rules: {
+      checkaccept: {
+        required: true
+      }
+    }
+  });
+}
+</script>
 ++++

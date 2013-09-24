@@ -2,4 +2,38 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== To contact us
+:homepage: http://sara.logti.etsmtl.ca
+
+== Contact us
+
+++++
+<p>
+To contact us, send an email to:
+Pour communiquer avec nous, envoyez un courriel à l'adresse 
+<SCRIPT TYPE="text/javascript" language="JavaScript">
+<!--
+email1='sara'
+email2='etsmtl'
+email3='gmail.com'
+email=(email1 + '.' + email2 + '@' + email3)
+document.write('<A href="mailto:' + email + '">' + email + '<\/a>')
+//-->
+</script>
+.</p>
+++++
+
+You can also send us a comment by using the following form:
+
+++++
+<form id="formcomment" action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post">
+
+<input type='hidden' name='redirect_to' value='{homepage}/en/confirmation_comment' />
+
+<textarea name="comment" rows="8" cols="40">
+</textarea>
+
+<br>
+<input type="submit" value="Submit">
+
+</form>
+++++

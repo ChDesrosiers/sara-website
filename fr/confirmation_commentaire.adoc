@@ -6,6 +6,6 @@
 :numbered!:
 === Confirmation
 
-*Merci d'avoir appliqué à l'équipe d'arbitres du SARA.* 
+*Votre commentaire a été envoyé.* 
 
-*Nous vous contacterons par courriel sous peu.*
+*Merci.*

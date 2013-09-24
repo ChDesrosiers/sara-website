@@ -2,6 +2,37 @@
 :awestruct-layout: default
 :imagesdir: images
 
-== Pour nous rejoindre
+:homepage: http://sara.logti.etsmtl.ca
 
-À COMPLÉTER
+== Nous rejoindre
+
+++++
+<p>
+Pour communiquer avec nous, envoyez un courriel à: 
+<SCRIPT TYPE="text/javascript" language="JavaScript">
+<!--
+email1='sara'
+email2='etsmtl'
+email3='gmail.com'
+email=(email1 + '.' + email2 + '@' + email3)
+document.write('<A href="mailto:' + email + '">' + email + '<\/a>')
+//-->
+</script>
+.</p>
+++++
+
+Vous pouvez également nous faire parvenir vos commentaires à l'aide du formulaire suivant:
+
+++++
+<form id="formcommentaire" action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post">
+
+<input type='hidden' name='redirect_to' value='{homepage}/fr/confirmation_commentaire' />
+
+<textarea name="commentaire" rows="8" cols="40">
+</textarea>
+
+<br>
+<input type="submit" value="Soumettre">
+
+</form>
+++++

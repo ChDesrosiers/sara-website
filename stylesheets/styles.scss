@@ -248,6 +248,23 @@ label span{
 
 textarea {
   resize: none;
-  height: 8em;
-  width: 45em;
+  height: 10em;
+  width: 40em;
+}
+
+//// ADDED FOR REQUIRED FIELD IN IE <9
+
+input.error { border: 1px solid red; }
+label.error {
+	//// background: url('images/unchecked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+	font-weight: bold;
+	color: rgba(255, 0, 0, 0.85);
+}
+label.valid {
+	//// background: url('images/checked.gif') no-repeat;
+	display: block;
+	width: 16px;
+	height: 16px;
 }
