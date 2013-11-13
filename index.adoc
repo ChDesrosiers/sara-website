@@ -6,7 +6,7 @@
 :iconsdir: ./images/icons
 :homepage: http://sara.logti.etsmtl.ca
 
-== Bienvenu au SARA
+== Bienvenue au SARA
 
 === Notre mission
 

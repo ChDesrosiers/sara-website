@@ -35,7 +35,7 @@ Quand vous rédigez un article scientifique, vous devez anticiper ce qu’un lec
 * Exprimer vos idées en utilisant un style approprié et en respectant les règles grammaticales de la langue de rédaction (généralement, l’anglais). 
 
 Pour certaines personnes dont l’anglais n’est pas la langue maternelle, cela peut être difficile. Un mot mal placé ou une ponctuation incorrecte peuvent changer radicalement le sens d’une phrase et induire votre lecteur en erreur.
-Pour vous aider dans ces deux tâches, nous présentons dans cette page quelques règles essentielles de style. Ces règles constituent une synthèse des principes et règles présentés dans plusieurs références (voir ressources). Nous avons organisé ces règles en deux ensembles : 
+Pour vous aider dans ces deux tâches, nous présentons dans cette page quelques règles essentielles de style. Ces règles constituent une synthèse des principes et règles présentés dans plusieurs références (voir l'onglet link:/fr/resources[Ressources]). Nous avons organisé ces règles en deux ensembles: 
 
 . Les principes élémentaires de composition qui sont des principes visant à vous aider dans la première tâche, soit celle de rédiger un exposé cohérent, clair, et bien structuré.
 . Les règles grammaticales d’usage qui couvrent surtout un ensemble de règles de ponctuation nécessaires pour communiquer correctement vos idées.
@@ -435,7 +435,7 @@ Le paragraphe est composé de plusieurs phrases qui sont reliées à un seul th�
 Une phrase introductive:: C’est une phrase qui introduit le thème du paragraphe. Cette phrase doit être placée au début du paragraphe. Elle est souvent assez générale et se limite à introduire le thème qui sera développé dans le paragraphe. Cette phrase va souvent contenir une expression qui établit la relation du paragraphe avec celui qui le précède.
 +
 Le développement (le corps):: Un ensemble de phrases qui développent ou expliquent la déclaration faite dans la phrase introductive. En lisant la phrase introductive, le lecteur se posera des questions auxquelles les phrases de développement devraient répondre. Le nombre de phrases du développement dépendra donc de la quantité de détails nécessaire pour que le lecteur comprenne le thème du paragraphe. Les phrases du développement expliquent la phrase introductive en la reformulant, en  définissant ses termes, en l’opposant à son inverse, en donnant des illustrations ou des exemples, en la démontrant, ou en montrant ses conséquences. 
-
++
 Une phrase de fin (ou de conclusion):: La phrase finale a pour rôle de résumer ou mettre l’accent sur le thème du paragraphe, ou d’annoncer une conséquence du développement qui a été fait dans le paragraphe. La phrase finale est très importante quand le paragraphe est long. Elle peut être omise si le paragraphe est très court.
 ====
 
@@ -445,14 +445,14 @@ Considérons le paragraphe suivant :
 ``{co1} It was chiefly in the eighteenth century that a very different conception of history grew up. {co2} Historians then came to believe that their task was not so much to paint a picture as to solve a problem; to explain or illustrate the successive phases of national growth, prosperity, and adversity. {co3} The history of morals, of industry, of intellect, and of art; the changes that take place in manners or beliefs; the dominant ideas that prevailed in successive periods; the rise, fall, and modification of political constitutions; in a word, all the conditions of national well-being became the subjects of their works. {co4} They sought rather to write a history of peoples than a history of kings. {co5} They looked especially in history for the chain of causes and effects. {co6} They undertook to study in the past the physiology of nations, and hoped by applying the experimental method on a large scale to deduce some lessons of real value about the conditions on which the welfare of society mainly depend.''
 ====
 
-Ce paragraphe est composé de six phrases. La phrase introductive et la phrase de fin ont été surlignées dans ce paragraphe. La phrase {co1} introduit le thème du paragraphe, à savoir ``l’apparition d’une vision différente de la notion d’histoire dans le 18ième sciècle''. Cette nouvelle vision de l’histoire est définie plus clairement dans la phrase {co2},  en utilisant des exemples dans la phrase {co3}, et par un contraste dans la phrase {co4}. La phrase {co5} complémente la définition par un nouvel élément. Finalement, la sixième {co6}, qui est la dernière phrase, présente la conséquence de cette nouvelle vision.
+Ce paragraphe est composé de six phrases. La phrase introductive et la phrase de fin ont été surlignées dans ce paragraphe. La phrase {co1} introduit le thème du paragraphe, à savoir ``l’apparition d’une vision différente de la notion d’histoire dans le 18ième siècle''. Cette nouvelle vision de l’histoire est définie plus clairement dans la phrase {co2},  en utilisant des exemples dans la phrase {co3}, et par un contraste dans la phrase {co4}. La phrase {co5} complémente la définition par un nouvel élément. Finalement, la sixième {co6}, qui est la dernière phrase, présente la conséquence de cette nouvelle vision.
 
 CAUTION: Évitez de finir votre paragraphe avec un détail futile ou une digression.
 
 Pour assurer un flux cohérent et continu d’information, il est souvent nécessaire d’exprimer explicitement le lien entre un paragraphe et celui qui le précède. Cela peut se faire avec un mot (ou une expression). Le mot ou expression à utiliser dépend de la nature du lien entre les paragraphes : addition, contraste, illustration, conséquence, etc. Voilà quelques exemples de mots de transition qui servent à établir ce type de lien :
 
 *  ``moreover'' 
-* ``therfore'' 
+* ``therefore'' 
 * ``in fact'', 
 * ``in addition'', 
 * ``for example'', 
@@ -502,6 +502,8 @@ En créant un lien conceptuel entre vos phrases, votre discours est plus fluide 
 ====
 
 Les mots de transition (voir section précédente pour des exemples) peuvent aussi vous aider à rendre le lien conceptuel entre les phrases plus explicite et plus facile à comprendre.
+
+:numbered:
 
 == Quelques règles grammaticales d’usage
 
@@ -635,7 +637,7 @@ vous devez écrire :
 ou bien :
 
 ====
-{good} `The approach enables designing, testing, and simulating systems.'' 
+{good} ``The approach enables designing, testing, and simulating systems.'' 
 ====
 
 Au lieu de :
@@ -706,4 +708,4 @@ vous devez ainsi écrire :
 
 == Si vous désirez en savoir plus
 
-Cette page présente un résumé des règles essentielles de style. Si vous voulez en savoir plus sur la rédaction d’articles scientifiques, veuillez consulter la section link:/fr/ressources[Ressources].
+Cette page présente un résumé des règles essentielles de style. Si vous voulez en savoir plus sur la rédaction d’articles scientifiques, veuillez consulter l'onglet link:/fr/ressources[Ressources].

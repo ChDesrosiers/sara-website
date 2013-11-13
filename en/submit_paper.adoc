@@ -44,14 +44,15 @@ To submit a draft of your manuscript via our _EasyChair_ platform, you must firs
 <p>In order to honor any confidentiality agreements your research may be subject to, you must not submit a draft of your manuscript to ÉTS’s article writing help service if :</p> 
 
 <ol>
-<li> The contents of your manuscript are linked with an industrial (or other) collaboration and you are not perfectly aware of the confidentiality agreements that may affect your research project <b>OR</b> </li>
-<li>Your research is part of an industrial (or other) collaboration that is subject to one or more confidentiality agreements and you have not done a prior conformity check of your draft with respect to these agreements with input from your partners.</li>
+<li> The contents of your manuscript are linked with an industrial (or other) collaboration in which you participate, and you are not perfectly aware of the confidentiality agreements affecting this project.</li>
+
+<li>Your research is part of an industrial (or other) collaboration that is subject to one or more confidentiality agreements and you have not verified the conformity of your draft with the professor in charge of the scientific content of the agreement or with the industrial partners involved in the project.</li>
 </ol>
 
 <p>In addition, you must not submit a draft of your manuscript to ÉTS’s article writing help service if :</p>
 
 <ol start="3">
-<li>You wish to protect technology described in the manuscript through a patent or another legal mechanism with help from the SPSIR (your submission would then be considered a public divulgation of the technology).</li>
+<li>You wish, with your co-inventors, to protect the technology described in the manuscript through a patent or another legal mechanism with help from the SPSIR (Service du Partenariat et du Soutien à l’Innovation et à la Recherche). If this is not done, your submission would then be considered a public divulgation, compromising the protection of the technology.</li>
 </ol>
 
 <p>Furthermore, if you submit a manuscript draft to ÉTS’s article writing help service with co-authors, all co-authors must be well represented.  The draft must not be submitted if one or more of the co-authors are in one of the three situations enumerated above.</p>

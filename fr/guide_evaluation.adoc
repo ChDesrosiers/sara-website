@@ -47,24 +47,24 @@ Accepter d’évaluer un article représente donc un certain engagement vis-à-v
 
 //:numbered!:
 
-==== S’assurer d’être suffisamment compétent
-
+S’assurer d’être suffisamment compétent::
++
 L’article devrait toucher d’assez près votre propre expertise en recherche, soit en s’intéressant à des problèmes similaires ou en utilisant des méthodes proches de celles que vous connaissez bien. Il n’est pas nécessaire d’être expert sur tous les thèmes abordés par l’article, mais vous devriez vous sentir relativement à l’aise en lisant le résumé et avoir déjà une bonne idée de ce que présentera l’article.
-
-==== S’assurer d’avoir le temps et respecter les délais
-
++
+S’assurer d’avoir le temps et respecter les délais::
++
 La revue ou la conférence donnent généralement des délais de quelques semaines pour produire le rapport d’évaluation. Par respect pour les auteurs qui souhaitent publier, il est important de respecter ces délais. Bien évaluer un article et rédiger un bon rapport d’évaluation sont des tâches qui peuvent prendre plusieurs heures. Nous avons tous reçu à l’occasion des rapports d’évaluation d’à peine quelques lignes et produits en vitesse. Ce type d’évaluation n’aide personne.
-
-==== Respecter les règles de confidentialité
-
++
+Respecter les règles de confidentialité::
++
 L’article que vous avez à évaluer n’a pas encore été publié et constitue un document confidentiel. Vous n’y avez accès que pour les besoins de l’évaluation. Il est donc important de ne pas partager le contenu de l’article avec quiconque et de ne pas utiliser les nouvelles informations que vous y trouverez peut-être à vos propres fins avant que l’article soit publié. 
-
-==== Rester anonyme
-
++
+Rester anonyme::
++
 Généralement, l’identité des évaluateurs est également une donnée confidentielle à laquelle les auteurs n’ont pas accès. Il est important de préserver cet anonymat afin d’éviter davantage de biais dans votre relation avec les auteurs (que vous connaissez par ailleurs peut-être).
-
-==== Éviter les conflits d’intérêt
-
++
+Éviter les conflits d’intérêt::
++
 Évitez d’évaluer des articles écrits par des auteurs avec qui vous avez récemment entretenu une collaboration de recherche, une relation employeur-employé ou une relation d’amitié. Cela nuirait à votre crédibilité. Il vaut mieux refuser en déclarant le conflit d’intérêt.
 
 Lorsque vous n’êtes pas en mesure de vous engager à évaluer un article, il convient de donner votre refus poliment et rapidement et, si possible, de suggérer un collègue (à qui vous avez préférablement déjà mentionné la chose) pour vous remplacer.
@@ -87,27 +87,27 @@ Vos lectures et relectures de l’article devraient vous permettre de:
 
 //:numbered!: 
 
-==== Déterminer si l’article est pertinent pour la revue/conférence
-
+Déterminer si l’article est pertinent pour la revue/conférence::
++
 Si l’article s’attaque à un problème important ou nouveau dans le domaine et que l’article s’adresse bien au lectorat de la revue/conférence, l’article est probablement pertinent. Si la revue vous semble mal choisie, pensez à une alternative qui serait préférable.
-
-==== Évaluer les contributions principales de l’article
-
++
+Évaluer les contributions principales de l’article::
++
 Idéalement, les auteurs devraient avoir clairement identifié les contributions de leur travail dans l’article. Sinon, appuyez-vous sur vos connaissances du domaine et sur le contenu de l’article pour l’énoncer plus clairement. Établir l’originalité d’une contribution scientifique nécessite de la comparer à ce qui existe déjà dans la littérature. Cela veut dire qu’il vous faudra peut-être lire d’autres articles (au moins en partie) pour faire votre évaluation. Ces articles peuvent être ou non cités par les auteurs; si vous n’êtes pas tout à fait au courant de ce qui existe sur le sujet, faites vous-même une petite recherche bibliographique. N’oubliez pas de consulter également les publications antérieures des auteurs de l’article pour mieux comprendre l’étendue réelle du progrès réalisé depuis. Il est assez courant de publier dans une revue la version allongée d’un article de conférence, mais l’allongement devrait en principe être de nature à ajouter une certaine valeur à l’original, et la pratique doit aussi être reconnue par les auteurs dans l’article.
-
-==== Évaluer la complétude de la revue de la littérature
-
++
+Évaluer la complétude de la revue de la littérature::
++
 Suite à votre évaluation de l’originalité de l’article, vous aurez rapidement identifié les références bibliographiques importantes sur le sujet qu’il traite. Demandez les questions suivantes:
-
++
 ====
 ** Ces références sont-elles discutées dans la revue de littérature? 
 ** Le contenu de cette discussion est-il à peu près exact?
 ====
-
-==== Évaluer le contenu méthodologique
-
++
+Évaluer le contenu méthodologique::
++
 Pour ce faire, posez les questions suivantes:
-
++
 ====
 ** Quelles sont les hypothèses (explicites et cachées) sur lesquelles repose le travail des auteurs? 
 ** Y a-t-il des cas pratiques importants où vous anticiperiez un échec des méthodes proposées? 
@@ -118,11 +118,11 @@ Pour ce faire, posez les questions suivantes:
 ** Comment les divers paramètres ajustables ont-ils été choisis? Est-ce bien justifié? 
 ** Ce choix est-il susceptible de fonctionner dans des contextes légèrement différents?
 ====
-
-==== Évaluer la méthodologie expérimentale
-
++
+Évaluer la méthodologie expérimentale::
++
 Utilisez les questions suivantes:
-
++
 ====
 ** Les expériences mettent-elles bien en évidence la contribution annoncée par les auteurs? 
 ** Les résultats sont-ils quantitatifs ou qualitatifs? Sont-ils convaincants? 
@@ -131,11 +131,11 @@ Utilisez les questions suivantes:
 ** Aurait-il fallu faire davantage d’expériences? Les mesures indépendantes, si elles sont nécessaires, ont-elles été prises avec suffisamment de justesse et de précision? 
 ** Les conditions expérimentales sont-elles reproductibles?
 ====
-
-==== Évaluer l’analyse des résultats
-
++
+Évaluer l’analyse des résultats::
++
 Pour cette tâche, demandez les questions suivantes:
-
++
 ====
 ** Les résultats sont-ils accompagnés d’une interprétation suffisamment détaillée? 
 ** S’il y a des résultats qui semblent à priori surprenants ou très différents des autres, ont-ils été expliqués? 
@@ -143,11 +143,11 @@ Pour cette tâche, demandez les questions suivantes:
 ** Les auteurs comparent-ils leurs résultats à ceux d’autres auteurs (préférablement à l’état de l’art)? 
 ** Si oui, la comparaison est-elle juste et est-elle basée sur des critères valables et/ou couramment utilisés dans la littérature?
 ====
-
-==== Évaluer la qualité de la rédaction
-
++
+Évaluer la qualité de la rédaction::
++
 Les questions suivantes peuvent faciliter l'évaluation de la qualité:
-
++
 ====
 ** L’article est-il relativement facile à lire (pour un article scientifique)? 
 ** Y a-t-il des idées importantes qui ne sont pas exprimées suffisamment clairement? 

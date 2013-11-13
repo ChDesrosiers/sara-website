@@ -16,11 +16,13 @@ toc::[]
 
 A review plays two important roles in the publication process:
 
+====
 Quality control::
 The review should help the editor to make decisions aimed towards preserving the level of quality of the targeted journal (or conference).  The review achieves this by providing information about the relevance, originality and validity of the manuscript’s contents. 
 +
 Constructive criticism::
 The review should help the authors to improve their work (upon revision of their paper, for instance) by providing constructive comments and clearly formulated suggestions.
+====
 
 The expert who agrees to review a manuscript and does a good job of providing these two things is helpful both to the journal and the authors of the manuscript, but also to his scientific community at large (since it will have access to better articles, thereby also promoting better science to improve on existing work).
 
@@ -84,40 +86,55 @@ Having evaluated the originality of the manuscript, you will have quickly identi
 +
 Evaluate the methodological contents::
 In engineering, the main contributions of a research paper often consist of new methods to solve a given problem. The new methods must be well defined and well justified.  The following questions might be helpful in evaluating the quality of the proposed approach:
-* What assumptions (explicit or hidden) does the proposed approach rely on and can they be justified? 
-* Are there practical circumstances where you anticipate that the proposed methods would fail? 
-* Are the mathematical developments correct and are all variables properly defined? 
-* Are the results plausible, given what is proposed in the manuscript? 
-* Is there enough information to reproduce the results? 
-* How were the various adjustable parameter values chosen and is the process well justified?  Are these choices likely to generalize to slightly different contexts? 
++
+====
+** What assumptions (explicit or hidden) does the proposed approach rely on and can they be justified? 
+** Are there practical circumstances where you anticipate that the proposed methods would fail? 
+** Are the mathematical developments correct and are all variables properly defined? 
+** Are the results plausible, given what is proposed in the manuscript? 
+** Is there enough information to reproduce the results? 
+** How were the various adjustable parameter values chosen and is the process well justified?  Are these choices likely to generalize to slightly different contexts? 
+====
 +
 Evaluate the experimental methodology::
++
 In the scientific method, experiments are meant to validate a research hypothesis. In the case of an engineering research paper, this hypothesis might be that the approach proposed in the paper to solve a given problem works well, or that it offers an important advantage over the state-of-the-art. To evaluate the experimental methodology, ask yourself the following questions: 
-* Do the experiments really challenge/demonstrate the contribution claimed by the authors? 
-* Are the results quantitative or qualitative?  Are they convincing? 
-* Do the experimental conditions reflect the assumptions explicitly made by the authors?  Are they too simplistic? 
-* Should there have been more experiments? 
-* Where independent measurements made sufficiently accurately and precisely when needed? 
-* Are the experimental conditions reproducible?
++
+====
+** Do the experiments really challenge/demonstrate the contribution claimed by the authors? 
+** Are the results quantitative or qualitative?  Are they convincing? 
+** Do the experimental conditions reflect the assumptions explicitly made by the authors?  Are they too simplistic? 
+** Should there have been more experiments? 
+** Where independent measurements made sufficiently accurately and precisely when needed? 
+** Are the experimental conditions reproducible?
+====
 +
 Evaluate the analysis of the results::
++
 It is not enough to present results in a table or chart to draw scientifically valid conclusions. The results must be analyzed and interpreted. A better interpretation often leads to richer and more insightful conclusions. When evaluating this aspect of the manuscript, pay attention to the following questions: 
-* Do the results come with sufficiently detailed analyses and interpretations?
-* If some of the results are in appearance surprising or very different from the others, are they explained? 
-* Is there sufficient detail regarding the statistical analysis of the results (for instance, the names and parameters of the statistical tests that were used) and if so, was the analysis carried out appropriately? 
-* Do the authors compare their results to those of other researchers (preferably to the state-of-the-art)? 
-* If so, is the comparison fair and based on valid or commonly used criteria?
++
+====
+** Do the results come with sufficiently detailed analyses and interpretations?
+** If some of the results are in appearance surprising or very different from the others, are they explained? 
+** Is there sufficient detail regarding the statistical analysis of the results (for instance, the names and parameters of the statistical tests that were used) and if so, was the analysis carried out appropriately? 
+** Do the authors compare their results to those of other researchers (preferably to the state-of-the-art)? 
+** If so, is the comparison fair and based on valid or commonly used criteria?
+====
 +
 Evaluate the quality of the writing::
++
 The quality of the writing should not be the main determining factor in accepting or rejecting the manuscript unless it is really incomprehensible. However, since revisions are almost always required (whether or not the manuscript is likely to be accepted by this journal), it is useful to identify potential writing problems and to mention them in the review: 
-* Is the manuscript relatively easy to read (for a research paper), given the usual audience of the journal? 
-* Are there any important ideas that are not expressed sufficiently clearly? 
-* Are ideas presented in the right order? 
-* Does the abstract adequately reflect the paper’s contents? 
-* Are there major problems with the English?
-* Are there superfluous sections? 
-* Are the drawings and charts readable and do they really help the reader understand the paper? 
-* Are there figures missing that might help the reader understand the paper?
++
+====
+** Is the manuscript relatively easy to read (for a research paper), given the usual audience of the journal? 
+** Are there any important ideas that are not expressed sufficiently clearly? 
+** Are ideas presented in the right order? 
+** Does the abstract adequately reflect the paper’s contents? 
+** Are there major problems with the English?
+** Are there superfluous sections? 
+** Are the drawings and charts readable and do they really help the reader understand the paper? 
+** Are there figures missing that might help the reader understand the paper?
+====
 
 TIP: Think about each of these evaluation criteria and keep making notes. You may want to take a break after your first read and/or before writing your review.  Taking a step back sometimes helps detect subtleties (often important ones) that would otherwise escape one’s attention.
 
@@ -125,7 +142,7 @@ TIP: Think about each of these evaluation criteria and keep making notes. You ma
 
 Nowadays, most conferences and journals use on-line forms to manage reviews. The degree of structure in the required information varies substantially between venues. Most of the time, the form includes parts that are visible by the authors of the manuscript (and the editor) and a part that will be seen by the editor only. Most of your review will be visible by the authors. 
 
-:numbered!:
+//:numbered!: 
 
 === Factual summary
 
@@ -134,12 +151,11 @@ A complete review begins with a factual summary of the manuscript. This summary 
 * Provide an alternative point of view to the editor, who may only have had the time to read the authors’ abstract
 * Show the authors that you understood their paper and its contributions correctly (if this is not the case, the authors might then need to make clarifications to the manuscript)
 
-:numbered!:
-
 === Critical summary
 
 After the factual summary, it is important to also provide a critical summary of the manuscript that will help guide the editor’s decision. This is where to first emphasize the strengths of the manuscript (there are almost always some), for instance:
 
+====
 * The paper tackles a particularly difficult, novel and/or important problem
 * The paper proposes particularly novel methods
 * The paper presents highly interesting or surprising results, or results that are full of practical implications
@@ -147,9 +163,11 @@ After the factual summary, it is important to also provide a critical summary of
 * The paper is very clearly written
 * The paper presents a very thorough and useful review of the literature
 * Etc.
+====
 
 The critical summery then identifies the weaknesses of the manuscript (there are almost always some) in a global fashion. For instance:
 
+====
 * The paper tackles a problem that is no longer relevant
 * The paper proposes methods that represent only a small increment over previous work
 * The results presented in the manuscript are not very convincing
@@ -157,6 +175,7 @@ The critical summery then identifies the weaknesses of the manuscript (there are
 * The manuscript is difficult to read or poorly structure
 * The paper does not refer sufficiently to the state-of-the-art
 * Etc.
+====
 
 === Detailed list of comments
 

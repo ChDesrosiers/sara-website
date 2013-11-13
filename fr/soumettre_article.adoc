@@ -44,14 +44,15 @@ Pour soumettre un article via notre plateforme _EasyChair_, vous devez d'abord *
 <p>Afin de préserver les ententes de confidentialité auxquelles vous adhérez peut-être dans le cadre de vos recherches, vous ne devez pas soumettre d’ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS si :</p> 
 
 <ol>
-<li> Le contenu de votre article s’inscrit dans le cadre d’une collaboration industrielle (ou autre) et vous n’êtes pas parfaitement au courant des ententes de confidentialité qui peuvent toucher votre projet de recherche <b>OU</b> </li>
-<li>Vos recherches s’inscrivent dans le cadre d’une collaboration industrielle (ou autre) faisant l’objet d’une (ou plusieurs) entente(s) de confidentialité et vous n’avez pas préalablement vérifié la conformité de votre article avec cette entente auprès de vos partenaires;</li>
+<li>Le contenu de votre article s’inscrit dans le cadre d’une collaboration industrielle (ou autre) dans laquelle vous participez et vous ne connaissez pas les conditions de confidentialité obligatoires qui y sont rattachées, le cas échéant.</li>
+
+<li>Vos recherches s’inscrivent dans le cadre d’une collaboration industrielle (ou autre) faisant l’objet d’une (ou plusieurs) entente(s) de confidentialité et vous n’avez pas préalablement vérifié la conformité de votre article auprès du professeur responsable du volet scientifique de l’entente ou auprès des partenaires industriels impliqués.</li>
 </ol>
 
 <p>De plus, vous ne devez pas soumettre d’ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS si :</p>
 
 <ol start="3">
-<li>Vous désirez protéger la technologie décrite dans l’article par un brevet ou un autre mécanisme juridique à l’aide du SPSIR (votre soumission serait alors considérée comme une divulgation publique de la technologie).</li>
+<li>Vous désirez, avec vos co-inventeurs, le cas échéant, protéger la technologie décrite dans l’article par un brevet ou un autre mécanisme de protection avec l’aide du SPSIR (Service du Partenariat et du Soutien à l’Innovation et à la Recherche). Si ce n’est pas fait, votre soumission serait alors considérée comme étant une divulgation dite publique, compromettant ainsi la protection de la technologie.</li>
 </ol>
 
 <p>Par ailleurs, si vous soumettez une ébauche d’article au service d’aide à la rédaction d’articles de l’ÉTS avec des co-auteurs, tous ces co-auteurs doivent être bien représentés. L’ébauche ne peut être soumise si un ou plusieurs des co-auteurs se trouve dans l’une des trois situations énumérées ci-dessus.</p>

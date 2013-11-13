@@ -4,8 +4,708 @@
 :imagesdir: images
 :doctype: article
 :icons:
-:iconsdir: ../images/icons
+:iconsdir: ../../images/icons
 :toc:
 :toc-placement!:
 
-=== UNDER CONSTRUCTION
+:numbered:
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+toc::[]
+
+== Why this guide ?
+
+When writing a scientific paper, you must anticipate what a potential reader might be looking for when reading the document.  Your document is complex and contains technical notions often foreign to the reader.  You must help the reader by communicating your ideas in the clearest manner possible. To reach this goal, you must:
+
+* Organize your content such that it is clear and consistent.  Each idea must be expressed in a precise manner and must be introduced in the right place.  It is essential that the ideas form an easy to follow narrative flow.
+* Express your ideas using appropriate style while observing the grammatical rules of the language you are using (typically, English).  If English is not your first language, this may be difficult.  A misplaced word or punctuation mark can radically change the meaning of a sentence and confuse your reader.
+
+To help you with these two tasks, this page presents a few essential rules of style. These rules summarize a much larger set of rules and principles presented in various references (see the link:/en/resources[Resources] tab). We organized these rules into two sets:
+
+. Elementary composition principles, which aim to help you with the first task: that of writing a consistent, clear and well-structured document.
+. Grammatical rules in common usage, including a set of punctuation rules required to communicate your ideas correctly.
+
+These rules of style are complementary to the rules and advice presented in the writing guide.  In practice, once you have written a first draft of your manuscript following the writing guide, you should then edit it to apply the rules stated on this page.  This will improve your draft by making it easier to read and understand, and therefore more likely to meet the reader’s needs.
+
+The rules and principles, as well as several examples presented on this page were borrowed from several resources, including:
+
+====
+* Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
+* Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
+* Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
+====
+
+== A few elementary principles of composition
+
+[[clarity]]
+=== Clarity
+
+:numbered!:
+
+==== Subject and action
+
+The reader is more likely to understand a sentence when:
+
+====
+Principe 1:: The subject of the sentence is explicit. 
+Principe 2:: The subject’s action is expressed using a verb.
+Principe 3:: The distance (in terms of word count) between the subject and its verb is short.
+====
+
+In other words, it is easier to understand a sentence where we can quickly identify the actor, the action that the actor carries out, and the consequences of this action.
+
+Let us analyze a first example:
+
+====
+{bad} ``The selection of the studied methods tries to cover the maximum number of patterns to be derived from the literature.''
+====
+
+Are you able to understand this sentence quickly and effortlessly upon your first reading?
+
+In this sentence, the subject is the abstraction ``The selection of the studied methods''.  The subject is followed by the verb ``tries to cover'', whose meaning can vary, introducing some ambiguity.
+
+We can reformulate this sentence by making the subjects explicit as follows:
+
+====
+{good} ``We studied a number of methods so that we could cover the maximum number of patterns that are derived from the literature.''
+====
+
+In this sentence, one can easily identify the subjects and their actions. Thus, we see that:
+
+* ``we'' is the subject of ``studied''and``could cover''
+* ``patterns'' is the subject of the verb ``are derived''
+
+Comparing the two sentences, we observe that the first one uses abstract nouns and adjectives to express actions (``selection'' and ``studied'') whereas the second one uses verbs to express actions (``we studied ...'', ``we could cover ...'', and ``patterns that are derived ...''). The first sentence follows neither principle 1 nor principle 2 given above, whereas the second sentence adheres to both principles.
+
+Let us analyze a second example:
+
+====
+{bad} ``Our lack of knowledge about local conditions precluded determination of committee action effectiveness in fund allocation to those areas in greatest need of assistance.''
+====
+
+Are you able to understand this sentence quickly and effortlessly upon your first reading?
+
+Similarly to the first example, the subject in this sentence is the abstraction ``Our lack of knowledge about local conditions''. The subject is followed by the verb ``precluded'', whose usage introduces ambiguity.
+
+We can rewrite this sentence using explicit subjects as follows:
+
+====
+{good} ``Because we knew nothing about local conditions, we could not determine how effectively the committee had allocated funds to areas that most needed assistance.''
+====
+
+In this sentence, it is easy to see that: 
+
+* ``we'' is the subject of  ``knew'' and ``could not determine''
+* ``committee'' is the subject of the verb ``had targeted''
+* ``area'' is the subject of ``needed''
+
+Comparing the two sentences of this second example, we observe that the first one uses abstract nouns to express actions (``lack'', ``knowledge'', ``determination'', ``action'', ``allocation'', ``assistance'', and ``need''). Elle ne respecte aucun des deux principes 1 et 2. It does not follow principle 1 nor principle 2.  The second sentence uses verbs to express actions (``we knew nothing'', ``we could not determine'', ``the committee allocated'', and ``areas needed'') and follows both principles 1 and 2.
+
+In the two examples analyzed above, the sentences that follow principles 1 and 2 are easier to understand.  Generally, applying those principles leads to clearer, more concrete and shorter sentences.  The flow of ideas is also easier to build and follow.
+
+Let us consider another example:
+
+====
+{bad} ``There has been an affirmative decision for program termination.'' 
+====
+
+We can rewrite this sentence and make it more concrete by applying principles 1 and 2:
+
+====
+{good} ``The Director decided to terminate the program.''
+====
+
+Let us consider one last example:
+
+====
+{bad} ``Approaches that rely on diverse information, such as code metrics, process metrics, or previous defects, have been proposed to tackle the problem.''
+====
+
+The distance between the subject ``Approaches'' and the verb ``have been proposed'' is too large.  If we applied principle 3 by reducing this distance, we would get a sentence that is easier to read and understand:
+====
+{good} ``Many approaches have been proposed to tackle the problem, relying on diverse information, such as code metrics, process metrics, or previous defects.''
+====
+
+Principle 3 is a particular case of the general principle stating that related words should be kept close to one another.  The position of words in a sentence shows the relationships between them and reflects their relationship to the thought that we want to express.  Words that are related to the same idea should be kept together whereas those that are related to different ideas should be separated.
+
+[TIP]
+====
+When a sentence is too abstract or too complex, analyze the sentence to identify the actors and their actions:
+
+* If the actors are not subjects and their actions are not verbs, edit your sentence.
+* If the distance between a subject and its action is too large (i.e. there are more than six or seven words between then), edit your sentence.
+====
+
+==== Active voice and passive voice
+
+In a sentence that uses active voice, the subject performs the action expressed by the verb.  In a sentence that uses passive voice, the subject undergoes the action expressed by the verb.
+
+Let us consider the two following examples:
+
+*Active voice:*
+====
+``We carried out an experiment to assess the effectiveness of our approach.''
+====
+
+*Passive voice:*
+====
+``An experimental validation was carried out to assess the effectiveness of our approach.''
+====
+
+Comparing these two sentences, we can see that the second one is longer, less direct and more imprecise (i.e. we don’t know who performed the experiments) than the first sentence.  Generally, active voice is more direct, more concise and more vigorous than passive voice.  The flow of ideas is also easier to follow with active voice.
+
+Compare the two following paragraphs:
+
+*Passive voice:*
+====
+``It was found that data concerning energy resources allocated to the states were not obtained. This action is needed so that a determination of redirection is permitted on a timely basis when weather conditions change. A system must be established so that data on weather conditions and fuel consumption may be gathered on a regular basis.''
+====
+
+*Active voice:*
+====
+``We found that the Department of Energy did not obtain data about energy resources that Federal offices were allocating to the states. The Department needs these data so that it can determine how to redirect these resources when conditions change. The Secretary of the Department must establish a system so that his office can gather data on weather conditions and fuel consumption on a regular basis.''
+====
+
+The first paragraph uses passive voice in all sentences, whereas the second paragraph uses active voice.  Although it is longer, the second paragraph is easier to understand because it is direct and concrete; we better understand who is the actor and what their action is in each sentence.
+
+This does not mean that passive voice should be banished from your work.  Passive voice is often appropriate, or necessary, depending on context, to create a subject out of a particular word.  This is the case when one wants to emphasize a word or expression that is not necessarily and actor in the sentence, or when passive voice ensures better flow.
+
+Let us compare the following two sentences:
+
+*Passive voice:*
+====
+``Asthma symptoms can be made worse by ozone concentrations.''
+====
+
+*Active voice:*
+====
+``Ozone concentrations can make asthma symptoms worse.''
+====
+
+If the topic of your paragraph or section is asthma, the first sentence would be appropriate since it emphasizes this topic as a subject.  The second sentence would be appropriate if your paragraph or section focused on ozone.
+
+We often use passive voice when we don’t know who the actor is who is performing a given action, or when we do not want to specify it.  The following sentence illustrates this:
+
+====
+``Those who are found guilty of murder can be executed.''
+====
+
+Avoid successions of passive expressions such as:
+
+====
+{bad} ``Gold was not allowed to be exported.''
+====
+
+This sentence can be simplified in the following manner:
+
+====
+{good} ``It was forbidden to export gold.''
+====
+
+Or:
+
+====
+{good} ``The export of gold was prohibited.''
+====
+
+A common error related to the use of passive voice is to choose for the subject a noun that completely describes the action; the verb then has no other function than to complete the sentence.  Consider the following two examples:
+
+====
+{bad} ``An analysis of this problem was made by Descartes.''
+====
+
+====
+{bad} ``Generalization of these conclusions cannot be done.''
+====
+
+These two sentences can be reformulated as follows:
+
+====
+{good} ``This problem was analyzed by Descartes.''
+====
+
+====
+{good} ``These conclusions cannot be generalized.''
+====
+
+Or by using active voice as follows:
+
+====
+{good} ``Descartes analyzed this problem.''
+====
+
+====
+{good} ``We cannot generalize these conclusions.''
+====
+
+==== Concision and precision
+
+In addition to managing the flow and cohesiveness of the ideas in your paper, as discussed later in the ``Cohesiveness'' section, you must express them concisely and precisely.
+
+Let us analyze the following sentence:
+
+====
+{bad} ``In our personal opinion, we must consider and evaluate each and every language that supports formal modeling.''
+====
+
+The word ``personal'' can be omitted since an opinion is always personal.  This is redundant!  We can even omit the entire expression ``In our personal opinion'' because the following declaration is, implicitly, the author’s opinion.  Therefore, the reader can infer that it is the authors’ opinion that is expressed by ``we must consider and evaluate each and every language that supports formal modeling. ``
+
+The expression ``consider and evaluate'', more simply, means ``study''.  The expression ``each and every'' is a redundant pair of words; we only need one of them.  Redundant pairs often come from English words borrowed from Latin or French.  Because the borrowed words sounded more knowledgeable that the equivalent English words, some authors made it a habit to use them together.  This tradition introduces redundancy in the text.  Here are some common examples of redundant pairs:
+
+* ``full and complete'',
+* ``true and accurate'',
+* ``each and every'',
+* ``first and foremost'',
+* ``various and sundry'',
+* ``basic and fundamental'',
+* ``questions and problems'',
+* etc.
+
+Thus, our edited sentence becomes:
+
+====
+{good} ``We must study each language that supports formal modeling.'' 
+====
+
+You should also avoid writing long sentences with words that are not necessary to understand your ideas.  Let us consider the following sentence:
+
+====
+{bad} ``The success of the process practically depends on several parameters that basically include film thickness.''
+====
+
+This sentence can be simplified by removing ``basically'' and ``practically'' which do not add essential information to the expressed idea:
+
+====
+{good} ``The success of the process depends on several parameters that include film thickness.''
+====
+
+Indeed, some adverbs  that are commonly used in oral communication do not add useful information to an idea.  A few examples of such adverbs include: 
+
+* ``kind of'',
+* ``really'',
+* ``basically'', 
+* ``definitely'', 
+* ``practically'',
+* ``actually'', 
+* ``virtually'',
+* ``generally'', 
+* etc.
+
+One should also avoid redundancies due to the use of modifiers (i.e. adverbs, adjectives, or any expression aiming to add information to a word) whose meaning is already part of the meaning of the word to which the modifier is linked.  The expression ``completely finish'' is an example of such a redundancy since ``finish'' implies ``completely''.  Other examples of this type include:
+
+* ``basic fundamentals'', 
+* ``true facts'',
+* ``important essentials'',
+* ``future plans'', 
+* ``end result'',
+* ``final outcome'',
+* ``initial preparation'',
+* etc. 
+
+In these cases, the modifier (adverb or adjective) should be removed to eliminate the redundancy.
+
+Let us consider another type of redundancy illustrated by the following sentence:
+
+====
+{bad} ``During that period of time, the mucous membrane area became pink in color and shiny in appearance.''
+====
+
+In this sentence, certain specific words are used, as well as their more general categories: ``time'' is a ``period'', the ``membrane'' is an ``area'', ``pink'' is a ``color'' and ``shiny'' is an ``appearance''.  Thus, we can reformulate the sentence to eliminate categorical redundancy by keeping only the most specific words as follows:
+
+====
+{good} ``During that time, the mucous membrane became pink and shiny.''
+====
+
+In certain cases, the general category can be suppressed by replacing an adjective with an adverb: 
+
+*Adjective:*
+====
+``The approaches must be analyzed in an careful manner.''
+====
+
+*Adverb:*
+====
+``The approaches must be carefully analyzed.''
+====
+
+Or by transforming an adjective into a noun and by suppressing the name of the general category:
+
+*With general category name:*
+====
+``The architectural process is the responsibility of design experts.''
+====
+
+*Without general category name:*
+====
+``Architecture is the responsibility of design experts.''
+====
+
+In all cases, we suppress the more general word and keep the more specific one.
+
+Finally, to write concisely, you must elaborate the important ideas of your manuscript, providing all the details required for understanding them while avoiding useless details.  In most cases, the target reader is an informed reader with some knowledge of your field.
+
+In addition to being concise, your sentences should be precise.  The reader needs to know what the facts are and what their direct and indirect consequences are.  You must therefore avoid using ambiguous, negative or evasive expressions.  The reader feels frustrated when facing evasiveness or ambiguity.
+
+Hence, instead of:
+
+====
+{bad} ``We did not pay attention to the distortion parameter.''
+====
+
+====
+{bad} ``We did not think the distortion parameter was relevant in this context.''
+====
+
+Write:
+
+====
+{good} ``We ignored the distortion parameter.''
+====
+
+====
+{good} ``The distortion parameter was irrelevant in this context.''
+====
+
+Consider the following sentence, expressed in negative form:
+
+====
+``The efficiency of the approach was not unsatisfying.''
+====
+
+In fact, this sentence includes two negations (``was not'' and ``unsatisfying'').  The two negations cancel out to bring positive meaning to the sentence, but this meaning is ambiguous: it could be that ``the efficiency of the approach was satisfying'', but it is not obviously so.  Additional information is required to understand precisely what this sentence expresses.
+
+Negation should be used to reject a fact.  It should never be used to distort or avoid a fact. 
+
+Many negative expressions can be written affirmatively:
+
+[width="50%",cols="^5,^5",options="header"]
+|=========================================================
+| Negative form | Affirmative form
+| not many | few
+| not the same | different
+| not different | alike/similar
+| did not | failed to
+| does not have | lacks
+| did not pay attention to | ignored
+| did not consider | ignored
+| did not allow | prevented
+| did not accept | rejected
+| not clearly | unclearly
+| not possible | impossible
+| not able | unable
+| not certain | uncertain
+|=========================================================
+
+To summarize, here are the principles to apply in order to keep your text concise and precise:
+
+====
+* Generally, you should express your ideas using the most concise form available.
+* You should avoid indicating what the reader can easily infer (e.g. `` In our personal opinion ``).
+* You should, generally speaking, express your ideas using the affirmative form.
+====
+
+:numbered:
+
+[[cohesiveness]]
+=== Cohesiveness
+
+:numbered!:
+
+==== One paragraph = one theme
+
+An article addresses a particular problem or topic.  To achieve this, the article is split into sections, each aiming to present one aspect of the general topic (see the writing guide to know what parts make up an article).  Each section is divided into paragraphs, whose numbers vary according to section and article length.
+
+To help the reader, the aspect addressed in one section is divided into several themes (sometimes corresponding to steps), and each theme is presented in a paragraph.  The paragraph is the _fundamental composition unit_ in English and several other languages.  With the beginning of a new paragraph, the reader understands that a new step in the development of the topic is being addressed.
+
+Paragraphs are composed of several sentences that are related to a single theme.  Your readers must be able to identify the theme of a paragraph as soon as they start reading it, and must keep this theme in their mind until the end of the paragraph.  To achieve this, a paragraph must contain:
+
+====
+An introductive sentence:: This sentence introduces the theme of the paragraph. It must appear at the beginning of the paragraph.  It is often quite general and does not go beyond introducing the theme that will be developed in the rest of the paragraph.  This sentence often contains an expression that establishes the relationship of the paragraph with the preceding paragraph. 
++
+The body:: a set of sentences that develop or explain the statements made in the introductive sentence. When reading the introductive sentence, readers will ask themselves questions to which the body sentences should provide answers. The number of sentences in the body thus depends on the amount of detail required for the reader to understand the theme of the paragraph. The sentences of the body explain the introductive sentence by reformulating it, defining its terms, contrasting it to its opposite, providing illustrations or examples, demonstrating it or showing its consequences. 
++
+A concluding sentence:: The final sentence summarizes or emphasizes the theme of the paragraph, or announces a consequence of the development made in the paragraph. The final sentence is particularly important when the paragraph is long.  It can be omitted if the paragraph is very short.
+====
+
+Let us consider the following paragraph:
+
+====
+``{co1} It was chiefly in the eighteenth century that a very different conception of history grew up. {co2} Historians then came to believe that their task was not so much to paint a picture as to solve a problem; to explain or illustrate the successive phases of national growth, prosperity, and adversity. {co3} The history of morals, of industry, of intellect, and of art; the changes that take place in manners or beliefs; the dominant ideas that prevailed in successive periods; the rise, fall, and modification of political constitutions; in a word, all the conditions of national well-being became the subjects of their works. {co4} They sought rather to write a history of peoples than a history of kings. {co5} They looked especially in history for the chain of causes and effects. {co6} They undertook to study in the past the physiology of nations, and hoped by applying the experimental method on a large scale to deduce some lessons of real value about the conditions on which the welfare of society mainly depend.''
+====
+
+This paragraph is composed of six sentences. The introductive sentence and the final sentence were highlighted in this paragraph. Sentence {co1} introduces the theme of the paragraph; that is, ``the appearance of a different conception of history in the 18th century''. This new conception of history is defined more clearly in sentence {co2}, using examples in sentence {co3}, and by contrast in sentence {co4}.  Sentence {co5} complements the definition with a new element. Finally, sentence {co6}, which is the final sentence, presents the consequence of this new conception.
+
+CAUTION: Avoid ending your paragraph with a futile detail or a disgression.
+
+To ensure a coherent and continuous flow of information, it is often necessary to explicitly express the relationship between a paragraph and its predecessor.  This can be done with one word (or expression).  The word or expression to use depends on the nature of the relationship between the paragraphs: addition, contrast, illustration, consequence, etc.  Here are a few examples of transition words used to establish this type of linkage:
+
+*  ``moreover'' 
+* ``therefore'' 
+* ``in fact'', 
+* ``in addition'', 
+* ``for example'', 
+* ``regarding'',
+* ``similarly'', 
+* ``likewise'', 
+* ``however'', 
+* ``yet'', 
+* ``nevertheless'', 
+* ``for instance'', 
+* ``that is'',
+* etc.
+
+When the relationship between a paragraph and its predecessor requires several sentences, one can infer that there is a gap between the steps/themes addressed in the two paragraphs.  In this case, it is often more appropriate to insert an additional paragraph that creates the relationship between the first two.
+
+==== Managing information flow
+
+In the <<clarity, Clarity>> section, we focused on the clarity of individual sentences. However, a series of clear sentences can induce confusion if the sentences are not built as a function of their context.  Thus, sentences must be built such as to ensure their ``local'' clarity (i.e. as individual sentences) but also such as to reflect a coherent point of view when grouped together as a whole.
+
+Consider the two following sentences:
+
+*Sentence (a)*:
+====
+``A black hole is created by the collapse of a dead star into a point perhaps no larger than a marble.''
+====
+
+*Sentence (b)*:
+====
+``The collapse of a dead star into a point perhaps no larger than a marble creates a black hole.''
+====
+
+The two sentences express the same idea, using passive voice in the first (a) and active voice in the second (b).  Which of the two sentences should one use if the context is the following paragraph:
+
+====
+``{co1} Some astonishing questions about the nature of the universe have been raised by scientists exploring the nature of black holes in space. {co2} <__Insert sentence (a) or (b)__> {co3} So much matter compressed into so little volume changes the fabric of space around it in profoundly puzzling ways.''
+====
+
+We can see that the passive form used in sentence (a) is more appropriate in this context that the active form in (b).  Indeed, the last part of sentence {co1} presents one of the important actors, ``black holes in space''.  If we write {co2} using the active form given in (b), the beginning of the sentence would introduce elements that are new to the reader (i.e. ``The collapse of a dead star into a point perhaps no larger than a marble'') and whose relationship with sentence {co1} is not clear.  The main actor ``black hole'' already introduced in sentence {co1} only re-appears at the end of sentence {co2}. Therefore, the flow is somewhat broken.  We can improve the flow between sentences {co1} and {co2} by putting the known ``black hole'' actor at the beginning of sentence (2), where it will echo the last words of sentence (1).  For this reason, we will use a passive form like the one in (a) whose subject is ``black hole''.  By doing this, we also move the idea that ``the collapse of a dead star into a point perhaps no larger than a marble'' to the end of sentence {co2}, where it will immediately be echoed by the beginning of sentence {co3} (i.e., ``So much matter compressed into so little volume''). 
+
+By creating a conceptual relationship between your sentences, your discourse flows better and becomes easier to follow and understand for the reader. To create this relationship, you must build each sentence by applying two cohesiveness principles that were illustrated by the preceding example:
+
+====
+* Put the known ideas at the beginning of your sentence. These are ideas that you have already presented, implied or inferred ideas, of notions that you can reasonably assume to be known of your reader.
+* Put information that is new, more recent, more surprising, more important or that you want to emphasize, at the end of your sentence.  This information then becomes known and can be developed in the following sentence or used to introduce new elements of information.
+====
+
+Transition words (see the previous section for examples) can also help you make the conceptual relationship between sentences more explicit and easy to understand.
+
+:numbered:
+
+== A few commonly violated grammatical rules
+
+=== Series of terms
+
+In a sentence with a series of three or more terms (or expressions), use a comma after each term except the last.
+
+====
+* ``entities, relationships, and attributes''
+* ``powerful, fast, but unstable''
+* ``We tested the approach on several datasets, analyzed the results, and drew some conclusions.''
+====
+
+The abbreviation ``etc.'' is always preceded by a comma.  It is always followed by a comma except when it is at the end of a sentence:
+
+====
+``Arithmetic operations include addition, subtraction, multiplication, etc.''
+====
+
+=== Additional clauses
+
+In a sentence, an additional clause adds relevant but non essential information to a sentence.  It can contain one or more sentences and interrupts the flow of the sentence.  This clause must be preceded by and followed by commas.
+
+Examples:
+
+====
+* ``The interest in this problem, as far as we know, is relatively recent.'' 
+* ``The best way to see a country, unless you are pressed for time, is to travel on foot.''
+====
+
+This rule is difficult to apply because it is not always easy to decide whether a single word or short expression constitutes an additional clause. In any case, one must never omit one comma and keep the other.
+
+If the additional clause is preceded by a conjunction (e.g. ``and''), one must put the first comma before the conjunction rather than after.
+
+====
+``He saw us coming, and unaware that we had learned of his treachery, greeted us with a smile.''
+====
+
+=== Relative clauses 
+
+A relative clause is an expression that is related to the main clause of the sentence.  In particular, it refers to a noun or nominal phrase of the main clause.  Relative clauses are introduced to the sentence by relative pronouns such as ``who'', ``whom'', ``which'', ``where'', ``when'' and ``whose''.
+
+A relative clause is restrictive if it modifies, or, more specifically, if it defines the noun of nominal phrase to which it refers.  It is non restrictive if it merely provides additional information.
+
+A non restrictive relative clause should be preceded and followed by commas, as prescribed by the previous rule about additional clauses. 
+
+Examples:
+
+====
+* ``The proposed approach, which allows designers to iteratively build their systems, was tested in various industrial projects.''
+* ``The audience, which had at first been indifferent, became more and more interested.''
+* ``Nether Stowey, where Coleridge wrote The Rime of the Ancient Mariner, is a few miles from Bridgewater.''
+====
+
+In fact, in each of these three examples, the sentence is a combination of two statements that could each constitute an independent sentence.
+
+Examples:
+
+====
+* ``Many approaches that tackle the problem rely on diverse information, such as code metrics, process metrics, or previous defects.''
+* ``The candidate who best meets these requirements will obtain the place.''
+====
+
+In the first sentence, the relative clause ``that tackle the problem'' limits the scope (i.e. modifies) the nominal phrase ``many approaches'' to a subset.  In the second sentence, the relative clause ``who best meets these requirements'' limits the scope of the noun ``candidate'' to a single person.
+
+=== Independent clauses
+
+An independent clause is a clause whose meaning is complete, i.e. an idea is expressed in a complete manner by the clause.  It could be a sentence all by itself.  Here are some examples of independent clauses:
+
+====
+* ``The experiments were performed using one programming language.''
+* ``The conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting.''
+* ``More experiments are needed.'' 
+====
+
+A sentence may contain more than one independent clause.  In this case, the clauses are separated using semi-colons unless the second clause is introduced by a conjunction (e.g. ``and'', ``but'', etc.).
+
+We can, for instance, combine the previous independent clauses as follows:
+
+====
+* ``The experiments were performed using one programming language; the conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting; more experiments are needed.''
+====
+
+Or, using conjunctions as follows:
+
+====
+* ``The experiments were performed using one programming language, and the conclusions cannot be generalized to all programming languages.''
+* ``The preliminary results are interesting, but more experiments are needed.''
+====
+
+The use of conjunctions to combine independent clauses yields a more formal style than that where independent clauses are given in bulk with semi-colons to separated them.  The occasional use of bulk sentences (separated by semi-colons) can prevent style from becoming overly formal and gives the reader a break.  However, one must take care not to deliver too many sentences in this manner.
+
+Generally, in a sentence containing two independent clauses linked by a conjunction such as ``and'', ``but'', ``as'' (in the sense of ``because''), ``while'' (in the sense of ``at the same time'', ``or'', ``nor'', and ``for'', the conjunction should be preceded by a comma.
+
+====
+``We briefly analyze some of the results here, while complete details and discussion of the results can be found in the web site.''
+====
+
+When the second clause is introduced using an adverb such as ``so'', ``then'', ``thus'', ``accordingly'', ``therefore'', etc., one should use a semi-colon before the adverb and a comma after the adverb to separate the clauses.
+
+====
+``The system is represented using formal models; so design rules specify constraints that the models of the system must comply with.''
+====
+
+Generally, it is preferable to avoid the latter form.  The adverb ``so'' can be omitted and the sentence can be reformulated more elegantly as follows:
+
+====
+``As the system is represented using formal models, design rules specify constraints that the models of the system must comply with.''
+====
+
+=== Parallel structures
+
+Clauses with similar content should be presented using similar grammatical form, e.g. a series of words or correlative expressions.  This way, the reader can recognize and understand the similarity of the content more easily.
+
+Instead of:
+
+====
+{bad} ``The approach enables to design, to test, and simulating systems.'' 
+====
+
+You should write:
+
+====
+{good} ``The approach enables to design, to test, and to simulate systems.''
+====
+
+or:
+
+====
+{good} ``The approach enables designing, testing, and simulating systems.'' 
+====
+
+Instead of:
+
+====
+{bad} ``These results persuade us that the algorithm can analyze different types of systems but not to run it on different platforms.''
+====
+
+You should write:
+
+====
+{good} ``These results persuade us that the algorithm can analyze different types of systems but not that we can run it on different platforms.''
+====
+
+This principle also applies to expressions given as lists (numbered or otherwise); these expressions must use the same grammatical form. Instead of:
+
+====
+{bad} ``This process consists of four steps: eliciting requirements; modeling the system; simulation of the system; evaluation of the simulation results.''
+====
+
+You should write:
+
+====
+{good} ``This process consists of four steps: eliciting requirements; modeling the system; simulating the system; evaluating the simulation results.''
+====
+ 
+Also, when an article (e.g. ``The'') or a preposition applies to a series of words, the article or preposition must either appear before each word of the series or before the first word of the series only.  Thus, instead of:
+
+====
+{bad} ``The requirements, the design models, and tests are artifacts produced during software development.'' 
+====
+
+You should write:
+
+====
+{good} ``The requirements, the design models, and the tests are artifacts produced during software development.''
+====
+
+Instead of:
+
+====
+{bad} ``The approach enables to design, to test, and simulate systems.''
+====
+
+You should write:
+
+====
+{good} ``The approach enables to design, to test, and to simulate systems.''
+====
+
+or:
+
+====
+{good} ``The approach enables to design, test, and simulate systems.''
+====
+
+Similarly, correlation expressions (e.g. ``not only … but also''; ``either ... or''; ``both ... and''; ``not ... but''; ``first, ... second, ...''; etc.) must be followed by phrases expressed in the same grammatical form.
+
+Instead of:
+
+====
+{bad} ``The contribution of this paper is not only a framework for mobile applications but also the support of evaluation of these applications through a formal process.''
+====
+
+You should write:
+
+====
+{good} ``The contribution of this paper is not only a framework for mobile applications but also a formal process for evaluating these applications.''
+====
+
+==  If you want to learn more
+
+This page presents a summary of essential rules of style.   If you want to learn more about writing scientific papers, visit the link:/en/ressources[Resources] tab.
