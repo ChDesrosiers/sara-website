@@ -1,0 +1,41 @@
+= Guide pratique pour l'écriture d'articles scientifiques
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../../images/icons
+:toc:
+:toc-placement!:
+
+:numbered!:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+La rédaction d'articles scientifiques est une tâche complexe et souvent frustrante pour les personnes peu habituées à cette tâche. Le guide suivant fait un survol des principes de bases de la rédaction scientifique, et propose divers conseils pour aider à planifier, rédiger et réviser ses articles. Pour faciliter sa lecture, le guide est divisé en trois chapitres pouvant être lus individuellement:
+
+====
+
+* CHAPITRE I  {zwsp} {zwsp} : link:/fr/guide_redaction_planifier[Planifier la rédaction d'un article]
+* CHAPITRE II  {zwsp} : link:/fr/guide_redaction_rediger[Rédiger son article]
+* CHAPITRE III : link:/fr/guide_redaction_reviser[Réviser et resoumettre son article]
+====
+
+=== Si vous désirez en savoir plus
+
+Le contenu de ce guide est basé sur plusieurs excellentes sources d'information sur la rédaction scientifique. Pour en connaître plus sur ce thème, vous pouvez consulter la liste de ces documents en sélectionnant l'onglet link:/fr/ressources[Ressources].

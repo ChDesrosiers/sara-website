@@ -1,0 +1,223 @@
+= Guide pratique pour l'écriture d'articles scientifiques
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../../images/icons
+:toc:
+:toc-placement!:
+
+:numbered:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+toc::[]
+
+:numbered!:
+
+[[reviser-article]]
+== CHAPITRE III : Réviser et resoumettre son article
+
+:numbered:
+
+[quote, Emmanuel Kant,]
+____
+Une proposition incorrecte est forcément fausse, mais une proposition correcte n’est pas forcément vraie.
+____
+
+La révision est une étape essentielle mais souvent négligée dans l'élaboration d'un article. Un article sans faute, bien structuré et facile à comprendre aura de meilleures chances d'être accepté et, par la suite, cité dans d'autres articles. Souvent, la révision d'un article est faite en deux étapes. On commence d'abord par réviser le contenu d'un article, de son titre jusqu'aux références et annexes. Une fois cette étape complétée, on améliore ensuite l'article en révisant son style. 
+
+=== Révision du contenu
+
+Pour identifier des lacunes ou améliorations potentielles au contenu de l'article, on peut poser les questions suivantes:
+
+====
+* Le titre est-il précis, succinct et intéressant? 
+
+* Les mots clés sont-ils standards et indexables? 
+
+* Le résumé met-il en valeur l'originalité du travail? Fait-il une bonne synthèse des différentes parties de l'article? 
+
+* L'introduction motive-t-elle bien le travail? Énonce-t-elle clairement les contributions, hypothèses et questions de recherche? Le plan de l'article y est-il présenté?
+
+* La méthodologie est-elle suffisamment détaillée pour permettre de reproduire le travail et ses résultats?
+
+* La présentation des résultats est-elle structurée et en lien avec les objectifs et questions de la recherche? Peut-on facilement vérifier et comparer ces résultats? Le texte de l'article concorde-t-il avec ces résultats?
+
+* Peut-on supprimer un tableau ou une figure de l'article sans nuire à sa compréhension? Est-il préférable de présenter un certain tableau sous la forme d'un graphique ou vice-versa? Les tableaux et figures sont-ils tous cités dans le texte? La légende permet-elle de comprendre leur contenu sans avoir à lire le texte?
+
+* La discussion/conclusion interprète-t-elle correctement les résultats? Les résultats permettent-ils de répondre aux questions de recherche? Les résultats sont-ils statistiquement significatifs?
+
+* Les références sont-elles toutes citées dans le texte? Manque-t-il certaines références essentielles? Peut-on en supprimer?
+
+* La longueur de l'article est-t-elle appropriée? Certaines informations sont-elles répétées inutilement à plusieurs endroits? 
+
+* Les pages sont-elles toutes numérotées?
+====
+
+=== Révision du style
+
+Une fois satisfait du contenu de l'article, on s'attarde ensuite à réviser son style. Cette étape de révision est également très importante car elle permet de rendre l'article plus intéressant à lire et plus simple à comprendre. Les modifications suivantes sont à considérer lors de cette étape:
+
+====
+* Retirer les phrases ou mots inutiles.
+
+* Découper les phrases trop longues en plusieurs phrases courtes. 
+
+* Lorsque c'est souhaitable, reformuler les phrases employant la voix passive (e.g., ``__It was observed that__'') pour quelles soient en voix active (e.g., ``__We observed that__''). Utiliser le pronom personnel ``__We__'' si nécessaire.
+
+* Remplacer les expressions inutilement complexes (e.g., ``__has the ability to__'') par des formes plus simples (e.g., ``__can__'').
+
+* S'assurer que chaque phrase a un sujet et un verbe et que le verbe s'accorde avec le sujet.
+
+* Reformuler les phrases se terminant par une préposition (e.g., ``__with__'', ``__by__'', ``__for__'', etc.).
+
+* Employer le _passé simple_ en décrivant les travaux réalisés. Le _présent_ peut être utilisé pour les énoncés généraux (e.g., ``__Anomaly detection is a complex task ... __'').
+
+* Mettre l'action dans le verbe au lieu du sujet (e.g., ``We measured the performance'' au lieu de ``__Measurements of the performance were made__'' ).
+ 
+* Remplacer les groupes nominaux complexes (e.g., ``__sparse model parameter learning__'') par des formes moins ambiguës (e.g., ``__learning the parameters of the sparse model__'').
+
+* Éviter les abréviations sauf si elles sont d'usage courant.
+
+* Éviter les mots référant à un sexe particulier (e.g., ``__The user then selects__'' au lieu de ``__He then selects__'').
+
+* Ne pas mélanger les orthographes _américaine_ (e.g., ``__behavior__'') et _anglaise_ (e.g., ``__behaviour__'') dans le même texte.
+====
+
+Pour plus d'informations sur cet aspect de la rédaction, se référer au {homepage}/fr/guide_style[Guide de style] .
+
+===	Resoumission de l'article
+
+:numbered!:
+
+Après plusieurs semaines, voire plusieurs mois d’attente suite à votre soumission, vous recevrez une lettre (habituellement un courriel) vous informant que le processus d’évaluation de votre article est terminé et vous donnant la décision du rédacteur en chef. Si vous aviez soumis en vue d’une conférence, votre article sera généralement soit accepté sans modification ou refusé.  Par contre, si vous avez soumis votre article à une revue, plusieurs scénarios sont possibles et il est rarissime qu’un article soit accepté pour être publié dans une revue sans aucune modification.  Cela signifie que dans la plupart des cas, vous aurez à réviser votre article.  Pour ce faire, procédez en plusieurs étapes :
+
+==== Lire la lettre du rédacteur en chef
+
+La lettre du rédacteur en chef vous informera de sa décision concernant votre article.  Les trois scénarios les plus fréquents sont les suivants:
+
+====
+* *Scénario 1*: Votre article est accepté conditionnellement à des révisions mineures;
+* *Scénario 2*: On vous propose de soumettre une nouvelle version de votre article après des révisions majeures;
+* *Scénario 3*: Votre article est refusé.
+====
+
+Dans les deux premiers cas, vous aurez à soumettre une version révisée de votre article à la même revue, accompagnée d’une lettre répondant directement aux commentaires des évaluateurs et décrivant les changements apportés à l’article. Si les révisions demandées sont majeures, il est fort probable que l’article sera renvoyé aux évaluateurs pour qu’ils vérifient si les changements apportés répondent bien à leurs critiques. Si les révisions demandées sont mineures, il peut arriver que l’article ne soit ré-évalué que par le rédacteur en chef, mais il arrive aussi qu’il soit revu par les évaluateurs. Dans tous les cas, il faut tenir compte de cette possibilité.
+
+Dans le troisième cas, votre article est refusé. Il faudra lire les commentaires des évaluateurs pour comprendre pourquoi. Dans plusieurs cas, il est envisageable et même souhaitable de réviser l’article pour le soumettre à une revue différente.
+
+==== Lire les commentaires des évaluateurs
+
+Quelle que soit la décision du rédacteur en chef, il est important de bien lire et comprendre la teneur des commentaires des évaluateurs, surtout si vous souhaitez réviser l’article. Si ces derniers ont fait un travail rigoureux, vous aurez la chance d’avoir une liste numérotée de commentaires, critiques et suggestions qui vous permettront d’identifier clairement les révisions que vous aurez à faire. Souvent, un ou plusieurs rapports d’évaluateurs ne sont pas aussi bien structurés et se présentent comme un ou plusieurs gros paragraphes. Dans ce cas, il vous faut extraire de ces paragraphes une liste numérotée de commentaires, critiques et suggestions auxquels vous vous engagerez à répondre. Pour ce faire, scindez les paragraphes du rapport en plusieurs parties selon les commentaires qui vous semblent les plus importants.
+
+Vous constaterez probablement en compilant la liste des commentaires que la teneur de certains de ces commentaires est partagée deux évaluateurs ou plus, et que plusieurs des commentaires se rapportent à la même partie ou au même aspect de votre travail. Par exemple, un premier évaluateur pourrait avoir trouvé que votre revue de littérature n’était pas complète et ne faisait pas suffisamment référence à des articles pertinents provenant d’un domaine connexe mais différent du vôtre. Un second évaluateur pourrait avoir des suggestions précises d’articles que vous n’avez pas cités dans la revue de littérature et qu’il juge pertinents et, dans un autre commentaire, critiquer le fait que vous n’avez pas très bien cerné ce qui différentie votre travail de celui d’un autre groupe de recherche. Pour vous faciliter la vie, préparez vous une liste de tâches où chaque tâche correspondra à ce genre de groupe de commentaires similaires ou connexes.
+Pour chacune des tâches (regroupement de commentaires de votre liste), vous devrez ensuite identifier la meilleure façon de réagir. Vous avez essentiellement deux choix:
+
+====
+* *Choix 1*: Apporter une ou plusieurs modifications à l’article
+* *Choix 2*: Ne pas apporter de modification et justifier votre décision
+====
+
+Le premier choix sera à privilégier pour répondre à la majorité des commentaires. Vous devez considérer que la plupart des commentaires et critiques que vous recevez sont légitimes et qu’ils méritent une réponse et des modifications appropriées à l’article. Vous devez vous-même identifier la meilleure façon de répondre à ces commentaires et critiques. Il peut de temps en temps arriver qu’un commentaire ou une critique résulte d’une mauvaise compréhension de l’évaluateur, ou que les modifications requises pour répondre à la critique dépasse trop largement le cadre de vos recherches.Dans ces 
+cas, le second choix (ne pas apporter de modification) peut se justifier, mais il vous faudra préparer vos arguments.
+
+==== Réviser l’article et préparer la re-soumission
+
+Si vous en avez la possibilité, vous soumettrez généralement votre article révisé à la même revue qui l’a traité dans sa version originale. Dans ce cas, vous aurez deux documents important à produire:
+
+. La version révisée de votre article, qui doit tenir compte des commentaires des évaluateurs;
+. Une lettre de réponse aux évaluateurs qui documente les modifications réalisées.
+
+Si votre article a été refusé, vous le re-soumettrez peut-être à une autre revue. Dans ce cas, il va de soi que seule la version révisée de l’article sera requise. La version révisée de votre article comprendra toutes les modifications que vous avez jugées nécessaires pour bien répondre aux commentaires et critiques des évaluateurs. Parmi les modifications fréquemment demandées/réalisées, on trouve:
+
+====
+*	L’ajout d’explications (un paragraphe ou deux) qui manquaient dans la version originale;
+*	L’ajout de références bibliographiques (et une discussion de ces références) dans la revue de la littérature;
+*	Un changement dans la manière de présenter les résultats;
+*	L’ajout de nouveaux résultats expérimentaux qui répondent à une question des évaluateurs;
+*	La correction d’erreurs dans la description de la méthodologie (par exemple, dans des équations légèrement erronées);
+*	Une ré-expression des contributions principales de l’article lorsque celles-ci ne semblent pas avoir été comprises par les évaluateurs;
+*	L’élimination (ou la mise en annexe) d’une section jugée non pertinente ou peu intéressante par les évaluateurs ou le rédacteur en chef;
+*	Le raccourcissement de l’article dans sa globalité (il s’agira parfois de réduire la longueur de quelques pages, et parfois même de réduire un article de revue complet à une « courte communication » de 3 ou 4 pages);
+*	Etc.
+====
+
+Ces modifications peuvent nécessiter un investissement de temps important, mais il est essentiel de les implémenter avec rigueur, même si cela peut vous puer au nez. Si les évaluateurs se sont donné la peine d’identifier avec précision une liste de points faibles dans l’article, c’est que celui-ci a probablement un certain potentiel et qu’il suffit de s’attaquer à cette liste de points faibles avec la même précision que les évaluateurs. Dans le cas d’une re-soumission à la même revue, l’article sera relu par les mêmes évaluateurs; il est donc dans votre intérêt de satisfaire leurs exigences le mieux possible. Même si vous soumettez l’article révisé à une revue différente, il y a de bonnes chances que vous tombiez sur au moins un des évaluateurs de l’article original, particulièrement si votre domaine ne comporte pas de nombreux chercheurs. De toute manière, vous avez donc avantage à répondre le mieux possible aux commentaires reçus : votre article n’en sera que meilleur et aura de meilleures chances d’être accepté lors de la re-soumission.  
+
+Si vous re-soumettez l’article à la revue de départ, la lettre de réponse aux évaluateurs est un document extrêmement important et mérite autant d’attention que la révision de l’article proprement dite. Cette lettre est généralement structurée comme suit:
+
+====
+*	Un bref remerciement aux évaluateurs pour leurs commentaires judicieux et constructifs.
+*	Pour chaque évaluation reçue, une liste numérotée citant chaque commentaire de l’évaluateur concerné ainsi que les actions qui ont été prises concernant ce commentaire. Lorsque des changements ont été apportés en réponse à un commentaire, il faut indiquer où les changements apparaissent (numéro de page, de section, etc.) dans la version révisée.  Pour clarifier le document, vous pouvez utiliser une police de caractères différente pour le commentaire original et pour votre réponse. Lorsqu’aucune réponse n’est requise (par exemple s’il s’agit d’un résumé de votre article), indiquez le dans la réponse.
+====
+
+Voici un exemple d’extrait de réponse aux évaluateurs:
+
+====
+{good} We thank the reviewers for their carefully and constructive comments. We address each individual comment in detail below
+
+*Response to reviewer #1*
+
+*	*Comment 1:* 
++
+_This paper discusses the problem of super-resolution with an unknown PSF, also known as blind super-resolution.  The approach described belongs to the family of approaches based on the early work of Freeman et al.  The authors introduce_ *...*
++
+*Authors' response:* 
++
+No action required.
+
+*…*
+
+*	*Comment 5:* 
++
+_If the previous comments can be properly addressed, the next issue is the length of the paper, which I think is far too long for a subject of niche interest. The paper could be reduced in length significantly by citing, instead of repeating,  the work of Appleby et al., and finding a more concise way to present the results. Finally, I would suggest removing the sections about the neural network experiments, since this approach has already been shown to be less accurate than the state-of-the-art._
++
+*Authors' response:* 
++
+We agree with the reviewer that our original manuscript was too long
+and we thank the reviewer for the suggestions as to how it might be
+shortened. Following these suggestions, made the following changes :
++
+**	We shortened our summary of Appleby et al.’s approach (section 2.3 in the revised manuscript) and limited the discussion to implementation issues that may have differed from their original work.
+**	 We reduced the number of graphs for our results on confocal microscopy images,
+compressing four figures into one (figures 5, 6  7 and 8 of the
+original manuscript have become figure 3).  Each data point in the new graphs is the average of the corresponding data points on each of the former graphs.  We found that this representation does not obscure the main results of our work and compresses space.
++
+** Contrary to the reviewer’s suggestion, we decided not to remove all the sections relating to the neural network experiments. We think the experimental data from this technique is still a valuable baseline to present and the data points do not require additional space. However, we removed most of our description of our implementation of the method, which we summarised in two sentences, citing the relevant article by Turner et al.
+
+*...*
+
+*Response to reviewer #3*
+
+*...*
+
+*	*Comment 10:*	
++
+_On page 16, you mention that the image patches had dimensions of 50 x 50. Why this, and not smaller or larger?_
++
+*Authors' response:* 
++
+As now stated on page 8 of the revised manuscript, the dimensions of the image patches were a 
+compromise between the repeatability of statistical feature extraction and the number of measurements that could be extracted from each image. We wished to have more than 20 such measurements to maintain robustness to outliers in the model fitting stage.  A size of 50x50 provided us with 26 measurements, which satisfied our requirements.  In practice, we found that reasonable variations in the size of the image patches did not have a significant impact on our results.
+====
+
+'''
+
+* CHAPITRE PRÉCÉDENT : link:/fr/guide_redaction_rediger[RÉDIGER SON ARTICLE]

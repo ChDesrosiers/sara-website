@@ -16,7 +16,7 @@ Le SARA propose diverses formes d’aide aux étudiants qui désirent améliorer
 
 ====
 * Plusieurs *ressources documentaires* donnant des conseils et astuces pour bien s’acquitter des tâches de rédaction et d'évaluation d'articles scientifiques.
-** link:/fr/guide_redaction[Guide pratique pour l'écriture d'articles scientifiques]
+** link:/fr/guide_redaction_accueil[Guide pratique pour l'écriture d'articles scientifiques]
 ** link:/fr/guide_style[Guide pour améliorer son style d'écriture]
 ** link:/fr/guide_evaluation[Guide sur comment évaluer des articles scientifiques]
 ** link:/fr/ressources[Références à diverses ressources (sites Web, livres, articles, etc.) sur ces thèmes]

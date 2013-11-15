@@ -1,0 +1,240 @@
+= Guide pratique pour l'écriture d'articles scientifiques
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../../images/icons
+:toc:
+:toc-placement!:
+
+:numbered:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+toc::[]
+
+:numbered!:
+
+== CHAPITRE I : Planifier la rédaction
+
+:numbered:
+
+[[lafontaine]]
+[quote, Jean de La Fontaine, Le lièvre et la tortue]
+____
+Rien ne sert de courir; il faut partir à point.
+____
+
+Le processus de rédaction d'articles scientifiques est hautement complexe et les échéances de soumission sont souvent très courtes. Même pour les chercheurs expérimentés, il est facile de sous-estimer l'ampleur du travail à réaliser et se trouver pris à quelques jours (ou même quelques heures!) de la date limite. Pour rattraper le retard, il faut alors travailler de longues heures, ce qui entraîne inévitablement beaucoup de stress et de fatigue. Pire encore, les articles rédigés à la hâte ont plus de chances de contenir des erreurs et, conséquemment, d'être rejetés. Comme pour tout projet, la clé du succès dans la rédaction d'articles réside avant tout dans une bonne planification.      
+
+CAUTION: Bien qu'il arrive parfois qu'une conférence accorde une extension à la date limite de soumission, il ne faut *jamais* compter sur cette extension pour terminer un article. Il faut toujours viser la date originale de soumission et, si nécessaire, utiliser l'extension pour apporter des changements mineurs.
+
+[[choix-conference]]
+===	Choisir la conférence ou revue
+
+Avant de débuter la rédaction, il est important de déterminer la conférence ou la revue à laquelle sera soumis l'article. Puisque les contraintes de soumission (e.g., nombre de pages) peuvent varier d'une conférence ou d'une revue à une autre, ce choix a un impact direct sur la rédaction. Les critères suivants peuvent être utilisés lors de la sélection:
+
+:numbered!:
+
+==== Pertinence
+
+La pertinence d'un article pour une conférence ou une revue est l'un des principaux critères d'évaluation de l'article. Il est donc nécessaire de viser une conférence ou une revue dont les thèmes clés renferment celui de l'article. Souvent, une liste de ces thèmes clés est fournie sur le site Web de la conférence ou revue, avec les instructions de soumission. Une autre technique simple pour trouver des conférences ou revues pertinentes consiste à identifier des articles publiés dont le contenu est similaire au nôtre, et déterminer où ces articles ont été publiés. 
+
+==== Date d'échéance
+
+Dans le cas de conférences, il est important de cibler celles dont la date d'échéance de soumission laisse suffisamment de temps pour la rédaction. Pour faciliter cette tâche, il existe de nombreux sites Web fournissant une liste des principales conférences d'un certain domaine et leur date d'échéance. Voici quelques exemples pour des domaines de l'informatique:
+====
+* http://conferences.visionbib.com/Iris-Conferences.html[Vision par ordinateur]
+* http://www.kdnuggets.com/meetings[Forage de données]
+*	http://www.conferencealerts.com/topic-listing?topic=Engineering[Génie] 
+*	http://www.wikicfp.com/cfp/call?conference=software%20engineering[Génie logiciel]
+====
+
+TIP: Certaines soumissions à des revues peuvent également avoir une date d'échéance, par exemple, dans le cas d'éditions spéciales.
+
+==== Date et lieu
+
+La date et le lieu des conférences est également un critère important de sélection. Il est normal d'être attiré par des conférences à l'étranger qui permettent de découvrir un nouveau pays. Cependant, ces conférences peuvent être très dispendieuses (i.e., billet d'avion, hôtel, etc.), et il faut s'assurer d'avoir le budget requis.
+
+CAUTION: Les étudiants devraient toujours valider le budget auprès de leur superviseur *avant* de soumettre à une conférence. 
+
+==== Types de contribution
+
+Certaines conférences permettent parfois de soumettre différents types de contribution. Les quatre types les plus souvent rencontrés sont les suivants:
+
+//.Test
+[width="90%",cols="3,3,10",options="header"]
+|=========================================================
+| Type | Longueur +
+(pages) | Description
+| Article complet | Entre 5 et 15 | Correspond généralement à un projet de recherche *mature* ayant une ou plusieurs contributions originales et des résultats concrets.
+| Article court | Moins de 5 | Est normalement associé à un projet de recherche en cours de développement, ayant un potentiel intéressant mais peu de résultats concrets. Ce type de contribution n'est pas toujours publié dans les actes de la conférence.
+| Résumé | Une ou deux | Employé pour faire une pré-sélection des soumissions. Si accepté, les auteurs sont normalement invités à soumettre une version complète de leur travail.
+| Affiche | Une seule + 
+(grand format) | Les auteurs dont la soumission n'a pas été sélectionnée pour une présentation orale sont parfois invités à synthétiser leurs travaux sous la forme d'une affiche. L'article initial peut malgré tout être publié dans les actes de le conférence.
+|=========================================================
+
+Si le projet de recherche n'est pas suffisamment avancé, il est préférable de cibler une conférence permettant la soumission d'articles courts ou, dans le cas d'articles complets, permettant la présentation d'affiches.
+
+==== Prestige
+
+Le prestige des conférences ou des revues dans lesquelles publie un chercheur est un facteur clé lorsque vient le temps de demander une bourse, une subvention ou un poste académique. Afin de déterminer la qualité d'une conférence ou revue, le chercheur peut se baser sur des métriques comme le __facteur d'impact__, qui mesure le nombre moyen de citations aux travaux publiés dans cette conférence ou revue. Certains sites Web, dont le http://www.journal-ranking.com[suivant], permettent de consulter le rang de conférences ou revues, basé sur ces métriques.  
+
+CAUTION: Les métriques de prestige dont le facteur d'impact peuvent être biaisées. La meilleure façon de déterminer la qualité d'une conférence ou revue sera toujours de lire des articles publiés récemment dans celle-ci.
+
+Cependant, plus une conférence ou une revue est prestigieuse, plus il est difficile d'y publier. Ainsi, le taux d'acceptation d'une conférence permet typiquement d'évaluer son niveau. Avant de soumettre à une conférence ou une revue, il faut s'assurer que la qualité de la soumission est comparable aux travaux déjà publiés dans celle-ci. Si ce n'est pas le cas, il peut être judicieux de viser une conférence ou revue ayant un taux d'acceptation plus favorable. 
+  
+TIP: Il est toujours souhaitable d’avoir un ou même plusieurs plans de rechange, dans le cas où l’on dépasse la date d'échéance d’une conférence, ou si notre article n’est pas accepté à la conférence ciblée. Cependant, il n’est pas éthique de soumettre le même article (ou tout article similaire) à plusieurs conférences (ou revues) simultanément, entre autres parce que cela sollicite inutilement des évaluateurs qui donnent bénévolement de leur temps. Il est donc important d’identifier comme plan de rechange des conférences dont la date d'échéance arrive *après* la date de réponse de la conférence ciblée. 
+
+:numbered:
+
+[[etablir-calendrier, Établir un calendrier]]
+===	Établir un calendrier
+
+Une fois la conférence ou la revue cible choisie, l'étape suivante consiste à établir un calendrier couvrant toutes les étapes de préparation de l'article, jusqu'à la date prévue de soumission. Dans le cas d'une conférence, cette date est contrainte par l'échéance de soumission.
+
+L'élaboration d'un article est un processus complexe qui devrait en principe débuter avant la recherche, continuer durant la recherche et se terminer après l'obtention, l'analyse et l'interprétation des résultats. Bien qu'il soit tentant de bâtir une version complète de l'article d'un seul coup pour gagner du temps, cette approche mène souvent à un cul-de-sac, nécessitant de refaire une partie importante du travail. Dans certains cas, cela peut avoir pour conséquence de rater l'échéance de soumission. Une meilleure approche est d'élaborer l'article itérativement, chaque itération correspondant à une version plus complète de l'article et pouvant comporter une ou plusieurs des tâches suivantes:
+
+:numbered!:
+
+==== Recherche bibliographique
+
+Cette tâche permet d'identifier les travaux antérieurs du domaine qui touchent la même problématique, ou dont la méthodologie proposée est similaire à la sienne. Les résultats de cette recherche serviront principalement à rédiger la revue de littérature de l'article (voir la section <<revue-litterature, Revue de littérature>>). Cependant, certaines références peuvent également servir à:
+
+* Établir un étalon de comparaison pour évaluer sa propre approche
+* Appuyer ou faciliter certains arguments utilisés dans l'article
+* Motiver le cadre expérimental de l'article
+* etc.
+
+La recherche bibliographique débute normalement avant la recherche et se poursuit jusqu'à la soumission de l'article. Au début, celle-ci devrait être suffisamment large pour inclure les travaux proposant des approches complémentaires et portant sur des applications connexes. Cette recherche devrait par la suite devenir de plus en plus ciblée, de manière à restreindre la liste des références citées dans l'article.
+
+TIP: Il est important de conserver une liste des références rencontrées durant la recherche bibliographique. Cette tâche peut être facilitée par des outils de gestion bibliographique tels que http://endnote.com/[Endnote] ou http://www.mendeley.com/[Mendeley]. 
+
+==== Expérimentation
+
+À l'exception de types particuliers d'articles (e.g., _Étude de cas_ ou _Survol de littérature_), l'expérimentation est une partie centrale de tout article scientifique. Elle se fait normalement en quatre étapes:
+
+. *Planification:*
++
+L'étape de planification consiste à déterminer la méthodologie expérimentale à employer pour vérifier ses hypothèses de recherche. Dans le cas où une nouvelle approche est proposée pour un certain problème, la méthodologie expérimentale renferme typiquement les tâches suivantes:
++
+* S’il y a lieu, sélectionner les approches de la littérature qui serviront d'étalons de comparaison.
+* Identifier les jeux de données de test (i.e., les _benchmarks_) dans la littérature ou générer ces données à partir de simulations ou de mesures physiques réelles.
+* Choisir les métriques employées pour évaluer la qualité des différentes approches.
+* Déterminer les paramètres à utiliser pour les approches testées.  
+* Prévoir au calendrier le temps nécessaire pour acquérir des données et/ou prendre des mesures, s’il y a lieu.  Ce processus peut-être particulièrement long (et il importe d’autant plus de bien le planifier) si les données doivent par exemple être acquises lors d’expériences sur des sujets humains ou animaux, ou sur le terrain en région éloignée, ou si une prise de mesures/expérimentation peut durer plusieurs heures, voire plusieurs jours.
+*	Si une analyse statistique poussée des résultats est prévue, concevoir un protocole d’expérimentation rigoureux. 
+*	Etc.
+
+
+. *Réalisation:* 
++
+La réalisation d'expériences occupe généralement une place importante dans un projet de recherche. Durant cette étape, il est important de bien suivre le plan expérimental prévu durant la planification. 
+// Bien qu'il soit tentant de modifier ce plan en fonction des résultats observés, cela risque de biaiser les résultats et mener à une conclusion erronée. 
+
+. *Collecte des résultats:* 
++
+Une fois les expériences complétées, l'étape suivante consiste à regrouper, nettoyer et restructurer les résultats en vue de leur analyse.
+
+. *Analyse des résultats:* 
++
+Cette étape a pour objectif de valider ou d'infirmer les hypothèses de recherche à partir des résultats expérimentaux. Selon les observations, l'analyse permet de raffiner la méthodologie expérimentale ou proposer de nouvelles expériences. 
++
+CAUTION: Une erreur souvent rencontrée dans l'analyse des résultats est de généraliser à partir d'un nombre limité d'observations. Par exemple, établir qu'une approche est meilleure qu'une autre, en se basant uniquement sur quelques exemples. Il est plutôt recommandé de valider ou infirmer un hypothèse à l'aide d'un test statistique où un niveau de confiance peut être spécifié (voir la section <<analyses-statistiques, Analyses statistiques>>).
+
+Tout comme la recherche bibliographique, l'expérimentation devrait commencer avant la rédaction. Une stratégie pour faciliter la planification des expériences consiste à déterminer d'avance le contenu des tableaux et figures de l'article. À l'étape de rédaction, ces tableaux et figures sont ensuite produits à partir des résultats obtenus.
+
+==== Rédaction
+
+Comme mentionné précédemment, il est préférable d'utiliser une approche systématique de rédaction construisant l'article étape par étape, au lieu de tenter de rédiger l'article d'un seul coup. Les conseils suivants peuvent être utilisés pour faciliter la rédaction:
+
+====
+* Rédiger directement dans le gabarit de la conférence ou de la revue ciblée. Cela évitera de mauvaises surprises de mise en page. 
+* Commencer par construire un squelette de l'article, en identifiant ses sections, sous-sections, tableaux et figures. Ce squelette servira de guide lors de la rédaction.
+* Rédiger d'abord les sections les plus faciles. Pour certaines personnes, il s'agira de l'introduction, alors que d'autres seront plus à l'aise avec la méthodologie. 
+* Travailler sur une seule section de l'article à la fois.
+* Écrire d'abord un brouillon sans se préoccuper du style. Une fois l'écriture commencée, éviter de revenir trop souvent en arrière. La révision du brouillon se fera dans une autre étape.  
+* En cas de blocage, mettre l'article de côté durant quelques jours. 
+* Demander à un collègue de le relire.
+* Identifier chaque version de l'article à l'aide d'un numéro ou d'une date. 
+====
+
+Le processus de rédaction sera présenté plus en détails dans la section <<rediger-article, Rédiger son article>>. 
+
+TIP: Si le travail de rédaction est fait en équipe, il est important de déterminer d'avance les sections pour lesquelles chaque membre de l'équipe est responsable.  Par ailleurs, il est fortement recommandé d'utiliser un gestionnaire de version, tel que http://subversion.apache.org[SVN], http://www.opencvs.org[CVS] ou http://git-scm.com[Git]. Ces outils facilitent le travail collaboratif, la gestion des conflits dans les fichiers de travail, et la récupération de versions antérieures.
+
+==== Révision
+
+Une fois la rédaction terminée, la révision de l'article se fait en deux étapes:
+
+. *Révision du contenu* 
++
+La première étape consiste à réviser le contenu de l'article. Dans cette étape, on s'assure de valider:
++
+** La pertinence et la cohérence des différentes parties de l'article (i.e., titre, résumé, introduction, revue de littérature, méthodologie, expérimentation, discussion, conclusion)
+** La clarté des contributions, de la justification de la solution proposée, et de l'analyse des résultats
+** L'usage approprié des références
+** La redondance du contenu
+** La qualité des figures et tables
+** La numération des pages
+** etc.
++
+. *Révision du style*: 
++
+Une fois le contenu validé, on révise le style de l'article. Cela inclut, entre autres,
+les éléments suivants:
++
+** Le respect de la langue, au niveau de l'orthographe et la grammaire
+** La clarté et la longueur des phrases
+** La fluidité de l'enchaînement des phrases
+** etc.
+
+La révision d'articles est abordée de manière plus détaillée dans la section <<reviser-article, Réviser son article>>. Les aspects reliés au style sont discutés plus en détails dans le link:/fr/guide_style[Guide de style].
+
+TIP: Si plusieurs personnes participent à la rédaction, le processus de révision peut être problématique. Une stratégie permettant de réduire les conflits est de réviser l'article une personne à la fois, chaque personne passant ses corrections à la suivante. Il est cependant important de déterminer l'ordre des personnes avant de procéder. Plusieurs tours peuvent être nécessaires pour effectuer toutes les corrections.
+
+CAUTION: Il est impératif de prévoir un certain délai dans la réception des corrections des autres membres de l'équipe. Ces personnes peuvent avoir un horaire chargé qui ne permet pas de travailler immédiatement sur l'article. L'horaire et le calendrier des membres doit donc être considéré lorsqu'on détermine leur ordre dans le processus de révision.
+
+==== Exemple de calendrier
+
+Le tableau suivant montre un exemple de calendrier de préparation d'articles. Évidemment, la durée requise pour chaque tâche dépend du type d'article et de l'expérience du chercheur. 
+
+[width="80%",cols="10,^4,^4,^3",options="header"]
+|=========================================================
+| Tâche | Date début +
+(prévue) | Date fin +
+(prévue) | Durée +
+(jours)
+| Recherche bibliographique (1ère itération) | 01/07/2013 | 20/09/2013 | 50
+| Expérimentation (1ère itération) | 21/09/2013 | 20/10/2013 | 60
+| Rédaction (1ère itération) | 21/10/2013 | 20/12/2013 | 60
+| Révision (1ère itération) | 06/01/2014 | 21/01/2014 | 15
+| Recherche bibliographique (2ème itération) | 22/01/2014 | 01/02/2014 | 10
+| Expérimentation (2ème itération) | 02/02/2014 | 17/02/2014 | 15
+| Rédaction (2ème itération) | 18/02/2014 | 28/02/2014 | 10
+| Révision (2ème itération) | 01/03/2014 | 11/03/2014 | 10
+| Rédaction (3ème itération) | 12/03/2014 | 22/03/2014 | 10
+| Révision (3ème itération) | 23/03/2014 | 02/04/2014 | 10
+| *Soumission* | 02/04/2014 | N/A | N/A
+| *Date d'échéance* | 07/04/2014 | N/A | N/A
+|=========================================================
+
+'''
+
+* CHAPITRE SUIVANT : link:/fr/guide_redaction_rediger[RÉDIGER SON ARTICLE]
