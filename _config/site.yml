@@ -11,7 +11,7 @@ asciidoctor:
 profiles:
   development:
   staging:
-    base_url: http://sara.logti.etsmtl.ca/
+    base_url: http://sara.etsmtl.ca/
     deploy:
       host: sara-wadmin@sara.logti.etsmtl.ca
       path: /home/sara.logti.etsmtl.ca/public_html/ 
@@ -21,7 +21,7 @@ profiles:
     deploy:
       host: github_pages
   production:
-    base_url: http://sara.logti.etsmtl.ca/
+    base_url: http://sara.etsmtl.ca/
     minify: true
     deploy:
       host: sara-wadmin@sara.logti.etsmtl.ca

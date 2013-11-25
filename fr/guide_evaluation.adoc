@@ -202,7 +202,7 @@ Le résumé critique identifie ensuite, de façon globale, les points faibles de
 * Etc.
 ====
 
-==== Liste détaillées de commentaires
+==== Liste détaillée de commentaires
 
 Dans un bon rapport d’évaluation, on trouve typiquement, après le résumé critique, une liste numérotée et détaillée des points les plus problématiques. Cette liste est particulièrement importante lorsque l’article semble contenir suffisamment de bonnes idées pour une publication éventuelle mais nécessiterait des révisions substantielles. Cette liste devrait identifier clairement et détailler chaque point problématique, c’est-à-dire:
 

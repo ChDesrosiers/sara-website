@@ -4,4 +4,24 @@
 
 == Other resources
 
-TO BE COMPLETED
+=== References on writing scientific papers:
+
+* Day, R., Gastel, B.	How to Write and Publish a Scientific Paper 7th ed. Cambridge University Press, 2012.
+
+* Tischler, M.E. Scentific Writing Booklet. University of Arizona. link:http://www.biochem.arizona.edu/marc/Sci-Writing.pdf[Link to the resource].
+
+* Fuhrman, C., Koppenhoefer, S., Morel, P., Peraldi, M.-A., Vijayananda, K. Un canvas pour la rédaction d'articles. Ecole Polytechnique Fédérale de Lausanne. 1995.
+
+* Sand-Jensen, K. How to Write Consistently Boring Scientific Literature. Oikos, vol 116, no 5, p.723–727, 2007.
+link:http://onlinelibrary.wiley.com/doi/10.1111/j.0030-1299.2007.15674.x/pdf[Link to the resource].  
+
+* APA Student Council. A Graduate Student's Guide to Determining Authorship Credit and Authorship Order. 2006. link:http://www.apa.org/science/leadership/students/authorship-paper.pdf[Link to the resource].
+
+* Inderscience Enterprises. Keyword requirements. 2013. link:http://www.inderscience.com/info/pdf/dl.php?filename=id31_keywords.pdf[Link to the resource].
+
+=== References on scientific writing style:
+
+* Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
+* Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
+* Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
+* Sheffield, N. Graduate School Scientific Writing Resource, Duke University. link:https://cgi.duke.edu/web/sciwriting/[Link to the resource].

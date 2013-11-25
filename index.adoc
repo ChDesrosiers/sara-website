@@ -4,7 +4,7 @@
 :doctype: article
 :icons:
 :iconsdir: ./images/icons
-:homepage: http://sara.logti.etsmtl.ca
+:homepage: http://sara.etsmtl.ca
 
 == Bienvenue au SARA
 

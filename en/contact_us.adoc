@@ -2,7 +2,7 @@
 :awestruct-layout: default
 :imagesdir: images
 
-:homepage: http://sara.logti.etsmtl.ca
+:homepage: http://sara.etsmtl.ca
 
 == Contact us
 
