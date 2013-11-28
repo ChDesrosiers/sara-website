@@ -11,7 +11,7 @@ gem 'asciidoctor', '~> 0.1.3'
 gem 'erubis', '~> 2.7.0'
 # gem 'rb-inotify', '~> 0.9.0', :platforms => [:ruby, :jruby]
 # gem 'yard', '~> 0.7.5'
-gem 'rake', '~> 10.0.0'
+gem 'rake', '~> 10.1.0'
 #gem 'redcarpet'
 
 # required if you want to use the minify extension
