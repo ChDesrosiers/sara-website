@@ -1,11 +1,236 @@
-= Practical guide to writing scientific papers
+= Practical guide for scientific article writing
 :awestruct-layout: default
 :awestruct-show_header: true
 :imagesdir: images
 :doctype: article
 :icons:
-:iconsdir: ../images/icons
+:iconsdir: ../../images/icons
 :toc:
 :toc-placement!:
 
-=== UNDER CONSTRUCTION.
+:numbered:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+toc::[]
+
+== Planning the article writing
+
+[[Aesop]]
+[quote, Aesop, The Tortoise and the Hare]
+____
+Slow and steady wins the race.
+____
+
+The process of writing scientific papers is highly complex and submission deadlines are often very tight. Even for experienced researchers, it is easy to underestimate the amount of work to achieve and be overwhelmed a few days (or even hours!) before the deadline. To meet the deadline, one has to work long hours, which inevitably causes a lot of stress and fatigue. Worse, papers written in haste are more likely to contain errors, and consequently to be rejected. As with any project, the key to success in writing articles lies above all in good planning.      
+
+CAUTION: Although sometimes a conference grant an extension to the deadline, you should never rely on this extension to complete a paper. Always aim the original date of submission and, if necessary, use the extension to make minor changes. 
+[[conference-choice]]
+===	Choose the conference or the journal
+
+Before beginning writing, it is important to determine the conference or journal in which the paper (or article) will be submitted. Since the constraints of submission (e.g., number of pages) may vary from a conference or a journal to another, this choice has a direct impact on writing. The following criteria can be used when selecting:
+
+:numbered!:
+==== Relevance
+
+The relevance of a paper for a conference or journal is one of the main evaluation criteria. It is therefore necessary to aim at a conference or a journal compatible with the key themes of the paper. Often a list of these key themes is provided on the website of the conference or journal, with the submission instructions. Another simple technique to find relevant conferences or journals is to identify published papers whose content is similar to the paper to be written, and determine where these papers were published.
+
+==== Deadline
+
+For conferences, it is important to target those whose submission deadline allow sufficient time for writing. To facilitate this task, there are many websites that provide a list of major conferences in a certain field and due date. , Here are some examples for areas of IT:
+====
+* http://conferences.visionbib.com/Iris-Conferences.html[Computer vision]
+* http://www.kdnuggets.com/meetings[Data mining]
+*	http://www.conferencealerts.com/topic-listing?topic=Engineering[Engineering] 
+*	http://www.wikicfp.com/cfp/call?conference=software%20engineering[Software Engineering]
+====
+TIP: Some journals may also have a deadline, for example, in the case of special editions.
+
+==== Time and place
+
+The date and place of the conferences are also important selection criteria. It is normal to be attracted to conferences abroad where you can discover a new country. However, these conferences can be very expensive (ie, airfare, hotel, etc..), therefore one should ensure to have the required budget.
+
+CAUTION: Students should always confirm the budget with their supervisor before submitting a paper to a conference.
+
+==== Contribution types
+
+Some conferences may allow to submit different types of contribution. The four types most commonly encountered are:
+//.Test
+[width="90%",cols="3,3,10",options="header"]
+|=========================================================
+| Type | Length +
+(pages) | Description
+| Full Paper | Between 5 et 15 | Generally aimed at mature research projects that displays one or two original contributions and tangible results.
+| Short paper | Less than 5 | Is usually associated with an ongoing research project with interesting potential but few concrete results yet. This type of contribution is not always published in the proceedings of the conference.
+| Abstract | One or two | Its purpose is for pre-selecting submissions. If accepted, authors are usually asked to submit a complete version of their work.
+| Poster | One + 
+(large format) | Authors that are not selected for an oral presentation are often invited to present a poster instead. The submitted paper can sometimes be published in the conference proceedings.
+|=========================================================
+
+If the research project is not advanced enough, it is preferrable to target a conference that offers the possibility to submit a short article or, in the case of full articles, to present a poster.
+
+==== Prestige
+
+The prestige of conferences or journals in which a researcher publishes its articles is a key factor when the time comes to apply for a scholarship, a grant or an academic position. To determine the quality of a conference or journal, one may base its decision on metrics such as the impact factor, which measures the average number of citations to papers published in this conference or journal. Some Web sites, including this one http://www.journal-ranking.com[next], are used to view the ranking of conferences or journals, based on these metrics.
+
+CAUTION: Prestige metrics, such as the impact factor, can be biased. The best way to determine the quality of a conference or journal will always be to read articles recently published in it. 
+
+However, the more a conference or journal is prestigious, the more difficult it is to get published therein. Thus, the acceptance rate of a conference typically allows to evaluate its level. Before submitting an article to a conference or journal, one should ensure that the quality of the submission is comparable to previously published work therein. If this is not the case, it may be wise to aim for a conference or journal with a more favorable acceptance rate.
+  
+TIP: It is always desirable to have one or even several alternative plans, if we go beyond the deadline of a conference, or if the article is not accepted at the targeted conference. However, it is unethical to submit the same article (or similar text) in several conferences (or journals) simultaneously, because it unnecessarily burdens reviewers who volunteer their time. It is therefore important to identify alternative conferences whose deadlines are after the date of response of targeted conference.
+
+:numbered:
+
+[[establish-schedule, Establish a schedule]]
+===	Establish a schedule
+
+Once the conference or journal is chosen, the next step is to set a schedule covering all stages of preparation of the article, until the date of submission. In the case of a conference, this date is constrained by the submission deadline.
+
+The development of an article is a complex process that is expected to begin before the research, to continue during the research and to end after the acquisition, analysis and interpretation of the results. While it is tempting to build a full version in one go to save time, this approach often leads to a deadend, requiring a redo of an important part of the work. In some cases, this may result in missing the submission deadline. A better approach is to develop the article iteratively, each iteration corresponding to a more complete version of the article and may include one or more of the following tasks:
+
+:numbered!:
+
+==== Literature survey
+
+This task is used to identify previous work in the field that affect the same problem, or that bearing a similar methodology is similar to hers. The results of this survey will be used primarily to write the literature review (see <<literature-review, Literature review>> section). However, some references can also be used to:
+
+* Establish a benchmark to compare one's own approach
+* Support or facilitate claims in the paper
+* Provide the context for the experimental framework of the paper
+* etc.
+
+The literature survey normally begins before the research and continues until the submission of the article. At first, it should be broad enough to include the works offering complementary approaches and those on related applications. This research should eventually become more focused, so as to restrict the list of references cited in the article.
+
+TIP: It is important to keep a list of references found in the literature survey. This task can be facilitated by bibliographic management tools such as Endnote, Mendeley or Papers.
+
+==== Experimentation
+
+With the exception of particular types of articles (e.g., _Case studies_ ou _Literature review_), experimentation play a central part of any scientific paper. It is typicaly carried out in 4 steps :
+
+. *Planning:*
++
+The purpose of the planning stage is to determine the experimental methodology to be used to check the research hypotheses. In the eventuality that a new approach is proposed for a problem, the experimental methodology typically includes the following tasks:
++
+* If applicable, select the approaches found in literature that would serve as benchmarks for comparison. 
+* Identify the test datasets in the literature or generate those datasets for computer simulations or from measurements.
+* Choose the appropriate metrics to evaluate the quality of those different approaches.
+* Determine the parameters to be used for the tested approaches. 
+* Schedule and allow sufficient time to acquire data and perform measurements, if necessary. This process can be particularly long (and it is even more important to plan well) if the data must be acquired, for example, in experiments on humans or animals, or  in remote areas, or if a taking measurements/testing may take several hours or even days.
+*	If a sophisticated statistical analysis of the results is planned, one need to design a rigorous testing protocol. References are given in the Resources tab to help you properly design your experiment. 
+*	Etc.
+
+. *Implementation:* 
++
+Conducting experiments generally plays an important role in a research project. During this stage, it is important to follow the experimental design planned during the planning phase.
+
+. *Data acquisition:* 
++
+Once the experiments completed, the next step is to consolidate, cleanse and restructure the results for analysis.
+
+. *Data analysis:* 
++
+This step aims to validate or refute the research hypotheses based on experimental results. According to observations, the analysis to refine the experimental methodology or propose new experiences.
++
+CAUTION: An error often encountered in data analysis is to generalize from a limited number of observations. For example, to establish that an approach is better than another, based solely on a few examples. Rather, it is recommended to validate or disprove a hypothesis using a statistical test where a confidence level can be specified (see section on <<statistic-analysis, Statistic analysis>>).
+
+As for the literature survey, experimentation should begin before writing. A strategy to facilitate the planning of experiments is to determine in advance the contents of tables and figures in the article. At the drafting stage, these tables and figures are then produced from the results.
+
+==== Writing
+
+As mentioned above, it is preferable to use a systematic approach to building article writing step by step, instead of trying to write the article all at once. The following tips can be used to facilitate the writing:
+====
+* Write directly into the template of the conference or targeted journal. This will avoid unpleasant layout surprises. 
+* Start by building a skeleton of the article : identifying its sections, sub-sections, tables and figures. Use this skeleton as a guide when writing.
+* First write the easiest sections. For some people, it will be the introduction, while others will be more comfortable with the methodology.
+* Work on one section of the article at a time.
+* Write a first draft without worrying about style. Once writing is started, avoid to go back on the text too frequently. The revision of the draft will be another step.
+* If blocked, put the article aside for a few days.
+* Ask a colleague to proofread
+* Identify each version of the article with a number or a date. 
+====
+The process of writing an article will be presented in details in the section <<writing-article, Writing the article>>. 
+
+TIP: If the writing is done in teams, it is important to determine in advance the sections for which each team member is responsible. In addition, it is strongly recommended to use a version control system such as tel que http://subversion.apache.org[SVN], http://www.opencvs.org[CVS] or http://git-scm.com[Git]. These tools facilitate collaborative work, conflict management in work files and recover earlier versions.
+
+==== Revision
+
+Once the writing is completed, the revision of the paper is done in two steps: 
+
+. *Content revision* 
++
+The purpose of this first step is to revise the content of the paper. In this step, we validate:
++
+** Relevance and coherence of the different parts of the article (i.e., title, abstract, introduction, literature review, methodology, experimentation, discussion, conclusion)
+** Clarity of contributions, the rationale for the proposed solution and analysis of the results
+** The appropriate use of references
+** Redundancy of the content
+** The quality of figures and tables
+** The numbering of the pages
+** etc.
++
+. *Style revision*: 
++
+Once the content is validated, it's time to revise the style of the paper. This means one has to revise: 
++
+** Grammar and orthograph,
+** Clarity and length of sentences (short and clear sentences are better)
+** The fluidity of the sequence of sentences
+** The global structure of the document
+** etc.
+
+Aspects linked with the style are discussed in details in the section <<style-guide, Style Guide>>.
+Paper revision will be addressed in details in the section <<article-revision, Article revision>>. 
+
+TIP: If several people are involved in writing, the review process can be problematic. A strategy to reduce conflicts is to revise the article one person at a time, each person passing their corrections to the next. However, it is important to determine the order of persons before proceeding. Several rounds may be needed to make all the corrections.
+
+CAUTION: It is imperative to allow for some delay in receiving corrections from other team members. These people may have a busy schedule that does not allow to work right away on the article. The schedule and calendar of the members must be considered when determining the order in the revision process.
+
+==== Schedule example
+
+The following table provides an example of schedule for article preparation. Of course, the required time for each task depends on the type of article and the experience of the researcher.
+
+[width="80%",cols="10,^4,^4,^3",options="header"]
+|=========================================================
+| Task | start date +
+(planned) | End date +
+(planned) | Duration +
+(days)
+| Literature survey (1st iteration) | 01/07/2013 | 20/09/2013 | 50
+| Experimentation (1st iteration) | 21/09/2013 | 20/10/2013 | 60
+| Writing (1st iteration) | 21/10/2013 | 20/12/2013 | 60
+| Revision (1st iteration) | 06/01/2014 | 21/01/2014 | 15
+| Literature survey (2nd iteration) | 22/01/2014 | 01/02/2014 | 10
+| Experimentation (2nd iteration) | 02/02/2014 | 17/02/2014 | 15
+| Writing (2nd iteration) | 18/02/2014 | 28/02/2014 | 10
+| Revision (2nd iteration) | 01/03/2014 | 11/03/2014 | 10
+| Writing (2nd iteration) | 12/03/2014 | 22/03/2014 | 10
+| Revision (3rd iteration) | 23/03/2014 | 02/04/2014 | 10
+| *Submission* | 02/04/2014 | N/A | N/A
+| *Deadline* | 07/04/2014 | N/A | N/A
+|=========================================================
+
+:numbered:
+== Writing his article
+
+UNDER CONSTRUCTION.
+
+:numbered:
+== Revise and submit his article
+
+UNDER CONSTRUCTION.
+
