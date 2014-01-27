@@ -1,4 +1,4 @@
-= Ressources
+﻿= Ressources
 :awestruct-layout: default
 :imagesdir: images
 
@@ -24,4 +24,4 @@ link:http://onlinelibrary.wiley.com/doi/10.1111/j.0030-1299.2007.15674.x/pdf[Lie
 * Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
 * Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
 * Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
-* Sheffield, N. Graduate School Scientific Writing Resource, Duke University. link:https://cgi.duke.edu/web/sciwriting/[Lien vers la ressource].
+* Sheffield, N. Graduate School Scientific Writing Resource, Duke University  . link:https://cgi.duke.edu/web/sciwriting/[Lien vers la ressource].
