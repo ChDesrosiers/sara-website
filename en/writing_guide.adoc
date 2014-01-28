@@ -63,7 +63,7 @@ TIP: Some journals may also have a deadline, for example, in the case of special
 
 ==== Time and place
 
-The date and place of the conferences are also important selection criteria. It is normal to be attracted to conferences abroad where you can discover a new country. However, these conferences can be very expensive (ie, airfare, hotel, etc..), therefore one should ensure to have the required budget.
+The date and place of the conferences are also important selection criteria. It is normal to be attracted to conferences abroad where you can discover a new country. However, these conferences can be very expensive (ie, airfare, hotel, etc.), therefore one should ensure to have the required budget.
 
 CAUTION: Students should always confirm the budget with their supervisor before submitting a paper to a conference.
 
@@ -82,7 +82,7 @@ Some conferences may allow to submit different types of contribution. The four t
 (large format) | Authors that are not selected for an oral presentation are often invited to present a poster instead. The submitted paper can sometimes be published in the conference proceedings.
 |=========================================================
 
-If the research project is not advanced enough, it is preferrable to target a conference that offers the possibility to submit a short article or, in the case of full articles, to present a poster.
+If the research project is not advanced enough, it is preferable to target a conference that offers the possibility to submit a short article or, in the case of full articles, to present a poster.
 
 ==== Prestige
 
@@ -120,7 +120,7 @@ TIP: It is important to keep a list of references found in the literature survey
 
 ==== Experimentation
 
-With the exception of particular types of articles (e.g., _Case studies_ ou _Literature review_), experimentation play a central part of any scientific paper. It is typicaly carried out in 4 steps :
+With the exception of particular types of articles (e.g., _Case studies_ ou _Literature review_), experimentation play a central part of any scientific paper. It is typicaly carried out in 4 steps:
 
 . *Planning:*
 +
@@ -193,7 +193,7 @@ Once the content is validated, it's time to revise the style of the paper. This 
 ** The global structure of the document
 ** etc.
 
-Aspects linked with the style are discussed in details in the section <<style-guide, Style Guide>>.
+Aspects linked with the style are discussed in details in the <<style-guide, Style Guide>>.
 Paper revision will be addressed in details in the section <<article-revision, Article revision>>. 
 
 TIP: If several people are involved in writing, the review process can be problematic. A strategy to reduce conflicts is to revise the article one person at a time, each person passing their corrections to the next. However, it is important to determine the order of persons before proceeding. Several rounds may be needed to make all the corrections.
@@ -218,19 +218,19 @@ The following table provides an example of schedule for article preparation. Of 
 | Experimentation (2nd iteration) | 02/02/2014 | 17/02/2014 | 15
 | Writing (2nd iteration) | 18/02/2014 | 28/02/2014 | 10
 | Revision (2nd iteration) | 01/03/2014 | 11/03/2014 | 10
-| Writing (2nd iteration) | 12/03/2014 | 22/03/2014 | 10
+| Writing (3rd iteration) | 12/03/2014 | 22/03/2014 | 10
 | Revision (3rd iteration) | 23/03/2014 | 02/04/2014 | 10
 | *Submission* | 02/04/2014 | N/A | N/A
 | *Deadline* | 07/04/2014 | N/A | N/A
 |=========================================================
 
 :numbered:
-== Writing his article
+== Writing an article
 
 UNDER CONSTRUCTION.
 
 :numbered:
-== Revise and submit his article
+== Revise and submit an article
 
 UNDER CONSTRUCTION.
 
