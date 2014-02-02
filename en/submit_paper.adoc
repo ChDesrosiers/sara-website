@@ -1,4 +1,4 @@
-= Submit paper
+﻿= Submit paper
 :awestruct-layout: default
 :imagesdir: images
 
@@ -31,7 +31,7 @@ To use this service, you must:
 
 === Submit a draft paper
 
-To submit a draft of your manuscript via our _EasyChair_ platform, you must first *agree to the following terms* and then click on the _Submit_ button.
+To submit a draft of your manuscript via our _EasyChair_ platform, you must have an _EasyChair_ account (click https://www.easychair.org/account/signup.cgi[here] if you do not have any), you must *agree to the following terms* and then click on the _Submit_ button.
 
 ++++
 
