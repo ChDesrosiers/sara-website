@@ -1,4 +1,4 @@
-= Soumettre article
+﻿= Soumettre article
 :awestruct-layout: default
 :imagesdir: images
 
@@ -31,7 +31,7 @@ Les exigences suivantes doivent être respectées pour utiliser le service:
 
 === Soumettre une ébauche d'article
 
-Pour soumettre un article via notre plateforme _EasyChair_, vous devez d'abord *accepter les conditions suivantes* et ensuite appuyer sur le bouton _Soumettre_.
+Pour soumettre un article via notre plateforme _EasyChair_, vous devez disposer d'un compte _EasyChair_ (cliquez https://www.easychair.org/account/signup.cgi[ici] si vous n'en avez pas), vous devez *accepter les conditions suivantes* et ensuite appuyer sur le bouton _Soumettre_.
 
 ++++
 
