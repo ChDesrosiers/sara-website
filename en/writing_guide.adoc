@@ -606,7 +606,8 @@ CAUTION: A review of literature that is too general or not including work consid
 The methodology section is normally the core of the article. It explains in detail the main elements of the research, the steps for its implementation, as well as the experimental approach used to validate the assumptions.
 
 
-: numbered ! :
+
+:numbered!:
 
 
 ==== Structure and titles
@@ -1081,6 +1082,10 @@ Here are some guidelines to follow for the appendices:
 
 == Revise and submit the article
 
-UNDER CONSTRUCTION.
+UNDER CONSTRUCTION. 
+
+
+
+
 
 
