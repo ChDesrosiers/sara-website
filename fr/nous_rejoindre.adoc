@@ -21,7 +21,7 @@ document.write('<A href="mailto:' + email + '">' + email + '<\/a>')
 .</p>
 ++++
 
-Vous pouvez également nous faire parvenir vos commentaires à l'aide du formulaire suivant :
+Vous pouvez également nous faire parvenir vos commentaires à l'aide du formulaire suivant:
 
 ++++
 <form id="formcommentaire" action="http://getsimpleform.com/messages?form_api_token=aa4b6f4f03643e5632535dacdd2d037e" method="post">
