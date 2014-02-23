@@ -35,7 +35,7 @@ To submit a draft of your manuscript via our _EasyChair_ platform, you must have
 
 ++++
 
-<form id="formsubmit" action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
+<form id="formsubmit" action="https://www.easychair.org/conferences/?conf=saraets2014" method="link">
 
 <div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
 

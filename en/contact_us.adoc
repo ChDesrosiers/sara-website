@@ -9,7 +9,6 @@
 ++++
 <p>
 To contact us, send an email to:
-Pour communiquer avec nous, envoyez un courriel à l'adresse 
 <SCRIPT TYPE="text/javascript" language="JavaScript">
 <!--
 email1='sara'
