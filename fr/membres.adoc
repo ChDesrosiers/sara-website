@@ -1,0 +1,33 @@
+= Membres
+:awestruct-layout: default
+:imagesdir: images
+
+:homepage: http://sara.etsmtl.ca
+
+== L'équipe du SARA
+
+=== Les membres fondateurs du SARA
+
+//Le projet pilote SARA est une initiative de quatre professeurs de l'ETS, à savoir: 
+
+* Ghizlane El Boussaidi, Professeure au Département de génie logiciel et des TI. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4272[Fiche du professeur].
+
+* Christian Desrosiers, Professeur au Département de génie logiciel et des TI. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4198[Fiche du professeur].
+
+* Véronique François, Professeure au Département de génie électrique. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=2107[Fiche du professeur].
+
+* Catherine Laporte, Professeure au Département de génie électrique. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4256[Fiche du professeur].
+
+
+=== Le personnel du SARA
+
+* Françoise Provencher, post-doctorante au Département de génie logiciel et des TI. 
+link:http://francoiseprovencher.weebly.com/[Fiche du chercheur].
+
+* Alvine Boaye Belle, doctorante au Département de génie logiciel et des TI. 
+
+//faut-il indiquer l'equipe de reviewers?
