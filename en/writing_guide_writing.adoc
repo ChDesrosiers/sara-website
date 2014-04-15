@@ -1,0 +1,895 @@
+= Practical guide for scientific article writing
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../../images/icons
+:toc:
+:toc-placement!:
+
+:numbered:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+toc::[]
+
+:numbered!:
+
+== CHAPTER II : Writing the article
+
+
+[[churchill]]
+[quote, Winston Churchill]
+
+____
+
+Writing a book is an adventure. To begin with it is a toy and an amusement. Then it becomes a mistress, then it becomes a master, then it becomes a tyrant. 
+
+____
+
+
+
+:numbered:
+:numbered:
+
+
+Anyone who when through it can confirm: writing your first scientific paper is one of the most difficult and frustrating experiences in the career of a researcher. Synthesizing complex research work in a few pages in a clear and concise manner may seem at first glance to be an impossible task. Fortunately, addressing the problem one step at a time and in a structured way, the writing becomes much simpler. In addition, the writing process will, over time, become easier. 
+
+A scientific paper is usually composed of the following parts:
+[options="compact"]
+====
+* <<titre, A title>>
+* <<liste-auteurs, A list of authors and their affiliations>> 
+* <<mots-cles, A list of keywords>>
+* <<resume, An abstract>>
+* <<introduction, An introduction>>
+* <<revue-litterature, A literature survey (related works)>>
+* <<methodologie, A methodology>>
+* <<resultats, A presentation of the experimental work>>
+* <<conclusion, A conclusion>>
+* <<remerciements, A short acknowledgement paragraph>>
+* <<bibliographie, A list of bibliographic references>>
+
+
+* <<annexes, Appendices>>
+
+====
+
+
+The body of the article is normally composed of parts ranging from the introduction to the conclusion. These parts typically correspond to separate sections and are presented in this order, each addressing a different question:
+ 
+[width="80%",cols="2,4",options="header"]
+
+|=========================================================
+
+| Section | Question
+
+| *Introduction* | What is the motivation for this work and the contribution of the of the authors?
+
+| *Related works* | Which previous works are dealing with the same subject and where are is situated this new paper in comparison with which was done before? 
+
+| *Methodology* | What exactly has been done to obtain the results? 
+
+| *Results* | What has been discovered using this methodology? 
+
+| *Conclusion* | What is the meaning of the results?
+
+|=========================================================
+
+Although the article is divided into several sections, it should be read as a whole and follow a straight line of thinking, established by the objective or research hypothesis.
+
+TIP: The form and content of an article may vary depending on the nature of the research and the targeted publication. For example, an article of the type _Review_ typically contains an extensive literature review and may have no methodology or experimental results. Similarly, a journal article is usually longer than a conference paper, and the sections on literature review, methodology and experimental validation are often more detailed.
+
+TIP: When space is limited, the literature review can sometimes be made in the introduction of the article, provided it is made after the issue is stated. This approach is also possible when the main contribution of the paper is an improvement of existing technical literature. However, some authors prefer to present literature review just before the conclusion, so as not to affect the flow in the presentation of their own work.
+
+[[titre]]
+===	The title
+A good title should accurately describe the content of the article, without being too long or too short. The following guidelines can be used when selecting the title:
+==== 
+* Choose a title that will attract the reader's attention and create interest. 
+* Aim for a length between 10 and 12 words. 
+* Use words that highlight the area or application of research, and its originality. 
+* Choose words that could be the keywords of a query in a search engine. For example, keywords standards of an application or an approach. 
+* Avoid unnecessary words like ``__Observations on__'' or ``__A study of__''. 
+* Avoid abbreviations and symbols. 
+* Avoid terms such as ``__new__'', ``__improved__'', ``__better__'' or ``__improved__''. 
+====
+
+For example, let's consider an article with the following characteristics.
+[width="100%", cols="4,8"]
+|=========================================================
+| *Problem / principal application* | Recognition of activities from trajectories
+| *Key caracteristics* | Modeling of trajectories by sparse representation + 
+Dynamic learning of a trajectory dictionnary
+| *Principal contributions* | The proposed method automatically adapts to changes in the observed activities, which makes it robust to dynamic environments 
+|========================================================= 
+
+The following title is a bad choice because it provides no information on the context and contributions of research:
+
+
+//. A bad choice of title
+
+====
+{bad} *A better method for recognizing activities*
+====
+
+
+
+In addition, this title uses the form `` __recognizing activities__'' instead of `` conventional form __activity recognition__'', typically used to identify the work in this field. 
+Another bad example is the following:
+
+
+
+====
+{bad} *Investigating the usefulness of using sparse representation and dictionary learning for the problem of activity recognition in dynamic environments*
+====
+
+
+Although it does not have the problems of the previous example, this title contains many unnecessary words. A better title would be, for example, the following:
+
+
+====
+{good} *Dynamic activity recognition using sparse representation and dictionary learning*
+====
+
+
+Thus, this title provides information on the application (i.e, _activity recognition_), the proposed approach (i.e, _sparse representation_ with _dictionary learning_), and the contribution of research (i.e, _dynamic_). 
+
+
+Style tips can also be used to make a more interesting title, as in the following example: 
+
+
+====
+{good} *SARA: A dynamic activity recognition approach using sparse representation and dictionary learning*
+====
+
+////
+
+TIP: For the article to be found from a non-specific query in a search engine (ie, an application not directly linked to the article), avoid words too general or too specific. Thus, generic words may generate too many results to a query containing those words. In contrast, the too specific words limit the chances of the article to be found with a query on a more general theme (eg, an approach or an application). 
+
+////
+
+
+
+TIP: Some journals or conferences also require a running title that will be printed in the header or footer of the article. The running title is usually a shortened version of the main title, and normally between 30 and 50 characters.
+
+
+
+
+
+
+[[liste-auteurs]]
+
+=== The list of authors
+
+
+If the article has multiple co-authors, it is necessary to determine the order in which their names will appear in the article. Seemingly trivial, this decision can be a source of conflict because the order of authors is often associated with the importance of their contribution to the work. In particular, greater recognition is traditionally given to the first author of the list, which can benefit the author in grant applications or scholarships.
+
+The rules used to determine the order of the authors vary from one research team to another, and this order is normally chosen by the team director. The most commonly encountered rules are as follows :
+
+
+Contribution order::
+
+The authors are listed according to their contribution to the preparation of the article or research funding, from the largest to the smallest contribution. Some supervisors will intentionally put students first authors of the project, in order to increase their chances of obtaining a scholarship.
+
+
+Alphabetical order::
+
+To avoid conflicts, some people will prefer to authors in alphabetical order of their surnames. This rule is also used for articles with a large number of authors.
+// Obviously, people whose family name starts with the letter \'__A__' find this rule particularly interesting...
+
+
+Other considerations ::
+
+Other rules may also be used to determine the order of of the authors. For example, in the field of health (and, by extension, in biomedical engineering), it is common that the director of the team is placed last, which gives him a special recognition.
+
+It also happens that the authors are sorted according to their affiliation (e.g, university, department, etc..) or role (e.g: student, supervisor, co-supervisor, etc.).
+
+
+CAUTION: As always, it is important to consult your supervisor and other co-authors in this decision.
+
+
+
+[[resume]]
+=== The abstract
+
+
+The abstract plays an essential role in an article. It raises the reader's interest and communicates them quickly the nature of the work. A good abstract will encourage the reader to read the full article, while a poorly written summary will backfire. Furthermore, while access to the full article is often limited, the abstract is normally available without restriction.
+
+A good abstract should be a condensed version of the article, following the same structure as the article and highlighting the main points of each section. Here are some guidelines to follow when writing the abstract :
+
+
+====
+
+* The abstract should clearly state the following:
+
++
+
+** The context and the research problem.
+** The objectives and main contributions.
+
+** The main steps of the methodology (eg, experimental design, analysis approach, etc.).
+
+** The most important results and conclusions.
+
++
+
+* The abstract must clearly emphasize the original and innovative aspect of the work.
+
+// * The past tense should normally be used in writing
+
+* The abstract must meet length constraints imposed by the journal or the submission system (typically between 150 and 250 words).
+
+* The abstract must be independent of the article, and should be understandable without the need to read the article.
+
+* The abstract should not be another introduction. That is to say, there must be a _complete_ summary of the article and include the methodology, results and conclusions.
+
+* The abstract should not contain references to the literature, figures or tables.
+
+* The abstract should not contain acronyms or abbreviations unless they are known and conventional.
+
+====
+
+
+Returning to our previous example, we could propose the following summary:
+
+
+====
+
+{good} *Abstract:* +
+{co1} Activity recognition is essential to many pervasive computing applications related to surveillance, assisted living, healthcare and human-computer interfaces. {co2} So far, research in this field has focused on small static environments, which allow only well-defined activities. However, several important applications are set in large-scale environments, such as factories or hospitals, where activities can be complex and emerging behaviors are common. {co3} In this paper, we propose a novel approach based on sparse representation to recognize activities from spatio-temporal data. Using an online dictionary learning strategy, this approach can adapt to changes in dynamic environments, making it more robust than existing methods. {co4} To assess the usefulness of our approach, we evaluated its performance on four real-life datasets, and compared it to that of state-of-the-art methods based on Hierarchical Hidden Markov Models and Gaussian Mixture Models. {co5} Results of these experiments showed our approach to be more accurate than existing methods on the tested datasets.
+
+====
+
+
+This abstract can be broken down as follows:
+
+
+<1> Research Context
+
+<2> Research Problem
+
+<3> Main Contributions
+
+<4> Experimental Methodology
+
+<5> Results and Conclusion
+
+
+TIP: Although the summary is at the beginning of the article, this section should normally be written * last *. A technique to assist in the writing of this section is the following. Start by identifying the most important phrases in each section. Then format a paragraph with these sentences, respecting their order in the article. Finally, edit the paragraph so as to make it coherent and clear.
+
+
+
+
+[[mots-cles]]
+
+=== Keywords
+
+
+Most conferences or journals require authors to provide a list of 3 to 10 keywords that will be used to classify and index the article. Just like the title, the choice of this list is important because it will allow readers to find the article more easily from a query related to the same topic in a search engine. Follow these guidelines for choosing keywords :
+
+
+====
+* Do not separate compound words forming a single semantic unit. For example, list the compound word 
+*_wireless communications_* instead of *_wireless_* and *_communications_* separately.
+* Include *all* major words (single or compound) from the title and the abstract. In some cases, it may also be appropriate to include the important words of the title of the journal or conference, for example, the compound word *_environmental science_* for a proceeding of the _International Conference on Energy and Environmental Science_.
+* Use plural keywords denoting a quantifiable element. Thus, we prefer *_networks_* to *_network_*.
+* Avoid abbreviations and acronyms that are unconventional. For conventional acronyms, one can also add the spelled form of the acronym as a compound word. For example, one could use *_VCSEL_* and the compound word *_Vertical Cavity Surface Emission Laser_* as two separate keywords.
+* Respect the constraints of the conference or journal (e.g., minimum and maximum number of key-words, lowercase or uppercase, alphabetical order or importance, etc.).
+====
+
+[[introduction]]
+=== The introduction
+As the first section encountered by the reader, the introduction can have a significant impact on the perception of the whole work. An introduction poorly written or in which the motivations, objectives or research contributions are not clearly described leave a bad impression on the reader. It is therefore important to pay particular attention to this section. 
+A good introduction typically contains the following parts: 
+
+:numbered!:
+
+==== Context
+The introduction typically begins with an overview of the context (e.g., domain, application, process, etc.) in which the research fits. The role of this section is twofold. First, it allows to naturally lead the reader to the specific research problem. Second, it serves to motivate the research by describing the importance of its context. 
+For example, the presentation of context could be as follows:
+====
+{good} In recent years, the field of applied spectroscopy has attracted a growing amount of interest, due to its numerous applications in the detection of chemicals and microorganisms, sensors and medical instrumentation [1]. In many industrial systems, the task of recognizing color plays a key role *...*
+====
+The citation [1] could typically correspond to a general article or literature review on the domain of applied spectroscopy.
+
+==== Problem
+Once the context is established, it is necessary to identify more precisely the problem or the specific questions to be addressed by the research presented in the article. For example, there may be a limitation of an existing approach, a new or different application, an open question and so on. Once again, we must emphasize the importance of the problem addressed by the research, so it is not seen as simplistic or irrelevant. 
+Here is an example of a research problem:
+====
+{good} Although various activity recognition methods have been proposed, most of them are constrained to small static environments in which only a few well-defined activities are allowed. This constitutes a significant limitation, as several important applications are set in large-scale environments with complex activities and emerging behaviours. As emphasized by Smith and Jones [2], activity recognition in dynamic environments is a highly complex problem for which no satisfying solution exists *...*
+====
+
+In this case, reference [2] is used to justify the importance of the research problem. 
+
+==== Contributions
+
+
+The next part is to describe the proposed answer to the problem or research question. The objective is not to describe in detail this approach (this is done in the <<methodologie, Methodology>>) section) but rather to present an outline, focusing on its *advantages* and *innovative aspects*. 
+
+For example:
+
+
+====
+
+{good} To address this problem, we propose a transmit diversity scheme that improves the signal quality at the receiver on one side of the link by simple processing across two transmit antennas on the opposite side. The scheme may easily be generalized to two transmit antennas and M receive antennas to provide *...* 
+
+Our approach differs from existing methods in two important ways. First, it is done without any feedback from the receiver to the transmitter. Also, the computational complexity is significantly lower than *...*
+
+====
+
+
+
+==== Outline of the article
+
+
+It is common to end the introduction with an outline of the rest of the article, as in the following example : 
+
+
+====
+
+{good} The rest of this paper is organized as follows. In Section II, the classical maximal ratio combining approach is discussed and basic definitions are given. In Section III, we then present our proposed two-branch transmit diversity scheme *...*
+
+====
+
+
+
+TIP: The introduction is, for many, the most difficult part of the article to write. This is explained by the following fact: the majority of researchers are concentrated on the details of their research (eg, solution implementation, analysis of results, etc.). It is easy to lose sight of the motivations, assumptions and objectives of this initial research. To simplify writing, it is therefore necessary to take a step back and consider the whole research.
+
+
+CAUTION: In a full article, the introduction should not be a review of the literature. Only references needed to substantiate the research are needed.
+
+
+
+:numbered:
+[[revue-litterature]]
+===	Literature review (related work)
+As its name suggests, the purpose of this section is to present the main work of the literature on the same topic. The goal is not to make a comprehensive overview of the work of a domain, such as is done a _Review article_, but rather to situate the contributions of the article relative to previous work. This section also allows the author to demonstrate his knowledge of the area.
+Observe the following guidelines when writing the literature review :
+====
+
+* Focus on recent works, if possible considered state of the art for the targeted problem, and those (perhaps less recent) that cover the ideas most similar to those used in the article.
+
+* Concentrate on quality publications in reputable journals or conferences. This implies that one *must* read the cited articles!
+* Structure the cited work consistently, for example, according to the approach they propose or application.
+
+* Identify the advantages and limitations of each work cited.
+
+* If the same authors have published several articles on the same subject, cite only the most recent or one that is more closely related to the article you are writing.
+
+====
+
+
+
+The following examples illustrate some of these guidelines:
+
+
+====
+
+{good} In order to minimize crosstalk, all-solid multicore fibers have been demonstrated with heterogeneous [11] or trench-assisted [12], [13] cores, as well as in a ring configuration [14]. On the other hand, Tsuchida et al. [15] have shown that single-core holey microstructured fibers (MFs) can be tailored to much lower bend radii *...*
+
+====
+
+
+====
+
+{good} 
+
+Aras et al. [3] present a generative framework, based on Hierchical Hidden Markov Models (HHMM), to identify the activities of elderly people in a nursing home *...* Due to its ability to learn high-level activities, this approach obtained a higher accuracy than the standard HMM model *...* However, as pointed out later [4], transition-based models like HHMM are often sensitive to variations in the set of activities *...*
+
+====
+
+
+TIP: Use the library's databases (_Compendex_, _Inspec_, _IEEExplore_, _PubMed_, etc.) or tools such as _Google Scholar_ to facilitate references search. These tools can limit the search to recent work by specifying a minimum year. Furthermore, these tools show the number of references (times cited) for each article, which can be used to identify the most influential works of a domain. A highly cited work is usually more influential.
+
+
+CAUTION: A review of literature that is too general or not including work considered the state of the art is a common reason for rejection of an article.
+
+
+
+[[methodologie]]
+
+===	Methodology
+
+
+
+The methodology section is normally the core of the article. It explains in detail the main elements of the research, the steps for its implementation, as well as the experimental approach used to validate the assumptions.
+
+
+
+:numbered!:
+
+
+==== Structure and titles
+
+
+The methodology is very often the longest and most complex section of an article. It usually contains several sub-sections and it is not uncommon to even have sub-sub-sections. It is therefore important to structure the presentation so that the reader can follow and understand each of its parts without having to go back and read another section.
+
+For the convenience of the reader, it is necessary to choose meaningful titles for subsections. A good title should give a clear idea about the contents of the sub-section, using as few words as possible.
+
+For example, the following title describes the contents of the section, but is too long :
+
+
+
+====
+
+{bad} *The process of learning our model using training data*
+====
+
+A shorter and informative title would be :
+
+====
+
+{good} *Learning the model*
+
+====
+
+
+
+==== Notation
+
+
+Scientific papers often use mathematical symbols to identify different variables, constants, parameters, etc. The use of such symbols can greatly simplify the writing, but can also confuse the reader, especially if they are not familiar with the notation used.
+
+To facilitate reading, make sure to properly present the notation at the beginning of the methodology. This corresponds to :
+
+
+* Specify the general rules of notation. For example, it is common to use a capital letter to denote a matrix, a lower case letter in bold for a vector, and a lowercase letter for a scalar
+
+* Define all symbols used in the methodology, specifying its type (eg, positive integer, matrix _m_ x _n_ of real numbers, etc.) and its role (e.g., meta-model parameter, variable representing an element of model, etc.).
+
+When the notation contains a large number of symbols, it may be synthesized in the form of a table. For example:
+
+
+
+[width="80%",cols="^1,6",options="header"]
+
+|=========================================================
+
+| Symbol | Definition
+
+|   _D_  | An _n_ x _l_ matrix representing the dictionary of training trajectories
+
+|   _n_  | The number of training trajectories
+
+|   _l_  | The length of a training trajectory 
+
+| *...*  |  *...*
+
+|=========================================================
+
+
+
+==== Theoretical framework 
+
+
+Before describing in detail the methodology, it may be necessary to present the theoretical framework that underpins this method. The latter is composed of general principles recognized in the field, used or adapted in its own way to fit the present work. The objective of the theoretical framework is twofold: 
+
+. Motivate the present work by linking it to recognized concepts
+. Simplify the presentation of the methodology by referring to works using the same concepts 
+
+For example, the theoretical framework could contain a recognized technique which is based on the approach proposed in the article:
+
+
+====
+
+{good} We first present the sparse reconstruction model that underlies the proposed approach. In this model, a signal _y_ is represented as a sparse linear combination of training signals in a dictionary _D_, known as _atoms_. This model can be expressed as follows: *...* The task of finding the combination coefficients in this model is known as _basis pursuit denoising_ [5] *...*
+
+====
+
+
+
+==== Method description
+
+
+Once the notation and the theorical framework presented, we can then describe our own method of research. Dependending on the nature of the research, this description can contain the following elements:
+* The main steps of the methodology (e.g., analysis, design, implementation, etc).
+
+* The major components of the system or of the experimental setup, as well as their role, properties, etc.
+
+* The calculation process in the form of equations, circuits or algorithms.
+
+* The theoretical features of the method (e.g., independent variables, dependent variables, treatment of confusing variables, etc. in the case of a mathematical model, or the complexity in terms of computation time and memory, etc. in the case of an algorithm.)
+
+
+The following tips should be considered in the description of the method:
+
+
+====
+
+* To facilitate the reader's understanding, present the general principles of the method before its details. For example, we can illustrate the method using a conceptual diagram and describe the various components of this scheme.
+
+* Make sure the reader has all the details needed to reproduce the work described in the article.
+
+* Justify the choices of analysis, design, etc. with theoretical arguments (e.g., mathematical proof), accepted principles or empirical data (in this case, they must be abundant). Quote works from the literature if necessary.
+
+* Center the contents on the objectives and research contributions presented in the introduction. The main contribution should thus play a more important part than minor contributions.
+====
+
+
+
+
+
+==== Experimental protocol
+
+
+As the number of research papers is constantly increasing, the validation of the experimental work becomes increasingly important. Consequently, even if an article offers original contributions and good results, it may still be refused if the experimental protocol is incomplete or inadequate.
+
+Good experimental protocol should thus have the following two properties :
+
+Sensitivity and Specificity ::
++
+Experiments should allow to validate or invalidate an hypothesis. The experimental conditions should therefore ideally be controlled to properly measure the desired results (sensitivity) and measure these effects (specificity).
++
+Reproducibility ::
+As for the description of the method, it is essential to provide all the details necessary to repeat the experiments described in the paper and get the same results or conclusions. This can include :
+
++
+
+====
+
+* The data used in the experiments, the nature of the data and their sources. If these data are from simulations, describe the process and parameters used to generate them.
+
+* The environment in which the experiments were carried out. For example, if the tests were carried out by computer, specify their hardware and software features (e.g., number of processors and their speed, amount of RAM, programming language, etc.). If the measurements were acquired using instruments, specify all relevant characteristics (e.g., brand, precision calibration method used, etc.).
+
+* The different approaches tested and the values ??of parameters used during the tests.
+* The metric used to assess the validity of the tested approaches.
+
+====
+
++
+
+Relevance ::
+An equally important property of the experimental protocol is its relevance. Common protocols relevant characteristics are as follows :
+
++
+
+====
+
+* The data correspond to those that may be encountered in the application of research (e.g., size, complexity, etc.).
+
+* Approaches used as standards of comparison are considered state-of-the-art.
+
+* The procedure for determining the parameters of the tested methods is non-biased, not to favor certain methods over others.
+
+* The evaluation metrics are those commonly used for the targeted problem.
+
+====
+
+
+
+TIP: In some cases, the description of the experimental protocol is given in the same section as the presentation of results.
+
+
+
+CAUTION: Be sure to always respect the principles of confidentiality and ethics in the presentation of your work.
+
+
+
+
+:numbered:
+
+
+[[resultats]]
+
+=== Results
+
+
+The role of this section is to present the main results and analysis based on the questions and hypotheses of the research. The results are normally presented in the form of tables and figures, the sequence follows a logical order. For example, this sequence could correspond to different experiments, each relating to a research question or for studying a certain property of the proposed approach. The text of this section should follow the same sequence and, by referring to tables and figures, highlight the results needed to answer questions and research hypotheses.
+
+
+CAUTION: All important results should be included in the presentation, even those that seem unfavorable or go against the research hypotheses. A researcher who deliberately omits some results may thus lose credibility. However, an honest approach, which exposes the negative result and tries to explain it, is often rewarded.
+
+
+
+:numbered!:
+
+
+==== Tables and figures
+
+
+After reading the title and abstract of an article, several readers directly consult its tables and figures to decide if it is worth reading or not. These tables and figures should be visually interesting and easy to understand without having to refer to the text. Here are some other rules to follow when developing the tables and figures:
+
+
+====
+
+* Limit the tables and figures to those that are directly related to the objectives, research questions and hypotheses.
+
+
+* Do not use tables or figures if their content can be easily presented in text form.
+
+
+* Create for each table or figure a caption which, without being too long, describe the contents without having to refer to the text.
+
+
+* Set the caption above tables and below figures (or, where applicable, follow the instructions provided by the template of the conference or journal).
+
+* Make sure that *all* tables and figures are cited in the text, and that they are numbered in the order they are referred to.
+
+
+* In reference to a table or a specific figure in the text, the first letter capitalized. For example: ``__As shown in Figure 1... __'' or ``__See Table 1 for... __''.
+
+
+* Avoid tables and figures that exceed the width or height allowed.
+
+
+* If the contents of a table or figure is from another article, cite this article in the legend. If a figure is reproduced in full, *make sure you have permission from the copyright holder of this figure*.
+
+
+* Use figures as often as possible to illustrate complex patterns instead of explaining these patterns in words (i.e, _a picture is worth a thousand words_).
+
+
+* Choose a table instead of a figure if the exact value of a result is more important than the trend or relationship it expresses.
+
+
+* Sort, if possible, the columns and rows of a table in a logical sequence.
+
+* Select titles for the columns and / or rows of tables that highlight their role.
+
+
+* Avoid, to the extend possible, horizontal or vertical lines in a table.
+
+
+* Produce graphics and illustrations with a computer, not by hand.
+* Set any detailed explanation of a figure in the caption, not on the figure.
+
+
+* Avoid colors to distinguish elements of a figure (e.g., the curves of a graph) as the article could be printed in black and white (unless it is, for example, an article on generation or color perception). Rather distinguish these elements using different styles (e.g., dotted lines, different markers, etc.).
+
+
+* Use informative labels to identify the axes of a graph. Specify the units of the axes next to these labels.
+
+====
+
+
+
+TIP: Articles which are typeset in double column often allow to be the width of a single column article.
+
+
+
+TIP: If the article contains a lot of results in the form of tables and figures, it may be preferable to present some of these results in the appendix to lighten the text. The body of the article usually present the most important results or a summary of the results presented in full in the appendix (eg, present all the data sets in appendix and present an averaged dataset in the body of the article).
+
+
+
+
+
+
+
+[[analyses-statistiques]]
+
+==== Statistical analysis
+
+
+Results should always be interpreted objectively, without extrapolating or seeking conclusions unsupported by them. Thus, readers would normally be able to reach these conclusions by themselves, if they are presented the results objectively.
+
+Conclusions that seems supported a priori by the results may, however, be wrong if they do not have the statistical significance required. This error is often found in the comparison of different approaches, where a better approach is declared if the average performance over a number of tests is greater than other approaches. However, if the number of tests is very small or the standard deviation of the results is very large, these results may be largely due to chance. To avoid such errors, it is advisable to use a statistical hypothesis test. To perform such a test, it must first formulate an hypothesis (called _null hypothesis_) related to the question we try to answer. For example:
+
+
+====
+
+*Hypothesis:* {nbsp} Methods _A_ and _B_ have equal performances.
+
+====
+
+
+This assumption corresponds to a statistic that is estimated from a sample. In the previous example, the statistics would be the difference of average performance (assumed to be zero if the methods are equivalent), and correspond to the test sample on which the methods are compared. Then, it is verified that the estimated value falls within a certain confidence interval, typically corresponding to 95 % of the probability (i.e, _p-value_ 0.05). If this value is outside the range, it is then possible to reject the hypothesis.
+
+
+
+CAUTION: This does not mean that one method is better than another, but rather that this conclusion is very likely in the context presented and the type of data analyzed in the article.
+
+The test in the previous example, known as _paired t-test_, concludes with some confidence that the performance of the two methods are not equivalent. However, this test does not allow us to determine which of two methods is best. To do this, use one-tailed test which considers only the probability that the estimated value or a certain side of the expected value (zero in the example).
+
+
+
+TIP: The _Statgraphics Centurion_ software is a statistical calculation that allows not only to achieve a large number of descriptive statistics on samples of existing data (e.g., mean, standard deviation, correlation diagram, etc.) but also especially presents tools or inferential or deductive statistics, which help make decisions about the data gathering (e.g., predicting the life of a part, prediction of the number of samples required to ensure that 95% a B improves at least 20 %, etc.). It is available to all students and research community of the ETS and its tutorials adequately describe the use of different procedures. Get it yourself by contacting support-xyz@etsmtl.ca where xyz are letters identifying your department (e.g., support-logti@etsmtl.ca).
+
+
+////
+Le http://abacus.bates.edu/~ganderso/biology/resources/statistics.html[document suivant] explique plus en détails comment faire des tests d'hypothèses.
+////
+
+
+
+==== Interpretation of the results
+
+
+It is generally not enough to analyze the results with statistical tests, it is still necessary to interpret them. For example, a statistical test could indicate that on average, the calculation method A gives results closer to the reality that the method of calculation B, with a confidence level of 95%. However, the test gives no interpretation of the result, that is to say, no information on why the method A is better than method B. It is therefore advisable to advance plausible explanations (based on the methodological details of approaches A and B, and the characteristics of the data they treat) for results. For example:
+
+
+====
+
+{good} The fact that the simple five-parameter logistic function provided a better approximation than the more flexible neural network approach for previously unseen data might be explained by an over-fitting issue with the neural network [Haykin 2008], especially in light of the small number of data available for model fitting. Such small data sets are typical in the context of our problem; therefore, simple parametric approaches should not be overlooked.
+
+====
+
+
+This interpretation is particularly relevant when discussing ``negative'' results (i.e contrary to the hypothesis) and particularly useful for the advancement of research. It identifies situations where the proposed approach does not work and issue new research hypotheses.
+
+
+
+:numbered:
+[[conclusion]]
+===	Conclusion
+
+
+The purpose of the conclusion is to make a summary of the objectives, contributions and main results of the research. This section typically includes the following three parts.
+
+
+:numbered!:
+
+
+==== Reminder of the objectives and contributions
+
+
+The conclusion often begins with a brief overview of the objectives and contributions of the research. Although these elements have already been stated in the introduction, they have been forgotten during the reading of the article. Moreover, having now read the article, the reader is now able to better understand and appreciate these objectives and contributions.
+
+This part is normally very short (2 or 3 sentences). For example:
+
+====
+{good} We presented a new approach to the development of the adaptive wind turbine control systems. The main objective of the proposed control strategy is to maximize the captured *...*
+====
+
+==== Summary of key findings and main conclusions
+
+The next part allows to answer the research questions or evaluate the objectives, highlighting the key findings of the article and its main conclusion. This section should address the following questions:
+
+====
+* Will the results help answer the research questions or confirm its assumptions?
+* How do the results compare with those in the literature?
+
+* If some results go against the original research hypotheses, how can we explain these results?
+
+* Based on the results, what are the strengths, weaknesses and limitations of the research or the proposed method?
+* What are the main implications of the results?
+
+====
+
+
+
+Here is an example for this part:
+
+
+====
+
+{good} We have shown that application of the DE algorithm to a five-parameter logistic function gives the best parametric model of a wind turbine power curve. The neural network algorithm gives the best nonparametric model. These models can be used *...* 
+====
+
+TIP: Readers (and referees) generally appreciate the authors that recognize weaknesses in their work, as well as its strengths. An article may well lose credibility if the reader discovers a weakness or hidden limit.
+
+TIP: Depending on the length, the discussion of the results can also be made in a distinct section preceding the conclusion.
+
+==== Future work
+
+It is customary to finish the conclusion suggesting future work to address new issues raised by research or additional questions. If the work described in the paper is part of a research project with several stages, one can also mention what is the next step to achieve.
+
+For example:
+
+
+====
+
+{good} Further development should include the implementation of the controller into the real wind turbine. The complex behavior of the wind turbine's mechanical model should be taken into account *...*
+
+
+====
+
+
+:numbered:
+
+
+[[remerciements]]
+=== Acknowledgements
+
+
+Between the conclusion and references, one can insert a short paragraph to thank the people (other than the authors) and agencies who assisted in carrying out the work. Examples of contributions that can be acknowledged:
+
+
+====
+
+* An advice or assistance that had a significant impact on the progress or scientific value of the work. In the case of a journal article, this may include the suggestions offered by the referee.
+* Funding from a public or private body.
+
+
+* Data used in the experiments, which were provided by other researchers, organization, or business (in some cases, this type of contribution will guarantee a place in the list of authors rather than a simple thank you).
+
+
+* The implementation of a method developed by other researchers in the form of a program or source code, and any help to understand this method.
+
+
+====
+
+
+
+Here is an example of acknowledgements:
+
+====
+
+{good} *Acknowledgements:* The authors would like to thank Dr. Sarah Lapuerta for providing us with her implementation of the algorithm ARAS and for her help on how to use this algorithm.
+
+==== 
+ 
+
+TIP: In some conferences or journals, funding agencies are sometimes mentioned in the beginning of the article, often with the authors' affiliations. 
+
+
+CAUTION: Make sure to get the permission of a person or organization before including their name in the credits.
+
+
+
+
+[[bibliographie]]
+=== References (bibliography)
+
+
+The bibliography of an article contains a list of articles, technical reports, theses and other publications cited in this article. The following guidelines should be considered when developing this part :
+
+
+
+====
+
+* An article should contain a bibliography and refer to work other than the authors'. Even a short conference paper would normally include at least 5 references.
+
+
+* Limit to references that have a direct connection with the work described in the article. Except for articles of the type _Review article_, an article should not have more than 40 references.
+
+
+* Ensure that each reference included in the bibliography is cited in the text of the article and vice versa.
+
+
+* Respect the style imposed by the conference or the journal (e.g., ACM, APA, IEEE, etc.). A style specifies, amongst other things:
+** The order of the references (e.g., alphabetical, quote, etc) in the bibliography.
+** The format of the in-text citation. For example, [1] or (Aras et al. 2006).
+** The format for the names of authors (e.g., _S. Aras_ or _Aras, S._).
+** Etc* Avoid if possible to cite unpublished work. Identify the articles that are accepted but not published yet with the word ``__in press__'' or ``__forthcoming__''.
+
+
+* Do not include personal communications, unless they contain essential information not available elsewhere. Request permission from the author before including such references.
+
+
+====
+
+
+
+[[annexes]]
+=== Appendices
+
+
+An article can sometimes have one or more appendices, located at the very end, which are important elements (e.g., in the form of tables or figures, diagrams, mathematical proofs, etc.), but not essential to understanding the article. This kind of appendix is found mostly in journal articles, where length constraints are less restrictive. 
+
+Here are some guidelines to follow for the appendices:
+ 
+
+==== 
+
+* Put in the appendix only the tables or figures that 
+*support the conclusions of the article* but *not* essential to understanding. We should not have to consult an appendix for reading the article.
+
+
+* To avoid breaking the layout of the article, consider to put large figures or tables in the appendix.
+
+
+* Be sure to refer to the appendix in the body of the article and, if possible, provide a brief description of these appendices in the text.
+
+====
+
+'''
+* PREVIOUS CHAPTER : link:/en/writing_guide_planning[PLANNING THE ARTICLE WRITING]
+* NEXT CHAPTER : link:/en/writing_guide_revising[REVISE AND RESUBMIT AN ARTICLE]
+
+

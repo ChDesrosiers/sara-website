@@ -1,4 +1,4 @@
-﻿= Submit paper
+= Submit paper
 :awestruct-layout: default
 :imagesdir: images
 

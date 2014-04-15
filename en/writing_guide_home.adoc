@@ -1,0 +1,40 @@
+= Practical guide for scientific article writing
+:awestruct-layout: default
+:awestruct-show_header: true
+:imagesdir: images
+:doctype: article
+:icons:
+:iconsdir: ../../images/icons
+:toc:
+:toc-placement!:
+
+:numbered!:
+
+:homepage: http://localhost:4242
+
+:good: image:../../images/icons/check-22.png[] &nbsp;
+:bad: image:../../images/icons/no-22.png[] &nbsp;
+
+// Hack to have the callouts work in example blocks:
+:co1: image:../../images/icons/callouts/1.png[]
+:co2: image:../../images/icons/callouts/2.png[]
+:co3: image:../../images/icons/callouts/3.png[]
+:co4: image:../../images/icons/callouts/4.png[]
+:co5: image:../../images/icons/callouts/5.png[]
+:co6: image:../../images/icons/callouts/6.png[]
+:co7: image:../../images/icons/callouts/7.png[]
+:co8: image:../../images/icons/callouts/8.png[]
+:co9: image:../../images/icons/callouts/9.png[]
+:co10: image:../../images/icons/callouts/10.png[]
+
+Writing scientific papers is a complex task that is often frustrating for newcomers. The following guide provides an overview of the basic principles of scientific writing, and offers a variety of tips to help plan, write and review articles. For ease of reading, the guide is divided into three chapters that can be read individually:
+====
+
+* CHAPTER I  {zwsp} {zwsp} : link:/en/writing_guide_planning[Planning the article writing]
+* CHAPTER II  {zwsp} : link:/en/writing_guide_writing[Writing the article]
+* CHAPTER III : link:/en/writing_guide_revising[Revise and resubmit an article]
+====
+
+=== If you want to know more
+
+The content of this guide is based on several excellent sources of information on scientific writing. To learn more about this topic, you can consult the list of these documents by selecting the Resources tab link:/en/ressources[Resources].

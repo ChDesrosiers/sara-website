@@ -8,17 +8,18 @@
 
 === The SARA's founding members 
 
-* Ghizlane El Boussaidi, Professor in the Department of Software and IT engineering. 
-link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4272[Professor's website].
+* Catherine Laporte (project leader), Professor in the Department of Electrical Engineering. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4256[Professor's website].
 
 * Christian Desrosiers,  Professor in the Department of Software and IT engineering. 
 link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4198[Professor's website].
 
+* Ghizlane El Boussaidi, Professor in the Department of Software and IT engineering. 
+link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4272[Professor's website].
+
 * Veronique François, Professor in the Department of Electrical Engineering. 
 link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=2107[Professor's website].
 
-* Catherine Laporte, Professor in the Department of Electrical Engineering. 
-link:http://www.etsmtl.ca/Bottin/ETS/Alphabetique/FicheEmploye?Numero=4256[Professor's website].
 
 
 === The SARA's staff

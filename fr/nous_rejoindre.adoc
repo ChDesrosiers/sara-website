@@ -1,4 +1,4 @@
-﻿= Nous rejoindre
+= Nous rejoindre
 :awestruct-layout: default
 :imagesdir: images
 
