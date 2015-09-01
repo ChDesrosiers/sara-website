@@ -20,6 +20,7 @@ gem 'coffee-script', '~> 2.2'
 gem 'uglifier', '~> 1.3.0'
 gem 'therubyracer', '~> 0.11.4', :platforms => [:ruby]
 gem 'therubyrhino', '~> 2.0.2', :platforms => [:jruby]
+gem 'win32-open3-19', :platforms => :mingw
 
 # Required by cloudbees
 #gem 'rdoc', '~> 4.0.0' 
