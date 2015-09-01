@@ -7,6 +7,16 @@
 
 == Welcome to SARA
 
+=== Announcements
+
++++<font color="red"><b>NEW:</b></font>+++ *Short paper competition*
+====
+* *To win:* $600 in prizes.
+* *Format:* Abstracts of 1-2 pages, written in English or French. 
+* *Deadline:* March 7, 2014.
+* For more details, read this link:/images/Concours_SARA_eng.pdf[document].
+====
+
 === Our mission
 
 The *Paper Writing Help Service (SARA)* is a pilot project intended to help graduate students master the art of writing scientific articles.  Writing articles is an important and recurrent task in the life of a researcher but is often difficult the first few times.
