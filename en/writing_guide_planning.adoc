@@ -33,8 +33,10 @@ toc::[]
 
 == CHAPTER I : Planning the article writing
 
-[[Aesop]]
-[quote, Aesop, The Tortoise and the Hare]
+:numbered:
+
+[[lafontaine]]
+[quote, Jean de La Fontaine, The Tortoise and the Hare]
 ____
 Slow and steady wins the race.
 ____
@@ -42,8 +44,9 @@ ____
 The process of writing scientific papers is highly complex and submission deadlines are often very tight. Even for experienced researchers, it is easy to underestimate the amount of work to achieve and be overwhelmed a few days (or even hours!) before the deadline. To meet the deadline, one has to work long hours, which inevitably causes a lot of stress and fatigue. Worse, papers written in haste are more likely to contain errors, and consequently to be rejected. As with any project, the key to success in writing articles lies above all in good planning.      
 
 CAUTION: Although sometimes a conference grant an extension to the deadline, you should never rely on this extension to complete a paper. Always aim the original date of submission and, if necessary, use the extension to make minor changes. 
-[[conference-choice]]
-===	Choose the conference or the journal
+
+[[conference-choice, Choosing the conference or the journal]]
+===	Choosing the conference or the journal
 
 Before beginning writing, it is important to determine the conference or journal in which the paper (or article) will be submitted. Since the constraints of submission (e.g., number of pages) may vary from a conference or a journal to another, this choice has a direct impact on writing. The following criteria can be used when selecting:
 
@@ -88,9 +91,9 @@ If the research project is not advanced enough, it is preferable to target a con
 
 ==== Prestige
 
-The prestige of conferences or journals in which a researcher publishes its articles is a key factor when the time comes to apply for a scholarship, a grant or an academic position. To determine the quality of a conference or journal, one may base its decision on metrics such as the impact factor, which measures the average number of citations to papers published in this conference or journal. Some Web sites, including this one http://www.journal-ranking.com[next], are used to view the ranking of conferences or journals, based on these metrics.
+The prestige of conferences or journals in which a researcher publishes its articles is a key factor when the time comes to apply for a scholarship, a grant or an academic position. To determine the quality of a conference or journal, one may base its decision on https://sites.google.com/a/etsmtl.net/bibliometrie/indicateurs-bibliometriques[bibliometric indicators] such as the impact factor, which measures the average number of citations to papers published in this conference or journal. Some Web sites, including the http://www.scimagojr.com/journalrank.php[SCImago Journal & Country Rank], are used to view the ranking of conferences or journals, based on these indicators.
 
-CAUTION: Prestige metrics, such as the impact factor, can be biased. The best way to determine the quality of a conference or journal will always be to read articles recently published in it. 
+CAUTION: Bibliometric indicators such as the impact factor have limitations. The best way to determine the quality of a conference or journal will always be to read articles recently published in it. For more information, read the https://sites.google.com/a/etsmtl.net/bibliometrie/limites[guide on bibliometry] provided by the ÉTS library.
 
 However, the more a conference or journal is prestigious, the more difficult it is to get published therein. Thus, the acceptance rate of a conference typically allows to evaluate its level. Before submitting an article to a conference or journal, one should ensure that the quality of the submission is comparable to previously published work therein. If this is not the case, it may be wise to aim for a conference or journal with a more favorable acceptance rate.
   
@@ -98,12 +101,12 @@ TIP: It is always desirable to have one or even several alternative plans, if we
 
 :numbered:
 
-[[establish-schedule, Establish a schedule]]
-===	Establish a schedule
+[[establish-schedule, Establishing a schedule]]
+===	Establishing a schedule
 
 Once the conference or journal is chosen, the next step is to set a schedule covering all stages of preparation of the article, until the date of submission. In the case of a conference, this date is constrained by the submission deadline.
 
-The development of an article is a complex process that is expected to begin before the research, to continue during the research and to end after the acquisition, analysis and interpretation of the results. While it is tempting to build a full version in one go to save time, this approach often leads to a deadend, requiring a redo of an important part of the work. In some cases, this may result in missing the submission deadline. A better approach is to develop the article iteratively, each iteration corresponding to a more complete version of the article and may include one or more of the following tasks:
+The development of an article is a complex process that is expected to begin before the research, to continue during the research and to end after the acquisition, analysis and interpretation of the results. While it is tempting to build a full version in one go to save time, this approach often leads to a dead end, requiring a redo of an important part of the work. In some cases, this may result in missing the submission deadline. A better approach is to develop the article iteratively, each iteration corresponding to a more complete version of the article and may include one or more of the following tasks:
 
 :numbered!:
 
@@ -118,11 +121,11 @@ This task is used to identify previous work in the field that affect the same pr
 
 The literature survey normally begins before the research and continues until the submission of the article. At first, it should be broad enough to include the works offering complementary approaches and those on related applications. This research should eventually become more focused, so as to restrict the list of references cited in the article.
 
-TIP: It is important to keep a list of references found in the literature survey. This task can be facilitated by bibliographic management tools such as Endnote, Mendeley or Papers.
+TIP: It is important to keep a list of references found in the literature survey. This task can be facilitated by bibliographic management tools such as http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References/EndNote[Endnote] or http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References/Mendeley[Mendeley].
 
 ==== Experimentation
 
-With the exception of particular types of articles (e.g., _Case studies_ ou _Literature review_), experimentation play a central part of any scientific paper. It is typicaly carried out in 4 steps:
+With the exception of particular types of articles (e.g., _Case studies_ or _Literature review_), experimentation plays a central part of any scientific paper. It is typically carried out in 4 steps:
 
 . *Planning:*
 +

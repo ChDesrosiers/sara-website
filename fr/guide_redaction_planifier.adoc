@@ -94,9 +94,9 @@ Si le projet de recherche n'est pas suffisamment avancé, il est préférable de
 
 ==== Prestige
 
-Le prestige des conférences ou des revues dans lesquelles publie un chercheur est un facteur clé lorsque vient le temps de demander une bourse, une subvention ou un poste académique. Afin de déterminer la qualité d'une conférence ou revue, le chercheur peut se baser sur des métriques comme le __facteur d'impact__, qui mesure le nombre moyen de citations aux travaux publiés dans cette conférence ou revue. Certains sites Web, dont le http://www.journal-ranking.com[suivant], permettent de consulter le rang de conférences ou revues, basé sur ces métriques.  
+Le prestige des conférences ou des revues dans lesquelles publie un chercheur est un facteur clé lorsque vient le temps de demander une bourse, une subvention ou un poste académique. Afin de déterminer la qualité d'une conférence ou revue, le chercheur peut se baser sur des https://sites.google.com/a/etsmtl.net/bibliometrie/indicateurs-bibliometriques[indicateurs bibliométriques] tels que le __facteur d'impact__, qui mesure le nombre moyen de citations aux travaux publiés dans cette conférence ou revue. Certains sites Web, dont le http://www.scimagojr.com/journalrank.php[SCImago Journal & Country Rank], permettent de consulter le rang de conférences ou revues, basé sur ces indicateurs.  
 
-CAUTION: Les métriques de prestige dont le facteur d'impact peuvent être biaisées. La meilleure façon de déterminer la qualité d'une conférence ou revue sera toujours de lire des articles publiés récemment dans celle-ci.
+CAUTION: Les indicateurs bibliométriques tels que le facteur d'impact présentent certaines limites. La meilleure façon de déterminer la qualité d'une conférence ou revue sera toujours de lire des articles publiés récemment dans celle-ci. Pour en savoir plus, voir le https://sites.google.com/a/etsmtl.net/bibliometrie/limites[guide sur la bibliométrie] de la bibliothèque de l’ÉTS.
 
 Cependant, plus une conférence ou une revue est prestigieuse, plus il est difficile d'y publier. Ainsi, le taux d'acceptation d'une conférence permet typiquement d'évaluer son niveau. Avant de soumettre à une conférence ou une revue, il faut s'assurer que la qualité de la soumission est comparable aux travaux déjà publiés dans celle-ci. Si ce n'est pas le cas, il peut être judicieux de viser une conférence ou revue ayant un taux d'acceptation plus favorable. 
   
@@ -124,7 +124,7 @@ Cette tâche permet d'identifier les travaux antérieurs du domaine qui touchent
 
 La recherche bibliographique débute normalement avant la recherche et se poursuit jusqu'à la soumission de l'article. Au début, celle-ci devrait être suffisamment large pour inclure les travaux proposant des approches complémentaires et portant sur des applications connexes. Cette recherche devrait par la suite devenir de plus en plus ciblée, de manière à restreindre la liste des références citées dans l'article.
 
-TIP: Il est important de conserver une liste des références rencontrées durant la recherche bibliographique. Cette tâche peut être facilitée par des outils de gestion bibliographique tels que http://endnote.com/[Endnote] ou http://www.mendeley.com/[Mendeley]. 
+TIP: Il est important de conserver une liste des références rencontrées durant la recherche bibliographique. Cette tâche peut être facilitée par des outils de gestion bibliographique tels que http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References/EndNote[Endnote] ou http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References/Mendeley[Mendeley]. 
 
 ==== Expérimentation
 

@@ -600,7 +600,7 @@ CAUTION: Il faut s'assurer d'obtenir la permission d'une personne ou d'un organi
 La bibliographie d'un article renferme la liste des articles, rapports techniques, thèses et autres publications citées dans cet article. Les consignes suivantes sont à considérer lors de l'élaboration de cette partie:
 
 ====
-* Un article doit contenir une bibliographie et référer à des travaux autres que ceux des auteurs.  Même un court article de conférence devrait normalement inclure au moins 5 références.
+* Un article doit contenir une bibliographie et référer à des travaux autres que ceux des auteurs. Même un court article de conférence devrait normalement inclure au moins 5 références.
 
 * Se limiter aux références ayant un lien direct avec le travail décrit dans l'article. Sauf pour les articles de type _Survol de littérature_, un article ne devrait pas avoir beaucoup  plus de 40 références.
 
@@ -618,7 +618,9 @@ La bibliographie d'un article renferme la liste des articles, rapports technique
 ====
 
 // NOTE: ADDED A SPACE AFTER __ TO AVOID SYNTAX HIGHLIGhTING BUG. REMOVE SPACE WHEN FINISHED
-TIP: Pour gagner de l'espace, il est courant d’abréger les titres de conférences ou de revue. Par exemple, on pourrait utiliser ``__Proc. IEEE Int. Conf. Robot. Autom. (ICRA)__'' au lieu de ``__Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)__ ''. Certains organismes comme IEEE fournissent une http://www.ieee.org/documents/ieeecitationref.pdf[liste d'abréviations standards] à employer dans la bibliographie. 
+TIP: Pour sauver de l'espace, il est courant d’abréger les titres de conférences ou de revue. Par exemple, on pourrait utiliser ``__Proc. IEEE Int. Conf. Robot. Autom. (ICRA)__'' au lieu de ``__Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)__ ''. Certains organismes comme IEEE fournissent une http://www.ieee.org/documents/ieeecitationref.pdf[liste d'abréviations standards] à employer dans la bibliographie. 
+
+TIP: Pour faciliter la création et la gestion de votre bibliographie, vous pouvez utiliser des outils de gestion bibliographique. Pour en savoir plus, consultez le http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References[site web de la bibliothèque].
 
 [[annexes]]
 === Les annexes

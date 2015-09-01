@@ -7,6 +7,7 @@
 
 == Welcome to SARA
 
+////
 === Announcements
 
 +++<font color="red"><b>NEW:</b></font>+++ *Short paper competition*
@@ -16,6 +17,7 @@
 * *Deadline:* March 7, 2014.
 * For more details, read this link:/images/Concours_SARA_eng.pdf[document].
 ====
+////
 
 === Our mission
 
@@ -25,7 +27,7 @@ SARA offers various forms of help for students who wish to improve the quality o
 
 ====
 * Several *documentary resources* that provide useful advice and hints to write good papers.
-** link:/en/writing_guide[Practical guide for writing scientific papers]
+** link:/en/writing_guide_home[Practical guide for writing scientific papers]
 ** link:/en/style_guide[Guide on how to improve your writing style]
 ** link:/en/reviewing_guide[Guide to reviewing scientific papers]
 ** link:/en/resources[References to various resources (Web sites, books, articles, etc.) on those topics]

@@ -830,27 +830,18 @@ TIP: In some conferences or journals, funding agencies are sometimes mentioned i
 
 CAUTION: Make sure to get the permission of a person or organization before including their name in the credits.
 
-
-
-
 [[bibliographie]]
 === References (bibliography)
 
 
 The bibliography of an article contains a list of articles, technical reports, theses and other publications cited in this article. The following guidelines should be considered when developing this part :
 
-
-
 ====
-
 * An article should contain a bibliography and refer to work other than the authors'. Even a short conference paper would normally include at least 5 references.
-
 
 * Limit to references that have a direct connection with the work described in the article. Except for articles of the type _Review article_, an article should not have more than 40 references.
 
-
 * Ensure that each reference included in the bibliography is cited in the text of the article and vice versa.
-
 
 * Respect the style imposed by the conference or the journal (e.g., ACM, APA, IEEE, etc.). A style specifies, amongst other things:
 ** The order of the references (e.g., alphabetical, quote, etc) in the bibliography.
@@ -858,13 +849,12 @@ The bibliography of an article contains a list of articles, technical reports, t
 ** The format for the names of authors (e.g., _S. Aras_ or _Aras, S._).
 ** Etc* Avoid if possible to cite unpublished work. Identify the articles that are accepted but not published yet with the word ``__in press__'' or ``__forthcoming__''.
 
-
 * Do not include personal communications, unless they contain essential information not available elsewhere. Request permission from the author before including such references.
-
-
 ====
 
+TIP: To save space, it is common to shorten the conference or journal titles. For instance, we could use ``__Proc. IEEE Int. Conf. Robot. Autom. (ICRA)__'' instead of ``__Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)__ ''. Some organization like IEEE provide a http://www.ieee.org/documents/ieeecitationref.pdf[list of  standard abbreviations] to use in the references. 
 
+TIP: To help creating a bilbiography and  managing references, you can use bibliographic management tools. To read more on this topic, see the http://etsmtl.ca/Bibliotheque/Aide-et-formation/Comment---/Gerer-References[library web site].
 
 [[annexes]]
 === Appendices

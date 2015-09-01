@@ -8,6 +8,7 @@
 
 == Bienvenue au SARA
 
+////
 === Annonces
 
 +++<font color="red"><b>NOUVEAU:</b></font>+++ *Concours de résumés de recherche*
@@ -17,6 +18,7 @@
 * *Date limite:* 7 mars 2014.
 * Pour plus de détails, consultez ce link:/images/Concours_SARA.pdf[document].
 ====
+////
 
 === Notre mission
 
