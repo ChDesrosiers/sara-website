@@ -34,4 +34,6 @@ link:http://francoiseprovencher.weebly.com/[Fiche du chercheur].
 
 * Félix Langevin-Harnois, bibliothécaire du http://etsmtl.ca/Bibliotheque/Accueil[Service de la bibliothèque].
 
+* Prasun Lala, candidat au doctorat en génie électrique et informatique, CIM, à l’université McGill. link:http://www.cim.mcgill.ca/~prasun/[Fiche du chercheur].
+
 //faut-il indiquer l'equipe de reviewers?

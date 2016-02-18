@@ -1,0 +1,25 @@
+= Membres
+:awestruct-layout: default
+:imagesdir: images
+
+:homepage: http://sara.etsmtl.ca
+
+== Ateliers du SARA
+
+Le SARA et le service de la bibliothèque présentent des ateliers sur différents sujets liés à la rédaction scientifique. Pour plus d’information et pour les horaires des 
+ateliers, consulter la link:http://www.etsmtl.ca/Bibliotheque/Aide-et-formation/A-votre-service/Formations[section formation du site web de la bibliothèque de l’ÉTS].
+
+=== Rédiger de meilleurs résumés pour mieux se démarquer
+
+Le résumé est la vitrine de votre article scientifique pour les lecteurs potentiels. Souvent, c’est en lisant ce texte d’une centaine de mots que le chercheur va décider si votre 
+texte vaut la peine d’être lu en entier. Cet atelier présente les bases d’un bon résumé ainsi que des trucs et astuces pour parvenir à les rédiger. Plus précisément : 
+
+* Qu’est-ce que le but d’un résumé scientifique;
+* Centrer le résumé sur le public cible;
+* Déterminer le niveau de détail à inclure dans le résumé;
+* Structure : objectifs, méthodologies, résultats, et conclusions;
+* Comment être concis.
+
+Date : Mercredi 10 février 2016, 12 h
+Durée : 1 h
+Lieu : Laboratoire de la bibliothèque (A-0241)

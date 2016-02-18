@@ -12,9 +12,8 @@ To contact us, send an email to:
 <SCRIPT TYPE="text/javascript" language="JavaScript">
 <!--
 email1='sara'
-email2='etsmtl'
-email3='gmail.com'
-email=(email1 + '.' + email2 + '@' + email3)
+email2='etsmtl.ca'
+email=(email1 + '@' + email2)
 document.write('<A href="mailto:' + email + '">' + email + '<\/a>')
 //-->
 </script>

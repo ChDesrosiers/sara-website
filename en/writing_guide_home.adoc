@@ -37,4 +37,11 @@ Writing scientific papers is a complex task that is often frustrating for newcom
 
 === If you want to know more
 
-The content of this guide is based on several excellent sources of information on scientific writing. To learn more about this topic, you can consult the list of these documents by selecting the Resources tab link:/en/ressources[Resources].
+The content of this guide is based on several excellent sources of information on scientific writing. To learn more about this topic, you can consult the documents below.
+
+* Day, R., Gastel, B.	How to Write and Publish a Scientific Paper 7th ed. Cambridge University Press, 2012.
+* Tischler, M.E. Scentific Writing Booklet. University of Arizona. link:http://www.biochem.arizona.edu/marc/Sci-Writing.pdf[Link to the resource].
+* Fuhrman, C., Koppenhoefer, S., Morel, P., Peraldi, M.-A., Vijayananda, K. Un canvas pour la rédaction d'articles. Ecole Polytechnique Fédérale de Lausanne. 1995.
+* Sand-Jensen, K. How to Write Consistently Boring Scientific Literature. Oikos, vol 116, no 5, p.723–727, 2007. link:http://onlinelibrary.wiley.com/doi/10.1111/j.0030-1299.2007.15674.x/pdf[Link to the resource].  
+* APA Student Council. A Graduate Student's Guide to Determining Authorship Credit and Authorship Order. 2006. link:http://www.apa.org/science/leadership/students/authorship-paper.pdf[Link to the resource].
+* Inderscience Enterprises. Keyword requirements. 2013. link:http://www.inderscience.com/info/pdf/dl.php?filename=id31_keywords.pdf[Link to the resource].

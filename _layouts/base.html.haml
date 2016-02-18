@@ -34,8 +34,6 @@
             %ul.nav
               %li 
                 %a{:href=>"#{site.base_url}/en"} Home
-              %li
-                %a{:href=>"#{site.base_url}/en/members/"} Members
               %li#redaction-menu-en.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu-en"}
                   Writing
@@ -58,8 +56,17 @@
                     %a{:href=>"#{site.base_url}/en/reviewing_guide/"} Reviewing guide
                   %li
                     %a{:href=>"#{site.base_url}/en/join_team/"} Join our team
+              %li#evenements-menu-en.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evenements-menu-en'} 
+                  Events
+                  %b.caret
+                %ul.dropdown-menu
+                  %li
+                    %a{:href=>"#{site.base_url}/en/workshops/"} Workshops
+                  %li
+                    %a{:href=>"#{site.base_url}/en/contest/"} Contest									
               %li
-                %a{:href=>"#{site.base_url}/en/resources/"} Resources
+                %a{:href=>"#{site.base_url}/en/members/"} Members
               %li
                 %a{:href=>"#{site.base_url}/en/contact_us/"} Contact us
               %li
@@ -68,8 +75,6 @@
             %ul.nav
               %li 
                 %a{:href=>"#{site.base_url}"} Accueil
-              %li
-                %a{:href=>"#{site.base_url}/fr/membres/"} Membres
               %li#redaction-menu-fr.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>"#redaction-menu-fr"}
                   Rédaction
@@ -83,17 +88,17 @@
                     %a{:href=>"#{site.base_url}/fr/soumettre_article/"} Soumettre un article
                   -#%li 
                     -#%a{:href=>"#{site.base_url}/fr/demander_aide/"} Demander de l'aide
-              %li#evaluation-menu-fr.dropdown
-                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu-fr'} 
-                  Évaluation
+              %li#evenements-menu-fr.dropdown
+                %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evenements-menu-fr'} 
+                  Évènements
                   %b.caret
                 %ul.dropdown-menu
                   %li
-                    %a{:href=>"#{site.base_url}/fr/guide_evaluation/"} Guide d'évaluation
+                    %a{:href=>"#{site.base_url}/fr/ateliers/"} Ateliers
                   %li
-                    %a{:href=>"#{site.base_url}/fr/joindre_equipe/"} Se joindre à l'équipe
+                    %a{:href=>"#{site.base_url}/fr/concours/"} Concours
               %li
-                %a{:href=>"#{site.base_url}/fr/ressources/"} Ressources
+                %a{:href=>"#{site.base_url}/fr/membres/"} Membres
               %li
                 %a{:href=>"#{site.base_url}/fr/nous_rejoindre/"} Nous rejoindre
               %li

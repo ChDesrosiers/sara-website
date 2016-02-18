@@ -708,4 +708,9 @@ You should write:
 
 ==  If you want to learn more
 
-This page presents a summary of essential rules of style.   If you want to learn more about writing scientific papers, visit the link:/en/ressources[Resources] tab.
+This page presents a summary of essential rules of style.   If you want to learn more about writing scientific papers, you can consult the documents below.
+
+* Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
+* Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
+* Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
+* Sheffield, N. Graduate School Scientific Writing Resource, Duke University. link:https://cgi.duke.edu/web/sciwriting/[Link to the resource].

@@ -33,4 +33,6 @@ link:http://francoiseprovencher.weebly.com/[Researcher's website].
 
 * Félix Langevin-Harnois, librarian at the http://etsmtl.ca/Bibliotheque/Accueil[ÉTS library].
 
+* Prasun Lala, doctoral candidate in electrical and computer engineering, CIM, McGill University. link:http://www.cim.mcgill.ca/~prasun/[Fiche du chercheur].
+
 //faut-il aussi indiquer l'equipe de reviewers?

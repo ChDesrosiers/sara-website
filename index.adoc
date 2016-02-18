@@ -20,6 +20,10 @@
 ====
 ////
 
+=== Annonces
+
+Consultez la page Évènements pour connaître les link:/fr/ateliers[ateliers] et link:/fr/concours[concours] organisés par le SARA.
+
 === Notre mission
 
 Le *Service d’Aide à la Rédaction d’Articles (SARA)* est un projet pilote mis sur pied dans le but d’aider les étudiants aux cycles supérieurs à devenir maîtres dans l’art de la rédaction d’articles scientifiques. Rédiger un article est une tâche importante et récurrente dans la vie d’un chercheur mais qui est souvent difficile lorsqu’on l’aborde les premières fois.  
@@ -31,7 +35,7 @@ Le SARA propose diverses formes d’aide aux étudiants qui désirent améliorer
 ** link:/fr/guide_redaction_accueil[Guide pratique pour l'écriture d'articles scientifiques]
 ** link:/fr/guide_style[Guide pour améliorer son style d'écriture]
 ** link:/fr/guide_evaluation[Guide sur comment évaluer des articles scientifiques]
-** link:/fr/ressources[Références à diverses ressources (sites Web, livres, articles, etc.) sur ces thèmes]
+// ** link:/fr/ressources[Références à diverses ressources (sites Web, livres, articles, etc.) sur ces thèmes]
 
 * Un *service d’évaluation d’articles gratuit* qui permet à tout étudiant de l’ÉTS qui le souhaite d’obtenir des évaluations préliminaires d’une première ébauche de son article.  Les évaluations sont *anonymes* et sont réalisées par des *étudiants bénévoles de l’ÉTS* ayant déjà une expérience de publication. Nous pensons que ce regard extérieur complétera l’apport éventuel du directeur de recherche. 
 ** link:/fr/soumettre_article[Soumettre un article au service d'évaluation]

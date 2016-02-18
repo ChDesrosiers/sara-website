@@ -708,4 +708,9 @@ vous devez ainsi écrire :
 
 == Si vous désirez en savoir plus
 
-Cette page présente un résumé des règles essentielles de style. Si vous voulez en savoir plus sur la rédaction d’articles scientifiques, veuillez consulter l'onglet link:/fr/ressources[Ressources].
+Cette page présente un résumé des règles essentielles de style. Si vous voulez en savoir plus sur la rédaction d’articles scientifiques, vous pouvez consulter les ressources ci-dessous.
+
+* Williams, J., M. and Colomb, G., G. Style: Lessons in Clarity and Grace. New York: Pearson Longman, 10th Edition, 2010.
+* Strunk, W., Jr. and White, E.B. The Elements of Style. Longman, 4th Edition, 1999.
+* Day, R., A. and Gastel, B. How to Write and Publish a Scientific Paper. Oryx Press, 6th Edition, 2006.
+* Sheffield, N. Graduate School Scientific Writing Resource, Duke University. link:https://cgi.duke.edu/web/sciwriting/[Lien vers la ressource].

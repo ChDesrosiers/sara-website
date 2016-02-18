@@ -35,7 +35,7 @@ Pour soumettre un article via notre plateforme _EasyChair_, vous devez disposer 
 
 ++++
 
-<form id="formsoumettre" action="https://www.easychair.org/conferences/?conf=saraets2014" method="link">
+<form id="formsoumettre" action="https://www.easychair.org/conferences/?conf=sartets2013" method="link">
 
 <div id="terms" style="width:750px; height:225px; overflow:auto; border:solid 1px #ccc; padding-left:1em; padding-right:1em;">
 

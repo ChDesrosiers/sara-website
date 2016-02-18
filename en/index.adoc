@@ -19,6 +19,10 @@
 ====
 ////
 
+=== Announcements
+
+Check out the Events page for a list of link:/en/workshops[workshops] and link:/en/contest[contests] organized by SARA.
+
 === Our mission
 
 The *Paper Writing Help Service (SARA)* is a pilot project intended to help graduate students master the art of writing scientific articles.  Writing articles is an important and recurrent task in the life of a researcher but is often difficult the first few times.
@@ -30,7 +34,7 @@ SARA offers various forms of help for students who wish to improve the quality o
 ** link:/en/writing_guide_home[Practical guide for writing scientific papers]
 ** link:/en/style_guide[Guide on how to improve your writing style]
 ** link:/en/reviewing_guide[Guide to reviewing scientific papers]
-** link:/en/resources[References to various resources (Web sites, books, articles, etc.) on those topics]
+// ** link:/en/resources[References to various resources (Web sites, books, articles, etc.) on those topics]
 
 * A *free reviewing service* that allows every ÉTS student who needs it to obtain preliminary feedback on a first draft of his/her manuscript.  The reviews are *anonymous* and are done by *volunteer students* from ÉTS who have at least one publishing experience.  We believe that this external feedback can complement that of one’s thesis advisor.
 ** link:/en/submit_paper[Submit a paper to the reviewing service]

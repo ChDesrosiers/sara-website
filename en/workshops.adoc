@@ -1,0 +1,25 @@
+= Membres
+:awestruct-layout: default
+:imagesdir: images
+
+:homepage: http://sara.etsmtl.ca
+
+== Workshops
+
+SARA and the ÉTS library offer workshops on a variety of subjects related to scientific writing. For more information and for the schedules of the workshops, go to the  
+link:http://www.etsmtl.ca/Bibliotheque/Aide-et-formation/A-votre-service/Formations[workshop section of the ÉTS library’s website].
+
+=== Writing better abstract to stand out (in french only)
+
+To potential readers, the asbtract is your article’s showcase. Oftenly, researchers will decide if an article is worth reading by looking at this section of a few hundred words. 
+This workshop (presented in french only) presents the basics of a good abstract and hints on how to write them. More precisely :
+
+* What is the objective of a scientific abstract;
+* Focusing the abstract on the target audience;
+* Defining what to include;
+* Structure : objectives, methodology, results and conclusions;
+* How to be concise;
+
+Date : Wednesday, february 10th 2016, 12 PM
+Length : 1 h
+Location : Library lab (A-0241)

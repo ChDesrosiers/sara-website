@@ -38,4 +38,11 @@ La rédaction d'articles scientifiques est une tâche complexe et souvent frustr
 
 === Si vous désirez en savoir plus
 
-Le contenu de ce guide est basé sur plusieurs excellentes sources d'information sur la rédaction scientifique. Pour en connaître plus sur ce thème, vous pouvez consulter la liste de ces documents en sélectionnant l'onglet link:/fr/ressources[Ressources].
+Le contenu de ce guide est basé sur plusieurs excellentes sources d'information sur la rédaction scientifique. Pour en connaître plus sur ce thème, vous pouvez consulter les documents suivants ci-dessous.
+
+* Day, R., Gastel, B.	How to Write and Publish a Scientific Paper 7th ed. Cambridge University Press, 2012.
+* Tischler, M.E. Scentific Writing Booklet. University of Arizona. link:http://www.biochem.arizona.edu/marc/Sci-Writing.pdf[Lien vers la ressource].
+* Fuhrman, C., Koppenhoefer, S., Morel, P., Peraldi, M.-A., Vijayananda, K. Un canvas pour la rédaction d'articles. Ecole Polytechnique Fédérale de Lausanne. 1995.
+* Sand-Jensen, K. How to Write Consistently Boring Scientific Literature. Oikos, vol 116, no 5, p.723–727, 2007. link:http://onlinelibrary.wiley.com/doi/10.1111/j.0030-1299.2007.15674.x/pdf[Lien vers la ressource].  
+* APA Student Council. A Graduate Student's Guide to Determining Authorship Credit and Authorship Order. 2006. link:http://www.apa.org/science/leadership/students/authorship-paper.pdf[Lien vers la ressource].
+* Inderscience Enterprises. Keyword requirements. 2013. link:http://www.inderscience.com/info/pdf/dl.php?filename=id31_keywords.pdf[Lien vers la ressource].
