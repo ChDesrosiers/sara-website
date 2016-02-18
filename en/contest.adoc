@@ -6,20 +6,20 @@
 
 == Contest 2016
 
-The Paper Writing Help Service (SARA) is hosting an competition for writing abstracts with the goal of promoting both the importance of writing good scientific abstracts as well as the importance of the process of revising scientific articles. The contest has two different categories with many prizes to win. It’s possible to enter the competition in both categories!
+The SARA is hosting an abstract writing competition to promote the importance of writing good scientific abstracts and the process of reviewing scientific articles. The contest has two different categories with many prizes to win. You can enter the competition in both categories!
 
 * *Deadline:* Entries must be submitted by March 18, 2016!
 * *Notification of winners:* The winners will be announced during “Journée des Découvertes” on April 12, 2016.
 
 === Abstract writing
 
-Submit an abstract of one to two pages which explains your research clearly and concisely.
+Submit an abstract that explains clearly and concisely your research.
 
-* Length: Abstracts must be between one to two (2) pages in length!
-* Language: Abstracts must be written either in French or in English!
-* Format: Abstracts must contain the following elements: title, name of the authors, author affiliation, text of the abstract, figures and/or tables (if used) and a list of cited references. The layout is at the discretion of the authors. Abstracts and reviews should be submitted as pdf files!
-* Prizes : There will be a $300 prize for the person having been judged to have written the best abstract and a prize of $150 for second place!
-* Judges: A professor committee will judge the abstracts (and reviewing reports) to determine the winners!
+* *Length:* Abstracts must be between one to two (2) pages in length!
+* *Language:* Abstracts must be written either in French or in English!
+* *Format*: Abstracts must contain the following elements: title, name of the authors, author affiliation, text of the abstract, figures and/or tables (if used) and a list of cited references. The layout is at the discretion of the authors. Abstracts and reviews should be submitted as pdf files!
+* *Prizes:* There will be a $300 prize for the person writing the best abstract and a prize of $150 for the second place!
+* *Judges:* A committee of professors and researchers will evaluate the abstracts (and reviewing reports) to determine the winners!
 
 To submit an abstract visit the page http://sara.etsmtl.ca/en/submit_paper/. After having read the section on requirements you can submit an article following the instructions in the section “Submit a draft paper”. 
 
@@ -27,8 +27,8 @@ To submit an abstract visit the page http://sara.etsmtl.ca/en/submit_paper/. Aft
 
 Play the role of a reviewer and write a reviewing report on an abstract you will be assigned.
 
-* Language: Reviewing reports must be written either in French or in English!
-* Prizes : There will be a $300 prize for the person having been judged to have written the best review and a prize of $150 for second place!
-* Judges: A professor committee will judge the reviewing reports to determine the winners!
+* *Language:* Reviewing reports must be written either in French or in English!
+* *Prizes:* There will be a $300 prize for the person writing the best review and a prize of $150 for second place!
+* *Judges:* A committee of professors and researchers will evaluate the reviewing reports to determine the winners!
 
-To enter as a reviewer visit the page http://sara.etsmtl.ca/en/join_team/ and follow the instructions.
+To enter as a reviewer, visit the page http://sara.etsmtl.ca/en/join_team/ and follow the instructions.

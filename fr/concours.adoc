@@ -6,20 +6,20 @@
 
 == Concours 2016
 
-Le Service d’Aide à la Rédaction d’Articles (SARA) est heureux d’annoncer son concours de résumés (abstracts) qui a pour but de faire la promotion de la rédaction scientifique ainsi que de l’importance du processus de révision d’articles. Ce concours comporte deux catégories avec plusieurs prix à gagner. Les concurrents qui le désirent peuvent s’inscrire dans les deux catégories!
+Le SARA est heureux d’annoncer son concours de résumés (abstracts) faisant promotion de la rédaction scientifique ainsi que de l’importance du processus de révision d’articles. Ce concours comporte deux catégories avec plusieurs prix à gagner. Les concurrents qui le désirent peuvent s’inscrire dans les deux catégories!
 
 * *Date limite :* Vous avez jusqu’au 18 mars 2016 pour soumettre votre résumé et/ou votre rapport d’évaluation.
 * *Annonce des gagnants :* Les gagnants seront annoncés lors de la journée Découvertes, le 12 avril 2016.
 
 === Rédaction de résumé
 
-Soumettez un résumé d’une à deux pages qui explique clairement et succinctement votre recherche.
+Soumettez un résumé qui explique clairement et succinctement votre recherche.
 
-* Longueur : Les résumés doivent être d’une longueur de une à deux pages (maximum).!
-* Langue : Les résumés doivent être écrits en français ou en anglais.!
-* Format : Les résumés doivent obligatoirement contenir les éléments suivants : Titre, nom des auteurs, adresses institutionnelles des auteurs, corps du texte, figure et/ou tableau (si utilisé), liste de références. La mise en page est à la discrétion des auteurs. Les résumés et les rapports d’arbitres doivent être soumis sous forme de pdf.!
-* Prix : Un prix de 300$ sera remis pour le meilleur résumé ainsi qu’un prix de 150$ pour la deuxième place.
-* Juges : Un comité de professeur jugera les résumés pour déterminer les gagnants.
+* *Longueur :* Les résumés doivent être d’une longueur de une à deux pages (maximum).!
+* *Langue :* Les résumés doivent être écrits en français ou en anglais.!
+* *Format :* Les résumés doivent obligatoirement contenir les éléments suivants : Titre, nom des auteurs, adresses institutionnelles des auteurs, corps du texte, figure et/ou tableau (si utilisé), liste de références. La mise en page est à la discrétion des auteurs. Les résumés et les rapports d’arbitres doivent être soumis sous forme de pdf.!
+* *Prix :* Un prix de 300$ sera remis pour le meilleur résumé ainsi qu’un prix de 150$ pour la deuxième place.
+* *Juges :* Un comité de professeurs et chercheurs évaluera les résumés pour déterminer les gagnants.
 
 Pour soumettre votre résumé, visitez la page http://sara.etsmtl.ca/fr/soumettre_article/ . Une fois que vous aurez lu la section Exigences, vous pourrez alors procéder à la soumission de votre article en suivant les instructions spécifiées à la section Soumettre une ébauche d’article! 
 
@@ -27,8 +27,8 @@ Pour soumettre votre résumé, visitez la page http://sara.etsmtl.ca/fr/soumettr
 
 Remplissez les fonctions d’un arbitre en écrivant un rapport d’évaluation sur un résumé qui vous a été assigné.
 
-* Langue : Les rapports évaluations doivent être rédigés en français ou en anglais!
-* Prix : Un prix de 300$ sera remis pour le meilleur rapport d’évaluation ainsi qu’un prix de 150$ pour la deuxième place.
-* Juges : Un comité de professeur jugera les rapports d'évaluation pour déterminer les gagnants!
+* *Langue :* Les rapports évaluations doivent être rédigés en français ou en anglais!
+* *Prix :* Un prix de 300$ sera remis pour le meilleur rapport d’évaluation ainsi qu’un prix de 150$ pour la deuxième place.
+* *Juges :* Un comité de professeurs et chercheeurs évaluera les rapports d'évaluation pour déterminer les gagnants!
 
 Pour vous inscrire comme arbitre, visitez la page http://sara.etsmtl.ca/fr/joindre_equipe/ et suivez les instructions.
