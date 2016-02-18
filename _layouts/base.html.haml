@@ -88,6 +88,15 @@
                     %a{:href=>"#{site.base_url}/fr/soumettre_article/"} Soumettre un article
                   -#%li 
                     -#%a{:href=>"#{site.base_url}/fr/demander_aide/"} Demander de l'aide
+                %li#evaluation-menu.dropdown
+                  %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evaluation-menu'} 
+                    Évaluation
+                    %b.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href=>"#{site.base_url}/fr/guide_evaluation/"} Guide d'évaluation
+                    %li
+                      %a{:href=>"#{site.base_url}/fr/joindre_equipe/"} Se joindre à l'équipe
               %li#evenements-menu-fr.dropdown
                 %a.dropdown-toggle{"data-toggle"=>"dropdown", :href=>'#evenements-menu-fr'} 
                   Évènements

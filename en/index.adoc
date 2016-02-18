@@ -21,7 +21,7 @@
 
 === Announcements
 
-Check out the Events page for a list of link:/en/workshops[workshops] and link:/en/contest[contests] organized by SARA.
+Check out the Events menu for a list of link:/en/workshops[workshops] and link:/en/contest[contests] organized by SARA.
 
 === Our mission
 

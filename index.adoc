@@ -22,7 +22,7 @@
 
 === Annonces
 
-Consultez la page Évènements pour connaître les link:/fr/ateliers[ateliers] et link:/fr/concours[concours] organisés par le SARA.
+Consultez le menu Évènements pour connaître les link:/fr/ateliers[ateliers] et link:/fr/concours[concours] organisés par le SARA.
 
 === Notre mission
 
