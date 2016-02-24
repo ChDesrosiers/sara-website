@@ -27,6 +27,7 @@ profiles:
       host: sara-wadmin@sara.logti.etsmtl.ca
       path: /home/sara.logti.etsmtl.ca/public_html/
       uncommitted: true
+    google_analytics: UA-69439847-1
 
 intense_debate_acct: fa224495874e8d96bbf6f2dbcc26dac5
 flattr_username: bobmcwhirter

@@ -13,4 +13,5 @@ Awestruct::Extensions::Pipeline.new do
   #                                                '/news/index', 
   #                                                :per_page=>3 )
   transformer Awestruct::Extensions::Minify.new
+  helper Awestruct::Extensions::GoogleAnalytics
 end
