@@ -1,4 +1,4 @@
-= Membres
+= Ateliers
 :awestruct-layout: default
 :imagesdir: images
 
