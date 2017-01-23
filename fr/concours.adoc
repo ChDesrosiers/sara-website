@@ -1,34 +1,67 @@
-= Membres
+= Concours : Des auteurs qui ont du génie
 :awestruct-layout: default
 :imagesdir: images
 
 :homepage: http://sara.etsmtl.ca
 
-== Concours 2016
+== Concours : Des auteurs qui ont du génie
 
-Le SARA est heureux d’annoncer son concours de résumés (abstracts) faisant promotion de la rédaction scientifique ainsi que de l’importance du processus de révision d’articles. Ce concours comporte deux catégories avec plusieurs prix à gagner. Les concurrents qui le désirent peuvent s’inscrire dans les deux catégories!
+Le SARA et link:http://substance.etsmtl.ca/[Substance ÉTS] sont fiers de vous présenter le concours « Des auteurs qui ont du génie » qui invite les étudiants à vulgariser un article scientifique rédigé par un professeur de l’ÉTS. Pour participer, les étudiants doivent sélectionner un article dans la liste ci-dessous et le vulgariser en 1200 mots ou moins dans le but de le rendre compréhensible par des lecteurs informés mais qui ne sont pas des experts sur le sujet.
 
-* *Date limite :* Vous avez jusqu’au 18 mars 2016 pour soumettre votre résumé et/ou votre rapport d’évaluation.
-* *Annonce des gagnants :* Les gagnants seront annoncés lors de la journée Découvertes, le 12 avril 2016.
+* *Prix :* Des prix de 1500$, 1000$ et 500$ seront remis aux trois meilleurs textes. De plus, les meilleurs textes pourront être publié dans Substance ÉTS.
+* *Date limite :* Vous avez jusqu’au 10 mars 2017 pour soumettre votre texte.
+* *Pour participer :* Envoyez votre texte au link:mailto:sara@etsmtl.ca[sara@etsmtl.ca]
+* *Annonce des gagnants :* Les gagnants seront annoncés lors de la journée Découvertes, le 29 mars 2017.
+* *Juges :* Un jury constitué des membres du SARA, de Substance ÉTS et de professeurs évaluera les textes pour déterminer les gagnants.
 
-=== Rédaction de résumé
+=== Critères d'évaluation
 
-Soumettez un résumé qui explique clairement et succinctement votre recherche.
+Pour bien vulgariser l'article choisi, le texte de vulgarisation doit : 
 
-* *Longueur :* Les résumés doivent être d’une longueur de une à deux pages (maximum).!
-* *Langue :* Les résumés doivent être écrits en français ou en anglais.!
-* *Format :* Les résumés doivent obligatoirement contenir les éléments suivants : Titre, nom des auteurs, adresses institutionnelles des auteurs, corps du texte, figure et/ou tableau (si utilisé), liste de références. La mise en page est à la discrétion des auteurs. Les résumés et les rapports d’arbitres doivent être soumis sous forme de pdf.!
-* *Prix :* Un prix de 300$ sera remis pour le meilleur résumé ainsi qu’un prix de 150$ pour la deuxième place.
-* *Juges :* Un comité de professeurs et chercheurs évaluera les résumés pour déterminer les gagnants.
+* Votre texte doit être *approprié pour un lecteur informé mais non expert* (p. ex. étudiant à l’université dans des disciplines scientifiques). Vous pouvez consulter des articles de http://substance.etsmtl.ca/[Substance ÉTS] pour avoir une idée du style à adopter;
+* Résumer brièvement et de façon neutre contenu de l'article : introduction, problématique traitée, les contributions selon l'auteur, les méthodes employées, les résultats obtenus, les conclusions qui en sont tirées, etc.;
+* Rédiger un texte *clair, intéressant et fidèle à la recherche* présentée dans l'article original;
+* Vous devez composer un texte entièrement original mais qui synthétise l'article choisi;
+* Vous pouvez utiliser les termes techniques au besoin tout en prenant soin de bien les expliquer et/ou en ajoutant des hyperliens pertinents;
+* Trouvez un titre accrocheur et fidèle à la recherche présentée dans l'article original;
+* Être d'une longueur de *1200 mots ou moins*;
+* Les textes doivent être rédigés en *français ou en anglais*.
 
-Pour soumettre votre résumé, visitez la page http://sara.etsmtl.ca/fr/soumettre_article/ . Une fois que vous aurez lu la section Exigences, vous pourrez alors procéder à la soumission de votre article en suivant les instructions spécifiées à la section Soumettre une ébauche d’article! 
 
-=== Évaluation de résumés
+=== Articles à vulgariser
 
-Remplissez les fonctions d’un arbitre en écrivant un rapport d’évaluation sur un résumé qui vous a été assigné.
+Pour participer au concours, vous devez choisir l'un des articles dans la liste ci-dessous et le vulgariser. Pour constituer cette liste, nous avons sélectionné les articles de professeurs de l'ÉTS ayant eu le plus grand impact en 2016 pour chaque département.
 
-* *Langue :* Les rapports évaluations doivent être rédigés en français ou en anglais!
-* *Prix :* Un prix de 300$ sera remis pour le meilleur rapport d’évaluation ainsi qu’un prix de 150$ pour la deuxième place.
-* *Juges :* Un comité de professeurs et chercheeurs évaluera les rapports d'évaluation pour déterminer les gagnants!
+* *Attention :* les participants ne peuvent pas choisir un article rédigé par son directeur de de recherche, même si celui-ci se trouve dans la liste.
 
-Pour vous inscrire comme arbitre, visitez la page http://sara.etsmtl.ca/fr/joindre_equipe/ et suivez les instructions.
+*Génie de la construction*
+
+* Crainic, T. G., Errico, F., Rei, W. et Ricciardi, N. (2015). link:http://doi.org/10.1287/trsc.2015.0606[Modeling Demand Uncertainty in Two-Tier City Logistics Tactical Planning]. Transportation Science, 50(2), 559‑578. doi:10.1287/trsc.2015.0606
+* Vaillancourt, M. et Perraton, D. (2015). link:http://doi.org/10.1139/cgj-2015-0131[Impact of subgrade soils on pavement roughness]. Canadian Geotechnical Journal, 53(4), 687‑695. doi:10.1139/cgj-2015-0131
+* Passer, A., Ouellet-Plamondon, C., Kenneally, P., John, V. et Habert, G. (2016). link:http://doi.org/10.1016/j.enbuild.2016.04.008[The impact of future scenarios on building refurbishment strategies towards plus energy buildings]. Energy and Buildings, 124, 153‑163. doi:10.1016/j.enbuild.2016.04.008
+
+
+*Génie de la production automatisée*
+
+* Carbonneau, M.-A., Granger, E., Raymond, A. J. et Gagnon, G. (2016). link:http://doi.org/10.1016/j.patcog.2016.03.035[Robust multiple-instance learning ensembles using random subspace instance selection]. Pattern Recognition, 58, 83‑99. doi:10.1016/j.patcog.2016.03.035
+* Bouslah, B., Gharbi, A. et Pellerin, R. (2016). link:http://doi.org/10.1016/j.omega.2015.07.012[Integrated production, sampling quality control and maintenance of deteriorating production systems with AOQL constraint]. Omega, 61, 110‑126. doi:10.1016/j.omega.2015.07.012
+* Tang, A., Rabasa-Lhoret, R., Castel, H., Wartelle-Bladou, C., Gilbert, G., Massicotte-Tisluck, K., Chartrand, G., Olivié, D., Julien, A.-S., de Guise, J., Soulez, G., Chiasson, J.-L. (2015). link:http://doi.org/10.2337/dc14-2548[Effects of Insulin Glargine and Liraglutide Therapy on Liver Fat as Measured by Magnetic Resonance in Patients With Type 2 Diabetes: A Randomized Trial]. Diabetes Care, 38(7), 1339‑1346. doi:10.2337/dc14-2548
+
+
+*Génie électrique*
+
+* Benetti, D., Therese Dembele, K., Benavides, J., Zhao, H., Cloutier, S., Concina, I., Vomiero, A., Rosei, F. (2016). link:http://doi.org/10.1039/C6TC00800C[Functionalized multi-wall carbon nanotubes/TiO 2 composites as efficient photoanodes for dye sensitized solar cells]. Journal of Materials Chemistry C, 4(16), 3555‑3562. doi:10.1039/C6TC00800C
+* Albasheir, S. et Kadoch, M. (2016). link:http://doi.org/10.1109/JIOT.2015.2471105[Enhanced Control for Adaptive Resource Reservation of Guaranteed Services in LTE Networks]. IEEE Internet of Things Journal, 3(2), 179‑189. doi:10.1109/JIOT.2015.2471105
+
+
+*Génie logiciel et des technologies de l'information*
+
+* Djouab, R., Abran, A. et Seffah, A. (2016). link:http://doi.org/10.1007/s00766-014-0211-1[An ASPIRE-based method for quality requirements identification from business goals]. Requirements Engineering, 21(1), 87‑106. doi:10.1007/s00766-014-0211-1
+* Guerrouj, L., Kermansaravi, Z., Arnaoudova, V., Fung, B. C. M., Khomh, F., Antoniol, G. et Guéhéneuc, Y.-G. (2016). link:http://doi.org/10.1007/s11219-016-9318-6[Investigating the relation between lexical smells and change- and fault-proneness: an empirical study]. Software Quality Journal, 1‑30. doi:10.1007/s11219-016-9318-6
+
+
+*Génie mécanique*
+
+* Guilbault, R. et Lalonde, S. (2016). link:http://doi.org/10.1016/j.ymssp.2016.01.017[Early diagnostic of concurrent gear degradation processes progressing under time-varying loads]. Mechanical Systems and Signal Processing, 76–77, 337‑352. doi:10.1016/j.ymssp.2016.01.017
+* Grewal, R., Aranas Jr., C., Chadha, K., Shahriari, D., Jahazi, M. et Jonas, J. J. (2016). link:http://doi.org/10.1016/j.actamat.2016.02.062[Formation of Widmanstätten ferrite at very high temperatures in the austenite phase field]. Acta Materialia, 109, 23‑31. doi:10.1016/j.actamat.2016.02.062
+* Salloum, E., Bertrand-Grenier, A., Lerouge, S., Kauffman, C., Héon, H., Therasse, E., Salazkin, I., Roy Cardinal, M.-H., Cloutier, G., Soulez, G. (2015). link:http://doi.org/10.1148/radiol.2015142098[Endovascular Repair of Abdominal Aortic Aneurysm: Follow-up with Noninvasive Vascular Elastography in a Canine Model]. Radiology, 279(2), 410‑419. doi:10.1148/radiol.2015142098
