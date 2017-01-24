@@ -1,4 +1,4 @@
-= Concours : Des auteurs qui ont du génie
+= Concours "des auteurs qui ont du génie"
 :awestruct-layout: default
 :imagesdir: images
 
@@ -6,26 +6,26 @@
 
 == Concours : Des auteurs qui ont du génie
 
-Le SARA et link:http://substance.etsmtl.ca/[Substance ÉTS] sont fiers de vous présenter le concours « Des auteurs qui ont du génie » qui invite les étudiants à vulgariser un article scientifique rédigé par un professeur de l’ÉTS. Pour participer, les étudiants doivent sélectionner un article dans la liste ci-dessous et le vulgariser en 1200 mots ou moins dans le but de le rendre compréhensible par des lecteurs informés mais qui ne sont pas des experts sur le sujet.
+Le SARA et link:http://substance.etsmtl.ca/[Substance ÉTS] sont fiers de vous présenter le concours « Des auteurs qui ont du génie » qui invite les étudiants à vulgariser un article scientifique rédigé par un professeur de l’ÉTS. Pour participer, les étudiants doivent sélectionner un article dans la liste ci-dessous et le vulgariser en 1200 mots ou moins dans le but de le rendre compréhensible par des lecteurs informés, mais qui ne sont pas des experts sur le sujet.
 
-* *Prix :* Des prix de 1500$, 1000$ et 500$ seront remis aux trois meilleurs textes. De plus, les meilleurs textes pourront être publié dans Substance ÉTS.
+* *Prix :* Des prix de 1500 $, 1000 $ et 500 $ seront remis aux trois meilleurs textes. De plus, les meilleurs textes pourront être publié dans Substance ÉTS.
 * *Date limite :* Vous avez jusqu’au 10 mars 2017 pour soumettre votre texte.
 * *Pour participer :* Envoyez votre texte au link:mailto:sara@etsmtl.ca[sara@etsmtl.ca]
-* *Annonce des gagnants :* Les gagnants seront annoncés lors de la journée Découvertes, le 29 mars 2017.
+* *Annonce des gagnants :* Les gagnants seront annoncés lors de la Journée Découvertes, le 29 mars 2017.
 * *Juges :* Un jury constitué des membres du SARA, de Substance ÉTS et de professeurs évaluera les textes pour déterminer les gagnants.
 
 === Critères d'évaluation
 
-Pour bien vulgariser l'article choisi, le texte de vulgarisation doit : 
+Pour bien vulgariser l'article choisi, le texte doit : 
 
-* Votre texte doit être *approprié pour un lecteur informé mais non expert* (p. ex. étudiant à l’université dans des disciplines scientifiques). Vous pouvez consulter des articles de http://substance.etsmtl.ca/[Substance ÉTS] pour avoir une idée du style à adopter;
-* Résumer brièvement et de façon neutre contenu de l'article : introduction, problématique traitée, les contributions selon l'auteur, les méthodes employées, les résultats obtenus, les conclusions qui en sont tirées, etc.;
-* Rédiger un texte *clair, intéressant et fidèle à la recherche* présentée dans l'article original;
-* Vous devez composer un texte entièrement original mais qui synthétise l'article choisi;
-* Vous pouvez utiliser les termes techniques au besoin tout en prenant soin de bien les expliquer et/ou en ajoutant des hyperliens pertinents;
-* Trouvez un titre accrocheur et fidèle à la recherche présentée dans l'article original;
+* S'adresser à *un lecteur informé, mais non expert* (p. ex. étudiant à l’université dans une discipline scientifique). Vous pouvez consulter des articles de link:http://substance.etsmtl.ca/[Substance ÉTS] pour avoir une idée du style à adopter;
+* Résumer brièvement et de façon neutre le contenu de l'article : introduction, problématique traitée, les contributions selon l'auteur, les méthodes employées, les résultats obtenus, les conclusions qui en sont tirées, etc.;
+* Être *clair, intéressant et fidèle à la recherche* présentée dans l'article original;
+* Être entièrement original, mais synthétiser l'article choisi;
+* Bien expliquer les termes techniques utilisés en ajoutant des définitions ou des hyperliens pertinents;
+* Être accompagné d'un titre accrocheur et fidèle à la recherche présentée dans l'article original;
 * Être d'une longueur de *1200 mots ou moins*;
-* Les textes doivent être rédigés en *français ou en anglais*.
+* Être rédigés en *français ou en anglais*.
 
 
 === Articles à vulgariser
