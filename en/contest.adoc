@@ -1,34 +1,67 @@
-= Membres
+= Ingenious Writers Contest
 :awestruct-layout: default
 :imagesdir: images
 
 :homepage: http://sara.etsmtl.ca
 
-== Contest 2016
+== Contest: Ingenious Writers
 
-The SARA is hosting an abstract writing competition to promote the importance of writing good scientific abstracts and the process of reviewing scientific articles. The contest has two different categories with many prizes to win. You can enter the competition in both categories!
+SARA and link:http://substance-en.etsmtl.ca/[Substance ÉTS] are proud to present the “Ingenious Writers” contest which invites students to summarize a scientific article written by an ÉTS professor. To participate, students must choose one of the articles listed below and summarize it in 1200 words or less with the goal of making the content understood by informed readers who are not necessarily experts in the field.
 
-* *Deadline:* Entries must be submitted by March 18, 2016!
-* *Notification of winners:* The winners will be announced during “Journée des Découvertes” on April 12, 2016.
+* *Prizes:* $1500, $1000 and $500 will be awarded to the three best papers. Furthermore, the best papers may be published in Substance ÉTS.
+* *Deadline:* Entries must be submitted by March 10, 2017.
+* *To participate:* Send your entry to link:mailto:sara@etsmtl.ca[sara@etsmtl.ca].
+* *Notification of winners:* The winners will be announced during the “Journée Découvertes” on March 29, 2017.
+* *Judges:* A committee consisting of SARA’s team, Substance ÉTS, and ÉTS professors will evaluate the papers to determine the winners.
 
-=== Abstract writing
+=== Selection Criteria
 
-Submit an abstract that explains clearly and concisely your research.
+To summarize the chosen article, the entry must do the following: 
 
-* *Length:* Abstracts must be between one to two (2) pages in length!
-* *Language:* Abstracts must be written either in French or in English!
-* *Format*: Abstracts must contain the following elements: title, name of the authors, author affiliation, text of the abstract, figures and/or tables (if used) and a list of cited references. The layout is at the discretion of the authors. Abstracts and reviews should be submitted as pdf files!
-* *Prizes:* There will be a $300 prize for the person writing the best abstract and a prize of $150 for the second place!
-* *Judges:* A committee of professors and researchers will evaluate the abstracts (and reviewing reports) to determine the winners!
+* Target an *informed but non-expert reader* (e.g. a university student in a scientific program). You can consult link:http://substance.etsmtl.ca/[Substance ÉTS] articles to get an idea of the appropriate writing style;
+* Summarize the content of the article with a neutral tone and include the following: introduction, research question, contributions stated by the authors, methodology, results, conclusions, etc.;
+* Be *clear, interesting and representative of the research* presented in the article;
+* Be original but synthesize the original article;
+* Properly explain technical terms by adding definitions or relevant hyperlinks;
+* Have a catchy title that accurately represents the original article;
+* Have a length of *1200 words or less*;
+* Be written in *French or English*.
 
-To submit an abstract visit the page http://sara.etsmtl.ca/en/submit_paper/. After having read the section on requirements you can submit an article following the instructions in the section “Submit a draft paper”. 
 
-=== Abstract reviewing
+=== List of Articles to Summarize
 
-Play the role of a reviewer and write a reviewing report on an abstract you will be assigned.
+To participate you must choose one of the following articles and summarize it. We have selected articles written by ÉTS professors that had the greatest impact in 2016, by department
 
-* *Language:* Reviewing reports must be written either in French or in English!
-* *Prizes:* There will be a $300 prize for the person writing the best review and a prize of $150 for second place!
-* *Judges:* A committee of professors and researchers will evaluate the reviewing reports to determine the winners!
+* *Attention :* participants cannot choose an article written by their supervisors, even if it is included in the list.
 
-To enter as a reviewer, visit the page http://sara.etsmtl.ca/en/join_team/ and follow the instructions.
+*Construction engineering*
+
+* Crainic, T. G., Errico, F., Rei, W. et Ricciardi, N. (2015). link:http://doi.org/10.1287/trsc.2015.0606[Modeling Demand Uncertainty in Two-Tier City Logistics Tactical Planning]. Transportation Science, 50(2), 559‑578. doi:10.1287/trsc.2015.0606
+* Vaillancourt, M. et Perraton, D. (2015). link:http://doi.org/10.1139/cgj-2015-0131[Impact of subgrade soils on pavement roughness]. Canadian Geotechnical Journal, 53(4), 687‑695. doi:10.1139/cgj-2015-0131
+* Passer, A., Ouellet-Plamondon, C., Kenneally, P., John, V. et Habert, G. (2016). link:http://doi.org/10.1016/j.enbuild.2016.04.008[The impact of future scenarios on building refurbishment strategies towards plus energy buildings]. Energy and Buildings, 124, 153‑163. doi:10.1016/j.enbuild.2016.04.008
+
+
+*Automated manufacturing engineering*
+
+* Carbonneau, M.-A., Granger, E., Raymond, A. J. et Gagnon, G. (2016). link:http://doi.org/10.1016/j.patcog.2016.03.035[Robust multiple-instance learning ensembles using random subspace instance selection]. Pattern Recognition, 58, 83‑99. doi:10.1016/j.patcog.2016.03.035
+* Bouslah, B., Gharbi, A. et Pellerin, R. (2016). link:http://doi.org/10.1016/j.omega.2015.07.012[Integrated production, sampling quality control and maintenance of deteriorating production systems with AOQL constraint]. Omega, 61, 110‑126. doi:10.1016/j.omega.2015.07.012
+* Tang, A., Rabasa-Lhoret, R., Castel, H., Wartelle-Bladou, C., Gilbert, G., Massicotte-Tisluck, K., Chartrand, G., Olivié, D., Julien, A.-S., de Guise, J., Soulez, G., Chiasson, J.-L. (2015). link:http://doi.org/10.2337/dc14-2548[Effects of Insulin Glargine and Liraglutide Therapy on Liver Fat as Measured by Magnetic Resonance in Patients With Type 2 Diabetes: A Randomized Trial]. Diabetes Care, 38(7), 1339‑1346. doi:10.2337/dc14-2548
+
+
+*Electrical engineering*
+
+* Benetti, D., Therese Dembele, K., Benavides, J., Zhao, H., Cloutier, S., Concina, I., Vomiero, A., Rosei, F. (2016). link:http://doi.org/10.1039/C6TC00800C[Functionalized multi-wall carbon nanotubes/TiO 2 composites as efficient photoanodes for dye sensitized solar cells]. Journal of Materials Chemistry C, 4(16), 3555‑3562. doi:10.1039/C6TC00800C
+* Albasheir, S. et Kadoch, M. (2016). link:http://doi.org/10.1109/JIOT.2015.2471105[Enhanced Control for Adaptive Resource Reservation of Guaranteed Services in LTE Networks]. IEEE Internet of Things Journal, 3(2), 179‑189. doi:10.1109/JIOT.2015.2471105
+
+
+*Software and Information Technology engineering*
+
+* Djouab, R., Abran, A. et Seffah, A. (2016). link:http://doi.org/10.1007/s00766-014-0211-1[An ASPIRE-based method for quality requirements identification from business goals]. Requirements Engineering, 21(1), 87‑106. doi:10.1007/s00766-014-0211-1
+* Guerrouj, L., Kermansaravi, Z., Arnaoudova, V., Fung, B. C. M., Khomh, F., Antoniol, G. et Guéhéneuc, Y.-G. (2016). link:http://doi.org/10.1007/s11219-016-9318-6[Investigating the relation between lexical smells and change- and fault-proneness: an empirical study]. Software Quality Journal, 1‑30. doi:10.1007/s11219-016-9318-6
+
+
+*Mechanical engineering*
+
+* Guilbault, R. et Lalonde, S. (2016). link:http://doi.org/10.1016/j.ymssp.2016.01.017[Early diagnostic of concurrent gear degradation processes progressing under time-varying loads]. Mechanical Systems and Signal Processing, 76–77, 337‑352. doi:10.1016/j.ymssp.2016.01.017
+* Grewal, R., Aranas Jr., C., Chadha, K., Shahriari, D., Jahazi, M. et Jonas, J. J. (2016). link:http://doi.org/10.1016/j.actamat.2016.02.062[Formation of Widmanstätten ferrite at very high temperatures in the austenite phase field]. Acta Materialia, 109, 23‑31. doi:10.1016/j.actamat.2016.02.062
+* Salloum, E., Bertrand-Grenier, A., Lerouge, S., Kauffman, C., Héon, H., Therasse, E., Salazkin, I., Roy Cardinal, M.-H., Cloutier, G., Soulez, G. (2015). link:http://doi.org/10.1148/radiol.2015142098[Endovascular Repair of Abdominal Aortic Aneurysm: Follow-up with Noninvasive Vascular Elastography in a Canine Model]. Radiology, 279(2), 410‑419. doi:10.1148/radiol.2015142098
